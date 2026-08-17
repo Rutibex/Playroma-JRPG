@@ -1,0 +1,40 @@
+{
+  "id": "example-gate-guard",
+  "version": 1,
+  "name": "Example Gate Guard",
+  "description": "A tired but responsible guard who speaks plainly and becomes terse under pressure.",
+  "formality": 0.42,
+  "verbosity": 0.34,
+  "warmth": 0.38,
+  "aggression": 0.28,
+  "humor": 0.08,
+  "archaic": 0.0,
+  "contractionPreference": 0.72,
+  "fillerPreference": 0.10,
+  "catchphrasePreference": 0.12,
+  "exclamationPreference": 0.08,
+  "ellipsisPreference": 0.04,
+  "defaultEmotion": "Tired",
+  "vocabulary": {
+    "guards": "watch",
+    "dangerous": "bad",
+    "leave": "move along"
+  },
+  "dialectRules": [
+    { "from": "you are", "to": "you're", "wholeWord": true, "caseInsensitive": true }
+  ],
+  "catchphrases": ["Keep the road clear."],
+  "fillers": ["Right.", "Listen."],
+  "tabooWords": ["ain't"],
+  "actOpeners": {
+    "Warning": ["Listen carefully."],
+    "Greeting": ["Morning.", "Evening."]
+  },
+  "actClosers": {
+    "Farewell": ["Safe road."]
+  },
+  "emotionOpeners": {
+    "Suspicious": ["Hold there."]
+  },
+  "emotionClosers": {}
+}

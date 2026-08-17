@@ -1,0 +1,28 @@
+{
+  "formatVersion": 1,
+  "id": "creature-cry.spark-mouse",
+  "displayName": "Spark Mouse Cry",
+  "generatorId": "playroma.creature-cry",
+  "rootSeed": 70241,
+  "familySeed": 19607,
+  "variationIndex": 0,
+  "qualityMode": "realtimeHigh",
+  "description": {
+    "style": "chirp",
+    "shape": "zigzag",
+    "environment": "openField",
+    "size": 0.18,
+    "cuteness": 0.88,
+    "menace": 0.08,
+    "energy": 0.92,
+    "intelligence": 0.62,
+    "organicSynthetic": 0.28,
+    "musicalAnimal": 0.62,
+    "smoothRaspy": 0.18,
+    "pitchMovement": 0.9,
+    "syllables": 4,
+    "repetition": 0.18,
+    "duration": 0.22,
+    "retroModern": 0.42
+  }
+}

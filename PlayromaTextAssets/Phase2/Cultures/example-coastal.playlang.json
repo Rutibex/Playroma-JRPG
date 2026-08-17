@@ -1,0 +1,67 @@
+{
+  "id": "example-coastal",
+  "name": "Example Coastal",
+  "parentId": "common",
+  "onsets": [
+    {
+      "text": "m",
+      "weight": 1
+    },
+    {
+      "text": "n",
+      "weight": 1
+    },
+    {
+      "text": "s",
+      "weight": 1
+    },
+    {
+      "text": "v",
+      "weight": 1
+    }
+  ],
+  "nuclei": [
+    {
+      "text": "a",
+      "weight": 2
+    },
+    {
+      "text": "e",
+      "weight": 2
+    },
+    {
+      "text": "oa",
+      "weight": 1
+    },
+    {
+      "text": "ui",
+      "weight": 1
+    }
+  ],
+  "codas": [
+    {
+      "text": "",
+      "weight": 3
+    },
+    {
+      "text": "n",
+      "weight": 1
+    },
+    {
+      "text": "r",
+      "weight": 1
+    },
+    {
+      "text": "s",
+      "weight": 1
+    }
+  ],
+  "syllablePatterns": [
+    "ON",
+    "ONC"
+  ],
+  "forbiddenSequences": [
+    "aaa"
+  ],
+  "description": "Minimal child profile showing inheritance from common."
+}

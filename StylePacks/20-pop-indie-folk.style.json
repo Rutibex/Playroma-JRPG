@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "id": "indie-folk",
+  "name": "Indie Folk",
+  "description": "Organic plucks, restrained drums, intimate leads and warm ensemble colours.",
+  "version": "1.0.0",
+  "family": "pop",
+  "abstract": false,
+  "extends": "pop-modern",
+  "tempo": {
+    "minimum": 76,
+    "maximum": 112
+  },
+  "candidateCount": 16,
+  "scales": [
+    "major",
+    "mixolydian",
+    "dorian"
+  ],
+  "roles": [
+    {
+      "id": "melody",
+      "name": "Indie Folk Melody",
+      "role": "lead",
+      "instrumentSelector": {
+        "families": [
+          "guitar",
+          "reed",
+          "pipe",
+          "ethnic"
+        ],
+        "preferredTags": [
+          "lead",
+          "expressive",
+          "acoustic"
+        ],
+        "avoidTags": [
+          "very-low",
+          "synthetic"
+        ],
+        "minimumAttack": 0.15,
+        "maximumAttack": 0.95,
+        "minimumBrightness": 0.2,
+        "maximumBrightness": 0.95,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "octaveDoubling",
+          "phraseAlternation",
+          "callAndResponse",
+          "sectionSubstitution"
+        ]
+      }
+    },
+    {
+      "id": "bass",
+      "name": "Indie Folk Bass",
+      "role": "bass",
+      "instrumentSelector": {
+        "families": [
+          "bass",
+          "guitar",
+          "strings"
+        ],
+        "preferredTags": [
+          "bass",
+          "warm",
+          "acoustic",
+          "low"
+        ],
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 0.72,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "registerSplit",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "chords",
+      "name": "Indie Folk Chords",
+      "role": "chords",
+      "instrumentSelector": {
+        "families": [
+          "guitar",
+          "piano",
+          "strings"
+        ],
+        "preferredTags": [
+          "polyphonic",
+          "harmony",
+          "acoustic"
+        ],
+        "minimumSustain": 0.15,
+        "maximumLayers": 3,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "registerSplit",
+          "hocket",
+          "sectionSubstitution"
+        ],
+        "avoidTags": [
+          "very-bright"
+        ]
+      }
+    },
+    {
+      "id": "arpeggio",
+      "name": "Indie Folk Arpeggio",
+      "role": "arpeggio",
+      "instrumentSelector": {
+        "families": [
+          "guitar",
+          "chromaticPercussion",
+          "piano"
+        ],
+        "preferredTags": [
+          "short",
+          "clear",
+          "pulse",
+          "pluck"
+        ],
+        "minimumAttack": 0.25,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "octaveDoubling",
+          "hocket",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "drums",
+      "name": "Indie Folk Drums",
+      "role": "drums",
+      "instrumentSelector": {
+        "families": [
+          "drums"
+        ],
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument",
+          "sectionSubstitution"
+        ],
+        "preferredTags": [
+          "drums",
+          "acoustic",
+          "percussive"
+        ],
+        "avoidTags": []
+      }
+    }
+  ]
+}

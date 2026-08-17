@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "phase": 5,
+  "name": "Complete generic typed-tag coverage",
+  "generatedUtc": "2026-08-06T16:00:00Z",
+  "catalog": {
+    "totalFeatures": 2903,
+    "databaseAndTilesetFeatures": 1429,
+    "genericComplete": 1132,
+    "specializedDeferred": 297
+  },
+  "argumentKinds": {
+    "count": 37,
+    "allMapped": true,
+    "editorUsage": {
+      "AssetReference": 31,
+      "Choice": 23,
+      "Decimal": 16,
+      "Formula": 1,
+      "Integer": 898,
+      "JavaScriptExpression": 2,
+      "ParameterSelector": 39,
+      "SingleLineText": 5
+    }
+  },
+  "contexts": [
+    {
+      "context": "actor",
+      "candidateFeatures": 867,
+      "genericComplete": 739,
+      "specializedDeferred": 128
+    },
+    {
+      "context": "class",
+      "candidateFeatures": 752,
+      "genericComplete": 638,
+      "specializedDeferred": 114
+    },
+    {
+      "context": "skill",
+      "candidateFeatures": 1035,
+      "genericComplete": 836,
+      "specializedDeferred": 199
+    },
+    {
+      "context": "item",
+      "candidateFeatures": 1047,
+      "genericComplete": 821,
+      "specializedDeferred": 226
+    },
+    {
+      "context": "weapon",
+      "candidateFeatures": 919,
+      "genericComplete": 704,
+      "specializedDeferred": 215
+    },
+    {
+      "context": "armor",
+      "candidateFeatures": 884,
+      "genericComplete": 669,
+      "specializedDeferred": 215
+    },
+    {
+      "context": "enemy",
+      "candidateFeatures": 932,
+      "genericComplete": 767,
+      "specializedDeferred": 165
+    },
+    {
+      "context": "state",
+      "candidateFeatures": 939,
+      "genericComplete": 782,
+      "specializedDeferred": 157
+    },
+    {
+      "context": "tileset",
+      "candidateFeatures": 9,
+      "genericComplete": 9,
+      "specializedDeferred": 0
+    }
+  ],
+  "capabilities": [
+    "typed-value-codec",
+    "database-reference-pickers",
+    "asset-and-audio-pickers",
+    "multiplicity-aware-writes",
+    "explicit-conflict-resolution",
+    "beginner-recipes",
+    "atomic-batch-operations"
+  ],
+  "recipes": 12,
+  "acceptanceTests": 24,
+  "licensing": {
+    "redistributesYanflyJavaScript": false,
+    "copiesLongHelpText": false
+  }
+}

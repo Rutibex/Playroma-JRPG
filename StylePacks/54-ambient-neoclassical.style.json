@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "id": "neo-classical-drift",
+  "name": "Neo-Classical Drift",
+  "description": "Piano and chamber instruments with patient repetition and subtle electronic atmosphere.",
+  "version": "1.0.0",
+  "family": "ambient",
+  "abstract": false,
+  "extends": "ambient-drifting-light",
+  "tempo": {
+    "minimum": 58,
+    "maximum": 104
+  },
+  "candidateCount": 16,
+  "scales": [
+    "major",
+    "naturalMinor",
+    "dorian"
+  ],
+  "roles": [
+    {
+      "id": "melody",
+      "name": "Neo-Classical Drift Melody",
+      "role": "lead",
+      "instrumentSelector": {
+        "families": [
+          "piano",
+          "strings",
+          "reed"
+        ],
+        "preferredTags": [
+          "lead",
+          "expressive",
+          "acoustic"
+        ],
+        "avoidTags": [
+          "very-low"
+        ],
+        "minimumAttack": 0.15,
+        "maximumAttack": 0.95,
+        "minimumBrightness": 0.2,
+        "maximumBrightness": 0.95,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "octaveDoubling",
+          "phraseAlternation",
+          "callAndResponse",
+          "sectionSubstitution"
+        ]
+      }
+    },
+    {
+      "id": "bass",
+      "name": "Neo-Classical Drift Bass",
+      "role": "bass",
+      "instrumentSelector": {
+        "families": [
+          "strings",
+          "piano"
+        ],
+        "preferredTags": [
+          "bass",
+          "warm",
+          "acoustic",
+          "low"
+        ],
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 0.72,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "registerSplit",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "chords",
+      "name": "Neo-Classical Drift Chords",
+      "role": "chords",
+      "instrumentSelector": {
+        "families": [
+          "piano",
+          "strings",
+          "ensemble"
+        ],
+        "preferredTags": [
+          "polyphonic",
+          "harmony",
+          "acoustic",
+          "sustaining"
+        ],
+        "minimumSustain": 0.15,
+        "maximumLayers": 3,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "registerSplit",
+          "hocket",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "arpeggio",
+      "name": "Neo-Classical Drift Arpeggio",
+      "role": "arpeggio",
+      "instrumentSelector": {
+        "families": [
+          "piano",
+          "chromaticPercussion",
+          "guitar"
+        ],
+        "preferredTags": [
+          "short",
+          "clear",
+          "pulse",
+          "delicate"
+        ],
+        "minimumAttack": 0.25,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "octaveDoubling",
+          "hocket",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "drums",
+      "name": "Neo-Classical Drift Drums",
+      "role": "drums",
+      "instrumentSelector": {
+        "families": [
+          "drums"
+        ],
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument",
+          "sectionSubstitution"
+        ],
+        "preferredTags": [
+          "drums",
+          "soft",
+          "percussive"
+        ],
+        "avoidTags": []
+      }
+    }
+  ]
+}

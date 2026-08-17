@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://playroma.dev/schemas/playroma-sprite-export-preset.schema.json",
+  "title": "Playroma Sprite Export Preset",
+  "type": "object",
+  "required": ["schema", "id", "name", "format", "outputPath"],
+  "properties": {
+    "schema": { "const": "playroma-sprite-export-preset/1" },
+    "id": { "type": "string", "minLength": 1 },
+    "name": { "type": "string", "minLength": 1 },
+    "format": { "enum": ["png", "gif", "sequence", "png-sequence", "atlas"] },
+    "outputPath": { "type": "string", "minLength": 1 },
+    "frameMode": { "enum": ["current", "all", "tag", "selected"] },
+    "tag": { "type": ["string", "null"] },
+    "scale": { "type": "integer", "minimum": 1, "maximum": 64 },
+    "trimTransparent": { "type": "boolean" },
+    "padding": { "type": "integer", "minimum": 0, "maximum": 256 },
+    "extrude": { "type": "boolean" },
+    "powerOfTwo": { "type": "boolean" },
+    "maximumWidth": { "type": "integer", "minimum": 1, "maximum": 32768 },
+    "maximumHeight": { "type": "integer", "minimum": 1, "maximum": 32768 },
+    "ordering": { "enum": ["frame", "name", "areaDescending"] },
+    "metadataFormat": { "type": "string" },
+    "userData": { "type": "object", "additionalProperties": { "type": "string" } }
+  },
+  "additionalProperties": false
+}

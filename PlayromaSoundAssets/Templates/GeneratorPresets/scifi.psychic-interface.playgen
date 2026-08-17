@@ -1,0 +1,25 @@
+{
+  "formatVersion": 1,
+  "id": "scifi.psychic-interface",
+  "displayName": "Psychic Interface",
+  "generatorId": "playroma.science-fiction",
+  "rootSeed": 74470,
+  "familySeed": 93310,
+  "variationIndex": 0,
+  "qualityMode": "realtimeHigh",
+  "description": {
+    "kind": "psychicInterface",
+    "alienness": 0.92,
+    "technology": 0.72,
+    "organicSynthetic": 0.45,
+    "complexity": 0.82,
+    "duration": 0.55,
+    "pitchContour": "question",
+    "rhythmStyle": "callAndResponse",
+    "envelopeStyle": "swell",
+    "emotion": "curious",
+    "energyState": "alert",
+    "condition": "new",
+    "stereoStyle": "wide"
+  }
+}

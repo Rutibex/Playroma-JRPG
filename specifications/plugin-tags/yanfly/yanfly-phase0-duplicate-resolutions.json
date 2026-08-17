@@ -1,0 +1,863 @@
+{
+  "schemaVersion": 1,
+  "duplicateGroups": [
+    {
+      "pluginId": "KELYEP_DragonBones",
+      "fileName": "KELYEP_DragonBones.js",
+      "duplicateKind": "ExactDuplicate",
+      "resolutionReason": "ExactDuplicate",
+      "canonicalPath": "[YEP] Full Collection/Battle Plugins/KELYEP_DragonBones.js",
+      "canonicalSha256": "765a443a865f1f9aa2f1b3b06bddc1a4f9178fe1f7672d3f7abc8d4dd7f695f5",
+      "occurrences": [
+        {
+          "relativePath": "[YEP] Full Collection/Battle Plugins/KELYEP_DragonBones.js",
+          "version": "1.09",
+          "sha256": "765a443a865f1f9aa2f1b3b06bddc1a4f9178fe1f7672d3f7abc8d4dd7f695f5",
+          "sizeBytes": 59426
+        },
+        {
+          "relativePath": "[YEP] Full Collection/Free Plugins/KELYEP_DragonBones.js",
+          "version": "1.09",
+          "sha256": "765a443a865f1f9aa2f1b3b06bddc1a4f9178fe1f7672d3f7abc8d4dd7f695f5",
+          "sizeBytes": 59426
+        }
+      ]
+    },
+    {
+      "pluginId": "YEP_AnimateTilesOption",
+      "fileName": "YEP_AnimateTilesOption.js",
+      "duplicateKind": "ExactDuplicate",
+      "resolutionReason": "ExactDuplicate",
+      "canonicalPath": "[YEP] Full Collection/Core & Options Plugins/YEP_AnimateTilesOption.js",
+      "canonicalSha256": "b680529f840fb2a50ffef1a7206729019c63b27b24e1c88a11cee4a01a7f6dd5",
+      "occurrences": [
+        {
+          "relativePath": "[YEP] Full Collection/Core & Options Plugins/YEP_AnimateTilesOption.js",
+          "version": "1.03",
+          "sha256": "b680529f840fb2a50ffef1a7206729019c63b27b24e1c88a11cee4a01a7f6dd5",
+          "sizeBytes": 9821
+        },
+        {
+          "relativePath": "[YEP] Full Collection/Free Plugins/YEP_AnimateTilesOption.js",
+          "version": "1.03",
+          "sha256": "b680529f840fb2a50ffef1a7206729019c63b27b24e1c88a11cee4a01a7f6dd5",
+          "sizeBytes": 9821
+        }
+      ]
+    },
+    {
+      "pluginId": "YEP_AutoPassiveStates",
+      "fileName": "YEP_AutoPassiveStates.js",
+      "duplicateKind": "ExactDuplicate",
+      "resolutionReason": "ExactDuplicate",
+      "canonicalPath": "[YEP] Full Collection/Quest & Gameplay Plugins/YEP_AutoPassiveStates.js",
+      "canonicalSha256": "7dba4687c34474c245290ac3b9b0e87ff0a168c00d17434bb086132cbb6abe29",
+      "occurrences": [
+        {
+          "relativePath": "[YEP] Full Collection/Free Plugins/YEP_AutoPassiveStates.js",
+          "version": "1.17",
+          "sha256": "7dba4687c34474c245290ac3b9b0e87ff0a168c00d17434bb086132cbb6abe29",
+          "sizeBytes": 26073
+        },
+        {
+          "relativePath": "[YEP] Full Collection/Quest & Gameplay Plugins/YEP_AutoPassiveStates.js",
+          "version": "1.17",
+          "sha256": "7dba4687c34474c245290ac3b9b0e87ff0a168c00d17434bb086132cbb6abe29",
+          "sizeBytes": 26073
+        }
+      ]
+    },
+    {
+      "pluginId": "YEP_BaseTroopEvents",
+      "fileName": "YEP_BaseTroopEvents.js",
+      "duplicateKind": "ExactDuplicate",
+      "resolutionReason": "ExactDuplicate",
+      "canonicalPath": "[YEP] Full Collection/Utility Plugins/YEP_BaseTroopEvents.js",
+      "canonicalSha256": "a3fd78661950a73e6737c38f8d3e6dc9cb23ed460de86730f98b8130b0f1ee2f",
+      "occurrences": [
+        {
+          "relativePath": "[YEP] Full Collection/Free Plugins/YEP_BaseTroopEvents.js",
+          "version": "1.01",
+          "sha256": "a3fd78661950a73e6737c38f8d3e6dc9cb23ed460de86730f98b8130b0f1ee2f",
+          "sizeBytes": 3400
+        },
+        {
+          "relativePath": "[YEP] Full Collection/Utility Plugins/YEP_BaseTroopEvents.js",
+          "version": "1.01",
+          "sha256": "a3fd78661950a73e6737c38f8d3e6dc9cb23ed460de86730f98b8130b0f1ee2f",
+          "sizeBytes": 3400
+        }
+      ]
+    },
+    {
+      "pluginId": "YEP_BattleAICore",
+      "fileName": "YEP_BattleAICore.js",
+      "duplicateKind": "ExactDuplicate",
+      "resolutionReason": "ExactDuplicate",
+      "canonicalPath": "[YEP] Full Collection/Battle Plugins/YEP_BattleAICore.js",
+      "canonicalSha256": "6d6ce07c9e9390fe633cfd9346878cd5fa40d28074166f414fa210de725f1251",
+      "occurrences": [
+        {
+          "relativePath": "[YEP] Full Collection/Battle Plugins/YEP_BattleAICore.js",
+          "version": "1.15",
+          "sha256": "6d6ce07c9e9390fe633cfd9346878cd5fa40d28074166f414fa210de725f1251",
+          "sizeBytes": 63871
+        },
+        {
+          "relativePath": "[YEP] Full Collection/Free Plugins/YEP_BattleAICore.js",
+          "version": "1.15",
+          "sha256": "6d6ce07c9e9390fe633cfd9346878cd5fa40d28074166f414fa210de725f1251",
+          "sizeBytes": 63871
+        }
+      ]
+    },
+    {
+      "pluginId": "YEP_BattleEngineCore",
+      "fileName": "YEP_BattleEngineCore.js",
+      "duplicateKind": "ExactDuplicate",
+      "resolutionReason": "ExactDuplicate",
+      "canonicalPath": "[YEP] Full Collection/Battle Plugins/YEP_BattleEngineCore.js",
+      "canonicalSha256": "bfc822794d2c78015eeadeca6b0c36223465ae63e305dd982c982dc52aecb9a1",
+      "occurrences": [
+        {
+          "relativePath": "[YEP] Full Collection/Battle Plugins/YEP_BattleEngineCore.js",
+          "version": "1.51",
+          "sha256": "bfc822794d2c78015eeadeca6b0c36223465ae63e305dd982c982dc52aecb9a1",
+          "sizeBytes": 191217
+        },
+        {
+          "relativePath": "[YEP] Full Collection/Free Plugins/YEP_BattleEngineCore.js",
+          "version": "1.51",
+          "sha256": "bfc822794d2c78015eeadeca6b0c36223465ae63e305dd982c982dc52aecb9a1",
+          "sizeBytes": 191217
+        }
+      ]
+    },
+    {
+      "pluginId": "YEP_BuffsStatesCore",
+      "fileName": "YEP_BuffsStatesCore.js",
+      "duplicateKind": "ExactDuplicate",
+      "resolutionReason": "ExactDuplicate",
+      "canonicalPath": "[YEP] Full Collection/Battle Plugins/YEP_BuffsStatesCore.js",
+      "canonicalSha256": "b62c11652663094cf19f719a3090ce3635e881c1a03e056a636e00f3bb6f29ec",
+      "occurrences": [
+        {
+          "relativePath": "[YEP] Full Collection/Battle Plugins/YEP_BuffsStatesCore.js",
+          "version": "1.16",
+          "sha256": "b62c11652663094cf19f719a3090ce3635e881c1a03e056a636e00f3bb6f29ec",
+          "sizeBytes": 77783
+        },
+        {
+          "relativePath": "[YEP] Full Collection/Free Plugins/YEP_BuffsStatesCore.js",
+          "version": "1.16",
+          "sha256": "b62c11652663094cf19f719a3090ce3635e881c1a03e056a636e00f3bb6f29ec",
+          "sizeBytes": 77783
+        }
+      ]
+    },
+    {
+      "pluginId": "YEP_CoreEngine",
+      "fileName": "YEP_CoreEngine.js",
+      "duplicateKind": "ExactDuplicate",
+      "resolutionReason": "ExactDuplicate",
+      "canonicalPath": "[YEP] Full Collection/Core & Options Plugins/YEP_CoreEngine.js",
+      "canonicalSha256": "7fd7f35aa37818472cb22910d8c32f5451d8e194dca5726b05c45c9bd73c1f85",
+      "occurrences": [
+        {
+          "relativePath": "[YEP] Full Collection/Core & Options Plugins/YEP_CoreEngine.js",
+          "version": "1.32",
+          "sha256": "7fd7f35aa37818472cb22910d8c32f5451d8e194dca5726b05c45c9bd73c1f85",
+          "sizeBytes": 95482
+        },
+        {
+          "relativePath": "[YEP] Full Collection/Free Plugins/YEP_CoreEngine.js",
+          "version": "1.32",
+          "sha256": "7fd7f35aa37818472cb22910d8c32f5451d8e194dca5726b05c45c9bd73c1f85",
+          "sizeBytes": 95482
+        }
+      ]
+    },
+    {
+      "pluginId": "YEP_ElementCore",
+      "fileName": "YEP_ElementCore.js",
+      "duplicateKind": "ExactDuplicate",
+      "resolutionReason": "ExactDuplicate",
+      "canonicalPath": "[YEP] Full Collection/Battle Plugins/YEP_ElementCore.js",
+      "canonicalSha256": "0b3bf24cfd5b9169bc90d6ccd2c48328d39a5b51f96f538e72e4753190689936",
+      "occurrences": [
+        {
+          "relativePath": "[YEP] Full Collection/Battle Plugins/YEP_ElementCore.js",
+          "version": "1.02",
+          "sha256": "0b3bf24cfd5b9169bc90d6ccd2c48328d39a5b51f96f538e72e4753190689936",
+          "sizeBytes": 30891
+        },
+        {
+          "relativePath": "[YEP] Full Collection/Free Plugins/YEP_ElementCore.js",
+          "version": "1.02",
+          "sha256": "0b3bf24cfd5b9169bc90d6ccd2c48328d39a5b51f96f538e72e4753190689936",
+          "sizeBytes": 30891
+        }
+      ]
+    },
+    {
+      "pluginId": "YEP_EquipCore",
+      "fileName": "YEP_EquipCore.js",
+      "duplicateKind": "ExactDuplicate",
+      "resolutionReason": "ExactDuplicate",
+      "canonicalPath": "[YEP] Full Collection/Items & Equips Plugins/YEP_EquipCore.js",
+      "canonicalSha256": "97328b0889eb06960d1d9d51e6c72fb487d257458544d9a72227cccae6926071",
+      "occurrences": [
+        {
+          "relativePath": "[YEP] Full Collection/Free Plugins/YEP_EquipCore.js",
+          "version": "1.18",
+          "sha256": "97328b0889eb06960d1d9d51e6c72fb487d257458544d9a72227cccae6926071",
+          "sizeBytes": 41081
+        },
+        {
+          "relativePath": "[YEP] Full Collection/Items & Equips Plugins/YEP_EquipCore.js",
+          "version": "1.18",
+          "sha256": "97328b0889eb06960d1d9d51e6c72fb487d257458544d9a72227cccae6926071",
+          "sizeBytes": 41081
+        }
+      ]
+    },
+    {
+      "pluginId": "YEP_EventChasePlayer",
+      "fileName": "YEP_EventChasePlayer.js",
+      "duplicateKind": "ExactDuplicate",
+      "resolutionReason": "ExactDuplicate",
+      "canonicalPath": "[YEP] Full Collection/Event & Movement Plugins/YEP_EventChasePlayer.js",
+      "canonicalSha256": "800083526c91a7879ad69f6c7498b01cbb2ef8c63adf8254ae6fa6591f29c0a6",
+      "occurrences": [
+        {
+          "relativePath": "[YEP] Full Collection/Event & Movement Plugins/YEP_EventChasePlayer.js",
+          "version": "1.07",
+          "sha256": "800083526c91a7879ad69f6c7498b01cbb2ef8c63adf8254ae6fa6591f29c0a6",
+          "sizeBytes": 14813
+        },
+        {
+          "relativePath": "[YEP] Full Collection/Free Plugins/YEP_EventChasePlayer.js",
+          "version": "1.07",
+          "sha256": "800083526c91a7879ad69f6c7498b01cbb2ef8c63adf8254ae6fa6591f29c0a6",
+          "sizeBytes": 14813
+        }
+      ]
+    },
+    {
+      "pluginId": "YEP_FpsSynchOption",
+      "fileName": "YEP_FpsSynchOption.js",
+      "duplicateKind": "ExactDuplicate",
+      "resolutionReason": "ExactDuplicate",
+      "canonicalPath": "[YEP] Full Collection/Core & Options Plugins/YEP_FpsSynchOption.js",
+      "canonicalSha256": "8d7823752d63b0ff8f4eb41238c0455fd18f66ae0bed77bbfb0d395e8f8ece64",
+      "occurrences": [
+        {
+          "relativePath": "[YEP] Full Collection/Core & Options Plugins/YEP_FpsSynchOption.js",
+          "version": "1.03",
+          "sha256": "8d7823752d63b0ff8f4eb41238c0455fd18f66ae0bed77bbfb0d395e8f8ece64",
+          "sizeBytes": 8387
+        },
+        {
+          "relativePath": "[YEP] Full Collection/Free Plugins/YEP_FpsSynchOption.js",
+          "version": "1.03",
+          "sha256": "8d7823752d63b0ff8f4eb41238c0455fd18f66ae0bed77bbfb0d395e8f8ece64",
+          "sizeBytes": 8387
+        }
+      ]
+    },
+    {
+      "pluginId": "YEP_ItemCore",
+      "fileName": "YEP_ItemCore.js",
+      "duplicateKind": "ExactDuplicate",
+      "resolutionReason": "ExactDuplicate",
+      "canonicalPath": "[YEP] Full Collection/Items & Equips Plugins/YEP_ItemCore.js",
+      "canonicalSha256": "26a6f756bad0d7f606a3ec3251b6dea986e415c19dda6677a048ac7790df340e",
+      "occurrences": [
+        {
+          "relativePath": "[YEP] Full Collection/Free Plugins/YEP_ItemCore.js",
+          "version": "1.30",
+          "sha256": "26a6f756bad0d7f606a3ec3251b6dea986e415c19dda6677a048ac7790df340e",
+          "sizeBytes": 78228
+        },
+        {
+          "relativePath": "[YEP] Full Collection/Items & Equips Plugins/YEP_ItemCore.js",
+          "version": "1.30",
+          "sha256": "26a6f756bad0d7f606a3ec3251b6dea986e415c19dda6677a048ac7790df340e",
+          "sizeBytes": 78228
+        }
+      ]
+    },
+    {
+      "pluginId": "YEP_KeyboardConfig",
+      "fileName": "YEP_KeyboardConfig.js",
+      "duplicateKind": "ExactDuplicate",
+      "resolutionReason": "ExactDuplicate",
+      "canonicalPath": "[YEP] Full Collection/Utility Plugins/YEP_KeyboardConfig.js",
+      "canonicalSha256": "2dbbe23a18c27c633b56b34aba065f017b744234a0094241db71ac7af531c2ec",
+      "occurrences": [
+        {
+          "relativePath": "[YEP] Full Collection/Free Plugins/YEP_KeyboardConfig.js",
+          "version": "1.04",
+          "sha256": "2dbbe23a18c27c633b56b34aba065f017b744234a0094241db71ac7af531c2ec",
+          "sizeBytes": 43315
+        },
+        {
+          "relativePath": "[YEP] Full Collection/Utility Plugins/YEP_KeyboardConfig.js",
+          "version": "1.04",
+          "sha256": "2dbbe23a18c27c633b56b34aba065f017b744234a0094241db71ac7af531c2ec",
+          "sizeBytes": 43315
+        }
+      ]
+    },
+    {
+      "pluginId": "YEP_LevelUpGrowthEffects",
+      "fileName": "YEP_LevelUpGrowthEffects.js",
+      "duplicateKind": "ConflictingDuplicate",
+      "resolutionReason": "HighestVersion",
+      "canonicalPath": "[YEP] Full Collection/Free Plugins/YEP_LevelUpGrowthEffects.js",
+      "canonicalSha256": "ce54ad190a5d44279e33ba72fbb5c13d442e8f4bb7ab39f6cb9b0422f38b3de5",
+      "occurrences": [
+        {
+          "relativePath": "[YEP] Full Collection/Battle Plugins/YEP_LevelUpGrowthEffects.js",
+          "version": "1.00",
+          "sha256": "fc2ab2ac29f760ebe11995a478ddd9083f875e2675e42736939574a6276db2fd",
+          "sizeBytes": 10121
+        },
+        {
+          "relativePath": "[YEP] Full Collection/Free Plugins/YEP_LevelUpGrowthEffects.js",
+          "version": "1.01",
+          "sha256": "ce54ad190a5d44279e33ba72fbb5c13d442e8f4bb7ab39f6cb9b0422f38b3de5",
+          "sizeBytes": 10258
+        }
+      ]
+    },
+    {
+      "pluginId": "YEP_MainMenuManager",
+      "fileName": "YEP_MainMenuManager.js",
+      "duplicateKind": "ExactDuplicate",
+      "resolutionReason": "ExactDuplicate",
+      "canonicalPath": "[YEP] Full Collection/Core & Options Plugins/YEP_MainMenuManager.js",
+      "canonicalSha256": "5d6e411471d53aa1c7bca9b75cf948059a32b03fe52ea9c3e2ef29e69294a3eb",
+      "occurrences": [
+        {
+          "relativePath": "[YEP] Full Collection/Core & Options Plugins/YEP_MainMenuManager.js",
+          "version": "1.03",
+          "sha256": "5d6e411471d53aa1c7bca9b75cf948059a32b03fe52ea9c3e2ef29e69294a3eb",
+          "sizeBytes": 132297
+        },
+        {
+          "relativePath": "[YEP] Full Collection/Free Plugins/YEP_MainMenuManager.js",
+          "version": "1.03",
+          "sha256": "5d6e411471d53aa1c7bca9b75cf948059a32b03fe52ea9c3e2ef29e69294a3eb",
+          "sizeBytes": 132297
+        }
+      ]
+    },
+    {
+      "pluginId": "YEP_MessageCore",
+      "fileName": "YEP_MessageCore.js",
+      "duplicateKind": "ExactDuplicate",
+      "resolutionReason": "ExactDuplicate",
+      "canonicalPath": "[YEP] Full Collection/Core & Options Plugins/YEP_MessageCore.js",
+      "canonicalSha256": "c84e4066f75a0c63e0621d4e907513222dfdbf888adc8f4332bc8524cea868fc",
+      "occurrences": [
+        {
+          "relativePath": "[YEP] Full Collection/Core & Options Plugins/YEP_MessageCore.js",
+          "version": "1.19",
+          "sha256": "c84e4066f75a0c63e0621d4e907513222dfdbf888adc8f4332bc8524cea868fc",
+          "sizeBytes": 50383
+        },
+        {
+          "relativePath": "[YEP] Full Collection/Free Plugins/YEP_MessageCore.js",
+          "version": "1.19",
+          "sha256": "c84e4066f75a0c63e0621d4e907513222dfdbf888adc8f4332bc8524cea868fc",
+          "sizeBytes": 50383
+        }
+      ]
+    },
+    {
+      "pluginId": "YEP_MoveRouteCore",
+      "fileName": "YEP_MoveRouteCore.js",
+      "duplicateKind": "ExactDuplicate",
+      "resolutionReason": "ExactDuplicate",
+      "canonicalPath": "[YEP] Full Collection/Event & Movement Plugins/YEP_MoveRouteCore.js",
+      "canonicalSha256": "c157fcd2e25a2960bc23645b6cc848bfd130f23d4f8370c3014ce9caba932276",
+      "occurrences": [
+        {
+          "relativePath": "[YEP] Full Collection/Event & Movement Plugins/YEP_MoveRouteCore.js",
+          "version": "1.04",
+          "sha256": "c157fcd2e25a2960bc23645b6cc848bfd130f23d4f8370c3014ce9caba932276",
+          "sizeBytes": 39540
+        },
+        {
+          "relativePath": "[YEP] Full Collection/Free Plugins/YEP_MoveRouteCore.js",
+          "version": "1.04",
+          "sha256": "c157fcd2e25a2960bc23645b6cc848bfd130f23d4f8370c3014ce9caba932276",
+          "sizeBytes": 39540
+        }
+      ]
+    },
+    {
+      "pluginId": "YEP_PatchNotes",
+      "fileName": "YEP_PatchNotes.js",
+      "duplicateKind": "ExactDuplicate",
+      "resolutionReason": "ExactDuplicate",
+      "canonicalPath": "[YEP] Full Collection/Utility Plugins/YEP_PatchNotes.js",
+      "canonicalSha256": "4fd5fabaf280104db5fbb65009f4fb8e311a0d46b808913a4e2e4e1b0756794c",
+      "occurrences": [
+        {
+          "relativePath": "[YEP] Full Collection/Free Plugins/YEP_PatchNotes.js",
+          "version": "1.00",
+          "sha256": "4fd5fabaf280104db5fbb65009f4fb8e311a0d46b808913a4e2e4e1b0756794c",
+          "sizeBytes": 10543
+        },
+        {
+          "relativePath": "[YEP] Full Collection/Utility Plugins/YEP_PatchNotes.js",
+          "version": "1.00",
+          "sha256": "4fd5fabaf280104db5fbb65009f4fb8e311a0d46b808913a4e2e4e1b0756794c",
+          "sizeBytes": 10543
+        }
+      ]
+    },
+    {
+      "pluginId": "YEP_PictureSpritesheets",
+      "fileName": "YEP_PictureSpritesheets.js",
+      "duplicateKind": "ExactDuplicate",
+      "resolutionReason": "ExactDuplicate",
+      "canonicalPath": "[YEP] Full Collection/Utility Plugins/YEP_PictureSpritesheets.js",
+      "canonicalSha256": "5190ca9856cb1033a897cb8822a5452aa435239faf064967f20a8fd471107156",
+      "occurrences": [
+        {
+          "relativePath": "[YEP] Full Collection/Free Plugins/YEP_PictureSpritesheets.js",
+          "version": "1.00",
+          "sha256": "5190ca9856cb1033a897cb8822a5452aa435239faf064967f20a8fd471107156",
+          "sizeBytes": 8568
+        },
+        {
+          "relativePath": "[YEP] Full Collection/Utility Plugins/YEP_PictureSpritesheets.js",
+          "version": "1.00",
+          "sha256": "5190ca9856cb1033a897cb8822a5452aa435239faf064967f20a8fd471107156",
+          "sizeBytes": 8568
+        }
+      ]
+    },
+    {
+      "pluginId": "YEP_QuestJournal",
+      "fileName": "YEP_QuestJournal.js",
+      "duplicateKind": "ExactDuplicate",
+      "resolutionReason": "ExactDuplicate",
+      "canonicalPath": "[YEP] Full Collection/Quest & Gameplay Plugins/YEP_QuestJournal.js",
+      "canonicalSha256": "30020c9c5b8184e0a0dbb4ecf1eaa938fa1a52a1da70ddf1c48b6ca700988c46",
+      "occurrences": [
+        {
+          "relativePath": "[YEP] Full Collection/Free Plugins/YEP_QuestJournal.js",
+          "version": "1.02",
+          "sha256": "30020c9c5b8184e0a0dbb4ecf1eaa938fa1a52a1da70ddf1c48b6ca700988c46",
+          "sizeBytes": 171353
+        },
+        {
+          "relativePath": "[YEP] Full Collection/Quest & Gameplay Plugins/YEP_QuestJournal.js",
+          "version": "1.02",
+          "sha256": "30020c9c5b8184e0a0dbb4ecf1eaa938fa1a52a1da70ddf1c48b6ca700988c46",
+          "sizeBytes": 171353
+        }
+      ]
+    },
+    {
+      "pluginId": "YEP_RegionEvents",
+      "fileName": "YEP_RegionEvents.js",
+      "duplicateKind": "ExactDuplicate",
+      "resolutionReason": "ExactDuplicate",
+      "canonicalPath": "[YEP] Full Collection/Utility Plugins/YEP_RegionEvents.js",
+      "canonicalSha256": "43bcb75f4021e4f4068c45ea0a086d549d190d0e161779b77ccee8e1e4f78d6d",
+      "occurrences": [
+        {
+          "relativePath": "[YEP] Full Collection/Free Plugins/YEP_RegionEvents.js",
+          "version": "1.03",
+          "sha256": "43bcb75f4021e4f4068c45ea0a086d549d190d0e161779b77ccee8e1e4f78d6d",
+          "sizeBytes": 63953
+        },
+        {
+          "relativePath": "[YEP] Full Collection/Utility Plugins/YEP_RegionEvents.js",
+          "version": "1.03",
+          "sha256": "43bcb75f4021e4f4068c45ea0a086d549d190d0e161779b77ccee8e1e4f78d6d",
+          "sizeBytes": 63953
+        }
+      ]
+    },
+    {
+      "pluginId": "YEP_RegionRestrictions",
+      "fileName": "YEP_RegionRestrictions.js",
+      "duplicateKind": "ExactDuplicate",
+      "resolutionReason": "ExactDuplicate",
+      "canonicalPath": "[YEP] Full Collection/Utility Plugins/YEP_RegionRestrictions.js",
+      "canonicalSha256": "de2c27d3f27f8b53d58f911c87d4f16128b4cffca4cc5846192eff717a30c2fb",
+      "occurrences": [
+        {
+          "relativePath": "[YEP] Full Collection/Free Plugins/YEP_RegionRestrictions.js",
+          "version": "1.04",
+          "sha256": "de2c27d3f27f8b53d58f911c87d4f16128b4cffca4cc5846192eff717a30c2fb",
+          "sizeBytes": 17192
+        },
+        {
+          "relativePath": "[YEP] Full Collection/Utility Plugins/YEP_RegionRestrictions.js",
+          "version": "1.04",
+          "sha256": "de2c27d3f27f8b53d58f911c87d4f16128b4cffca4cc5846192eff717a30c2fb",
+          "sizeBytes": 17192
+        }
+      ]
+    },
+    {
+      "pluginId": "YEP_SaveCore",
+      "fileName": "YEP_SaveCore.js",
+      "duplicateKind": "ExactDuplicate",
+      "resolutionReason": "ExactDuplicate",
+      "canonicalPath": "[YEP] Full Collection/Core & Options Plugins/YEP_SaveCore.js",
+      "canonicalSha256": "c78662e6c5838b68a3cda12e7f3e65ab12ba3d1d699c3a253e1d8306212e89e4",
+      "occurrences": [
+        {
+          "relativePath": "[YEP] Full Collection/Core & Options Plugins/YEP_SaveCore.js",
+          "version": "1.06",
+          "sha256": "c78662e6c5838b68a3cda12e7f3e65ab12ba3d1d699c3a253e1d8306212e89e4",
+          "sizeBytes": 50389
+        },
+        {
+          "relativePath": "[YEP] Full Collection/Free Plugins/YEP_SaveCore.js",
+          "version": "1.06",
+          "sha256": "c78662e6c5838b68a3cda12e7f3e65ab12ba3d1d699c3a253e1d8306212e89e4",
+          "sizeBytes": 50389
+        }
+      ]
+    },
+    {
+      "pluginId": "YEP_SaveEventLocations",
+      "fileName": "YEP_SaveEventLocations.js",
+      "duplicateKind": "ExactDuplicate",
+      "resolutionReason": "ExactDuplicate",
+      "canonicalPath": "[YEP] Full Collection/Utility Plugins/YEP_SaveEventLocations.js",
+      "canonicalSha256": "06d97a251394b3c5841d188a6b11193f10bc483aca54ea31ec8460bcbb046fe4",
+      "occurrences": [
+        {
+          "relativePath": "[YEP] Full Collection/Free Plugins/YEP_SaveEventLocations.js",
+          "version": "1.06",
+          "sha256": "06d97a251394b3c5841d188a6b11193f10bc483aca54ea31ec8460bcbb046fe4",
+          "sizeBytes": 10331
+        },
+        {
+          "relativePath": "[YEP] Full Collection/Utility Plugins/YEP_SaveEventLocations.js",
+          "version": "1.06",
+          "sha256": "06d97a251394b3c5841d188a6b11193f10bc483aca54ea31ec8460bcbb046fe4",
+          "sizeBytes": 10331
+        }
+      ]
+    },
+    {
+      "pluginId": "YEP_ScriptCallPluginCmd",
+      "fileName": "YEP_ScriptCallPluginCmd.js",
+      "duplicateKind": "ExactDuplicate",
+      "resolutionReason": "ExactDuplicate",
+      "canonicalPath": "[YEP] Full Collection/Utility Plugins/YEP_ScriptCallPluginCmd.js",
+      "canonicalSha256": "42eb1a6fcd8a6f51a5560eec7d34d01ffbb67e93020711bf82c3dd8726abe590",
+      "occurrences": [
+        {
+          "relativePath": "[YEP] Full Collection/Free Plugins/YEP_ScriptCallPluginCmd.js",
+          "version": "1.00",
+          "sha256": "42eb1a6fcd8a6f51a5560eec7d34d01ffbb67e93020711bf82c3dd8726abe590",
+          "sizeBytes": 3179
+        },
+        {
+          "relativePath": "[YEP] Full Collection/Utility Plugins/YEP_ScriptCallPluginCmd.js",
+          "version": "1.00",
+          "sha256": "42eb1a6fcd8a6f51a5560eec7d34d01ffbb67e93020711bf82c3dd8726abe590",
+          "sizeBytes": 3179
+        }
+      ]
+    },
+    {
+      "pluginId": "YEP_SkillCore",
+      "fileName": "YEP_SkillCore.js",
+      "duplicateKind": "ExactDuplicate",
+      "resolutionReason": "ExactDuplicate",
+      "canonicalPath": "[YEP] Full Collection/Skill & Status Menu Plugins/YEP_SkillCore.js",
+      "canonicalSha256": "559f1595f949a9432d98b2b4a927f450d9845fcfe382b829993560dbdc7d6ba6",
+      "occurrences": [
+        {
+          "relativePath": "[YEP] Full Collection/Free Plugins/YEP_SkillCore.js",
+          "version": "1.13",
+          "sha256": "559f1595f949a9432d98b2b4a927f450d9845fcfe382b829993560dbdc7d6ba6",
+          "sizeBytes": 47912
+        },
+        {
+          "relativePath": "[YEP] Full Collection/Skill & Status Menu Plugins/YEP_SkillCore.js",
+          "version": "1.13",
+          "sha256": "559f1595f949a9432d98b2b4a927f450d9845fcfe382b829993560dbdc7d6ba6",
+          "sizeBytes": 47912
+        }
+      ]
+    },
+    {
+      "pluginId": "YEP_VictoryAftermath",
+      "fileName": "YEP_VictoryAftermath.js",
+      "duplicateKind": "ExactDuplicate",
+      "resolutionReason": "ExactDuplicate",
+      "canonicalPath": "[YEP] Full Collection/Battle Plugins/YEP_VictoryAftermath.js",
+      "canonicalSha256": "b3a82e40ef319008b47251f8bac399877e872e667ab00ee026cf3545d7fb4530",
+      "occurrences": [
+        {
+          "relativePath": "[YEP] Full Collection/Battle Plugins/YEP_VictoryAftermath.js",
+          "version": "1.07",
+          "sha256": "b3a82e40ef319008b47251f8bac399877e872e667ab00ee026cf3545d7fb4530",
+          "sizeBytes": 33778
+        },
+        {
+          "relativePath": "[YEP] Full Collection/Free Plugins/YEP_VictoryAftermath.js",
+          "version": "1.07",
+          "sha256": "b3a82e40ef319008b47251f8bac399877e872e667ab00ee026cf3545d7fb4530",
+          "sizeBytes": 33778
+        }
+      ]
+    },
+    {
+      "pluginId": "YEP_X_ActSeqPack1",
+      "fileName": "YEP_X_ActSeqPack1.js",
+      "duplicateKind": "ExactDuplicate",
+      "resolutionReason": "ExactDuplicate",
+      "canonicalPath": "[YEP] Full Collection/Battle Plugins/YEP_X_ActSeqPack1.js",
+      "canonicalSha256": "b29229a1953b76fadf69474c70be15d90b95f1616b4a485b2fa04a4826f9ddf7",
+      "occurrences": [
+        {
+          "relativePath": "[YEP] Full Collection/Battle Plugins/YEP_X_ActSeqPack1.js",
+          "version": "1.13",
+          "sha256": "b29229a1953b76fadf69474c70be15d90b95f1616b4a485b2fa04a4826f9ddf7",
+          "sizeBytes": 64029
+        },
+        {
+          "relativePath": "[YEP] Full Collection/Free Plugins/YEP_X_ActSeqPack1.js",
+          "version": "1.13",
+          "sha256": "b29229a1953b76fadf69474c70be15d90b95f1616b4a485b2fa04a4826f9ddf7",
+          "sizeBytes": 64029
+        }
+      ]
+    },
+    {
+      "pluginId": "YEP_X_ActSeqPack2",
+      "fileName": "YEP_X_ActSeqPack2.js",
+      "duplicateKind": "ExactDuplicate",
+      "resolutionReason": "ExactDuplicate",
+      "canonicalPath": "[YEP] Full Collection/Battle Plugins/YEP_X_ActSeqPack2.js",
+      "canonicalSha256": "ee740b31a852410943022e5bf25333f3f1e2d9a8e71a31188da070f479293254",
+      "occurrences": [
+        {
+          "relativePath": "[YEP] Full Collection/Battle Plugins/YEP_X_ActSeqPack2.js",
+          "version": "1.13",
+          "sha256": "ee740b31a852410943022e5bf25333f3f1e2d9a8e71a31188da070f479293254",
+          "sizeBytes": 57441
+        },
+        {
+          "relativePath": "[YEP] Full Collection/Free Plugins/YEP_X_ActSeqPack2.js",
+          "version": "1.13",
+          "sha256": "ee740b31a852410943022e5bf25333f3f1e2d9a8e71a31188da070f479293254",
+          "sizeBytes": 57441
+        }
+      ]
+    },
+    {
+      "pluginId": "YEP_X_ActSeqPack3",
+      "fileName": "YEP_X_ActSeqPack3.js",
+      "duplicateKind": "ExactDuplicate",
+      "resolutionReason": "ExactDuplicate",
+      "canonicalPath": "[YEP] Full Collection/Battle Plugins/YEP_X_ActSeqPack3.js",
+      "canonicalSha256": "544984484fa07d8f9f2c6a96bb8376f7f70bce144b855b18870d89bbdeb29dcb",
+      "occurrences": [
+        {
+          "relativePath": "[YEP] Full Collection/Battle Plugins/YEP_X_ActSeqPack3.js",
+          "version": "1.05",
+          "sha256": "544984484fa07d8f9f2c6a96bb8376f7f70bce144b855b18870d89bbdeb29dcb",
+          "sizeBytes": 38909
+        },
+        {
+          "relativePath": "[YEP] Full Collection/Free Plugins/YEP_X_ActSeqPack3.js",
+          "version": "1.05",
+          "sha256": "544984484fa07d8f9f2c6a96bb8376f7f70bce144b855b18870d89bbdeb29dcb",
+          "sizeBytes": 38909
+        }
+      ]
+    },
+    {
+      "pluginId": "YEP_X_AnimatedSVEnemies",
+      "fileName": "YEP_X_AnimatedSVEnemies.js",
+      "duplicateKind": "ExactDuplicate",
+      "resolutionReason": "ExactDuplicate",
+      "canonicalPath": "[YEP] Full Collection/Battle Plugins/YEP_X_AnimatedSVEnemies.js",
+      "canonicalSha256": "4877729ee897f2ea09926144522d8477f4eb73967b89444a24d8e6be04d934b6",
+      "occurrences": [
+        {
+          "relativePath": "[YEP] Full Collection/Battle Plugins/YEP_X_AnimatedSVEnemies.js",
+          "version": "1.20",
+          "sha256": "4877729ee897f2ea09926144522d8477f4eb73967b89444a24d8e6be04d934b6",
+          "sizeBytes": 83682
+        },
+        {
+          "relativePath": "[YEP] Full Collection/Free Plugins/YEP_X_AnimatedSVEnemies.js",
+          "version": "1.20",
+          "sha256": "4877729ee897f2ea09926144522d8477f4eb73967b89444a24d8e6be04d934b6",
+          "sizeBytes": 83682
+        }
+      ]
+    },
+    {
+      "pluginId": "YEP_X_BattleSysATB",
+      "fileName": "YEP_X_BattleSysATB.js",
+      "duplicateKind": "ExactDuplicate",
+      "resolutionReason": "ExactDuplicate",
+      "canonicalPath": "[YEP] Full Collection/Battle Plugins/YEP_X_BattleSysATB.js",
+      "canonicalSha256": "f0d54e934e3e243885b925155779fc48f0e4117c5274e90fcc28b3889e756b51",
+      "occurrences": [
+        {
+          "relativePath": "[YEP] Full Collection/Battle Plugins/YEP_X_BattleSysATB.js",
+          "version": "1.28",
+          "sha256": "f0d54e934e3e243885b925155779fc48f0e4117c5274e90fcc28b3889e756b51",
+          "sizeBytes": 86804
+        },
+        {
+          "relativePath": "[YEP] Full Collection/Free Plugins/YEP_X_BattleSysATB.js",
+          "version": "1.28",
+          "sha256": "f0d54e934e3e243885b925155779fc48f0e4117c5274e90fcc28b3889e756b51",
+          "sizeBytes": 86804
+        }
+      ]
+    },
+    {
+      "pluginId": "YEP_X_BattleSysCTB",
+      "fileName": "YEP_X_BattleSysCTB.js",
+      "duplicateKind": "ExactDuplicate",
+      "resolutionReason": "ExactDuplicate",
+      "canonicalPath": "[YEP] Full Collection/Battle Plugins/YEP_X_BattleSysCTB.js",
+      "canonicalSha256": "16a5d1422df961294109b296d5febe4e557fb7f4a0bef12d25fdcbb785f7fe33",
+      "occurrences": [
+        {
+          "relativePath": "[YEP] Full Collection/Battle Plugins/YEP_X_BattleSysCTB.js",
+          "version": "1.17",
+          "sha256": "16a5d1422df961294109b296d5febe4e557fb7f4a0bef12d25fdcbb785f7fe33",
+          "sizeBytes": 91880
+        },
+        {
+          "relativePath": "[YEP] Full Collection/Free Plugins/YEP_X_BattleSysCTB.js",
+          "version": "1.17",
+          "sha256": "16a5d1422df961294109b296d5febe4e557fb7f4a0bef12d25fdcbb785f7fe33",
+          "sizeBytes": 91880
+        }
+      ]
+    },
+    {
+      "pluginId": "YEP_X_BattleSysSTB",
+      "fileName": "YEP_X_BattleSysSTB.js",
+      "duplicateKind": "ExactDuplicate",
+      "resolutionReason": "ExactDuplicate",
+      "canonicalPath": "[YEP] Full Collection/Battle Plugins/YEP_X_BattleSysSTB.js",
+      "canonicalSha256": "8e0db4d17c45e95dacb9b6f95f58b8b269726fab0d0eadb8a4ddcb32c7c0ef5c",
+      "occurrences": [
+        {
+          "relativePath": "[YEP] Full Collection/Battle Plugins/YEP_X_BattleSysSTB.js",
+          "version": "1.05",
+          "sha256": "8e0db4d17c45e95dacb9b6f95f58b8b269726fab0d0eadb8a4ddcb32c7c0ef5c",
+          "sizeBytes": 24172
+        },
+        {
+          "relativePath": "[YEP] Full Collection/Free Plugins/YEP_X_BattleSysSTB.js",
+          "version": "1.05",
+          "sha256": "8e0db4d17c45e95dacb9b6f95f58b8b269726fab0d0eadb8a4ddcb32c7c0ef5c",
+          "sizeBytes": 24172
+        }
+      ]
+    },
+    {
+      "pluginId": "YEP_X_CoreUpdatesOpt",
+      "fileName": "YEP_X_CoreUpdatesOpt.js",
+      "duplicateKind": "ExactDuplicate",
+      "resolutionReason": "ExactDuplicate",
+      "canonicalPath": "[YEP] Full Collection/Core & Options Plugins/YEP_X_CoreUpdatesOpt.js",
+      "canonicalSha256": "e261b7a4c7f2de92ae00f7af6f5eedc1eb45992d8e142b87b6c75f919e348517",
+      "occurrences": [
+        {
+          "relativePath": "[YEP] Full Collection/Core & Options Plugins/YEP_X_CoreUpdatesOpt.js",
+          "version": "1.62",
+          "sha256": "e261b7a4c7f2de92ae00f7af6f5eedc1eb45992d8e142b87b6c75f919e348517",
+          "sizeBytes": 268465
+        },
+        {
+          "relativePath": "[YEP] Full Collection/Free Plugins/YEP_X_CoreUpdatesOpt.js",
+          "version": "1.62",
+          "sha256": "e261b7a4c7f2de92ae00f7af6f5eedc1eb45992d8e142b87b6c75f919e348517",
+          "sizeBytes": 268465
+        }
+      ]
+    },
+    {
+      "pluginId": "YEP_X_ExtMovePack1",
+      "fileName": "YEP_X_ExtMovePack1.js",
+      "duplicateKind": "ExactDuplicate",
+      "resolutionReason": "ExactDuplicate",
+      "canonicalPath": "[YEP] Full Collection/Event & Movement Plugins/YEP_X_ExtMovePack1.js",
+      "canonicalSha256": "e9a1dc7136a9f02d866ce456c984dffb9ba92121cb99405c6f78cbefcc9b66ce",
+      "occurrences": [
+        {
+          "relativePath": "[YEP] Full Collection/Event & Movement Plugins/YEP_X_ExtMovePack1.js",
+          "version": "1.01",
+          "sha256": "e9a1dc7136a9f02d866ce456c984dffb9ba92121cb99405c6f78cbefcc9b66ce",
+          "sizeBytes": 13800
+        },
+        {
+          "relativePath": "[YEP] Full Collection/Free Plugins/YEP_X_ExtMovePack1.js",
+          "version": "1.01",
+          "sha256": "e9a1dc7136a9f02d866ce456c984dffb9ba92121cb99405c6f78cbefcc9b66ce",
+          "sizeBytes": 13800
+        }
+      ]
+    },
+    {
+      "pluginId": "YEP_X_ItemUpgradeSlots",
+      "fileName": "YEP_X_ItemUpgradeSlots.js",
+      "duplicateKind": "ConflictingDuplicate",
+      "resolutionReason": "PreferredCategorizedCopy",
+      "canonicalPath": "[YEP] Full Collection/Items & Equips Plugins/YEP_X_ItemUpgradeSlots.js",
+      "canonicalSha256": "e4a7dc1ecddb48d88344802eecd6a309443ca416e8c8f96a5b4366ade256eba4",
+      "occurrences": [
+        {
+          "relativePath": "[YEP] Full Collection/Free Plugins/YEP_X_ItemUpgradeSlots.js",
+          "version": "1.10",
+          "sha256": "ea598a2e61f71212a0697fc8a1c508324c1362f910daec8e42f3e887ecb3ea7b",
+          "sizeBytes": 43434
+        },
+        {
+          "relativePath": "[YEP] Full Collection/Items & Equips Plugins/YEP_X_ItemUpgradeSlots.js",
+          "version": "1.10",
+          "sha256": "e4a7dc1ecddb48d88344802eecd6a309443ca416e8c8f96a5b4366ade256eba4",
+          "sizeBytes": 43435
+        }
+      ]
+    },
+    {
+      "pluginId": "YEP_X_SkillCooldowns",
+      "fileName": "YEP_X_SkillCooldowns.js",
+      "duplicateKind": "ExactDuplicate",
+      "resolutionReason": "ExactDuplicate",
+      "canonicalPath": "[YEP] Full Collection/Skill & Status Menu Plugins/YEP_X_SkillCooldowns.js",
+      "canonicalSha256": "73100c0d42da13cfa74e9f263e104036d82e7f25e933fd6b7251954ab972f662",
+      "occurrences": [
+        {
+          "relativePath": "[YEP] Full Collection/Free Plugins/YEP_X_SkillCooldowns.js",
+          "version": "1.12",
+          "sha256": "73100c0d42da13cfa74e9f263e104036d82e7f25e933fd6b7251954ab972f662",
+          "sizeBytes": 59443
+        },
+        {
+          "relativePath": "[YEP] Full Collection/Skill & Status Menu Plugins/YEP_X_SkillCooldowns.js",
+          "version": "1.12",
+          "sha256": "73100c0d42da13cfa74e9f263e104036d82e7f25e933fd6b7251954ab972f662",
+          "sizeBytes": 59443
+        }
+      ]
+    }
+  ]
+}

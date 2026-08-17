@@ -1,0 +1,300 @@
+{
+  "schemaVersion": 1,
+  "id": "pc-game-foundation",
+  "name": "Classic PC Game Foundation",
+  "description": "General MIDI and tracker-era PC scoring with strong loop identity, flexible synthetic/acoustic ensembles and clear gameplay function.",
+  "version": "1.0.0",
+  "family": "game",
+  "abstract": true,
+  "extends": "game-score-foundation",
+  "tempo": {
+    "minimum": 68,
+    "maximum": 152
+  },
+  "meter": {
+    "beatsPerBar": 4,
+    "beatUnit": 4
+  },
+  "candidateCount": 17,
+  "scales": [
+    "major",
+    "naturalMinor",
+    "dorian",
+    "phrygian",
+    "lydian",
+    "mixolydian",
+    "harmonicMinor",
+    "chromatic"
+  ],
+  "forms": {
+    "grammarId": "pc-game-loop-v1",
+    "productions": [
+      [
+        "I",
+        "A",
+        "A'",
+        "B",
+        "C",
+        "A"
+      ],
+      [
+        "A",
+        "B",
+        "A'",
+        "C",
+        "A"
+      ],
+      [
+        "I",
+        "A",
+        "D",
+        "B",
+        "A"
+      ]
+    ]
+  },
+  "harmony": {
+    "grammarId": "pc-game-harmony-v1",
+    "progressions": {
+      "intro": [
+        [
+          0,
+          5,
+          3,
+          4
+        ]
+      ],
+      "verse": [
+        [
+          0,
+          5,
+          3,
+          4
+        ],
+        [
+          0,
+          6,
+          3,
+          0
+        ],
+        [
+          0,
+          3,
+          1,
+          4
+        ]
+      ],
+      "chorus": [
+        [
+          0,
+          4,
+          5,
+          3
+        ],
+        [
+          3,
+          4,
+          0,
+          5
+        ],
+        [
+          0,
+          6,
+          5,
+          4
+        ]
+      ],
+      "bridge": [
+        [
+          5,
+          3,
+          1,
+          4
+        ],
+        [
+          1,
+          6,
+          3,
+          4
+        ],
+        [
+          0,
+          1,
+          6,
+          0
+        ]
+      ],
+      "breakdown": [
+        [
+          5,
+          3,
+          1,
+          4
+        ]
+      ],
+      "solo": [
+        [
+          0,
+          4,
+          5,
+          3
+        ]
+      ],
+      "outro": [
+        [
+          0,
+          5,
+          3,
+          4
+        ]
+      ]
+    }
+  },
+  "rhythms": [
+    {
+      "id": "metal-riff",
+      "steps": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "industrial-kick",
+      "steps": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "stealth-pulse",
+      "steps": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "horror-heartbeat",
+      "steps": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "strategy-march",
+      "steps": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "puzzle-tick",
+      "steps": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "constraints": {
+    "maximumMelodicLeap": 18,
+    "maximumRepeatedPitch": 7,
+    "minimumChordToneRatio": 0.16,
+    "preferredMinimumRange": 4,
+    "preferredMaximumRange": 25,
+    "maximumDensityRatio": 1.65
+  },
+  "scoring": {
+    "chordTone": 24,
+    "stepwiseMotion": 16,
+    "motifFidelity": 25,
+    "phraseClosure": 16,
+    "rhythmBalance": 17,
+    "range": 12,
+    "leapPenalty": 0.95,
+    "syncopation": 8,
+    "repetitionControl": 14
+  }
+}

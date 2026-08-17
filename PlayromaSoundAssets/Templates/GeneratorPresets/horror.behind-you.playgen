@@ -1,0 +1,25 @@
+{
+  "formatVersion": 1,
+  "id": "horror.behind-you",
+  "displayName": "Something Behind You",
+  "generatorId": "playroma.horror",
+  "rootSeed": 74607,
+  "familySeed": 93521,
+  "variationIndex": 0,
+  "qualityMode": "realtimeHigh",
+  "description": {
+    "kind": "behindListener",
+    "dread": 0.92,
+    "supernatural": 0.85,
+    "movement": 0.72,
+    "duration": 0.62,
+    "environment": "corridor",
+    "pitchContour": "falling",
+    "rhythmStyle": "irregular",
+    "envelopeStyle": "longRelease",
+    "emotion": "frightened",
+    "energyState": "dying",
+    "condition": "corrupted",
+    "stereoStyle": "moving"
+  }
+}

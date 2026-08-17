@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Playroma.JRPG.Eventing.Tests</RootNamespace>
+    <AssemblyName>Playroma.JRPG.Eventing.Tests</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../src/Playroma.JRPG.Core/Playroma.JRPG.Core.csproj" />
+    <ProjectReference Include="../../src/Playroma.JRPG.Documents.Mutable/Playroma.JRPG.Documents.Mutable.csproj" />
+    <ProjectReference Include="../../src/Playroma.JRPG.Eventing/Playroma.JRPG.Eventing.csproj" />
+    <ProjectReference Include="../../src/Playroma.JRPG.RpgMakerMV/Playroma.JRPG.RpgMakerMV.csproj" />
+  </ItemGroup>
+</Project>

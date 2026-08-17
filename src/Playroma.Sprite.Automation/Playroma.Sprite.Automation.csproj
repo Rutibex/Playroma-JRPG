@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><TargetFramework>net10.0</TargetFramework></PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Playroma.Sprite.Core/Playroma.Sprite.Core.csproj" />
+    <ProjectReference Include="../Playroma.Sprite.Pixel/Playroma.Sprite.Pixel.csproj" />
+    <ProjectReference Include="../Playroma.Sprite.Animation/Playroma.Sprite.Animation.csproj" />
+    <ProjectReference Include="../Playroma.Sprite.Formats/Playroma.Sprite.Formats.csproj" />
+    <ProjectReference Include="../Playroma.Sprite.RpgMakerMV/Playroma.Sprite.RpgMakerMV.csproj" />
+    <ProjectReference Include="../Playroma.Sprite.Tilemaps/Playroma.Sprite.Tilemaps.csproj" />
+  </ItemGroup>
+</Project>

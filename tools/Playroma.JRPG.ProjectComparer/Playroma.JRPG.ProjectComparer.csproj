@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Playroma.JRPG.ProjectComparer</RootNamespace>
+    <AssemblyName>Playroma.JRPG.ProjectComparer</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../src/Playroma.JRPG.Documents.Saving/Playroma.JRPG.Documents.Saving.csproj" />
+  </ItemGroup>
+</Project>

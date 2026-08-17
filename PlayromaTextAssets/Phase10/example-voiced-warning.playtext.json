@@ -1,0 +1,38 @@
+{
+  "id": "example.phase10.voiced-warning",
+  "version": 1,
+  "name": "Example Voiced Warning",
+  "kind": "dialogue",
+  "description": "Generate the underlying warning first, then realize it through the active Character Voice context.",
+  "stages": [
+    {
+      "id": "meaning",
+      "kind": "phase1.random-list",
+      "enabled": true,
+      "settings": {
+        "items": [
+          "Do not take the old road after dark.",
+          "Stay away from the lower gate tonight.",
+          "If you hear bells near the ruins, turn around."
+        ],
+        "field": "text",
+        "isPrimary": true
+      }
+    },
+    {
+      "id": "voice",
+      "kind": "phase10.voice",
+      "enabled": true,
+      "settings": {
+        "profileContextKey": "voice.profileId",
+        "act": "Warning",
+        "fields": ["text"],
+        "addActFraming": true,
+        "addEmotionFraming": true,
+        "addCatchphrase": true,
+        "applyDialect": true,
+        "applyVocabulary": true
+      }
+    }
+  ]
+}

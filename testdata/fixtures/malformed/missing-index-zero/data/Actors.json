@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "Fixture Actor",
+    "nickname": "Fixture",
+    "note": "<PlayromaFixture: actor>",
+    "profile": "Synthetic record"
+  }
+]

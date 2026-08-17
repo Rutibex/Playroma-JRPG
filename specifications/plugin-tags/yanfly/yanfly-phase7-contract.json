@@ -1,0 +1,26 @@
+{
+  "phase": 7,
+  "name": "Skills and progression",
+  "runtimeCatalogFeatureCount": 2943,
+  "coveredPluginCount": 18,
+  "databaseFeatureCount": 327,
+  "skillDesignerPluginCount": 9,
+  "progressionDesignerPluginCount": 9,
+  "databaseSurfaceCorrections": 35,
+  "authoringAreas": 19,
+  "quickSetupCount": 6,
+  "acceptanceTests": 22,
+  "editors": [
+    "yep.skill-designer",
+    "yep.progression-designer"
+  ],
+  "guarantees": {
+    "losslessNotes": true,
+    "installedPluginGating": true,
+    "typedArguments": true,
+    "advancedRawFallback": true,
+    "exactDiffPreview": true,
+    "eventDefinitionsPreserved": true,
+    "redistributesYanflyJavaScript": false
+  }
+}

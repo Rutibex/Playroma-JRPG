@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "id": "arena-rock",
+  "name": "Arena Rock",
+  "description": "Large hooks, aggressive rhythm section, bright guitars and dramatic section expansion.",
+  "version": "1.0.0",
+  "family": "pop",
+  "abstract": false,
+  "extends": "pop-modern",
+  "tempo": {
+    "minimum": 104,
+    "maximum": 152
+  },
+  "candidateCount": 16,
+  "scales": [
+    "major",
+    "mixolydian",
+    "naturalMinor"
+  ],
+  "roles": [
+    {
+      "id": "melody",
+      "name": "Arena Rock Melody",
+      "role": "lead",
+      "instrumentSelector": {
+        "families": [
+          "guitar",
+          "brass",
+          "synthLead",
+          "reed"
+        ],
+        "preferredTags": [
+          "lead",
+          "expressive",
+          "bright"
+        ],
+        "avoidTags": [
+          "very-low"
+        ],
+        "minimumAttack": 0.15,
+        "maximumAttack": 0.95,
+        "minimumBrightness": 0.2,
+        "maximumBrightness": 0.95,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "octaveDoubling",
+          "phraseAlternation",
+          "callAndResponse",
+          "sectionSubstitution"
+        ]
+      }
+    },
+    {
+      "id": "bass",
+      "name": "Arena Rock Bass",
+      "role": "bass",
+      "instrumentSelector": {
+        "families": [
+          "bass",
+          "guitar",
+          "synthLead"
+        ],
+        "preferredTags": [
+          "bass",
+          "warm",
+          "punchy",
+          "low"
+        ],
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 0.72,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "registerSplit",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "chords",
+      "name": "Arena Rock Chords",
+      "role": "chords",
+      "instrumentSelector": {
+        "families": [
+          "guitar",
+          "organ",
+          "piano"
+        ],
+        "preferredTags": [
+          "polyphonic",
+          "harmony",
+          "bright"
+        ],
+        "minimumSustain": 0.15,
+        "maximumLayers": 3,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "registerSplit",
+          "hocket",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "arpeggio",
+      "name": "Arena Rock Arpeggio",
+      "role": "arpeggio",
+      "instrumentSelector": {
+        "families": [
+          "guitar",
+          "piano",
+          "synthLead"
+        ],
+        "preferredTags": [
+          "short",
+          "clear",
+          "pulse"
+        ],
+        "minimumAttack": 0.25,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "octaveDoubling",
+          "hocket",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "drums",
+      "name": "Arena Rock Drums",
+      "role": "drums",
+      "instrumentSelector": {
+        "families": [
+          "drums"
+        ],
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument",
+          "sectionSubstitution"
+        ],
+        "preferredTags": [
+          "drums",
+          "powerful",
+          "percussive"
+        ],
+        "avoidTags": []
+      }
+    }
+  ]
+}

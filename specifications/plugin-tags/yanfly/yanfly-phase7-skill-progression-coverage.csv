@@ -1,0 +1,19 @@
+﻿pluginId,editor,primaryArea,databaseFeatureCount,verifiedSourceFilename
+YEP_SkillCore,Skill Designer,Execution,24,YEP_SkillCore.js
+YEP_X_SkillCooldowns,Skill Designer,Cooldowns,36,YEP_X_SkillCooldowns.js
+YEP_X_LimitedSkillUses,Skill Designer,Limited Uses,32,YEP_X_LimitedSkillUses.js
+YEP_SkillMasteryLevels,Skill Designer,Mastery,34,YEP_SkillMasteryLevels.js
+YEP_X_SkillCostItems,Skill Designer,Costs,37,YEP_X_SkillCostItems.js
+YEP_Z_SkillRewards,Skill Designer,Rewards,39,YEP_Z_SkillRewards.js
+YEP_MultiTypeSkills,Skill Designer,Skill Types,3,YEP_MultiTypeSkills.js
+YEP_InstantCast,Skill Designer,Instant Cast,16,YEP_InstantCast.js
+YEP_X_PartyLimitGauge,Skill Designer,Party Limit,12,YEP_X_PartyLimitGauge.js
+YEP_SkillLearnSystem,Progression Designer,Learning,18,YEP_SkillLearnSystem.js
+YEP_JobPoints,Progression Designer,Job Points,6,YEP_JobPoints.js
+YEP_ClassChangeCore,Progression Designer,Classes,17,YEP_ClassChangeCore.js
+YEP_X_Subclass,Progression Designer,Subclasses,19,YEP_X_Subclass.js
+YEP_StatAllocation,Progression Designer,Stat Allocation,2,YEP_StatAllocation.js
+YEP_EnhancedTP,Progression Designer,TP Modes,7,YEP_EnhancedTP.js
+YEP_EquipBattleSkills,Progression Designer,Equipped Skills,11,YEP_EquipBattleSkills.js
+YEP_X_EquipSkillTiers,Progression Designer,Equipped Skills,3,YEP_X_EquipSkillTiers.js
+YEP_LevelUpGrowthEffects,Progression Designer,Level Growth,11,YEP_LevelUpGrowthEffects.js

@@ -1,0 +1,23 @@
+{
+  "schema": "playroma-sprite-preferences/1",
+  "theme": "system",
+  "uiScale": 1.0,
+  "canvasScale": 1.0,
+  "fontScale": 1.0,
+  "highContrast": false,
+  "reduceMotion": false,
+  "confirmDestructiveOperations": true,
+  "autosaveSeconds": 60,
+  "recoverySnapshotsPerDocument": 12,
+  "undoMemoryLimitBytes": 536870912,
+  "backgroundExportConcurrency": 2,
+  "warnOnLargeDocuments": true,
+  "largeDocumentPixelThreshold": 16777216,
+  "activeWorkspaceId": "default",
+  "shortcuts": [
+    { "command": "file.save", "gesture": "Ctrl+S", "scope": "global", "enabled": true },
+    { "command": "edit.undo", "gesture": "Ctrl+Z", "scope": "global", "enabled": true },
+    { "command": "command.palette", "gesture": "Ctrl+Shift+P", "scope": "global", "enabled": true },
+    { "command": "view.fullscreenCanvas", "gesture": "Tab", "scope": "canvas", "enabled": true }
+  ]
+}

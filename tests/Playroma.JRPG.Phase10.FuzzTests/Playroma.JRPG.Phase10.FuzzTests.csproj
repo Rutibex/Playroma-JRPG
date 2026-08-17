@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Playroma.JRPG.Phase10.FuzzTests</RootNamespace>
+    <AssemblyName>Playroma.JRPG.Phase10.FuzzTests</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../src/Playroma.JRPG.Eventing/Playroma.JRPG.Eventing.csproj" />
+  </ItemGroup>
+</Project>

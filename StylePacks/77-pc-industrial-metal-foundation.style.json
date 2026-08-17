@@ -1,0 +1,514 @@
+{
+  "schemaVersion": 1,
+  "id": "pc-industrial-metal-foundation",
+  "name": "Industrial FPS Metal Foundation",
+  "description": "Early-PC industrial metal language: palm-muted rhythmic cells, aggressive drums, synthetic alarms and dark General MIDI atmosphere.",
+  "version": "1.0.0",
+  "family": "game",
+  "abstract": true,
+  "extends": "pc-game-foundation",
+  "tempo": {
+    "minimum": 132,
+    "maximum": 190
+  },
+  "meter": {
+    "beatsPerBar": 4,
+    "beatUnit": 4
+  },
+  "candidateCount": 22,
+  "scales": [
+    "naturalMinor",
+    "phrygian",
+    "locrian",
+    "blues",
+    "chromatic"
+  ],
+  "forms": {
+    "grammarId": "industrial-fps-loop-v1",
+    "productions": [
+      [
+        "I",
+        "A",
+        "B",
+        "A'",
+        "D",
+        "B'",
+        "A"
+      ],
+      [
+        "A",
+        "A'",
+        "B",
+        "C",
+        "A"
+      ],
+      [
+        "I",
+        "A",
+        "D",
+        "B",
+        "A"
+      ]
+    ]
+  },
+  "harmony": {
+    "grammarId": "industrial-riff-harmony-v1",
+    "progressions": {
+      "intro": [
+        [
+          0,
+          0,
+          6,
+          0
+        ]
+      ],
+      "verse": [
+        [
+          0,
+          0,
+          6,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          6
+        ],
+        [
+          0,
+          3,
+          1,
+          0
+        ]
+      ],
+      "chorus": [
+        [
+          0,
+          3,
+          5,
+          1
+        ],
+        [
+          0,
+          6,
+          1,
+          0
+        ],
+        [
+          3,
+          1,
+          0,
+          6
+        ]
+      ],
+      "bridge": [
+        [
+          0,
+          1,
+          6,
+          0
+        ],
+        [
+          5,
+          3,
+          1,
+          0
+        ]
+      ],
+      "breakdown": [
+        [
+          0,
+          1,
+          6,
+          0
+        ]
+      ],
+      "solo": [
+        [
+          0,
+          3,
+          5,
+          1
+        ]
+      ],
+      "outro": [
+        [
+          0,
+          0,
+          6,
+          0
+        ]
+      ]
+    }
+  },
+  "rhythms": [
+    {
+      "id": "metal-riff",
+      "steps": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "industrial-kick",
+      "steps": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "id": "melody",
+      "name": "Industrial Guitar Lead",
+      "role": "lead",
+      "enabled": true,
+      "generalMidiProgram": 30,
+      "isPercussion": false,
+      "rhythmPatternId": "metal-riff",
+      "minimumPitch": 55,
+      "maximumPitch": 91,
+      "density": 86,
+      "instrumentSelector": {
+        "families": [
+          "guitar",
+          "synthLead",
+          "brass"
+        ],
+        "preferredTags": [
+          "lead",
+          "aggressive",
+          "distorted",
+          "bright"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 55,
+        "maximumPitch": 91,
+        "minimumAttack": 0.45,
+        "maximumAttack": 1,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.45,
+        "maximumBrightness": 1,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 0
+    },
+    {
+      "id": "bass",
+      "name": "Picked and Synth Bass",
+      "role": "bass",
+      "enabled": true,
+      "generalMidiProgram": 34,
+      "isPercussion": false,
+      "rhythmPatternId": "metal-riff",
+      "minimumPitch": 26,
+      "maximumPitch": 52,
+      "density": 94,
+      "instrumentSelector": {
+        "families": [
+          "bass",
+          "guitar",
+          "synthLead"
+        ],
+        "preferredTags": [
+          "bass",
+          "aggressive",
+          "punchy",
+          "low"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 26,
+        "maximumPitch": 52,
+        "minimumAttack": 0.45,
+        "maximumAttack": 1,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.1,
+        "maximumBrightness": 0.8,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 2
+    },
+    {
+      "id": "chords",
+      "name": "Distorted Riff Guitars",
+      "role": "chords",
+      "enabled": true,
+      "generalMidiProgram": 30,
+      "isPercussion": false,
+      "rhythmPatternId": "metal-riff",
+      "minimumPitch": 40,
+      "maximumPitch": 76,
+      "density": 96,
+      "instrumentSelector": {
+        "families": [
+          "guitar",
+          "synthLead",
+          "brass"
+        ],
+        "preferredTags": [
+          "aggressive",
+          "distorted",
+          "rhythmic",
+          "dense"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 40,
+        "maximumPitch": 76,
+        "minimumAttack": 0.55,
+        "maximumAttack": 1,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.35,
+        "maximumBrightness": 1,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 3,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 1
+    },
+    {
+      "id": "arpeggio",
+      "name": "Sequenced Industrial Pulse",
+      "role": "arpeggio",
+      "enabled": true,
+      "generalMidiProgram": 87,
+      "isPercussion": false,
+      "rhythmPatternId": "industrial-kick",
+      "minimumPitch": 44,
+      "maximumPitch": 91,
+      "density": 78,
+      "instrumentSelector": {
+        "families": [
+          "synthLead",
+          "synthEffects",
+          "guitar",
+          "chromaticPercussion"
+        ],
+        "preferredTags": [
+          "electronic",
+          "rhythmic",
+          "mechanical"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 44,
+        "maximumPitch": 91,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 3
+    },
+    {
+      "id": "counter",
+      "name": "Alarm Counterline",
+      "role": "counterMelody",
+      "enabled": true,
+      "generalMidiProgram": 81,
+      "isPercussion": false,
+      "rhythmPatternId": "industrial-kick",
+      "minimumPitch": 55,
+      "maximumPitch": 91,
+      "density": 60,
+      "instrumentSelector": {
+        "families": [
+          "synthLead",
+          "brass",
+          "guitar"
+        ],
+        "preferredTags": [
+          "bright",
+          "aggressive",
+          "counterline"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 55,
+        "maximumPitch": 91,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 4
+    },
+    {
+      "id": "texture",
+      "name": "Industrial Atmosphere",
+      "role": "texture",
+      "enabled": true,
+      "generalMidiProgram": 99,
+      "isPercussion": false,
+      "rhythmPatternId": "sparse-breath",
+      "minimumPitch": 30,
+      "maximumPitch": 100,
+      "density": 45,
+      "instrumentSelector": {
+        "families": [
+          "synthEffects",
+          "synthPad",
+          "soundEffects"
+        ],
+        "preferredTags": [
+          "dark",
+          "industrial",
+          "atmospheric",
+          "effect"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 30,
+        "maximumPitch": 100,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 5
+    },
+    {
+      "id": "drums",
+      "name": "Heavy Industrial Kit",
+      "role": "drums",
+      "enabled": true,
+      "generalMidiProgram": 0,
+      "isPercussion": true,
+      "rhythmPatternId": "industrial-kick",
+      "minimumPitch": 35,
+      "maximumPitch": 81,
+      "density": 98,
+      "instrumentSelector": {
+        "families": [
+          "drums"
+        ],
+        "preferredTags": [
+          "aggressive",
+          "powerful",
+          "percussive"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 35,
+        "maximumPitch": 81,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 9
+    }
+  ],
+  "constraints": {
+    "minimumNotesPerPhrase": 4,
+    "maximumNotesPerPhrase": 112,
+    "maximumMelodicLeap": 22,
+    "maximumRepeatedPitch": 12,
+    "minimumChordToneRatio": 0.08,
+    "preferredMinimumRange": 5,
+    "preferredMaximumRange": 28,
+    "maximumDensityRatio": 2.0
+  },
+  "scoring": {
+    "chordTone": 17,
+    "stepwiseMotion": 10,
+    "motifFidelity": 28,
+    "phraseClosure": 12,
+    "rhythmBalance": 25,
+    "range": 13,
+    "leapPenalty": 0.55,
+    "syncopation": 14,
+    "repetitionControl": 20
+  }
+}

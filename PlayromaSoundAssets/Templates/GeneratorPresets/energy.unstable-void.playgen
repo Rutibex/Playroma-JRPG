@@ -1,0 +1,26 @@
+{
+  "formatVersion": 1,
+  "id": "energy.unstable-void",
+  "displayName": "Unstable Void Energy",
+  "generatorId": "playroma.elemental-energy",
+  "rootSeed": 73922,
+  "familySeed": 92466,
+  "variationIndex": 0,
+  "qualityMode": "realtimeHigh",
+  "description": {
+    "kind": "voidEnergy",
+    "size": 0.82,
+    "intensity": 0.82,
+    "instability": 0.88,
+    "tail": 0.85,
+    "complexity": 0.8,
+    "variationMode": "chaotic",
+    "pitchContour": "evolving",
+    "rhythmStyle": "prime",
+    "envelopeStyle": "swell",
+    "emotion": "sinister",
+    "energyState": "unstable",
+    "condition": "corrupted",
+    "stereoStyle": "wide"
+  }
+}

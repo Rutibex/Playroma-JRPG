@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "storage": "flat array indexed by (z * height + y) * width + x",
+  "layers": [
+    {
+      "z": 0,
+      "name": "Lower 1",
+      "kind": "tile"
+    },
+    {
+      "z": 1,
+      "name": "Lower 2",
+      "kind": "tile"
+    },
+    {
+      "z": 2,
+      "name": "Upper 1",
+      "kind": "tile"
+    },
+    {
+      "z": 3,
+      "name": "Upper 2",
+      "kind": "tile"
+    },
+    {
+      "z": 4,
+      "name": "Shadow",
+      "kind": "bitmask"
+    },
+    {
+      "z": 5,
+      "name": "Region",
+      "kind": "regionId"
+    }
+  ]
+}

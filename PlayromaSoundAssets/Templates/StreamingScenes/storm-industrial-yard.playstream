@@ -1,0 +1,48 @@
+{
+  "formatVersion": 1,
+  "id": "scene.storm-industrial-yard",
+  "displayName": "Stormy Industrial Yard",
+  "rootSeed": 78431,
+  "maximumVoices": 36,
+  "virtualizationThreshold": 0.001,
+  "sounds": [
+    { "soundId": "stream.wind-bed", "poolSize": 1 },
+    { "soundId": "stream.rain-bed", "poolSize": 1 },
+    { "soundId": "stream.thunder", "poolSize": 8 },
+    { "soundId": "stream.metal-clank", "poolSize": 10 }
+  ],
+  "buses": [
+    { "id": "master", "gain": 0.9, "effects": [{ "kind": "limiter", "amount": 0.1, "secondary": 0.25, "mix": 1 }], "sends": [] },
+    { "id": "weather", "parentId": "master", "gain": 1, "effects": [], "sends": [{ "targetBusId": "yard-space", "gain": 0.2 }] },
+    { "id": "machinery", "parentId": "master", "gain": 0.8, "effects": [{ "kind": "saturation", "amount": 0.12, "secondary": 0.2, "mix": 0.35 }], "sends": [{ "targetBusId": "yard-space", "gain": 0.25 }] },
+    { "id": "yard-space", "parentId": "master", "gain": 1, "effects": [{ "kind": "reverb", "amount": 0.7, "secondary": 0.55, "mix": 0.3, "wetOnly": true }], "sends": [] }
+  ],
+  "acousticZones": [
+    { "id": "yard", "environmentBusId": "yard-space", "ambientGain": 1 },
+    { "id": "warehouse", "environmentBusId": "yard-space", "ambientGain": 0.8 }
+  ],
+  "acousticPortals": [
+    { "id": "loading-door", "zoneAId": "yard", "zoneBId": "warehouse", "transmission": 0.45, "lowPassAmount": 0.3 }
+  ],
+  "parameters": [
+    { "id": "stormIntensity", "displayName": "Storm intensity", "minimum": 0, "maximum": 1, "defaultValue": 0.5, "smoothingSeconds": 0.25 },
+    { "id": "machineryActivity", "displayName": "Machinery activity", "minimum": 0, "maximum": 1, "defaultValue": 0.6, "smoothingSeconds": 0.2 }
+  ],
+  "parameterBindings": [
+    { "parameterId": "stormIntensity", "targetKind": "layerGain", "targetId": "wind", "targetParameter": "", "outputMinimum": 0.2, "outputMaximum": 1.2, "curve": "smoothStep" },
+    { "parameterId": "stormIntensity", "targetKind": "layerGain", "targetId": "rain", "targetParameter": "", "outputMinimum": 0.1, "outputMaximum": 1.15, "curve": "smoothStep" },
+    { "parameterId": "stormIntensity", "targetKind": "emitterRate", "targetId": "thunder", "targetParameter": "", "outputMinimum": 0.2, "outputMaximum": 2.2, "curve": "exponential" },
+    { "parameterId": "machineryActivity", "targetKind": "emitterRate", "targetId": "clanks", "targetParameter": "", "outputMinimum": 0.1, "outputMaximum": 2.5, "curve": "exponential" }
+  ],
+  "layers": [
+    { "id": "wind", "kind": "continuous", "soundId": "stream.wind-bed", "busId": "weather", "gain": 0.65, "pan": 0, "priority": 70, "protected": true, "fadeSeconds": 0.4, "startDelaySeconds": 0, "stateMachineId": "", "activeStates": [], "spatial": { "enabled": false, "position": { "x": 0, "y": 0, "z": 0 }, "velocity": { "x": 0, "y": 0, "z": 0 }, "minimumDistance": 1, "maximumDistance": 100, "occlusion": 0, "obstruction": 0, "zoneId": "yard" } },
+    { "id": "rain", "kind": "continuous", "soundId": "stream.rain-bed", "busId": "weather", "gain": 0.75, "pan": 0, "priority": 70, "protected": true, "fadeSeconds": 0.4, "startDelaySeconds": 0, "stateMachineId": "", "activeStates": [], "spatial": { "enabled": false, "position": { "x": 0, "y": 0, "z": 0 }, "velocity": { "x": 0, "y": 0, "z": 0 }, "minimumDistance": 1, "maximumDistance": 100, "occlusion": 0, "obstruction": 0, "zoneId": "yard" } }
+  ],
+  "emitters": [
+    { "id": "thunder", "soundIds": ["stream.thunder"], "busId": "yard-space", "minimumIntervalSeconds": 4, "maximumIntervalSeconds": 30, "probability": 0.9, "minimumBurstCount": 1, "maximumBurstCount": 1, "burstSpreadSeconds": 0, "maximumConcurrentVoices": 3, "gain": 0.9, "priority": 80, "stateMachineId": "", "activeStates": [], "spatialDistribution": { "centre": { "x": 0, "y": 0, "z": 0 }, "minimumRadius": 20, "maximumRadius": 80, "minimumDistance": 5, "maximumDistance": 180, "occlusion": 0, "obstruction": 0, "zoneId": "yard" } },
+    { "id": "clanks", "soundIds": ["stream.metal-clank"], "busId": "machinery", "minimumIntervalSeconds": 0.4, "maximumIntervalSeconds": 5, "probability": 0.8, "minimumBurstCount": 1, "maximumBurstCount": 3, "burstSpreadSeconds": 0.12, "maximumConcurrentVoices": 6, "gain": 0.55, "priority": 35, "stateMachineId": "", "activeStates": [], "spatialDistribution": { "centre": { "x": 0, "y": 0, "z": 0 }, "minimumRadius": 2, "maximumRadius": 25, "minimumDistance": 1, "maximumDistance": 70, "occlusion": 0.1, "obstruction": 0.05, "zoneId": "warehouse" } }
+  ],
+  "eventClusters": [],
+  "stateMachines": [],
+  "metadata": { "example": "true", "assetResolver": "Referenced graph IDs must be supplied by an ISoundAssetResolver." }
+}

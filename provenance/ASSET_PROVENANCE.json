@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "policy": "Every redistributed third-party or binary asset must be listed here.",
+  "assets": [
+    {
+      "path": "PlayromaSpriteAssets/fixtures/images/img/animations/SyntheticAnimation.png",
+      "origin": "Independently generated synthetic PNG; no RTP or Aseprite artwork",
+      "license": "MIT",
+      "purpose": "Canonical valid fixture for mv-animation-sheet",
+      "sha256": "BD3E61DEF4E76428FC50CB503BF90133731236D1EB44F563EAD4680E2B998484"
+    },
+    {
+      "path": "PlayromaSpriteAssets/fixtures/images/img/battlebacks1/SyntheticBattlebackFloor.png",
+      "origin": "Independently generated synthetic PNG; no RTP or Aseprite artwork",
+      "license": "MIT",
+      "purpose": "Canonical valid fixture for mv-battleback1",
+      "sha256": "90B4B2A643A8F136F90365DDC2E6B9C73BF977A0E0751A782B6F1669DC81D470"
+    },
+    {
+      "path": "PlayromaSpriteAssets/fixtures/images/img/battlebacks2/SyntheticBattlebackWall.png",
+      "origin": "Independently generated synthetic PNG; no RTP or Aseprite artwork",
+      "license": "MIT",
+      "purpose": "Canonical valid fixture for mv-battleback2",
+      "sha256": "90B4B2A643A8F136F90365DDC2E6B9C73BF977A0E0751A782B6F1669DC81D470"
+    },
+    {
+      "path": "PlayromaSpriteAssets/fixtures/images/img/characters/$SyntheticHero.png",
+      "origin": "Independently generated synthetic PNG; no RTP or Aseprite artwork",
+      "license": "MIT",
+      "purpose": "Canonical valid fixture for mv-character-single",
+      "sha256": "333E8BCC5203F90067D545431AD61033B5862128875681FBFA921EAC11886988"
+    },
+    {
+      "path": "PlayromaSpriteAssets/fixtures/images/img/characters/SyntheticCharacters.png",
+      "origin": "Independently generated synthetic PNG; no RTP or Aseprite artwork",
+      "license": "MIT",
+      "purpose": "Canonical valid fixture for mv-character-standard",
+      "sha256": "0B43D6F03A4C4CB41BE608BA3F41D9BE0038A89F1022A18EFCDBF16E7920729C"
+    },
+    {
+      "path": "PlayromaSpriteAssets/fixtures/images/img/enemies/SyntheticEnemy.png",
+      "origin": "Independently generated synthetic PNG; no RTP or Aseprite artwork",
+      "license": "MIT",
+      "purpose": "Canonical valid fixture for mv-enemy",
+      "sha256": "DC58715CC0F840222EF07B70B336731CEE3C08C014D7BAF128EF9498C515BA49"
+    },
+    {
+      "path": "PlayromaSpriteAssets/fixtures/images/img/faces/SyntheticFaces.png",
+      "origin": "Independently generated synthetic PNG; no RTP or Aseprite artwork",
+      "license": "MIT",
+      "purpose": "Canonical valid fixture for mv-face-sheet",
+      "sha256": "0F29FA4C0C6CB4A784EFA81DF7780FD876A8BB32F45B0B4337ECA2FC4525F11D"
+    },
+    {
+      "path": "PlayromaSpriteAssets/fixtures/images/img/parallaxes/!SyntheticParallax.png",
+      "origin": "Independently generated synthetic PNG; no RTP or Aseprite artwork",
+      "license": "MIT",
+      "purpose": "Canonical valid fixture for mv-parallax",
+      "sha256": "A38B24CF9ED78671B08DA49831F30B211A75FBA084915FFCCF390889BAD22699"
+    },
+    {
+      "path": "PlayromaSpriteAssets/fixtures/images/img/pictures/SyntheticPicture.png",
+      "origin": "Independently generated synthetic PNG; no RTP or Aseprite artwork",
+      "license": "MIT",
+      "purpose": "Canonical valid fixture for mv-picture",
+      "sha256": "8A89E2017D0DCD69E9968B65BD25666D45DA19AB8D0A140B7C33D6026F090005"
+    },
+    {
+      "path": "PlayromaSpriteAssets/fixtures/images/img/sv_actors/SyntheticSideViewActor.png",
+      "origin": "Independently generated synthetic PNG; no RTP or Aseprite artwork",
+      "license": "MIT",
+      "purpose": "Canonical valid fixture for mv-sv-actor",
+      "sha256": "CD3F3E306A9CB38BFAAE3A32A51139CBCB8536A1A7D8CCE053E627C775CF567A"
+    },
+    {
+      "path": "PlayromaSpriteAssets/fixtures/images/img/sv_enemies/SyntheticSideViewEnemy.png",
+      "origin": "Independently generated synthetic PNG; no RTP or Aseprite artwork",
+      "license": "MIT",
+      "purpose": "Canonical valid fixture for mv-sv-enemy",
+      "sha256": "DC58715CC0F840222EF07B70B336731CEE3C08C014D7BAF128EF9498C515BA49"
+    },
+    {
+      "path": "PlayromaSpriteAssets/fixtures/images/img/system/IconSet.png",
+      "origin": "Independently generated synthetic PNG; no RTP or Aseprite artwork",
+      "license": "MIT",
+      "purpose": "Canonical valid fixture for mv-iconset",
+      "sha256": "8F891124859D998CE623237E01D200256159B1C8D4601FD4C1829826AA1E386C"
+    },
+    {
+      "path": "PlayromaSpriteAssets/fixtures/images/img/tilesets/SyntheticTileset.png",
+      "origin": "Independently generated synthetic PNG; no RTP or Aseprite artwork",
+      "license": "MIT",
+      "purpose": "Canonical valid fixture for mv-tileset",
+      "sha256": "D8D4E929433308FB5EA6CD192C314362D71D465C896711C47D0D13B0A0E3E415"
+    },
+    {
+      "path": "PlayromaSpriteAssets/fixtures/images/img/titles1/SyntheticTitleBackground.png",
+      "origin": "Independently generated synthetic PNG; no RTP or Aseprite artwork",
+      "license": "MIT",
+      "purpose": "Canonical valid fixture for mv-title1",
+      "sha256": "3E493F96BE0C0758DF6D09D9A8BDB6EB0D7AAB62B86629B3AD75CFB34055510B"
+    },
+    {
+      "path": "PlayromaSpriteAssets/fixtures/images/img/titles2/SyntheticTitleOverlay.png",
+      "origin": "Independently generated synthetic PNG; no RTP or Aseprite artwork",
+      "license": "MIT",
+      "purpose": "Canonical valid fixture for mv-title2",
+      "sha256": "3E493F96BE0C0758DF6D09D9A8BDB6EB0D7AAB62B86629B3AD75CFB34055510B"
+    },
+    {
+      "path": "PlayromaTileAssets/Samples/SyntheticMV/Synthetic_A1.png",
+      "origin": "Original geometric compatibility test asset generated for Playroma Tile; contains no RPG Maker artwork",
+      "license": "MIT",
+      "purpose": "Synthetic RPG Maker MV tileset compatibility fixture",
+      "sha256": "C7BDFBC2A0991C7F35B09009E906F46E7D5688E2DCC7D13ED238C2423F1ABF3F"
+    },
+    {
+      "path": "PlayromaTileAssets/Samples/SyntheticMV/Synthetic_A2.png",
+      "origin": "Original geometric compatibility test asset generated for Playroma Tile; contains no RPG Maker artwork",
+      "license": "MIT",
+      "purpose": "Synthetic RPG Maker MV tileset compatibility fixture",
+      "sha256": "A95502765EC52B76787213B138DB57D29F9EDD2352C6BBC7FC5FB3A40D4E536F"
+    },
+    {
+      "path": "PlayromaTileAssets/Samples/SyntheticMV/Synthetic_A3.png",
+      "origin": "Original geometric compatibility test asset generated for Playroma Tile; contains no RPG Maker artwork",
+      "license": "MIT",
+      "purpose": "Synthetic RPG Maker MV tileset compatibility fixture",
+      "sha256": "AD44E3D46A79CC6C1E35FAAF00EF73251B9F645A439C32CEB1CA8460B9E1FE26"
+    },
+    {
+      "path": "PlayromaTileAssets/Samples/SyntheticMV/Synthetic_A4.png",
+      "origin": "Original geometric compatibility test asset generated for Playroma Tile; contains no RPG Maker artwork",
+      "license": "MIT",
+      "purpose": "Synthetic RPG Maker MV tileset compatibility fixture",
+      "sha256": "87E8583A38EA389215C34B1AC03B784752D91854610D18574A28C05D927D164E"
+    },
+    {
+      "path": "PlayromaTileAssets/Samples/SyntheticMV/Synthetic_A5.png",
+      "origin": "Original geometric compatibility test asset generated for Playroma Tile; contains no RPG Maker artwork",
+      "license": "MIT",
+      "purpose": "Synthetic RPG Maker MV tileset compatibility fixture",
+      "sha256": "87B9F3173D1CF0C81566D2EF1E4D67381E6A15ABFEE5F7A2EA28739FB4859158"
+    },
+    {
+      "path": "PlayromaTileAssets/Samples/SyntheticMV/Synthetic_B.png",
+      "origin": "Original geometric compatibility test asset generated for Playroma Tile; contains no RPG Maker artwork",
+      "license": "MIT",
+      "purpose": "Synthetic RPG Maker MV tileset compatibility fixture",
+      "sha256": "7B50E9037246CEC8CBD528CB6297B06AD974BF7B8AEB0C0DD2364F5F1FB61650"
+    },
+    {
+      "path": "PlayromaTileAssets/Samples/SyntheticMV/Synthetic_C.png",
+      "origin": "Original geometric compatibility test asset generated for Playroma Tile; contains no RPG Maker artwork",
+      "license": "MIT",
+      "purpose": "Synthetic RPG Maker MV tileset compatibility fixture",
+      "sha256": "042A8F5D2BE2E6B7B567D39D6B825CF7671E35D7443412120CB51D6856B3235D"
+    },
+    {
+      "path": "PlayromaTileAssets/Samples/SyntheticMV/Synthetic_D.png",
+      "origin": "Original geometric compatibility test asset generated for Playroma Tile; contains no RPG Maker artwork",
+      "license": "MIT",
+      "purpose": "Synthetic RPG Maker MV tileset compatibility fixture",
+      "sha256": "CC8CCA0903ACC14C552F5D15230DEF695860C6E745C38D0CE8B92409BA3BA7BB"
+    },
+    {
+      "path": "PlayromaTileAssets/Samples/SyntheticMV/Synthetic_E.png",
+      "origin": "Original geometric compatibility test asset generated for Playroma Tile; contains no RPG Maker artwork",
+      "license": "MIT",
+      "purpose": "Synthetic RPG Maker MV tileset compatibility fixture",
+      "sha256": "15EC244A485F15CEA8BB5B755E018F4AE84BB62C85CC012041DB559200609B9E"
+    },
+    {
+      "path": "src/Playroma.JRPG.Editor.WinForms/Resources/Playroma.png",
+      "origin": "Original Playroma branding asset supplied in the project source archive by the project owner",
+      "license": "Copyright Michael Robinson; distributed for use with the Playroma project",
+      "purpose": "Application icon and Playroma editor branding"
+    },
+    {
+      "path": "testdata/fixtures/phase1/encrypted-asset-layout/img/pictures/SyntheticEncrypted.rpgmvp",
+      "origin": "Independently authored six-byte sentinel",
+      "license": "MIT",
+      "purpose": "Tests encrypted MV asset discovery without containing any RPG Maker material"
+    }
+  ]
+}

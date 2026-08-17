@@ -1,0 +1,31 @@
+{
+  "formatVersion": 1,
+  "id": "complex-magic.grand-teleport",
+  "displayName": "Grand Teleport",
+  "generatorId": "playroma.complex-magic",
+  "rootSeed": 61807,
+  "familySeed": 75239,
+  "variationIndex": 0,
+  "qualityMode": "offline",
+  "description": {
+    "archetype": "teleportation",
+    "mood": "alien",
+    "shape": "chargeRelease",
+    "scale": "wholeTone",
+    "environment": "stoneChamber",
+    "power": 0.82,
+    "stability": 0.28,
+    "benevolence": 0.45,
+    "organicTechnology": 0.78,
+    "duration": 0.52,
+    "musicality": 0.62,
+    "anticipation": 0.44,
+    "charge": 0.86,
+    "motif": 0.76,
+    "release": 0.9,
+    "impact": 0.7,
+    "afterglow": 0.78,
+    "motifNotes": 8,
+    "spatialExtent": 0.9
+  }
+}

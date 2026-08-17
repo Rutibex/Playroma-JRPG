@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "id": "electric-fusion",
+  "name": "Electric Fusion",
+  "description": "Extended harmony with electric keys, synth colour, active bass and hybrid drums.",
+  "version": "1.0.0",
+  "family": "jazz",
+  "abstract": false,
+  "extends": "jazz-after-hours",
+  "tempo": {
+    "minimum": 108,
+    "maximum": 176
+  },
+  "candidateCount": 16,
+  "scales": [
+    "dorian",
+    "mixolydian",
+    "chromatic"
+  ],
+  "roles": [
+    {
+      "id": "melody",
+      "name": "Electric Fusion Melody",
+      "role": "lead",
+      "instrumentSelector": {
+        "families": [
+          "synthLead",
+          "guitar",
+          "reed"
+        ],
+        "preferredTags": [
+          "lead",
+          "expressive",
+          "bright"
+        ],
+        "avoidTags": [
+          "very-low"
+        ],
+        "minimumAttack": 0.15,
+        "maximumAttack": 0.95,
+        "minimumBrightness": 0.2,
+        "maximumBrightness": 0.95,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "octaveDoubling",
+          "phraseAlternation",
+          "callAndResponse",
+          "sectionSubstitution"
+        ]
+      }
+    },
+    {
+      "id": "bass",
+      "name": "Electric Fusion Bass",
+      "role": "bass",
+      "instrumentSelector": {
+        "families": [
+          "bass",
+          "synthLead"
+        ],
+        "preferredTags": [
+          "bass",
+          "warm",
+          "punchy",
+          "low"
+        ],
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 0.72,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "registerSplit",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "chords",
+      "name": "Electric Fusion Chords",
+      "role": "chords",
+      "instrumentSelector": {
+        "families": [
+          "piano",
+          "organ",
+          "synthPad"
+        ],
+        "preferredTags": [
+          "polyphonic",
+          "harmony",
+          "electric"
+        ],
+        "minimumSustain": 0.15,
+        "maximumLayers": 3,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "registerSplit",
+          "hocket",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "arpeggio",
+      "name": "Electric Fusion Arpeggio",
+      "role": "arpeggio",
+      "instrumentSelector": {
+        "families": [
+          "synthLead",
+          "chromaticPercussion",
+          "piano"
+        ],
+        "preferredTags": [
+          "short",
+          "clear",
+          "pulse",
+          "bright"
+        ],
+        "minimumAttack": 0.25,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "octaveDoubling",
+          "hocket",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "drums",
+      "name": "Electric Fusion Drums",
+      "role": "drums",
+      "instrumentSelector": {
+        "families": [
+          "drums"
+        ],
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument",
+          "sectionSubstitution"
+        ],
+        "preferredTags": [
+          "drums",
+          "electronic",
+          "percussive"
+        ],
+        "avoidTags": []
+      }
+    }
+  ]
+}

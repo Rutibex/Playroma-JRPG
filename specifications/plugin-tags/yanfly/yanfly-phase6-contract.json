@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "phase": 6,
+  "name": "Battle AI and action sequences",
+  "date": "2026-08-06",
+  "foundation": "Playroma JRPG Plugin Tags Phase 5",
+  "catalog": {
+    "sourceFeatureCount": 2903,
+    "runtimeFeatureCount": 2908,
+    "newActionPhaseFeatures": 5,
+    "sourceActionSequenceDiscoveries": 254,
+    "deduplicatedActionCommandPalette": 246,
+    "actionCommandProviders": 12,
+    "actionCommandCategories": 12
+  },
+  "battleAi": {
+    "pluginId": "YEP_BattleAICore",
+    "documentKinds": [
+      "enemy"
+    ],
+    "editorId": "yep.battle-ai-priority",
+    "targetSelectorCount": 35,
+    "features": [
+      "AI level",
+      "Consider Taunt",
+      "ordered rules",
+      "condition builder",
+      "skill ID/name selection",
+      "target selection",
+      "raw-line preservation",
+      "validation",
+      "exact preview",
+      "undoable Notes commit"
+    ]
+  },
+  "actionSequences": {
+    "basePluginId": "YEP_BattleEngineCore",
+    "documentKinds": [
+      "skill",
+      "item"
+    ],
+    "editorId": "yep.action-sequence",
+    "phases": [
+      "setup",
+      "whole",
+      "target",
+      "follow",
+      "finish"
+    ],
+    "templates": [
+      "Default Physical Attack",
+      "Default Spell Cast",
+      "Jumping Strike",
+      "Cinematic Skill",
+      "Three-Hit Combo"
+    ],
+    "features": [
+      "command search",
+      "category filters",
+      "plugin availability badges",
+      "raw command fallback",
+      "reorder/duplicate/remove",
+      "Action Copy",
+      "control-flow validation",
+      "exact preview",
+      "template dependency gating"
+    ]
+  },
+  "acceptanceTests": 26,
+  "licensing": {
+    "redistributesYanflyJavaScript": false,
+    "catalogContent": "Derived short syntax metadata and independently written descriptions only."
+  },
+  "validation": {
+    "requiresDotnetBuild": true,
+    "focusedSolution": "Playroma.PluginTags.Phase6.slnf",
+    "verificationScript": "eng/verify-plugin-tags-phase6.ps1"
+  }
+}

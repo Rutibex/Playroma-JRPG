@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "providerId": "YEP-MV",
+  "classificationStatus": "Phase 0 evidence-backed baseline; semantic tag definitions are Phase 2.",
+  "authoringSurfaces": {
+    "DatabaseNote": "Database-record note fields. Specific record kinds are carried in declaredContexts.",
+    "MapNote": "Map note property.",
+    "TilesetNote": "Tileset database note property.",
+    "EventNote": "Event-level note property.",
+    "EventPageComment": "Event commands 108 and 408 on a specific event page.",
+    "PluginCommand": "Event command 356 or equivalent structured command insertion.",
+    "MoveRouteScript": "Movement route script commands and helpers.",
+    "ActionSequence": "Ordered Battle Engine action-sequence blocks.",
+    "MessageTextCode": "Caret-position insertion in message-capable text fields.",
+    "SwitchNameMetadata": "Metadata encoded in switch display names.",
+    "VariableNameMetadata": "Metadata encoded in variable display names.",
+    "ScriptCall": "Reference-assisted event script calls.",
+    "LunaticMode": "Advanced JavaScript or formula blocks; never executed in the editor process.",
+    "PluginParameter": "Plugin Manager configuration and validation."
+  },
+  "coverageModes": {
+    "TypedCatalog": "A catalog definition plus reusable typed controls is expected.",
+    "SpecializedEditor": "The feature requires an ordered or domain-specific editor.",
+    "ContextAssistant": "The syntax is inserted from the editor surface where it executes.",
+    "PluginConfiguration": "The plugin is represented in Plugin Manager intelligence.",
+    "RuntimeValidationOnly": "No authoring syntax was detected; presence, version, and compatibility are still validated."
+  },
+  "completionRules": [
+    "Every normalized plugin must have one or more coverage modes.",
+    "Every conflicting duplicate must have an explicit resolution.",
+    "Every dependency edge must include evidence and a source location.",
+    "Unknown or unresolved dependencies remain visible; they are not silently discarded.",
+    "Source hashes may be distributed; plugin JavaScript and full help text may not.",
+    "Phase 0 declaredContexts are extraction signals and must be semantically reviewed before tag generation."
+  ],
+  "goldenCounts": {
+    "totalJavaScriptFiles": 259,
+    "ignoredSeparatorFiles": 2,
+    "pluginOccurrences": 257,
+    "uniquePlugins": 218,
+    "yanflyPlugins": 217,
+    "integrationPlugins": 1,
+    "duplicateFileNameGroups": 39,
+    "exactDuplicateGroups": 37,
+    "conflictingDuplicateGroups": 2,
+    "categoryCounts": {
+      "Battle Plugins": 49,
+      "Core & Options Plugins": 32,
+      "Event & Movement Plugins": 18,
+      "Free Plugins": 1,
+      "Items & Equips Plugins": 21,
+      "Quest & Gameplay Plugins": 34,
+      "Skill & Status Menu Plugins": 15,
+      "Utility Plugins": 48
+    },
+    "surfaceCounts": {
+      "DatabaseNote": 122,
+      "MapNote": 7,
+      "TilesetNote": 4,
+      "EventNote": 11,
+      "EventPageComment": 11,
+      "PluginCommand": 74,
+      "MoveRouteScript": 9,
+      "ActionSequence": 18,
+      "MessageTextCode": 41,
+      "SwitchNameMetadata": 0,
+      "VariableNameMetadata": 4,
+      "ScriptCall": 22,
+      "LunaticMode": 76,
+      "PluginParameter": 175
+    },
+    "coverageModeCounts": {
+      "TypedCatalog": 122,
+      "SpecializedEditor": 60,
+      "ContextAssistant": 157,
+      "PluginConfiguration": 175,
+      "RuntimeValidationOnly": 3
+    }
+  }
+}

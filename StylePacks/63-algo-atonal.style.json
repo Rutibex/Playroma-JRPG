@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "id": "atonal-machines",
+  "name": "Atonal Machines",
+  "description": "Pitch-class processes, discontinuous registers and deliberately unusual instrumental assignments.",
+  "version": "1.0.0",
+  "family": "algorithmic",
+  "abstract": false,
+  "extends": "algorithmic-recursive-machines",
+  "tempo": {
+    "minimum": 52,
+    "maximum": 172
+  },
+  "candidateCount": 16,
+  "scales": [
+    "chromatic",
+    "lydian"
+  ],
+  "roles": [
+    {
+      "id": "melody",
+      "name": "Atonal Machines Melody",
+      "role": "lead",
+      "instrumentSelector": {
+        "families": [
+          "soundEffects",
+          "synthEffects",
+          "chromaticPercussion",
+          "brass",
+          "reed"
+        ],
+        "preferredTags": [
+          "lead",
+          "expressive",
+          "unusual"
+        ],
+        "avoidTags": [
+          "very-low"
+        ],
+        "minimumAttack": 0.15,
+        "maximumAttack": 0.95,
+        "minimumBrightness": 0.2,
+        "maximumBrightness": 0.95,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "octaveDoubling",
+          "phraseAlternation",
+          "callAndResponse",
+          "sectionSubstitution"
+        ]
+      }
+    },
+    {
+      "id": "bass",
+      "name": "Atonal Machines Bass",
+      "role": "bass",
+      "instrumentSelector": {
+        "families": [
+          "bass",
+          "synthEffects",
+          "brass"
+        ],
+        "preferredTags": [
+          "bass",
+          "warm",
+          "low",
+          "unusual"
+        ],
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 0.72,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "registerSplit",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "chords",
+      "name": "Atonal Machines Chords",
+      "role": "chords",
+      "instrumentSelector": {
+        "families": [
+          "ensemble",
+          "synthEffects",
+          "chromaticPercussion"
+        ],
+        "preferredTags": [
+          "polyphonic",
+          "harmony",
+          "dissonant"
+        ],
+        "minimumSustain": 0.15,
+        "maximumLayers": 3,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "registerSplit",
+          "hocket",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "arpeggio",
+      "name": "Atonal Machines Arpeggio",
+      "role": "arpeggio",
+      "instrumentSelector": {
+        "families": [
+          "chromaticPercussion",
+          "soundEffects",
+          "synthLead"
+        ],
+        "preferredTags": [
+          "short",
+          "clear",
+          "pulse",
+          "unusual"
+        ],
+        "minimumAttack": 0.25,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "octaveDoubling",
+          "hocket",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "drums",
+      "name": "Atonal Machines Drums",
+      "role": "drums",
+      "instrumentSelector": {
+        "families": [
+          "drums"
+        ],
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument",
+          "sectionSubstitution"
+        ],
+        "preferredTags": [
+          "drums",
+          "percussive"
+        ],
+        "avoidTags": []
+      }
+    }
+  ]
+}

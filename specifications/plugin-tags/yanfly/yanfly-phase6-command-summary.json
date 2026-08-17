@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "phase": "6",
+  "generatedAt": "2026-08-06",
+  "commandCount": 246,
+  "phaseCount": 5,
+  "builtInTemplateCount": 5,
+  "battleAiTargetCount": 35,
+  "providers": {
+    "YEP_DamageCore": 30,
+    "YEP_ElementCore": 12,
+    "YEP_ImprovedBattlebacks": 13,
+    "YEP_WeatherInBattle": 1,
+    "YEP_X_ActSeqPack1": 80,
+    "YEP_X_ActSeqPack2": 46,
+    "YEP_X_ActSeqPack3": 28,
+    "YEP_X_ArmorScaling": 8,
+    "YEP_X_BattleSysATB": 5,
+    "YEP_X_BattleSysCTB": 2,
+    "YEP_X_CriticalControl": 9,
+    "YEP_X_SkillCooldowns": 12
+  },
+  "categories": {
+    "Animation": 5,
+    "Audio": 42,
+    "Battle Log": 2,
+    "Battler State": 2,
+    "Camera": 28,
+    "Damage and Effects": 21,
+    "Flow": 5,
+    "General": 89,
+    "Motion": 14,
+    "Movement": 10,
+    "Screen": 19,
+    "Wait": 9
+  },
+  "sourceCatalogFeatureCount": 2903,
+  "runtimeCatalogFeatureCount": 2908,
+  "sourceActionSequenceDiscoveryCount": 254,
+  "licensingBoundary": "Derived syntax metadata only; no YEP JavaScript or copied help prose."
+}

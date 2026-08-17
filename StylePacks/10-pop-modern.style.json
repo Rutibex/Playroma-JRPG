@@ -1,0 +1,384 @@
+{
+  "schemaVersion": 1,
+  "id": "pop-modern",
+  "name": "Modern Pop",
+  "description": "Hook-forward verse and chorus writing with clear cadences, compact ranges and layered rhythmic support.",
+  "version": "1.0.0",
+  "family": "pop",
+  "abstract": false,
+  "extends": "core-musical-foundation",
+  "tempo": {
+    "minimum": 96,
+    "maximum": 126
+  },
+  "candidateCount": 14,
+  "scales": [
+    "major",
+    "mixolydian",
+    "naturalMinor"
+  ],
+  "forms": {
+    "grammarId": "pop-songbook-v1",
+    "productions": [
+      [
+        "I",
+        "A",
+        "B",
+        "A'",
+        "B'",
+        "C",
+        "B''",
+        "O"
+      ],
+      [
+        "I",
+        "A",
+        "A'",
+        "B",
+        "D",
+        "B'",
+        "O"
+      ],
+      [
+        "I",
+        "A",
+        "B",
+        "A'",
+        "C",
+        "B'",
+        "B''",
+        "O"
+      ]
+    ]
+  },
+  "harmony": {
+    "grammarId": "pop-functional-v1",
+    "progressions": {
+      "intro": [
+        [
+          0,
+          5,
+          3,
+          4
+        ]
+      ],
+      "verse": [
+        [
+          0,
+          5,
+          3,
+          4
+        ],
+        [
+          5,
+          3,
+          0,
+          4
+        ],
+        [
+          0,
+          3,
+          5,
+          4
+        ]
+      ],
+      "chorus": [
+        [
+          0,
+          4,
+          5,
+          3
+        ],
+        [
+          3,
+          4,
+          0,
+          5
+        ],
+        [
+          0,
+          5,
+          3,
+          4
+        ]
+      ],
+      "bridge": [
+        [
+          5,
+          3,
+          1,
+          4
+        ],
+        [
+          1,
+          3,
+          4,
+          4
+        ]
+      ],
+      "breakdown": [
+        [
+          5,
+          3,
+          0,
+          4
+        ]
+      ],
+      "solo": [
+        [
+          0,
+          4,
+          5,
+          3
+        ]
+      ],
+      "outro": [
+        [
+          3,
+          4,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "rhythms": [
+    {
+      "id": "pop-clap-grid",
+      "steps": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "pop-hook",
+      "steps": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "id": "melody",
+      "name": "Vocal Hook",
+      "role": "lead",
+      "generalMidiProgram": 81,
+      "rhythmPatternId": "pop-hook",
+      "minimumPitch": 60,
+      "maximumPitch": 84,
+      "density": 76,
+      "instrumentSelector": {
+        "families": [
+          "reed",
+          "pipe",
+          "synthLead",
+          "guitar",
+          "chromaticPercussion",
+          "brass",
+          "strings",
+          "ethnic"
+        ],
+        "preferredTags": [
+          "lead",
+          "expressive"
+        ],
+        "avoidTags": [
+          "very-low"
+        ],
+        "minimumAttack": 0.15,
+        "maximumAttack": 0.95,
+        "minimumBrightness": 0.2,
+        "maximumBrightness": 0.95,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "octaveDoubling",
+          "phraseAlternation",
+          "callAndResponse",
+          "sectionSubstitution"
+        ],
+        "minimumPitch": 60,
+        "maximumPitch": 84
+      }
+    },
+    {
+      "id": "bass",
+      "name": "Pop Bass",
+      "role": "bass",
+      "generalMidiProgram": 38,
+      "rhythmPatternId": "eighths",
+      "minimumPitch": 28,
+      "maximumPitch": 52,
+      "density": 82,
+      "instrumentSelector": {
+        "families": [
+          "bass",
+          "guitar",
+          "organ",
+          "strings",
+          "synthLead",
+          "ethnic"
+        ],
+        "preferredTags": [
+          "bass",
+          "warm",
+          "low"
+        ],
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 0.72,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "registerSplit",
+          "sectionSubstitution"
+        ],
+        "minimumPitch": 28,
+        "maximumPitch": 52
+      }
+    },
+    {
+      "id": "chords",
+      "name": "Pop Chords",
+      "role": "chords",
+      "generalMidiProgram": 89,
+      "rhythmPatternId": "quarters",
+      "minimumPitch": 48,
+      "maximumPitch": 76,
+      "density": 92,
+      "instrumentSelector": {
+        "families": [
+          "piano",
+          "organ",
+          "guitar",
+          "strings",
+          "ensemble",
+          "synthPad",
+          "chromaticPercussion"
+        ],
+        "preferredTags": [
+          "polyphonic",
+          "harmony"
+        ],
+        "minimumSustain": 0.15,
+        "maximumLayers": 3,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "registerSplit",
+          "hocket",
+          "sectionSubstitution"
+        ],
+        "minimumPitch": 48,
+        "maximumPitch": 76
+      }
+    },
+    {
+      "id": "arpeggio",
+      "name": "Hook Arpeggio",
+      "role": "arpeggio",
+      "generalMidiProgram": 4,
+      "rhythmPatternId": "pop-hook",
+      "minimumPitch": 55,
+      "maximumPitch": 88,
+      "density": 68,
+      "instrumentSelector": {
+        "families": [
+          "piano",
+          "chromaticPercussion",
+          "guitar",
+          "synthLead",
+          "organ",
+          "ethnic"
+        ],
+        "preferredTags": [
+          "short",
+          "clear",
+          "pulse"
+        ],
+        "minimumAttack": 0.25,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "octaveDoubling",
+          "hocket",
+          "sectionSubstitution"
+        ],
+        "minimumPitch": 55,
+        "maximumPitch": 88
+      }
+    },
+    {
+      "id": "drums",
+      "name": "Pop Kit",
+      "role": "drums",
+      "midiChannel": 9,
+      "isPercussion": true,
+      "rhythmPatternId": "four-on-floor",
+      "density": 86,
+      "instrumentSelector": {
+        "families": [
+          "drums"
+        ],
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument",
+          "sectionSubstitution"
+        ],
+        "minimumPitch": 0,
+        "maximumPitch": 127,
+        "preferredTags": [
+          "percussive"
+        ]
+      }
+    }
+  ],
+  "constraints": {
+    "maximumMelodicLeap": 12,
+    "maximumRepeatedPitch": 5,
+    "minimumChordToneRatio": 0.3,
+    "requireCadentialFinalTone": true,
+    "preferredMaximumRange": 16
+  },
+  "scoring": {
+    "chordTone": 29,
+    "stepwiseMotion": 21,
+    "motifFidelity": 24,
+    "phraseClosure": 20,
+    "rhythmBalance": 12,
+    "range": 8,
+    "leapPenalty": 1.3,
+    "syncopation": 3,
+    "repetitionControl": 8
+  }
+}

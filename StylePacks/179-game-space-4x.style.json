@@ -1,0 +1,439 @@
+{
+  "schemaVersion": 1,
+  "id": "game-space-4x",
+  "name": "Strategy — Space 4X",
+  "description": "Expansive synthetic choir, slow harmonic motion and precise pulses for galactic planning.",
+  "version": "1.0.0",
+  "family": "game",
+  "abstract": false,
+  "extends": "pc-game-foundation",
+  "tempo": {
+    "minimum": 60,
+    "maximum": 96
+  },
+  "meter": {
+    "beatsPerBar": 4,
+    "beatUnit": 4
+  },
+  "candidateCount": 17,
+  "scales": [
+    "lydian",
+    "dorian",
+    "wholeTone"
+  ],
+  "forms": {
+    "grammarId": "game-space-4x-form-v1",
+    "productions": [
+      [
+        "I",
+        "A",
+        "A'",
+        "B",
+        "C",
+        "A"
+      ],
+      [
+        "A",
+        "B",
+        "A'",
+        "C",
+        "A"
+      ]
+    ]
+  },
+  "harmony": {
+    "grammarId": "game-space-4x-harmony-v1",
+    "progressions": {
+      "intro": [
+        [
+          0,
+          6,
+          3,
+          0
+        ]
+      ],
+      "verse": [
+        [
+          0,
+          6,
+          3,
+          0
+        ],
+        [
+          0,
+          3,
+          1,
+          4
+        ]
+      ],
+      "chorus": [
+        [
+          3,
+          4,
+          0,
+          5
+        ],
+        [
+          5,
+          3,
+          1,
+          4
+        ]
+      ],
+      "bridge": [
+        [
+          5,
+          3,
+          1,
+          4
+        ],
+        [
+          1,
+          6,
+          3,
+          4
+        ]
+      ],
+      "breakdown": [
+        [
+          5,
+          3,
+          1,
+          4
+        ]
+      ],
+      "solo": [
+        [
+          3,
+          4,
+          0,
+          5
+        ]
+      ],
+      "outro": [
+        [
+          0,
+          6,
+          3,
+          0
+        ]
+      ]
+    }
+  },
+  "roles": [
+    {
+      "id": "melody",
+      "name": "Strategy — Space 4X Lead",
+      "role": "lead",
+      "enabled": true,
+      "generalMidiProgram": 85,
+      "isPercussion": false,
+      "rhythmPatternId": "ambient-loop",
+      "minimumPitch": 55,
+      "maximumPitch": 94,
+      "density": 52,
+      "instrumentSelector": {
+        "families": [
+          "guitar",
+          "synthLead",
+          "strings",
+          "brass",
+          "reed",
+          "pipe",
+          "piano",
+          "chromaticPercussion"
+        ],
+        "preferredTags": [
+          "lead",
+          "distinct",
+          "expressive"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 55,
+        "maximumPitch": 94,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 0
+    },
+    {
+      "id": "bass",
+      "name": "Strategy — Space 4X Bass",
+      "role": "bass",
+      "enabled": true,
+      "generalMidiProgram": 38,
+      "isPercussion": false,
+      "rhythmPatternId": "quarters",
+      "minimumPitch": 25,
+      "maximumPitch": 55,
+      "density": 58,
+      "instrumentSelector": {
+        "families": [
+          "bass",
+          "guitar",
+          "strings",
+          "organ",
+          "synthLead"
+        ],
+        "preferredTags": [
+          "low",
+          "supportive",
+          "rhythmic"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 25,
+        "maximumPitch": 55,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 2
+    },
+    {
+      "id": "chords",
+      "name": "Strategy — Space 4X Harmony",
+      "role": "chords",
+      "enabled": true,
+      "generalMidiProgram": 91,
+      "isPercussion": false,
+      "rhythmPatternId": "quarters",
+      "minimumPitch": 39,
+      "maximumPitch": 84,
+      "density": 52,
+      "instrumentSelector": {
+        "families": [
+          "guitar",
+          "strings",
+          "ensemble",
+          "piano",
+          "organ",
+          "synthPad",
+          "synthLead"
+        ],
+        "preferredTags": [
+          "harmony",
+          "supportive",
+          "atmospheric"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 39,
+        "maximumPitch": 84,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 3,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 1
+    },
+    {
+      "id": "arpeggio",
+      "name": "Strategy — Space 4X Pulse",
+      "role": "arpeggio",
+      "enabled": true,
+      "generalMidiProgram": 98,
+      "isPercussion": false,
+      "rhythmPatternId": "ambient-loop",
+      "minimumPitch": 45,
+      "maximumPitch": 98,
+      "density": 52,
+      "instrumentSelector": {
+        "families": [
+          "synthLead",
+          "chromaticPercussion",
+          "piano",
+          "guitar",
+          "strings",
+          "synthEffects"
+        ],
+        "preferredTags": [
+          "pulse",
+          "articulate",
+          "rhythmic"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 45,
+        "maximumPitch": 98,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 3
+    },
+    {
+      "id": "counter",
+      "name": "Strategy — Space 4X Counterline",
+      "role": "counterMelody",
+      "enabled": true,
+      "generalMidiProgram": 81,
+      "isPercussion": false,
+      "rhythmPatternId": "adventure-ostinato",
+      "minimumPitch": 52,
+      "maximumPitch": 91,
+      "density": 36,
+      "instrumentSelector": {
+        "families": [
+          "reed",
+          "pipe",
+          "strings",
+          "brass",
+          "synthLead"
+        ],
+        "preferredTags": [
+          "counterline",
+          "clear"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 52,
+        "maximumPitch": 91,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 4
+    },
+    {
+      "id": "texture",
+      "name": "Strategy — Space 4X Atmosphere",
+      "role": "texture",
+      "enabled": true,
+      "generalMidiProgram": 94,
+      "isPercussion": false,
+      "rhythmPatternId": "ambient-loop",
+      "minimumPitch": 28,
+      "maximumPitch": 103,
+      "density": 56,
+      "instrumentSelector": {
+        "families": [
+          "synthPad",
+          "synthEffects",
+          "ensemble",
+          "strings",
+          "organ",
+          "soundEffects"
+        ],
+        "preferredTags": [
+          "atmospheric",
+          "sustaining",
+          "environmental"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 28,
+        "maximumPitch": 103,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 3,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 5
+    },
+    {
+      "id": "drums",
+      "name": "Strategy — Space 4X Drums",
+      "role": "drums",
+      "enabled": true,
+      "generalMidiProgram": 0,
+      "isPercussion": true,
+      "rhythmPatternId": "ambient-loop",
+      "minimumPitch": 35,
+      "maximumPitch": 81,
+      "density": 20,
+      "instrumentSelector": {
+        "families": [
+          "drums"
+        ],
+        "preferredTags": [
+          "percussive",
+          "supportive"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 35,
+        "maximumPitch": 81,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 9
+    }
+  ]
+}

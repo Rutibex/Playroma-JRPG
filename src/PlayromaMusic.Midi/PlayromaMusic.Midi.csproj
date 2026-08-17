@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Description>Standard MIDI import, export, inspection, style analysis, and reference blueprint analysis.</Description>
+    <Product>Playroma Music</Product>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../PlayromaMusic.Core/PlayromaMusic.Core.csproj" />
+  </ItemGroup>
+</Project>

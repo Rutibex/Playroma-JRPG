@@ -1,0 +1,440 @@
+{
+  "schemaVersion": 1,
+  "id": "jrpg-sailing",
+  "name": "Travel — Sailing Ship",
+  "description": "Rolling compound-meter melody and swaying accompaniment for sea voyages.",
+  "version": "1.0.0",
+  "family": "jrpg",
+  "abstract": false,
+  "extends": "jrpg-location-foundation",
+  "tempo": {
+    "minimum": 82,
+    "maximum": 118
+  },
+  "meter": {
+    "beatsPerBar": 6,
+    "beatUnit": 8
+  },
+  "candidateCount": 17,
+  "scales": [
+    "mixolydian",
+    "dorian",
+    "majorPentatonic"
+  ],
+  "forms": {
+    "grammarId": "jrpg-sailing-form-v1",
+    "productions": [
+      [
+        "I",
+        "A",
+        "A'",
+        "B",
+        "A''",
+        "A"
+      ],
+      [
+        "I",
+        "A",
+        "C",
+        "A'",
+        "B",
+        "A"
+      ]
+    ]
+  },
+  "harmony": {
+    "grammarId": "jrpg-sailing-harmony-v1",
+    "progressions": {
+      "intro": [
+        [
+          0,
+          5,
+          3,
+          4
+        ]
+      ],
+      "verse": [
+        [
+          0,
+          5,
+          3,
+          4
+        ],
+        [
+          0,
+          3,
+          5,
+          4
+        ]
+      ],
+      "chorus": [
+        [
+          0,
+          4,
+          5,
+          3
+        ],
+        [
+          3,
+          4,
+          0,
+          5
+        ]
+      ],
+      "bridge": [
+        [
+          5,
+          1,
+          3,
+          4
+        ],
+        [
+          1,
+          6,
+          0,
+          3
+        ]
+      ],
+      "breakdown": [
+        [
+          5,
+          1,
+          3,
+          4
+        ]
+      ],
+      "solo": [
+        [
+          0,
+          4,
+          5,
+          3
+        ]
+      ],
+      "outro": [
+        [
+          0,
+          5,
+          3,
+          4
+        ]
+      ]
+    }
+  },
+  "roles": [
+    {
+      "id": "melody",
+      "name": "Travel — Sailing Ship Lead",
+      "role": "lead",
+      "enabled": true,
+      "generalMidiProgram": 73,
+      "isPercussion": false,
+      "rhythmPatternId": "ship-sway",
+      "minimumPitch": 58,
+      "maximumPitch": 91,
+      "density": 70,
+      "instrumentSelector": {
+        "families": [
+          "pipe",
+          "reed",
+          "strings",
+          "brass",
+          "piano",
+          "chromaticPercussion",
+          "ethnic",
+          "synthLead"
+        ],
+        "preferredTags": [
+          "lead",
+          "expressive",
+          "memorable"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 58,
+        "maximumPitch": 91,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 0
+    },
+    {
+      "id": "bass",
+      "name": "Travel — Sailing Ship Bass",
+      "role": "bass",
+      "enabled": true,
+      "generalMidiProgram": 43,
+      "isPercussion": false,
+      "rhythmPatternId": "quarters",
+      "minimumPitch": 27,
+      "maximumPitch": 56,
+      "density": 62,
+      "instrumentSelector": {
+        "families": [
+          "strings",
+          "bass",
+          "organ",
+          "ethnic",
+          "synthLead"
+        ],
+        "preferredTags": [
+          "low",
+          "supportive",
+          "warm"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 27,
+        "maximumPitch": 56,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 2
+    },
+    {
+      "id": "chords",
+      "name": "Travel — Sailing Ship Harmony",
+      "role": "chords",
+      "enabled": true,
+      "generalMidiProgram": 25,
+      "isPercussion": false,
+      "rhythmPatternId": "quarters",
+      "minimumPitch": 42,
+      "maximumPitch": 82,
+      "density": 70,
+      "instrumentSelector": {
+        "families": [
+          "strings",
+          "ensemble",
+          "piano",
+          "guitar",
+          "organ",
+          "synthPad",
+          "ethnic"
+        ],
+        "preferredTags": [
+          "harmony",
+          "atmospheric",
+          "supportive"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 42,
+        "maximumPitch": 82,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 3,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 1
+    },
+    {
+      "id": "arpeggio",
+      "name": "Travel — Sailing Ship Motion",
+      "role": "arpeggio",
+      "enabled": true,
+      "generalMidiProgram": 46,
+      "isPercussion": false,
+      "rhythmPatternId": "ship-sway",
+      "minimumPitch": 48,
+      "maximumPitch": 97,
+      "density": 62,
+      "instrumentSelector": {
+        "families": [
+          "piano",
+          "chromaticPercussion",
+          "guitar",
+          "strings",
+          "synthLead",
+          "ethnic"
+        ],
+        "preferredTags": [
+          "clear",
+          "pulse",
+          "articulate"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 48,
+        "maximumPitch": 97,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 3
+    },
+    {
+      "id": "counter",
+      "name": "Travel — Sailing Ship Counterline",
+      "role": "counterMelody",
+      "enabled": true,
+      "generalMidiProgram": 68,
+      "isPercussion": false,
+      "rhythmPatternId": "adventure-ostinato",
+      "minimumPitch": 53,
+      "maximumPitch": 89,
+      "density": 50,
+      "instrumentSelector": {
+        "families": [
+          "reed",
+          "pipe",
+          "strings",
+          "brass",
+          "synthLead"
+        ],
+        "preferredTags": [
+          "counterline",
+          "clear",
+          "expressive"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 53,
+        "maximumPitch": 89,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 4
+    },
+    {
+      "id": "texture",
+      "name": "Travel — Sailing Ship Atmosphere",
+      "role": "texture",
+      "enabled": true,
+      "generalMidiProgram": 89,
+      "isPercussion": false,
+      "rhythmPatternId": "ambient-loop",
+      "minimumPitch": 32,
+      "maximumPitch": 101,
+      "density": 45,
+      "instrumentSelector": {
+        "families": [
+          "synthPad",
+          "ensemble",
+          "strings",
+          "organ",
+          "synthEffects"
+        ],
+        "preferredTags": [
+          "atmospheric",
+          "sustaining",
+          "environmental"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 32,
+        "maximumPitch": 101,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 3,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 5
+    },
+    {
+      "id": "drums",
+      "name": "Travel — Sailing Ship Percussion",
+      "role": "drums",
+      "enabled": true,
+      "generalMidiProgram": 0,
+      "isPercussion": true,
+      "rhythmPatternId": "ship-sway",
+      "minimumPitch": 35,
+      "maximumPitch": 81,
+      "density": 40,
+      "instrumentSelector": {
+        "families": [
+          "drums"
+        ],
+        "preferredTags": [
+          "percussive",
+          "supportive"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 35,
+        "maximumPitch": 81,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 9
+    }
+  ]
+}

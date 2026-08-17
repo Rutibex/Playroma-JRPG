@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <UseWindowsForms>true</UseWindowsForms>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <RootNamespace>Playroma.JRPG.Phase9A.WinForms.Tests</RootNamespace>
+    <AssemblyName>Playroma.JRPG.Phase9A.WinForms.Tests</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../src/Playroma.JRPG.Application/Playroma.JRPG.Application.csproj" />
+    <ProjectReference Include="../../src/Playroma.JRPG.DatabaseEditing/Playroma.JRPG.DatabaseEditing.csproj" />
+    <ProjectReference Include="../../src/Playroma.JRPG.Documents.Mutable/Playroma.JRPG.Documents.Mutable.csproj" />
+    <ProjectReference Include="../../src/Playroma.JRPG.Editor.Shell/Playroma.JRPG.Editor.Shell.csproj" />
+    <ProjectReference Include="../../src/Playroma.JRPG.Editor.WinForms/Playroma.JRPG.Editor.WinForms.csproj" />
+    <ProjectReference Include="../../src/Playroma.JRPG.RpgMakerMV/Playroma.JRPG.RpgMakerMV.csproj" />
+  </ItemGroup>
+</Project>

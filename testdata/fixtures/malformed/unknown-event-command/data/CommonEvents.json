@@ -1,0 +1,24 @@
+[
+  null,
+  {
+    "id": 1,
+    "list": [
+      {
+        "code": 9999,
+        "indent": 0,
+        "parameters": [
+          "preserve",
+          42
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Unknown Command",
+    "switchId": 1,
+    "trigger": 0
+  }
+]

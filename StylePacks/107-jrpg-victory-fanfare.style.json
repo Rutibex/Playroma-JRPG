@@ -1,0 +1,295 @@
+{
+  "schemaVersion": 1,
+  "id": "jrpg-victory-fanfare",
+  "name": "Battle — Victory Fanfare",
+  "description": "A compact triumphant brass-and-percussion reward cue with an unmistakable final cadence.",
+  "version": "1.0.0",
+  "family": "jrpg",
+  "abstract": false,
+  "extends": "jrpg-foundation",
+  "tempo": {
+    "minimum": 116,
+    "maximum": 152
+  },
+  "meter": {
+    "beatsPerBar": 4,
+    "beatUnit": 4
+  },
+  "candidateCount": 16,
+  "scales": [
+    "major",
+    "mixolydian"
+  ],
+  "forms": {
+    "grammarId": "jrpg-victory-cue-v1",
+    "productions": [
+      [
+        "I",
+        "B",
+        "B'",
+        "O"
+      ]
+    ],
+    "tokens": [
+      {
+        "symbol": "I",
+        "name": "Drum Pickup",
+        "kind": "intro",
+        "lengthBars": 1,
+        "energy": 0.72,
+        "treatment": "fragment"
+      },
+      {
+        "symbol": "B",
+        "name": "Victory Call",
+        "kind": "chorus",
+        "lengthBars": 2,
+        "energy": 0.96,
+        "treatment": "original"
+      },
+      {
+        "symbol": "B'",
+        "name": "Triumphant Answer",
+        "kind": "chorus",
+        "lengthBars": 2,
+        "energy": 1.0,
+        "treatment": "transpose"
+      },
+      {
+        "symbol": "O",
+        "name": "Held Emblem",
+        "kind": "outro",
+        "lengthBars": 1,
+        "energy": 0.75,
+        "treatment": "augment"
+      }
+    ]
+  },
+  "harmony": {
+    "grammarId": "victory-fanfare-harmony-v1",
+    "progressions": {
+      "intro": [
+        [
+          0,
+          3,
+          4,
+          0
+        ]
+      ],
+      "verse": [
+        [
+          0,
+          3,
+          4,
+          0
+        ]
+      ],
+      "chorus": [
+        [
+          0,
+          4,
+          0,
+          0
+        ]
+      ],
+      "bridge": [
+        [
+          3,
+          4,
+          0,
+          0
+        ]
+      ],
+      "breakdown": [
+        [
+          3,
+          4,
+          0,
+          0
+        ]
+      ],
+      "solo": [
+        [
+          0,
+          4,
+          0,
+          0
+        ]
+      ],
+      "outro": [
+        [
+          0,
+          3,
+          4,
+          0
+        ]
+      ]
+    }
+  },
+  "roles": [
+    {
+      "id": "melody",
+      "name": "Victory Brass",
+      "role": "lead",
+      "enabled": true,
+      "generalMidiProgram": 56,
+      "isPercussion": false,
+      "rhythmPatternId": "heroic-march",
+      "minimumPitch": 64,
+      "maximumPitch": 96,
+      "density": 90,
+      "instrumentSelector": {
+        "families": [
+          "brass",
+          "strings"
+        ],
+        "preferredTags": [
+          "triumphant",
+          "bright",
+          "lead"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 64,
+        "maximumPitch": 96,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 3,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 0
+    },
+    {
+      "id": "chords",
+      "name": "Fanfare Ensemble",
+      "role": "chords",
+      "enabled": true,
+      "generalMidiProgram": 61,
+      "isPercussion": false,
+      "rhythmPatternId": "heroic-march",
+      "minimumPitch": 48,
+      "maximumPitch": 88,
+      "density": 88,
+      "instrumentSelector": {
+        "families": [
+          "brass",
+          "ensemble",
+          "strings"
+        ],
+        "preferredTags": [
+          "grand",
+          "bold",
+          "harmony"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 48,
+        "maximumPitch": 88,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 3,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 1
+    },
+    {
+      "id": "arpeggio",
+      "name": "Fanfare Flourish",
+      "role": "arpeggio",
+      "enabled": true,
+      "generalMidiProgram": 47,
+      "isPercussion": false,
+      "rhythmPatternId": "battle-drive",
+      "minimumPitch": 55,
+      "maximumPitch": 98,
+      "density": 76,
+      "instrumentSelector": {
+        "families": [
+          "brass",
+          "chromaticPercussion",
+          "strings"
+        ],
+        "preferredTags": [
+          "bright",
+          "articulate"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 55,
+        "maximumPitch": 98,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 3
+    },
+    {
+      "id": "drums",
+      "name": "Fanfare Percussion",
+      "role": "drums",
+      "enabled": true,
+      "generalMidiProgram": 0,
+      "isPercussion": true,
+      "rhythmPatternId": "heroic-march",
+      "minimumPitch": 35,
+      "maximumPitch": 81,
+      "density": 86,
+      "instrumentSelector": {
+        "families": [
+          "drums"
+        ],
+        "preferredTags": [
+          "powerful",
+          "percussive"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 35,
+        "maximumPitch": 81,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument"
+        ]
+      },
+      "midiChannel": 9
+    }
+  ]
+}

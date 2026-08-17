@@ -1,0 +1,12 @@
+{
+  "schema": "playroma-sprite-pipeline/1",
+  "name": "MV Release Export",
+  "description": "Validate, export an atlas, and save the editable package.",
+  "requiredCapabilities": "readDocument, writeFiles",
+  "continueOnError": false,
+  "steps": [
+    { "id": "validate", "command": "validate-document", "enabled": true, "continueOnError": false, "arguments": {} },
+    { "id": "atlas", "command": "export-atlas", "enabled": true, "continueOnError": false, "arguments": { "path": "data/PlayromaSprite/Exports/${document}-atlas.png", "padding": 1, "extrude": true, "trim": true, "powerOfTwo": true } },
+    { "id": "package", "command": "save-package", "enabled": true, "continueOnError": false, "arguments": { "path": "data/PlayromaSprite/Exports/${document}.playromasprite" } }
+  ]
+}

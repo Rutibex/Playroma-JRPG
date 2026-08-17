@@ -1,0 +1,4453 @@
+{
+  "schemaVersion": 3,
+  "runtimeFamily": "RPG Maker MV",
+  "commands": [
+    {
+      "code": 0,
+      "name": "End of List",
+      "category": "Structural",
+      "isContinuation": false,
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 101,
+      "name": "Show Text",
+      "category": "Message",
+      "isContinuation": false,
+      "sampleParameters": [
+        "",
+        0,
+        0,
+        2
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "continuationGroup",
+      "editor": "showText",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "faceName",
+          "displayName": "Face",
+          "type": "asset",
+          "assetCategory": "Faces",
+          "description": "Face"
+        },
+        {
+          "index": 1,
+          "name": "faceIndex",
+          "displayName": "Face Index",
+          "type": "integer",
+          "description": "Face Index",
+          "minimum": 0,
+          "maximum": 7
+        },
+        {
+          "index": 2,
+          "name": "background",
+          "displayName": "Background",
+          "type": "enum",
+          "description": "Background",
+          "options": {
+            "0": "Window",
+            "1": "Dim",
+            "2": "Transparent"
+          }
+        },
+        {
+          "index": 3,
+          "name": "position",
+          "displayName": "Position",
+          "type": "enum",
+          "description": "Position",
+          "options": {
+            "0": "Top",
+            "1": "Middle",
+            "2": "Bottom"
+          }
+        }
+      ]
+    },
+    {
+      "code": 102,
+      "name": "Show Choices",
+      "category": "Message",
+      "isContinuation": false,
+      "sampleParameters": [
+        [
+          "Choice A",
+          "Choice B"
+        ],
+        1,
+        0,
+        2,
+        0
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "choices",
+      "editor": "choices",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "choices",
+          "displayName": "Choices",
+          "type": "stringArray",
+          "description": "Choices"
+        },
+        {
+          "index": 1,
+          "name": "cancelType",
+          "displayName": "Cancel",
+          "type": "integer",
+          "description": "-2 disallows cancel; -1 creates a cancel branch; otherwise selects a choice index.",
+          "minimum": -2,
+          "maximum": 20
+        },
+        {
+          "index": 2,
+          "name": "defaultType",
+          "displayName": "Default",
+          "type": "integer",
+          "optional": true,
+          "description": "Default",
+          "minimum": -1,
+          "maximum": 20
+        },
+        {
+          "index": 3,
+          "name": "positionType",
+          "displayName": "Position",
+          "type": "enum",
+          "optional": true,
+          "description": "Position",
+          "options": {
+            "0": "Left",
+            "1": "Middle",
+            "2": "Right"
+          }
+        },
+        {
+          "index": 4,
+          "name": "background",
+          "displayName": "Background",
+          "type": "enum",
+          "optional": true,
+          "description": "Background",
+          "options": {
+            "0": "Window",
+            "1": "Dim",
+            "2": "Transparent"
+          }
+        }
+      ]
+    },
+    {
+      "code": 103,
+      "name": "Input Number",
+      "category": "Message",
+      "isContinuation": false,
+      "sampleParameters": [
+        1,
+        4
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "variableId",
+          "displayName": "Variable",
+          "type": "databaseId",
+          "target": "Variable",
+          "description": "Variable"
+        },
+        {
+          "index": 1,
+          "name": "digits",
+          "displayName": "Digits",
+          "type": "integer",
+          "description": "Digits",
+          "minimum": 1,
+          "maximum": 8
+        }
+      ]
+    },
+    {
+      "code": 104,
+      "name": "Select Item",
+      "category": "Message",
+      "isContinuation": false,
+      "sampleParameters": [
+        1,
+        2
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "variableId",
+          "displayName": "Variable",
+          "type": "databaseId",
+          "target": "Variable",
+          "description": "Variable"
+        },
+        {
+          "index": 1,
+          "name": "itemType",
+          "displayName": "Item Type",
+          "type": "enum",
+          "description": "Item Type",
+          "options": {
+            "1": "Regular Item",
+            "2": "Key Item",
+            "3": "Hidden Item A",
+            "4": "Hidden Item B"
+          }
+        }
+      ]
+    },
+    {
+      "code": 105,
+      "name": "Show Scrolling Text",
+      "category": "Message",
+      "isContinuation": false,
+      "sampleParameters": [
+        2,
+        false
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "continuationGroup",
+      "editor": "scrollingText",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "speed",
+          "displayName": "Speed",
+          "type": "integer",
+          "description": "Speed"
+        },
+        {
+          "index": 1,
+          "name": "noFast",
+          "displayName": "Disable Fast Forward",
+          "type": "boolean",
+          "description": "Disable Fast Forward"
+        }
+      ]
+    },
+    {
+      "code": 108,
+      "name": "Comment",
+      "category": "Message",
+      "isContinuation": false,
+      "sampleParameters": [
+        "Fixture comment"
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "continuationGroup",
+      "editor": "comment",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "text",
+          "displayName": "Comment",
+          "type": "string",
+          "description": "Comment"
+        }
+      ]
+    },
+    {
+      "code": 111,
+      "name": "Conditional Branch",
+      "category": "Flow Control",
+      "isContinuation": false,
+      "sampleParameters": [
+        0,
+        1,
+        0
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "conditional",
+      "editor": "conditional",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "conditionType",
+          "displayName": "Condition Type",
+          "type": "integer",
+          "description": "Condition Type"
+        },
+        {
+          "index": 1,
+          "name": "operand1",
+          "displayName": "Operand 1",
+          "type": "json",
+          "optional": true,
+          "description": "Operand 1"
+        },
+        {
+          "index": 2,
+          "name": "operand2",
+          "displayName": "Operand 2",
+          "type": "json",
+          "optional": true,
+          "description": "Operand 2"
+        },
+        {
+          "index": 3,
+          "name": "operand3",
+          "displayName": "Operand 3",
+          "type": "json",
+          "optional": true,
+          "description": "Operand 3"
+        },
+        {
+          "index": 4,
+          "name": "operand4",
+          "displayName": "Operand 4",
+          "type": "json",
+          "optional": true,
+          "description": "Operand 4"
+        }
+      ]
+    },
+    {
+      "code": 112,
+      "name": "Loop",
+      "category": "Flow Control",
+      "isContinuation": false,
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "loop",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 113,
+      "name": "Break Loop",
+      "category": "Flow Control",
+      "isContinuation": false,
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 115,
+      "name": "Exit Event Processing",
+      "category": "Flow Control",
+      "isContinuation": false,
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 117,
+      "name": "Common Event",
+      "category": "Flow Control",
+      "isContinuation": false,
+      "sampleParameters": [
+        1
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "commonEventId",
+          "displayName": "Common Event",
+          "type": "databaseId",
+          "target": "CommonEvent",
+          "description": "Common Event"
+        }
+      ]
+    },
+    {
+      "code": 118,
+      "name": "Label",
+      "category": "Flow Control",
+      "isContinuation": false,
+      "sampleParameters": [
+        "FixtureLabel"
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "label",
+          "displayName": "Label",
+          "type": "string",
+          "description": "Label"
+        }
+      ]
+    },
+    {
+      "code": 119,
+      "name": "Jump to Label",
+      "category": "Flow Control",
+      "isContinuation": false,
+      "sampleParameters": [
+        "FixtureLabel"
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "label",
+          "displayName": "Label",
+          "type": "string",
+          "description": "Label"
+        }
+      ]
+    },
+    {
+      "code": 121,
+      "name": "Control Switches",
+      "category": "Game Progression",
+      "isContinuation": false,
+      "sampleParameters": [
+        1,
+        1,
+        0
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "firstSwitchId",
+          "displayName": "First Switch",
+          "type": "databaseId",
+          "target": "Switch",
+          "description": "First Switch"
+        },
+        {
+          "index": 1,
+          "name": "lastSwitchId",
+          "displayName": "Last Switch",
+          "type": "databaseId",
+          "target": "Switch",
+          "description": "Last Switch"
+        },
+        {
+          "index": 2,
+          "name": "operation",
+          "displayName": "Operation",
+          "type": "enum",
+          "description": "Operation",
+          "options": {
+            "0": "ON",
+            "1": "OFF"
+          }
+        }
+      ]
+    },
+    {
+      "code": 122,
+      "name": "Control Variables",
+      "category": "Game Progression",
+      "isContinuation": false,
+      "sampleParameters": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "variables",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "firstVariableId",
+          "displayName": "First Variable",
+          "type": "databaseId",
+          "target": "Variable",
+          "description": "First Variable"
+        },
+        {
+          "index": 1,
+          "name": "lastVariableId",
+          "displayName": "Last Variable",
+          "type": "databaseId",
+          "target": "Variable",
+          "description": "Last Variable"
+        },
+        {
+          "index": 2,
+          "name": "operation",
+          "displayName": "Operation",
+          "type": "enum",
+          "description": "Operation",
+          "options": {
+            "0": "Set",
+            "1": "Add",
+            "2": "Subtract",
+            "3": "Multiply",
+            "4": "Divide",
+            "5": "Modulo"
+          }
+        },
+        {
+          "index": 3,
+          "name": "operandType",
+          "displayName": "Operand Type",
+          "type": "enum",
+          "description": "Operand Type",
+          "options": {
+            "0": "Constant",
+            "1": "Variable",
+            "2": "Random",
+            "3": "Game Data",
+            "4": "Script"
+          }
+        },
+        {
+          "index": 4,
+          "name": "operand",
+          "displayName": "Operand",
+          "type": "json",
+          "description": "Operand"
+        },
+        {
+          "index": 5,
+          "name": "operand2",
+          "displayName": "Operand 2",
+          "type": "json",
+          "optional": true,
+          "description": "Operand 2"
+        },
+        {
+          "index": 6,
+          "name": "operand3",
+          "displayName": "Operand 3",
+          "type": "json",
+          "optional": true,
+          "description": "Operand 3"
+        }
+      ]
+    },
+    {
+      "code": 123,
+      "name": "Control Self Switch",
+      "category": "Game Progression",
+      "isContinuation": false,
+      "sampleParameters": [
+        "A",
+        0
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "selfSwitch",
+          "displayName": "Self Switch",
+          "type": "string",
+          "description": "Self Switch"
+        },
+        {
+          "index": 1,
+          "name": "operation",
+          "displayName": "Operation",
+          "type": "enum",
+          "description": "Operation",
+          "options": {
+            "0": "ON",
+            "1": "OFF"
+          }
+        }
+      ]
+    },
+    {
+      "code": 124,
+      "name": "Control Timer",
+      "category": "Game Progression",
+      "isContinuation": false,
+      "sampleParameters": [
+        0,
+        60
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "operation",
+          "displayName": "Operation",
+          "type": "enum",
+          "description": "Operation",
+          "options": {
+            "0": "Start",
+            "1": "Stop"
+          }
+        },
+        {
+          "index": 1,
+          "name": "seconds",
+          "displayName": "Seconds",
+          "type": "integer",
+          "description": "Seconds",
+          "minimum": 0,
+          "maximum": 9999,
+          "unit": "seconds"
+        }
+      ]
+    },
+    {
+      "code": 125,
+      "name": "Change Gold",
+      "category": "Game Progression",
+      "isContinuation": false,
+      "sampleParameters": [
+        0,
+        0,
+        10
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "operation",
+          "displayName": "Operation",
+          "type": "enum",
+          "description": "Operation",
+          "options": {
+            "0": "Increase",
+            "1": "Decrease"
+          }
+        },
+        {
+          "index": 1,
+          "name": "operandType",
+          "displayName": "Operand Type",
+          "type": "enum",
+          "description": "Operand Type",
+          "options": {
+            "0": "Constant",
+            "1": "Variable"
+          }
+        },
+        {
+          "index": 2,
+          "name": "operand",
+          "displayName": "Operand",
+          "type": "integer",
+          "description": "Operand",
+          "minimum": 0,
+          "maximum": 999999
+        }
+      ]
+    },
+    {
+      "code": 126,
+      "name": "Change Items",
+      "category": "Game Progression",
+      "isContinuation": false,
+      "sampleParameters": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "itemId",
+          "displayName": "Item",
+          "type": "databaseId",
+          "target": "Item",
+          "description": "Item"
+        },
+        {
+          "index": 1,
+          "name": "operation",
+          "displayName": "Operation",
+          "type": "enum",
+          "description": "Operation",
+          "options": {
+            "0": "Increase",
+            "1": "Decrease"
+          }
+        },
+        {
+          "index": 2,
+          "name": "operandType",
+          "displayName": "Operand Type",
+          "type": "enum",
+          "description": "Operand Type",
+          "options": {
+            "0": "Constant",
+            "1": "Variable"
+          }
+        },
+        {
+          "index": 3,
+          "name": "operand",
+          "displayName": "Operand",
+          "type": "integer",
+          "description": "Operand",
+          "minimum": 0,
+          "maximum": 999999
+        }
+      ]
+    },
+    {
+      "code": 127,
+      "name": "Change Weapons",
+      "category": "Game Progression",
+      "isContinuation": false,
+      "sampleParameters": [
+        1,
+        0,
+        0,
+        1,
+        false
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "weaponId",
+          "displayName": "Weapon",
+          "type": "databaseId",
+          "target": "Weapon",
+          "description": "Weapon"
+        },
+        {
+          "index": 1,
+          "name": "operation",
+          "displayName": "Operation",
+          "type": "enum",
+          "description": "Operation",
+          "options": {
+            "0": "Increase",
+            "1": "Decrease"
+          }
+        },
+        {
+          "index": 2,
+          "name": "operandType",
+          "displayName": "Operand Type",
+          "type": "enum",
+          "description": "Operand Type",
+          "options": {
+            "0": "Constant",
+            "1": "Variable"
+          }
+        },
+        {
+          "index": 3,
+          "name": "operand",
+          "displayName": "Operand",
+          "type": "integer",
+          "description": "Operand",
+          "minimum": 0,
+          "maximum": 999999
+        },
+        {
+          "index": 4,
+          "name": "includeEquipment",
+          "displayName": "Include Equipment",
+          "type": "boolean",
+          "optional": true,
+          "description": "Include Equipment"
+        }
+      ]
+    },
+    {
+      "code": 128,
+      "name": "Change Armors",
+      "category": "Game Progression",
+      "isContinuation": false,
+      "sampleParameters": [
+        1,
+        0,
+        0,
+        1,
+        false
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "armorId",
+          "displayName": "Armor",
+          "type": "databaseId",
+          "target": "Armor",
+          "description": "Armor"
+        },
+        {
+          "index": 1,
+          "name": "operation",
+          "displayName": "Operation",
+          "type": "enum",
+          "description": "Operation",
+          "options": {
+            "0": "Increase",
+            "1": "Decrease"
+          }
+        },
+        {
+          "index": 2,
+          "name": "operandType",
+          "displayName": "Operand Type",
+          "type": "enum",
+          "description": "Operand Type",
+          "options": {
+            "0": "Constant",
+            "1": "Variable"
+          }
+        },
+        {
+          "index": 3,
+          "name": "operand",
+          "displayName": "Operand",
+          "type": "integer",
+          "description": "Operand",
+          "minimum": 0,
+          "maximum": 999999
+        },
+        {
+          "index": 4,
+          "name": "includeEquipment",
+          "displayName": "Include Equipment",
+          "type": "boolean",
+          "optional": true,
+          "description": "Include Equipment"
+        }
+      ]
+    },
+    {
+      "code": 129,
+      "name": "Change Party Member",
+      "category": "Game Progression",
+      "isContinuation": false,
+      "sampleParameters": [
+        1,
+        0,
+        false
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "actorId",
+          "displayName": "Actor",
+          "type": "databaseId",
+          "target": "Actor",
+          "description": "Actor"
+        },
+        {
+          "index": 1,
+          "name": "operation",
+          "displayName": "Operation",
+          "type": "enum",
+          "description": "Operation",
+          "options": {
+            "0": "Add",
+            "1": "Remove"
+          }
+        },
+        {
+          "index": 2,
+          "name": "initialize",
+          "displayName": "Initialize",
+          "type": "boolean",
+          "description": "Initialize"
+        }
+      ]
+    },
+    {
+      "code": 132,
+      "name": "Change Battle BGM",
+      "category": "System",
+      "isContinuation": false,
+      "sampleParameters": [
+        {
+          "name": "",
+          "volume": 90,
+          "pitch": 100,
+          "pan": 0
+        }
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "audio",
+          "displayName": "Battle BGM",
+          "type": "audio",
+          "description": "Battle BGM"
+        }
+      ]
+    },
+    {
+      "code": 133,
+      "name": "Change Victory ME",
+      "category": "System",
+      "isContinuation": false,
+      "sampleParameters": [
+        {
+          "name": "",
+          "volume": 90,
+          "pitch": 100,
+          "pan": 0
+        }
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "audio",
+          "displayName": "Victory ME",
+          "type": "audio",
+          "description": "Victory ME"
+        }
+      ]
+    },
+    {
+      "code": 134,
+      "name": "Change Save Access",
+      "category": "System",
+      "isContinuation": false,
+      "sampleParameters": [
+        0
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "disabled",
+          "displayName": "Disable",
+          "type": "enum",
+          "description": "Disable",
+          "options": {
+            "0": "Enable",
+            "1": "Disable"
+          }
+        }
+      ]
+    },
+    {
+      "code": 135,
+      "name": "Change Menu Access",
+      "category": "System",
+      "isContinuation": false,
+      "sampleParameters": [
+        0
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "disabled",
+          "displayName": "Disable",
+          "type": "enum",
+          "description": "Disable",
+          "options": {
+            "0": "Enable",
+            "1": "Disable"
+          }
+        }
+      ]
+    },
+    {
+      "code": 136,
+      "name": "Change Encounter Disable",
+      "category": "System",
+      "isContinuation": false,
+      "sampleParameters": [
+        0
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "disabled",
+          "displayName": "Disable",
+          "type": "enum",
+          "description": "Disable",
+          "options": {
+            "0": "Enable",
+            "1": "Disable"
+          }
+        }
+      ]
+    },
+    {
+      "code": 137,
+      "name": "Change Formation Access",
+      "category": "System",
+      "isContinuation": false,
+      "sampleParameters": [
+        0
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "disabled",
+          "displayName": "Disable",
+          "type": "enum",
+          "description": "Disable",
+          "options": {
+            "0": "Enable",
+            "1": "Disable"
+          }
+        }
+      ]
+    },
+    {
+      "code": 138,
+      "name": "Change Window Color",
+      "category": "System",
+      "isContinuation": false,
+      "sampleParameters": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "tone",
+          "displayName": "Window Tone",
+          "type": "tone",
+          "description": "Window Tone"
+        }
+      ]
+    },
+    {
+      "code": 139,
+      "name": "Change Defeat ME",
+      "category": "System",
+      "isContinuation": false,
+      "sampleParameters": [
+        {
+          "name": "",
+          "volume": 90,
+          "pitch": 100,
+          "pan": 0
+        }
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "audio",
+          "displayName": "Defeat ME",
+          "type": "audio",
+          "description": "Defeat ME"
+        }
+      ]
+    },
+    {
+      "code": 140,
+      "name": "Change Vehicle BGM",
+      "category": "System",
+      "isContinuation": false,
+      "sampleParameters": [
+        0,
+        {
+          "name": "",
+          "volume": 90,
+          "pitch": 100,
+          "pan": 0
+        }
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "vehicle",
+          "displayName": "Vehicle",
+          "type": "enum",
+          "description": "Vehicle",
+          "options": {
+            "0": "Boat",
+            "1": "Ship",
+            "2": "Airship"
+          }
+        },
+        {
+          "index": 1,
+          "name": "audio",
+          "displayName": "BGM",
+          "type": "audio",
+          "description": "BGM"
+        }
+      ]
+    },
+    {
+      "code": 201,
+      "name": "Transfer Player",
+      "category": "Movement",
+      "isContinuation": false,
+      "sampleParameters": [
+        0,
+        1,
+        0,
+        0,
+        2,
+        0
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "transfer",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "designation",
+          "displayName": "Designation",
+          "type": "enum",
+          "description": "Designation",
+          "options": {
+            "0": "Direct designation",
+            "1": "Designation with variables"
+          }
+        },
+        {
+          "index": 1,
+          "name": "mapId",
+          "displayName": "Map / Variable",
+          "type": "databaseId",
+          "target": "Map",
+          "description": "Map / Variable"
+        },
+        {
+          "index": 2,
+          "name": "x",
+          "displayName": "X / Variable",
+          "type": "integer",
+          "description": "X / Variable",
+          "minimum": -9999,
+          "maximum": 9999
+        },
+        {
+          "index": 3,
+          "name": "y",
+          "displayName": "Y / Variable",
+          "type": "integer",
+          "description": "Y / Variable",
+          "minimum": -9999,
+          "maximum": 9999
+        },
+        {
+          "index": 4,
+          "name": "direction",
+          "displayName": "Direction",
+          "type": "enum",
+          "description": "Direction",
+          "options": {
+            "0": "Retain",
+            "2": "Down",
+            "4": "Left",
+            "6": "Right",
+            "8": "Up"
+          }
+        },
+        {
+          "index": 5,
+          "name": "fade",
+          "displayName": "Fade",
+          "type": "enum",
+          "description": "Fade",
+          "options": {
+            "0": "Black",
+            "1": "White",
+            "2": "None"
+          }
+        }
+      ]
+    },
+    {
+      "code": 202,
+      "name": "Set Vehicle Location",
+      "category": "Movement",
+      "isContinuation": false,
+      "sampleParameters": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "vehicleLocation",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "vehicle",
+          "displayName": "Vehicle",
+          "type": "enum",
+          "description": "Vehicle",
+          "options": {
+            "0": "Boat",
+            "1": "Ship",
+            "2": "Airship"
+          }
+        },
+        {
+          "index": 1,
+          "name": "designation",
+          "displayName": "Designation",
+          "type": "enum",
+          "description": "Designation",
+          "options": {
+            "0": "Direct designation",
+            "1": "Designation with variables"
+          }
+        },
+        {
+          "index": 2,
+          "name": "mapId",
+          "displayName": "Map / Variable",
+          "type": "integer",
+          "description": "Map / Variable",
+          "minimum": 0,
+          "maximum": 999999
+        },
+        {
+          "index": 3,
+          "name": "x",
+          "displayName": "X / Variable",
+          "type": "integer",
+          "description": "X / Variable",
+          "minimum": -9999,
+          "maximum": 9999
+        },
+        {
+          "index": 4,
+          "name": "y",
+          "displayName": "Y / Variable",
+          "type": "integer",
+          "description": "Y / Variable",
+          "minimum": -9999,
+          "maximum": 9999
+        }
+      ]
+    },
+    {
+      "code": 203,
+      "name": "Set Event Location",
+      "category": "Movement",
+      "isContinuation": false,
+      "sampleParameters": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "eventLocation",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "character",
+          "displayName": "Character",
+          "type": "integer",
+          "description": "Character"
+        },
+        {
+          "index": 1,
+          "name": "designation",
+          "displayName": "Designation",
+          "type": "enum",
+          "description": "Designation",
+          "options": {
+            "0": "Direct designation",
+            "1": "Designation with variables",
+            "2": "Exchange with another event"
+          }
+        },
+        {
+          "index": 2,
+          "name": "x",
+          "displayName": "X / Event",
+          "type": "integer",
+          "description": "X / Event",
+          "minimum": -9999,
+          "maximum": 9999
+        },
+        {
+          "index": 3,
+          "name": "y",
+          "displayName": "Y",
+          "type": "integer",
+          "description": "Y",
+          "minimum": -9999,
+          "maximum": 9999
+        },
+        {
+          "index": 4,
+          "name": "direction",
+          "displayName": "Direction",
+          "type": "enum",
+          "description": "Direction",
+          "options": {
+            "0": "Retain",
+            "2": "Down",
+            "4": "Left",
+            "6": "Right",
+            "8": "Up"
+          }
+        }
+      ]
+    },
+    {
+      "code": 204,
+      "name": "Scroll Map",
+      "category": "Movement",
+      "isContinuation": false,
+      "sampleParameters": [
+        2,
+        5,
+        4,
+        false
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "direction",
+          "displayName": "Direction",
+          "type": "enum",
+          "description": "Direction",
+          "options": {
+            "2": "Down",
+            "4": "Left",
+            "6": "Right",
+            "8": "Up"
+          }
+        },
+        {
+          "index": 1,
+          "name": "distance",
+          "displayName": "Distance",
+          "type": "integer",
+          "description": "Distance",
+          "minimum": 1,
+          "maximum": 999
+        },
+        {
+          "index": 2,
+          "name": "speed",
+          "displayName": "Speed",
+          "type": "integer",
+          "description": "Speed",
+          "options": {
+            "1": "1: x8 Slower",
+            "2": "2: x4 Slower",
+            "3": "3: x2 Slower",
+            "4": "4: Normal",
+            "5": "5: x2 Faster",
+            "6": "6: x4 Faster"
+          }
+        },
+        {
+          "index": 3,
+          "name": "wait",
+          "displayName": "Wait",
+          "type": "boolean",
+          "description": "Wait"
+        }
+      ]
+    },
+    {
+      "code": 205,
+      "name": "Set Movement Route",
+      "category": "Movement",
+      "isContinuation": false,
+      "sampleParameters": [
+        0,
+        {
+          "repeat": false,
+          "skippable": true,
+          "wait": true,
+          "list": [
+            {
+              "code": 1,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "parameters": []
+            }
+          ]
+        }
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "continuationGroup",
+      "editor": "movementRoute",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "character",
+          "displayName": "Character",
+          "type": "integer",
+          "description": "Character"
+        },
+        {
+          "index": 1,
+          "name": "route",
+          "displayName": "Movement Route",
+          "type": "moveRoute",
+          "description": "Movement Route"
+        }
+      ]
+    },
+    {
+      "code": 206,
+      "name": "Get On/Off Vehicle",
+      "category": "Movement",
+      "isContinuation": false,
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 211,
+      "name": "Change Transparency",
+      "category": "Movement",
+      "isContinuation": false,
+      "sampleParameters": [
+        0
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "transparent",
+          "displayName": "Transparent",
+          "type": "enum",
+          "description": "Transparent",
+          "options": {
+            "0": "ON",
+            "1": "OFF"
+          }
+        }
+      ]
+    },
+    {
+      "code": 212,
+      "name": "Show Animation",
+      "category": "Movement",
+      "isContinuation": false,
+      "sampleParameters": [
+        0,
+        1,
+        false
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "character",
+          "displayName": "Character",
+          "type": "integer",
+          "description": "Character"
+        },
+        {
+          "index": 1,
+          "name": "animationId",
+          "displayName": "Animation",
+          "type": "databaseId",
+          "target": "Animation",
+          "description": "Animation"
+        },
+        {
+          "index": 2,
+          "name": "wait",
+          "displayName": "Wait",
+          "type": "boolean",
+          "description": "Wait"
+        }
+      ]
+    },
+    {
+      "code": 213,
+      "name": "Show Balloon Icon",
+      "category": "Movement",
+      "isContinuation": false,
+      "sampleParameters": [
+        0,
+        1,
+        false
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "character",
+          "displayName": "Character",
+          "type": "integer",
+          "description": "Character"
+        },
+        {
+          "index": 1,
+          "name": "balloonId",
+          "displayName": "Balloon",
+          "type": "integer",
+          "description": "Balloon",
+          "minimum": 0,
+          "maximum": 999999
+        },
+        {
+          "index": 2,
+          "name": "wait",
+          "displayName": "Wait",
+          "type": "boolean",
+          "description": "Wait"
+        }
+      ]
+    },
+    {
+      "code": 214,
+      "name": "Erase Event",
+      "category": "Movement",
+      "isContinuation": false,
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 216,
+      "name": "Change Player Followers",
+      "category": "Movement",
+      "isContinuation": false,
+      "sampleParameters": [
+        0
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "visible",
+          "displayName": "Followers",
+          "type": "enum",
+          "description": "Followers",
+          "options": {
+            "0": "Show",
+            "1": "Hide"
+          }
+        }
+      ]
+    },
+    {
+      "code": 217,
+      "name": "Gather Followers",
+      "category": "Movement",
+      "isContinuation": false,
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 221,
+      "name": "Fadeout Screen",
+      "category": "Screen",
+      "isContinuation": false,
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 222,
+      "name": "Fadein Screen",
+      "category": "Screen",
+      "isContinuation": false,
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 223,
+      "name": "Tint Screen",
+      "category": "Screen",
+      "isContinuation": false,
+      "sampleParameters": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        60,
+        false
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "tone",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "tone",
+          "displayName": "Tone",
+          "type": "tone",
+          "description": "Tone"
+        },
+        {
+          "index": 1,
+          "name": "duration",
+          "displayName": "Duration",
+          "type": "integer",
+          "description": "Duration",
+          "minimum": 0,
+          "maximum": 9999,
+          "unit": "frames"
+        },
+        {
+          "index": 2,
+          "name": "wait",
+          "displayName": "Wait",
+          "type": "boolean",
+          "description": "Wait"
+        }
+      ]
+    },
+    {
+      "code": 224,
+      "name": "Flash Screen",
+      "category": "Screen",
+      "isContinuation": false,
+      "sampleParameters": [
+        [
+          255,
+          255,
+          255,
+          170
+        ],
+        60,
+        false
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "flash",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "color",
+          "displayName": "Color",
+          "type": "color",
+          "description": "Color"
+        },
+        {
+          "index": 1,
+          "name": "duration",
+          "displayName": "Duration",
+          "type": "integer",
+          "description": "Duration",
+          "minimum": 0,
+          "maximum": 9999,
+          "unit": "frames"
+        },
+        {
+          "index": 2,
+          "name": "wait",
+          "displayName": "Wait",
+          "type": "boolean",
+          "description": "Wait"
+        }
+      ]
+    },
+    {
+      "code": 225,
+      "name": "Shake Screen",
+      "category": "Screen",
+      "isContinuation": false,
+      "sampleParameters": [
+        5,
+        5,
+        60,
+        false
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "power",
+          "displayName": "Power",
+          "type": "integer",
+          "description": "Power",
+          "minimum": 0,
+          "maximum": 9
+        },
+        {
+          "index": 1,
+          "name": "speed",
+          "displayName": "Speed",
+          "type": "integer",
+          "description": "Speed"
+        },
+        {
+          "index": 2,
+          "name": "duration",
+          "displayName": "Duration",
+          "type": "integer",
+          "description": "Duration",
+          "minimum": 0,
+          "maximum": 9999,
+          "unit": "frames"
+        },
+        {
+          "index": 3,
+          "name": "wait",
+          "displayName": "Wait",
+          "type": "boolean",
+          "description": "Wait"
+        }
+      ]
+    },
+    {
+      "code": 230,
+      "name": "Wait",
+      "category": "Screen",
+      "isContinuation": false,
+      "sampleParameters": [
+        60
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "frames",
+          "displayName": "Frames",
+          "type": "integer",
+          "description": "Frames",
+          "minimum": 0,
+          "maximum": 9999,
+          "unit": "frames"
+        }
+      ]
+    },
+    {
+      "code": 231,
+      "name": "Show Picture",
+      "category": "Screen",
+      "isContinuation": false,
+      "sampleParameters": [
+        1,
+        "Fixture",
+        0,
+        0,
+        0,
+        0,
+        100,
+        100,
+        255,
+        0
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "picture",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "pictureId",
+          "displayName": "Picture Number",
+          "type": "integer",
+          "description": "Picture Number",
+          "minimum": 1,
+          "maximum": 100
+        },
+        {
+          "index": 1,
+          "name": "name",
+          "displayName": "Picture",
+          "type": "asset",
+          "assetCategory": "Pictures",
+          "description": "Picture"
+        },
+        {
+          "index": 2,
+          "name": "origin",
+          "displayName": "Origin",
+          "type": "enum",
+          "description": "Origin",
+          "options": {
+            "0": "Upper Left",
+            "1": "Center"
+          }
+        },
+        {
+          "index": 3,
+          "name": "designation",
+          "displayName": "Designation",
+          "type": "enum",
+          "description": "Designation",
+          "options": {
+            "0": "Direct designation",
+            "1": "Designation with variables"
+          }
+        },
+        {
+          "index": 4,
+          "name": "x",
+          "displayName": "X",
+          "type": "integer",
+          "description": "X",
+          "minimum": -9999,
+          "maximum": 9999
+        },
+        {
+          "index": 5,
+          "name": "y",
+          "displayName": "Y",
+          "type": "integer",
+          "description": "Y",
+          "minimum": -9999,
+          "maximum": 9999
+        },
+        {
+          "index": 6,
+          "name": "scaleX",
+          "displayName": "Scale X",
+          "type": "integer",
+          "description": "Scale X",
+          "minimum": -2000,
+          "maximum": 2000,
+          "unit": "%"
+        },
+        {
+          "index": 7,
+          "name": "scaleY",
+          "displayName": "Scale Y",
+          "type": "integer",
+          "description": "Scale Y",
+          "minimum": -2000,
+          "maximum": 2000,
+          "unit": "%"
+        },
+        {
+          "index": 8,
+          "name": "opacity",
+          "displayName": "Opacity",
+          "type": "integer",
+          "description": "Opacity",
+          "minimum": 0,
+          "maximum": 255
+        },
+        {
+          "index": 9,
+          "name": "blend",
+          "displayName": "Blend",
+          "type": "enum",
+          "description": "Blend",
+          "options": {
+            "0": "Normal",
+            "1": "Additive",
+            "2": "Multiply",
+            "3": "Screen"
+          }
+        }
+      ]
+    },
+    {
+      "code": 232,
+      "name": "Move Picture",
+      "category": "Screen",
+      "isContinuation": false,
+      "sampleParameters": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        100,
+        100,
+        255,
+        0,
+        60,
+        false
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "pictureMove",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "pictureId",
+          "displayName": "Picture Number",
+          "type": "integer",
+          "description": "Picture Number",
+          "minimum": 1,
+          "maximum": 100
+        },
+        {
+          "index": 1,
+          "name": "origin",
+          "displayName": "Origin",
+          "type": "enum",
+          "description": "Origin",
+          "options": {
+            "0": "Upper Left",
+            "1": "Center"
+          }
+        },
+        {
+          "index": 2,
+          "name": "designation",
+          "displayName": "Designation",
+          "type": "enum",
+          "description": "Designation",
+          "options": {
+            "0": "Direct designation",
+            "1": "Designation with variables"
+          }
+        },
+        {
+          "index": 3,
+          "name": "x",
+          "displayName": "X",
+          "type": "integer",
+          "description": "X",
+          "minimum": -9999,
+          "maximum": 9999
+        },
+        {
+          "index": 4,
+          "name": "y",
+          "displayName": "Y",
+          "type": "integer",
+          "description": "Y",
+          "minimum": -9999,
+          "maximum": 9999
+        },
+        {
+          "index": 5,
+          "name": "scaleX",
+          "displayName": "Scale X",
+          "type": "integer",
+          "description": "Scale X",
+          "minimum": -2000,
+          "maximum": 2000,
+          "unit": "%"
+        },
+        {
+          "index": 6,
+          "name": "scaleY",
+          "displayName": "Scale Y",
+          "type": "integer",
+          "description": "Scale Y",
+          "minimum": -2000,
+          "maximum": 2000,
+          "unit": "%"
+        },
+        {
+          "index": 7,
+          "name": "opacity",
+          "displayName": "Opacity",
+          "type": "integer",
+          "description": "Opacity",
+          "minimum": 0,
+          "maximum": 255
+        },
+        {
+          "index": 8,
+          "name": "blend",
+          "displayName": "Blend",
+          "type": "enum",
+          "description": "Blend",
+          "options": {
+            "0": "Normal",
+            "1": "Additive",
+            "2": "Multiply",
+            "3": "Screen"
+          }
+        },
+        {
+          "index": 9,
+          "name": "duration",
+          "displayName": "Duration",
+          "type": "integer",
+          "description": "Duration",
+          "minimum": 0,
+          "maximum": 9999,
+          "unit": "frames"
+        },
+        {
+          "index": 10,
+          "name": "wait",
+          "displayName": "Wait",
+          "type": "boolean",
+          "description": "Wait"
+        }
+      ]
+    },
+    {
+      "code": 233,
+      "name": "Rotate Picture",
+      "category": "Screen",
+      "isContinuation": false,
+      "sampleParameters": [
+        1,
+        5
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "pictureId",
+          "displayName": "Picture Number",
+          "type": "integer",
+          "description": "Picture Number",
+          "minimum": 1,
+          "maximum": 100
+        },
+        {
+          "index": 1,
+          "name": "speed",
+          "displayName": "Speed",
+          "type": "integer",
+          "description": "Speed"
+        }
+      ]
+    },
+    {
+      "code": 234,
+      "name": "Tint Picture",
+      "category": "Screen",
+      "isContinuation": false,
+      "sampleParameters": [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        60,
+        false
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "pictureId",
+          "displayName": "Picture Number",
+          "type": "integer",
+          "description": "Picture Number",
+          "minimum": 1,
+          "maximum": 100
+        },
+        {
+          "index": 1,
+          "name": "tone",
+          "displayName": "Tone",
+          "type": "tone",
+          "description": "Tone"
+        },
+        {
+          "index": 2,
+          "name": "duration",
+          "displayName": "Duration",
+          "type": "integer",
+          "description": "Duration",
+          "minimum": 0,
+          "maximum": 9999,
+          "unit": "frames"
+        },
+        {
+          "index": 3,
+          "name": "wait",
+          "displayName": "Wait",
+          "type": "boolean",
+          "description": "Wait"
+        }
+      ]
+    },
+    {
+      "code": 235,
+      "name": "Erase Picture",
+      "category": "Screen",
+      "isContinuation": false,
+      "sampleParameters": [
+        1
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "pictureId",
+          "displayName": "Picture Number",
+          "type": "integer",
+          "description": "Picture Number",
+          "minimum": 1,
+          "maximum": 100
+        }
+      ]
+    },
+    {
+      "code": 236,
+      "name": "Set Weather Effect",
+      "category": "Screen",
+      "isContinuation": false,
+      "sampleParameters": [
+        "rain",
+        5,
+        60,
+        false
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "weather",
+          "displayName": "Weather",
+          "type": "string",
+          "description": "Weather"
+        },
+        {
+          "index": 1,
+          "name": "power",
+          "displayName": "Power",
+          "type": "integer",
+          "description": "Power",
+          "minimum": 0,
+          "maximum": 9
+        },
+        {
+          "index": 2,
+          "name": "duration",
+          "displayName": "Duration",
+          "type": "integer",
+          "description": "Duration",
+          "minimum": 0,
+          "maximum": 9999,
+          "unit": "frames"
+        },
+        {
+          "index": 3,
+          "name": "wait",
+          "displayName": "Wait",
+          "type": "boolean",
+          "description": "Wait"
+        }
+      ]
+    },
+    {
+      "code": 241,
+      "name": "Play BGM",
+      "category": "Audio/Video",
+      "isContinuation": false,
+      "sampleParameters": [
+        {
+          "name": "",
+          "volume": 90,
+          "pitch": 100,
+          "pan": 0
+        }
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "audio",
+          "displayName": "BGM",
+          "type": "audio",
+          "description": "BGM"
+        }
+      ]
+    },
+    {
+      "code": 242,
+      "name": "Fadeout BGM",
+      "category": "Audio/Video",
+      "isContinuation": false,
+      "sampleParameters": [
+        10
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "seconds",
+          "displayName": "Seconds",
+          "type": "integer",
+          "description": "Seconds",
+          "minimum": 0,
+          "maximum": 9999,
+          "unit": "seconds"
+        }
+      ]
+    },
+    {
+      "code": 243,
+      "name": "Save BGM",
+      "category": "Audio/Video",
+      "isContinuation": false,
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 244,
+      "name": "Resume BGM",
+      "category": "Audio/Video",
+      "isContinuation": false,
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 245,
+      "name": "Play BGS",
+      "category": "Audio/Video",
+      "isContinuation": false,
+      "sampleParameters": [
+        {
+          "name": "",
+          "volume": 90,
+          "pitch": 100,
+          "pan": 0
+        }
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "audio",
+          "displayName": "BGS",
+          "type": "audio",
+          "description": "BGS"
+        }
+      ]
+    },
+    {
+      "code": 246,
+      "name": "Fadeout BGS",
+      "category": "Audio/Video",
+      "isContinuation": false,
+      "sampleParameters": [
+        10
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "seconds",
+          "displayName": "Seconds",
+          "type": "integer",
+          "description": "Seconds",
+          "minimum": 0,
+          "maximum": 9999,
+          "unit": "seconds"
+        }
+      ]
+    },
+    {
+      "code": 249,
+      "name": "Play ME",
+      "category": "Audio/Video",
+      "isContinuation": false,
+      "sampleParameters": [
+        {
+          "name": "",
+          "volume": 90,
+          "pitch": 100,
+          "pan": 0
+        }
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "audio",
+          "displayName": "ME",
+          "type": "audio",
+          "description": "ME"
+        }
+      ]
+    },
+    {
+      "code": 250,
+      "name": "Play SE",
+      "category": "Audio/Video",
+      "isContinuation": false,
+      "sampleParameters": [
+        {
+          "name": "",
+          "volume": 90,
+          "pitch": 100,
+          "pan": 0
+        }
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "audio",
+          "displayName": "SE",
+          "type": "audio",
+          "description": "SE"
+        }
+      ]
+    },
+    {
+      "code": 251,
+      "name": "Stop SE",
+      "category": "Audio/Video",
+      "isContinuation": false,
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 261,
+      "name": "Play Movie",
+      "category": "Audio/Video",
+      "isContinuation": false,
+      "sampleParameters": [
+        "FixtureMovie"
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "movie",
+          "displayName": "Movie",
+          "type": "asset",
+          "assetCategory": "Movies",
+          "description": "Movie"
+        }
+      ]
+    },
+    {
+      "code": 281,
+      "name": "Change Map Name Display",
+      "category": "Map",
+      "isContinuation": false,
+      "sampleParameters": [
+        0
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "display",
+          "displayName": "Display",
+          "type": "enum",
+          "description": "Display",
+          "options": {
+            "0": "Show",
+            "1": "Hide"
+          }
+        }
+      ]
+    },
+    {
+      "code": 282,
+      "name": "Change Tileset",
+      "category": "Map",
+      "isContinuation": false,
+      "sampleParameters": [
+        1
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "tilesetId",
+          "displayName": "Tileset",
+          "type": "databaseId",
+          "target": "Tileset",
+          "description": "Tileset"
+        }
+      ]
+    },
+    {
+      "code": 283,
+      "name": "Change Battle Back",
+      "category": "Map",
+      "isContinuation": false,
+      "sampleParameters": [
+        "",
+        ""
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "battleback1",
+          "displayName": "Battleback 1",
+          "type": "asset",
+          "assetCategory": "Battlebacks1",
+          "description": "Battleback 1"
+        },
+        {
+          "index": 1,
+          "name": "battleback2",
+          "displayName": "Battleback 2",
+          "type": "asset",
+          "assetCategory": "Battlebacks2",
+          "description": "Battleback 2"
+        }
+      ]
+    },
+    {
+      "code": 284,
+      "name": "Change Parallax",
+      "category": "Map",
+      "isContinuation": false,
+      "sampleParameters": [
+        "",
+        false,
+        false,
+        0,
+        0
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "parallax",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "name",
+          "displayName": "Parallax",
+          "type": "asset",
+          "assetCategory": "Parallaxes",
+          "description": "Parallax"
+        },
+        {
+          "index": 1,
+          "name": "loopX",
+          "displayName": "Loop X",
+          "type": "boolean",
+          "description": "Loop X"
+        },
+        {
+          "index": 2,
+          "name": "loopY",
+          "displayName": "Loop Y",
+          "type": "boolean",
+          "description": "Loop Y"
+        },
+        {
+          "index": 3,
+          "name": "speedX",
+          "displayName": "Speed X",
+          "type": "integer",
+          "description": "Speed X",
+          "minimum": -32,
+          "maximum": 32
+        },
+        {
+          "index": 4,
+          "name": "speedY",
+          "displayName": "Speed Y",
+          "type": "integer",
+          "description": "Speed Y",
+          "minimum": -32,
+          "maximum": 32
+        }
+      ]
+    },
+    {
+      "code": 285,
+      "name": "Get Location Info",
+      "category": "Map",
+      "isContinuation": false,
+      "sampleParameters": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "variableId",
+          "displayName": "Result Variable",
+          "type": "databaseId",
+          "target": "Variable",
+          "description": "Result Variable"
+        },
+        {
+          "index": 1,
+          "name": "infoType",
+          "displayName": "Information Type",
+          "type": "enum",
+          "description": "Information Type",
+          "options": {
+            "0": "Terrain Tag",
+            "1": "Event ID",
+            "2": "Tile ID (Layer 1)",
+            "3": "Tile ID (Layer 2)",
+            "4": "Tile ID (Layer 3)",
+            "5": "Tile ID (Layer 4)",
+            "6": "Region ID"
+          }
+        },
+        {
+          "index": 2,
+          "name": "designation",
+          "displayName": "Designation",
+          "type": "enum",
+          "description": "Designation",
+          "options": {
+            "0": "Direct designation",
+            "1": "Designation with variables"
+          }
+        },
+        {
+          "index": 3,
+          "name": "x",
+          "displayName": "X",
+          "type": "integer",
+          "description": "X",
+          "minimum": -9999,
+          "maximum": 9999
+        },
+        {
+          "index": 4,
+          "name": "y",
+          "displayName": "Y",
+          "type": "integer",
+          "description": "Y",
+          "minimum": -9999,
+          "maximum": 9999
+        }
+      ]
+    },
+    {
+      "code": 301,
+      "name": "Battle Processing",
+      "category": "Battle",
+      "isContinuation": false,
+      "sampleParameters": [
+        0,
+        1,
+        true,
+        true
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "battle",
+      "editor": "battle",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "designation",
+          "displayName": "Designation",
+          "type": "enum",
+          "description": "Designation",
+          "options": {
+            "0": "Direct designation",
+            "1": "Designation with a variable",
+            "2": "Same as random encounter"
+          }
+        },
+        {
+          "index": 1,
+          "name": "troopId",
+          "displayName": "Troop / Variable",
+          "type": "databaseId",
+          "target": "Troop",
+          "description": "Troop / Variable"
+        },
+        {
+          "index": 2,
+          "name": "canEscape",
+          "displayName": "Can Escape",
+          "type": "boolean",
+          "description": "Can Escape"
+        },
+        {
+          "index": 3,
+          "name": "canLose",
+          "displayName": "Can Lose",
+          "type": "boolean",
+          "description": "Can Lose"
+        }
+      ]
+    },
+    {
+      "code": 302,
+      "name": "Shop Processing",
+      "category": "Scene",
+      "isContinuation": false,
+      "sampleParameters": [
+        0,
+        1,
+        0,
+        0,
+        false
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "continuationGroup",
+      "editor": "shop",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "goodsType",
+          "displayName": "Goods Type",
+          "type": "enum",
+          "description": "Goods Type",
+          "options": {
+            "0": "Item",
+            "1": "Weapon",
+            "2": "Armor"
+          }
+        },
+        {
+          "index": 1,
+          "name": "goodsId",
+          "displayName": "Goods",
+          "type": "integer",
+          "description": "Goods",
+          "minimum": 0,
+          "maximum": 999999
+        },
+        {
+          "index": 2,
+          "name": "priceType",
+          "displayName": "Price Type",
+          "type": "enum",
+          "description": "Price Type",
+          "options": {
+            "0": "Standard price",
+            "1": "Specify price"
+          }
+        },
+        {
+          "index": 3,
+          "name": "price",
+          "displayName": "Price",
+          "type": "integer",
+          "description": "Price",
+          "minimum": 0,
+          "maximum": 999999
+        },
+        {
+          "index": 4,
+          "name": "purchaseOnly",
+          "displayName": "Purchase Only",
+          "type": "boolean",
+          "description": "Purchase Only"
+        }
+      ]
+    },
+    {
+      "code": 303,
+      "name": "Name Input Processing",
+      "category": "Scene",
+      "isContinuation": false,
+      "sampleParameters": [
+        1,
+        8
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "actorId",
+          "displayName": "Actor",
+          "type": "databaseId",
+          "target": "Actor",
+          "description": "Actor"
+        },
+        {
+          "index": 1,
+          "name": "maxCharacters",
+          "displayName": "Max Characters",
+          "type": "integer",
+          "description": "Max Characters",
+          "minimum": 1,
+          "maximum": 16
+        }
+      ]
+    },
+    {
+      "code": 311,
+      "name": "Change HP",
+      "category": "Actor",
+      "isContinuation": false,
+      "sampleParameters": [
+        0,
+        0,
+        0,
+        0,
+        10,
+        true
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "actorScope",
+          "displayName": "Actor Scope",
+          "type": "enum",
+          "description": "Actor Scope",
+          "options": {
+            "0": "Direct Actor",
+            "1": "Actor ID in Variable"
+          }
+        },
+        {
+          "index": 1,
+          "name": "actorId",
+          "displayName": "Actor / Variable",
+          "type": "integer",
+          "description": "Actor / Variable",
+          "minimum": 0,
+          "maximum": 999999
+        },
+        {
+          "index": 2,
+          "name": "operation",
+          "displayName": "Operation",
+          "type": "enum",
+          "description": "Operation",
+          "options": {
+            "0": "Increase",
+            "1": "Decrease"
+          }
+        },
+        {
+          "index": 3,
+          "name": "operandType",
+          "displayName": "Operand Type",
+          "type": "enum",
+          "description": "Operand Type",
+          "options": {
+            "0": "Constant",
+            "1": "Variable"
+          }
+        },
+        {
+          "index": 4,
+          "name": "operand",
+          "displayName": "Operand",
+          "type": "integer",
+          "description": "Operand",
+          "minimum": 0,
+          "maximum": 999999
+        },
+        {
+          "index": 5,
+          "name": "allowDeath",
+          "displayName": "Allow Death",
+          "type": "boolean",
+          "description": "Allow Death"
+        }
+      ]
+    },
+    {
+      "code": 312,
+      "name": "Change MP",
+      "category": "Actor",
+      "isContinuation": false,
+      "sampleParameters": [
+        0,
+        0,
+        0,
+        0,
+        10
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "actorScope",
+          "displayName": "Actor Scope",
+          "type": "enum",
+          "description": "Actor Scope",
+          "options": {
+            "0": "Direct Actor",
+            "1": "Actor ID in Variable"
+          }
+        },
+        {
+          "index": 1,
+          "name": "actorId",
+          "displayName": "Actor / Variable",
+          "type": "integer",
+          "description": "Actor / Variable",
+          "minimum": 0,
+          "maximum": 999999
+        },
+        {
+          "index": 2,
+          "name": "operation",
+          "displayName": "Operation",
+          "type": "enum",
+          "description": "Operation",
+          "options": {
+            "0": "Increase",
+            "1": "Decrease"
+          }
+        },
+        {
+          "index": 3,
+          "name": "operandType",
+          "displayName": "Operand Type",
+          "type": "enum",
+          "description": "Operand Type",
+          "options": {
+            "0": "Constant",
+            "1": "Variable"
+          }
+        },
+        {
+          "index": 4,
+          "name": "operand",
+          "displayName": "Operand",
+          "type": "integer",
+          "description": "Operand",
+          "minimum": 0,
+          "maximum": 999999
+        }
+      ]
+    },
+    {
+      "code": 313,
+      "name": "Change State",
+      "category": "Actor",
+      "isContinuation": false,
+      "sampleParameters": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "actorScope",
+          "displayName": "Actor Scope",
+          "type": "enum",
+          "description": "Actor Scope",
+          "options": {
+            "0": "Direct Actor",
+            "1": "Actor ID in Variable"
+          }
+        },
+        {
+          "index": 1,
+          "name": "actorId",
+          "displayName": "Actor / Variable",
+          "type": "integer",
+          "description": "Actor / Variable",
+          "minimum": 0,
+          "maximum": 999999
+        },
+        {
+          "index": 2,
+          "name": "operation",
+          "displayName": "Operation",
+          "type": "enum",
+          "description": "Operation",
+          "options": {
+            "0": "Increase",
+            "1": "Decrease"
+          }
+        },
+        {
+          "index": 3,
+          "name": "stateId",
+          "displayName": "State",
+          "type": "databaseId",
+          "target": "State",
+          "description": "State"
+        }
+      ]
+    },
+    {
+      "code": 314,
+      "name": "Recover All",
+      "category": "Actor",
+      "isContinuation": false,
+      "sampleParameters": [
+        0,
+        0
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "actorScope",
+          "displayName": "Actor Scope",
+          "type": "enum",
+          "description": "Actor Scope",
+          "options": {
+            "0": "Direct Actor",
+            "1": "Actor ID in Variable"
+          }
+        },
+        {
+          "index": 1,
+          "name": "actorId",
+          "displayName": "Actor / Variable",
+          "type": "integer",
+          "description": "Actor / Variable",
+          "minimum": 0,
+          "maximum": 999999
+        }
+      ]
+    },
+    {
+      "code": 315,
+      "name": "Change EXP",
+      "category": "Actor",
+      "isContinuation": false,
+      "sampleParameters": [
+        0,
+        0,
+        0,
+        0,
+        10,
+        true
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "actorScope",
+          "displayName": "Actor Scope",
+          "type": "enum",
+          "description": "Actor Scope",
+          "options": {
+            "0": "Direct Actor",
+            "1": "Actor ID in Variable"
+          }
+        },
+        {
+          "index": 1,
+          "name": "actorId",
+          "displayName": "Actor / Variable",
+          "type": "integer",
+          "description": "Actor / Variable",
+          "minimum": 0,
+          "maximum": 999999
+        },
+        {
+          "index": 2,
+          "name": "operation",
+          "displayName": "Operation",
+          "type": "enum",
+          "description": "Operation",
+          "options": {
+            "0": "Increase",
+            "1": "Decrease"
+          }
+        },
+        {
+          "index": 3,
+          "name": "operandType",
+          "displayName": "Operand Type",
+          "type": "enum",
+          "description": "Operand Type",
+          "options": {
+            "0": "Constant",
+            "1": "Variable"
+          }
+        },
+        {
+          "index": 4,
+          "name": "operand",
+          "displayName": "Operand",
+          "type": "integer",
+          "description": "Operand",
+          "minimum": 0,
+          "maximum": 999999
+        },
+        {
+          "index": 5,
+          "name": "showLevelUp",
+          "displayName": "Show Level Up",
+          "type": "boolean",
+          "description": "Show Level Up"
+        }
+      ]
+    },
+    {
+      "code": 316,
+      "name": "Change Level",
+      "category": "Actor",
+      "isContinuation": false,
+      "sampleParameters": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        true
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "actorScope",
+          "displayName": "Actor Scope",
+          "type": "enum",
+          "description": "Actor Scope",
+          "options": {
+            "0": "Direct Actor",
+            "1": "Actor ID in Variable"
+          }
+        },
+        {
+          "index": 1,
+          "name": "actorId",
+          "displayName": "Actor / Variable",
+          "type": "integer",
+          "description": "Actor / Variable",
+          "minimum": 0,
+          "maximum": 999999
+        },
+        {
+          "index": 2,
+          "name": "operation",
+          "displayName": "Operation",
+          "type": "enum",
+          "description": "Operation",
+          "options": {
+            "0": "Increase",
+            "1": "Decrease"
+          }
+        },
+        {
+          "index": 3,
+          "name": "operandType",
+          "displayName": "Operand Type",
+          "type": "enum",
+          "description": "Operand Type",
+          "options": {
+            "0": "Constant",
+            "1": "Variable"
+          }
+        },
+        {
+          "index": 4,
+          "name": "operand",
+          "displayName": "Operand",
+          "type": "integer",
+          "description": "Operand",
+          "minimum": 0,
+          "maximum": 999999
+        },
+        {
+          "index": 5,
+          "name": "showLevelUp",
+          "displayName": "Show Level Up",
+          "type": "boolean",
+          "description": "Show Level Up"
+        }
+      ]
+    },
+    {
+      "code": 317,
+      "name": "Change Parameter",
+      "category": "Actor",
+      "isContinuation": false,
+      "sampleParameters": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "actorScope",
+          "displayName": "Actor Scope",
+          "type": "enum",
+          "description": "Actor Scope",
+          "options": {
+            "0": "Direct Actor",
+            "1": "Actor ID in Variable"
+          }
+        },
+        {
+          "index": 1,
+          "name": "actorId",
+          "displayName": "Actor / Variable",
+          "type": "integer",
+          "description": "Actor / Variable",
+          "minimum": 0,
+          "maximum": 999999
+        },
+        {
+          "index": 2,
+          "name": "parameter",
+          "displayName": "Parameter",
+          "type": "enum",
+          "description": "Parameter",
+          "options": {
+            "0": "Max HP",
+            "1": "Max MP",
+            "2": "Attack",
+            "3": "Defense",
+            "4": "Magic Attack",
+            "5": "Magic Defense",
+            "6": "Agility",
+            "7": "Luck"
+          }
+        },
+        {
+          "index": 3,
+          "name": "operation",
+          "displayName": "Operation",
+          "type": "enum",
+          "description": "Operation",
+          "options": {
+            "0": "Increase",
+            "1": "Decrease"
+          }
+        },
+        {
+          "index": 4,
+          "name": "operandType",
+          "displayName": "Operand Type",
+          "type": "enum",
+          "description": "Operand Type",
+          "options": {
+            "0": "Constant",
+            "1": "Variable"
+          }
+        },
+        {
+          "index": 5,
+          "name": "operand",
+          "displayName": "Operand",
+          "type": "integer",
+          "description": "Operand",
+          "minimum": 0,
+          "maximum": 999999
+        }
+      ]
+    },
+    {
+      "code": 318,
+      "name": "Change Skill",
+      "category": "Actor",
+      "isContinuation": false,
+      "sampleParameters": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "actorScope",
+          "displayName": "Actor Scope",
+          "type": "enum",
+          "description": "Actor Scope",
+          "options": {
+            "0": "Direct Actor",
+            "1": "Actor ID in Variable"
+          }
+        },
+        {
+          "index": 1,
+          "name": "actorId",
+          "displayName": "Actor / Variable",
+          "type": "integer",
+          "description": "Actor / Variable",
+          "minimum": 0,
+          "maximum": 999999
+        },
+        {
+          "index": 2,
+          "name": "operation",
+          "displayName": "Operation",
+          "type": "enum",
+          "description": "Operation",
+          "options": {
+            "0": "Increase",
+            "1": "Decrease"
+          }
+        },
+        {
+          "index": 3,
+          "name": "skillId",
+          "displayName": "Skill",
+          "type": "databaseId",
+          "target": "Skill",
+          "description": "Skill"
+        }
+      ]
+    },
+    {
+      "code": 319,
+      "name": "Change Equipment",
+      "category": "Actor",
+      "isContinuation": false,
+      "sampleParameters": [
+        1,
+        0,
+        1
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "actorId",
+          "displayName": "Actor",
+          "type": "databaseId",
+          "target": "Actor",
+          "description": "Actor"
+        },
+        {
+          "index": 1,
+          "name": "equipmentSlot",
+          "displayName": "Equipment Slot",
+          "type": "integer",
+          "description": "Equipment Slot"
+        },
+        {
+          "index": 2,
+          "name": "itemId",
+          "displayName": "Equipment",
+          "type": "integer",
+          "description": "Equipment",
+          "minimum": 0,
+          "maximum": 999999
+        }
+      ]
+    },
+    {
+      "code": 320,
+      "name": "Change Name",
+      "category": "Actor",
+      "isContinuation": false,
+      "sampleParameters": [
+        1,
+        "Fixture Actor"
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "actorId",
+          "displayName": "Actor",
+          "type": "databaseId",
+          "target": "Actor",
+          "description": "Actor"
+        },
+        {
+          "index": 1,
+          "name": "name",
+          "displayName": "Name",
+          "type": "string",
+          "description": "Name"
+        }
+      ]
+    },
+    {
+      "code": 321,
+      "name": "Change Class",
+      "category": "Actor",
+      "isContinuation": false,
+      "sampleParameters": [
+        1,
+        1,
+        false
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "actorId",
+          "displayName": "Actor",
+          "type": "databaseId",
+          "target": "Actor",
+          "description": "Actor"
+        },
+        {
+          "index": 1,
+          "name": "classId",
+          "displayName": "Class",
+          "type": "databaseId",
+          "target": "Class",
+          "description": "Class"
+        },
+        {
+          "index": 2,
+          "name": "keepLevel",
+          "displayName": "Keep Level",
+          "type": "boolean",
+          "description": "Keep Level"
+        }
+      ]
+    },
+    {
+      "code": 322,
+      "name": "Change Actor Images",
+      "category": "Actor",
+      "isContinuation": false,
+      "sampleParameters": [
+        1,
+        "",
+        0,
+        "",
+        0,
+        ""
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "actorId",
+          "displayName": "Actor",
+          "type": "databaseId",
+          "target": "Actor",
+          "description": "Actor"
+        },
+        {
+          "index": 1,
+          "name": "characterName",
+          "displayName": "Character",
+          "type": "asset",
+          "assetCategory": "Characters",
+          "description": "Character"
+        },
+        {
+          "index": 2,
+          "name": "characterIndex",
+          "displayName": "Character Index",
+          "type": "integer",
+          "description": "Character Index",
+          "minimum": 0,
+          "maximum": 7
+        },
+        {
+          "index": 3,
+          "name": "faceName",
+          "displayName": "Face",
+          "type": "asset",
+          "assetCategory": "Faces",
+          "description": "Face"
+        },
+        {
+          "index": 4,
+          "name": "faceIndex",
+          "displayName": "Face Index",
+          "type": "integer",
+          "description": "Face Index",
+          "minimum": 0,
+          "maximum": 7
+        },
+        {
+          "index": 5,
+          "name": "battlerName",
+          "displayName": "Battler",
+          "type": "asset",
+          "assetCategory": "SideViewActors",
+          "description": "Battler"
+        }
+      ]
+    },
+    {
+      "code": 323,
+      "name": "Change Vehicle Image",
+      "category": "Actor",
+      "isContinuation": false,
+      "sampleParameters": [
+        0,
+        "",
+        0
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "vehicle",
+          "displayName": "Vehicle",
+          "type": "enum",
+          "description": "Vehicle",
+          "options": {
+            "0": "Boat",
+            "1": "Ship",
+            "2": "Airship"
+          }
+        },
+        {
+          "index": 1,
+          "name": "characterName",
+          "displayName": "Character",
+          "type": "asset",
+          "assetCategory": "Characters",
+          "description": "Character"
+        },
+        {
+          "index": 2,
+          "name": "characterIndex",
+          "displayName": "Character Index",
+          "type": "integer",
+          "description": "Character Index",
+          "minimum": 0,
+          "maximum": 7
+        }
+      ]
+    },
+    {
+      "code": 324,
+      "name": "Change Nickname",
+      "category": "Actor",
+      "isContinuation": false,
+      "sampleParameters": [
+        1,
+        "Fixture"
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "actorId",
+          "displayName": "Actor",
+          "type": "databaseId",
+          "target": "Actor",
+          "description": "Actor"
+        },
+        {
+          "index": 1,
+          "name": "nickname",
+          "displayName": "Nickname",
+          "type": "string",
+          "description": "Nickname"
+        }
+      ]
+    },
+    {
+      "code": 325,
+      "name": "Change Profile",
+      "category": "Actor",
+      "isContinuation": false,
+      "sampleParameters": [
+        1,
+        "Fixture profile"
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "actorId",
+          "displayName": "Actor",
+          "type": "databaseId",
+          "target": "Actor",
+          "description": "Actor"
+        },
+        {
+          "index": 1,
+          "name": "profile",
+          "displayName": "Profile",
+          "type": "string",
+          "description": "Profile"
+        }
+      ]
+    },
+    {
+      "code": 326,
+      "name": "Change TP",
+      "category": "Actor",
+      "isContinuation": false,
+      "sampleParameters": [
+        0,
+        0,
+        0,
+        0,
+        10
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "actorScope",
+          "displayName": "Actor Scope",
+          "type": "enum",
+          "description": "Actor Scope",
+          "options": {
+            "0": "Direct Actor",
+            "1": "Actor ID in Variable"
+          }
+        },
+        {
+          "index": 1,
+          "name": "actorId",
+          "displayName": "Actor / Variable",
+          "type": "integer",
+          "description": "Actor / Variable",
+          "minimum": 0,
+          "maximum": 999999
+        },
+        {
+          "index": 2,
+          "name": "operation",
+          "displayName": "Operation",
+          "type": "enum",
+          "description": "Operation",
+          "options": {
+            "0": "Increase",
+            "1": "Decrease"
+          }
+        },
+        {
+          "index": 3,
+          "name": "operandType",
+          "displayName": "Operand Type",
+          "type": "enum",
+          "description": "Operand Type",
+          "options": {
+            "0": "Constant",
+            "1": "Variable"
+          }
+        },
+        {
+          "index": 4,
+          "name": "operand",
+          "displayName": "Operand",
+          "type": "integer",
+          "description": "Operand",
+          "minimum": 0,
+          "maximum": 999999
+        }
+      ]
+    },
+    {
+      "code": 331,
+      "name": "Change Enemy HP",
+      "category": "Enemy",
+      "isContinuation": false,
+      "sampleParameters": [
+        0,
+        0,
+        0,
+        10,
+        true
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "enemyIndex",
+          "displayName": "Enemy",
+          "type": "integer",
+          "description": "Enemy",
+          "minimum": -1,
+          "maximum": 7
+        },
+        {
+          "index": 1,
+          "name": "operation",
+          "displayName": "Operation",
+          "type": "enum",
+          "description": "Operation",
+          "options": {
+            "0": "Increase",
+            "1": "Decrease"
+          }
+        },
+        {
+          "index": 2,
+          "name": "operandType",
+          "displayName": "Operand Type",
+          "type": "enum",
+          "description": "Operand Type",
+          "options": {
+            "0": "Constant",
+            "1": "Variable"
+          }
+        },
+        {
+          "index": 3,
+          "name": "operand",
+          "displayName": "Operand",
+          "type": "integer",
+          "description": "Operand",
+          "minimum": 0,
+          "maximum": 999999
+        },
+        {
+          "index": 4,
+          "name": "allowDeath",
+          "displayName": "Allow Death",
+          "type": "boolean",
+          "description": "Allow Death"
+        }
+      ]
+    },
+    {
+      "code": 332,
+      "name": "Change Enemy MP",
+      "category": "Enemy",
+      "isContinuation": false,
+      "sampleParameters": [
+        0,
+        0,
+        0,
+        10
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "enemyIndex",
+          "displayName": "Enemy",
+          "type": "integer",
+          "description": "Enemy",
+          "minimum": -1,
+          "maximum": 7
+        },
+        {
+          "index": 1,
+          "name": "operation",
+          "displayName": "Operation",
+          "type": "enum",
+          "description": "Operation",
+          "options": {
+            "0": "Increase",
+            "1": "Decrease"
+          }
+        },
+        {
+          "index": 2,
+          "name": "operandType",
+          "displayName": "Operand Type",
+          "type": "enum",
+          "description": "Operand Type",
+          "options": {
+            "0": "Constant",
+            "1": "Variable"
+          }
+        },
+        {
+          "index": 3,
+          "name": "operand",
+          "displayName": "Operand",
+          "type": "integer",
+          "description": "Operand",
+          "minimum": 0,
+          "maximum": 999999
+        }
+      ]
+    },
+    {
+      "code": 333,
+      "name": "Change Enemy State",
+      "category": "Enemy",
+      "isContinuation": false,
+      "sampleParameters": [
+        0,
+        0,
+        1
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "enemyIndex",
+          "displayName": "Enemy",
+          "type": "integer",
+          "description": "Enemy",
+          "minimum": -1,
+          "maximum": 7
+        },
+        {
+          "index": 1,
+          "name": "operation",
+          "displayName": "Operation",
+          "type": "enum",
+          "description": "Operation",
+          "options": {
+            "0": "Add",
+            "1": "Remove"
+          }
+        },
+        {
+          "index": 2,
+          "name": "stateId",
+          "displayName": "State",
+          "type": "databaseId",
+          "target": "State",
+          "description": "State"
+        }
+      ]
+    },
+    {
+      "code": 334,
+      "name": "Enemy Recover All",
+      "category": "Enemy",
+      "isContinuation": false,
+      "sampleParameters": [
+        0
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "enemyIndex",
+          "displayName": "Enemy",
+          "type": "integer",
+          "description": "Enemy",
+          "minimum": -1,
+          "maximum": 7
+        }
+      ]
+    },
+    {
+      "code": 335,
+      "name": "Enemy Appear",
+      "category": "Enemy",
+      "isContinuation": false,
+      "sampleParameters": [
+        0
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "enemyIndex",
+          "displayName": "Enemy",
+          "type": "integer",
+          "description": "Enemy",
+          "minimum": -1,
+          "maximum": 7
+        }
+      ]
+    },
+    {
+      "code": 336,
+      "name": "Enemy Transform",
+      "category": "Enemy",
+      "isContinuation": false,
+      "sampleParameters": [
+        0,
+        1
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "enemyIndex",
+          "displayName": "Enemy",
+          "type": "integer",
+          "description": "Enemy",
+          "minimum": -1,
+          "maximum": 7
+        },
+        {
+          "index": 1,
+          "name": "enemyId",
+          "displayName": "Enemy Type",
+          "type": "databaseId",
+          "target": "Enemy",
+          "description": "Enemy Type"
+        }
+      ]
+    },
+    {
+      "code": 337,
+      "name": "Show Battle Animation",
+      "category": "Enemy",
+      "isContinuation": false,
+      "sampleParameters": [
+        0,
+        1,
+        false
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "enemyIndex",
+          "displayName": "Enemy",
+          "type": "integer",
+          "description": "Enemy",
+          "minimum": -1,
+          "maximum": 7
+        },
+        {
+          "index": 1,
+          "name": "animationId",
+          "displayName": "Animation",
+          "type": "databaseId",
+          "target": "Animation",
+          "description": "Animation"
+        },
+        {
+          "index": 2,
+          "name": "entireTroop",
+          "displayName": "Entire Troop",
+          "type": "boolean",
+          "description": "Entire Troop"
+        }
+      ]
+    },
+    {
+      "code": 339,
+      "name": "Force Action",
+      "category": "Battle",
+      "isContinuation": false,
+      "sampleParameters": [
+        0,
+        0,
+        1,
+        -1
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "subjectType",
+          "displayName": "Subject Type",
+          "type": "enum",
+          "description": "Subject Type",
+          "options": {
+            "0": "Enemy",
+            "1": "Actor"
+          }
+        },
+        {
+          "index": 1,
+          "name": "subjectIndex",
+          "displayName": "Subject",
+          "type": "integer",
+          "description": "Subject",
+          "minimum": 0,
+          "maximum": 999999
+        },
+        {
+          "index": 2,
+          "name": "skillId",
+          "displayName": "Skill",
+          "type": "databaseId",
+          "target": "Skill",
+          "description": "Skill"
+        },
+        {
+          "index": 3,
+          "name": "targetIndex",
+          "displayName": "Target",
+          "type": "integer",
+          "description": "Target",
+          "minimum": -2,
+          "maximum": 7
+        }
+      ]
+    },
+    {
+      "code": 340,
+      "name": "Abort Battle",
+      "category": "Battle",
+      "isContinuation": false,
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 342,
+      "name": "Change Enemy TP",
+      "category": "Enemy",
+      "isContinuation": false,
+      "sampleParameters": [
+        0,
+        0,
+        0,
+        10
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "enemyIndex",
+          "displayName": "Enemy",
+          "type": "integer",
+          "description": "Enemy",
+          "minimum": -1,
+          "maximum": 7
+        },
+        {
+          "index": 1,
+          "name": "operation",
+          "displayName": "Operation",
+          "type": "enum",
+          "description": "Operation",
+          "options": {
+            "0": "Increase",
+            "1": "Decrease"
+          }
+        },
+        {
+          "index": 2,
+          "name": "operandType",
+          "displayName": "Operand Type",
+          "type": "enum",
+          "description": "Operand Type",
+          "options": {
+            "0": "Constant",
+            "1": "Variable"
+          }
+        },
+        {
+          "index": 3,
+          "name": "operand",
+          "displayName": "Operand",
+          "type": "integer",
+          "description": "Operand",
+          "minimum": 0,
+          "maximum": 999999
+        }
+      ]
+    },
+    {
+      "code": 351,
+      "name": "Open Menu Screen",
+      "category": "Scene Control",
+      "isContinuation": false,
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 352,
+      "name": "Open Save Screen",
+      "category": "Scene Control",
+      "isContinuation": false,
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 353,
+      "name": "Game Over",
+      "category": "Scene Control",
+      "isContinuation": false,
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 354,
+      "name": "Return to Title Screen",
+      "category": "Scene Control",
+      "isContinuation": false,
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 355,
+      "name": "Script",
+      "category": "Advanced",
+      "isContinuation": false,
+      "sampleParameters": [
+        "var fixture = true;"
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "continuationGroup",
+      "editor": "script",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "script",
+          "displayName": "Script",
+          "type": "string",
+          "description": "Script"
+        }
+      ]
+    },
+    {
+      "code": 356,
+      "name": "Plugin Command",
+      "category": "Advanced",
+      "isContinuation": false,
+      "sampleParameters": [
+        "FixtureCommand value"
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "single",
+      "editor": "pluginCommand",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "command",
+          "displayName": "Plugin Command",
+          "type": "string",
+          "description": "Plugin Command"
+        }
+      ]
+    },
+    {
+      "code": 401,
+      "name": "Text Line",
+      "category": "Message",
+      "isContinuation": true,
+      "sampleParameters": [
+        "Fixture text line"
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "continuation",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "text",
+          "displayName": "Text",
+          "type": "string",
+          "description": "Text"
+        }
+      ]
+    },
+    {
+      "code": 402,
+      "name": "When Choice",
+      "category": "Message",
+      "isContinuation": false,
+      "sampleParameters": [
+        0,
+        "Choice A"
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "continuation",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "choiceIndex",
+          "displayName": "Choice Index",
+          "type": "integer",
+          "description": "Choice Index",
+          "minimum": 0,
+          "maximum": 999999
+        },
+        {
+          "index": 1,
+          "name": "choiceText",
+          "displayName": "Choice Text",
+          "type": "string",
+          "description": "Choice Text"
+        }
+      ]
+    },
+    {
+      "code": 403,
+      "name": "When Cancel",
+      "category": "Message",
+      "isContinuation": false,
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "continuation",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 404,
+      "name": "End Choices",
+      "category": "Message",
+      "isContinuation": true,
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "continuation",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 405,
+      "name": "Scrolling Text Line",
+      "category": "Message",
+      "isContinuation": true,
+      "sampleParameters": [
+        "Fixture scrolling line"
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "continuation",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "text",
+          "displayName": "Text",
+          "type": "string",
+          "description": "Text"
+        }
+      ]
+    },
+    {
+      "code": 408,
+      "name": "Comment Continuation",
+      "category": "Message",
+      "isContinuation": true,
+      "sampleParameters": [
+        "Continuation"
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "continuation",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "text",
+          "displayName": "Comment",
+          "type": "string",
+          "description": "Comment"
+        }
+      ]
+    },
+    {
+      "code": 411,
+      "name": "Else",
+      "category": "Flow Control",
+      "isContinuation": false,
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "continuation",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 412,
+      "name": "Branch End",
+      "category": "Flow Control",
+      "isContinuation": true,
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "continuation",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 413,
+      "name": "Repeat Above",
+      "category": "Flow Control",
+      "isContinuation": false,
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "continuation",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 505,
+      "name": "Movement Route Command",
+      "category": "Movement",
+      "isContinuation": true,
+      "sampleParameters": [
+        {
+          "code": 1,
+          "parameters": []
+        }
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "continuation",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "moveCommand",
+          "displayName": "Move Command",
+          "type": "object",
+          "description": "Move Command"
+        }
+      ]
+    },
+    {
+      "code": 601,
+      "name": "If Win",
+      "category": "Battle",
+      "isContinuation": false,
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "continuation",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 602,
+      "name": "If Escape",
+      "category": "Battle",
+      "isContinuation": false,
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "continuation",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 603,
+      "name": "If Lose",
+      "category": "Battle",
+      "isContinuation": false,
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "continuation",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 604,
+      "name": "End Battle Processing",
+      "category": "Battle",
+      "isContinuation": true,
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "continuation",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 605,
+      "name": "Shop Merchandise",
+      "category": "Scene",
+      "isContinuation": true,
+      "sampleParameters": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "continuation",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "goodsType",
+          "displayName": "Goods Type",
+          "type": "enum",
+          "description": "Goods Type",
+          "options": {
+            "0": "Item",
+            "1": "Weapon",
+            "2": "Armor"
+          }
+        },
+        {
+          "index": 1,
+          "name": "goodsId",
+          "displayName": "Goods",
+          "type": "integer",
+          "description": "Goods",
+          "minimum": 0,
+          "maximum": 999999
+        },
+        {
+          "index": 2,
+          "name": "priceType",
+          "displayName": "Price Type",
+          "type": "enum",
+          "description": "Price Type",
+          "options": {
+            "0": "Standard Price",
+            "1": "Specify Price"
+          }
+        },
+        {
+          "index": 3,
+          "name": "price",
+          "displayName": "Price",
+          "type": "integer",
+          "description": "Price",
+          "minimum": 0,
+          "maximum": 999999
+        }
+      ]
+    },
+    {
+      "code": 655,
+      "name": "Script Continuation",
+      "category": "Advanced",
+      "isContinuation": true,
+      "sampleParameters": [
+        "fixture = fixture && true;"
+      ],
+      "source": "MV CoreScript Game_Interpreter / clean-room fixture",
+      "structure": "continuation",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "script",
+          "displayName": "Script",
+          "type": "string",
+          "description": "Script"
+        }
+      ]
+    }
+  ]
+}

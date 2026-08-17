@@ -1,0 +1,26 @@
+{
+  "formatVersion": 1,
+  "id": "foley.old-leather",
+  "displayName": "Old Leather Strap",
+  "generatorId": "playroma.material-foley",
+  "rootSeed": 73511,
+  "familySeed": 91833,
+  "variationIndex": 0,
+  "qualityMode": "realtimeHigh",
+  "description": {
+    "action": "creak",
+    "materialA": "leather",
+    "materialB": "cloth",
+    "contactArea": 0.35,
+    "roughness": 0.55,
+    "damage": 0.3,
+    "duration": 0.32,
+    "pitchContour": "flat",
+    "rhythmStyle": "irregular",
+    "envelopeStyle": "plucked",
+    "emotion": "neutral",
+    "energyState": "calm",
+    "condition": "worn",
+    "stereoStyle": "narrow"
+  }
+}

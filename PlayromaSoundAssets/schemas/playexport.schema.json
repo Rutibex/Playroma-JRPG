@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://playroma.dev/schemas/playexport.schema.json",
+  "title": "Playroma Sound Export Profile",
+  "type": "object",
+  "required": ["formatVersion", "id", "displayName", "mode", "outputDirectory"],
+  "properties": {
+    "formatVersion": { "type": "integer", "minimum": 1 },
+    "id": { "type": "string", "minLength": 1 },
+    "displayName": { "type": "string", "minLength": 1 },
+    "mode": { "type": "string", "enum": ["renderedAudio", "runtimePackage"] },
+    "outputDirectory": { "type": "string", "minLength": 1 },
+    "assetIds": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
+    "sampleRate": { "type": "integer", "minimum": 8000, "maximum": 384000 },
+    "channels": { "type": "integer", "minimum": 1, "maximum": 8 },
+    "blockSize": { "type": "integer", "minimum": 16, "maximum": 16384 },
+    "waveEncoding": { "type": "string", "enum": ["pcm16", "pcm24", "pcm32", "float32"] },
+    "sceneDurationSeconds": { "type": "number", "exclusiveMinimum": 0 },
+    "variationCount": { "type": "integer", "minimum": 1, "maximum": 10000 },
+    "renderStems": { "type": "boolean" },
+    "includeSourceDefinitions": { "type": "boolean" },
+    "metadata": { "type": "object", "additionalProperties": { "type": "string" } }
+  },
+  "additionalProperties": false
+}

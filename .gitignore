@@ -1,0 +1,63 @@
+# Build output
+**/bin/
+**/obj/
+artifacts/
+TestResults/
+coverage/
+
+# IDE
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local settings
+*.local.json
+*.local.yml
+.env
+
+# Private compatibility corpora and reports
+testdata/private/*
+!testdata/private/README.md
+!testdata/private/.gitkeep
+private-corpus.json
+private-corpus.*.json
+
+# Real game projects / deployed runtimes
+**/Game.exe
+**/nw.pak
+**/*.rpgmvp
+**/*.rpgmvo
+**/*.rpgmvm
+**/*.rpgproject
+**/www/data/
+**/www/img/
+**/www/audio/
+
+# Packages and archives
+*.nupkg
+*.snupkg
+*.zip
+*.7z
+*.rar
+
+# Synthetic fixture project markers are intentionally versioned.
+!testdata/fixtures/**/Game.rpgproject
+
+# Independently authored Phase 1 compatibility fixtures are intentionally versioned.
+!testdata/fixtures/phase1/
+!testdata/fixtures/phase1/**
+
+# Local logs, crash reports and temporary files
+*.log
+crash-*.txt
+*.tmp
+*.bak
+.playroma/

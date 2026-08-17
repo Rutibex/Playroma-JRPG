@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Playroma.Text.Phase0.Tests</RootNamespace>
+    <AssemblyName>Playroma.Text.Phase0.Tests</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../src/Playroma.Text.Core/Playroma.Text.Core.csproj" />
+    <ProjectReference Include="../../src/Playroma.Text.Authoring/Playroma.Text.Authoring.csproj" />
+    <ProjectReference Include="../../src/Playroma.Text.Generators/Playroma.Text.Generators.csproj" />
+    <ProjectReference Include="../../src/Playroma.Text.RpgMakerMV/Playroma.Text.RpgMakerMV.csproj" />
+  </ItemGroup>
+</Project>

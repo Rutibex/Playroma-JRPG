@@ -1,0 +1,10 @@
+﻿context,candidateFeatures,genericComplete,specializedDeferred
+actor,867,739,128
+class,752,638,114
+skill,1035,836,199
+item,1047,821,226
+weapon,919,704,215
+armor,884,669,215
+enemy,932,767,165
+state,939,782,157
+tileset,9,9,0

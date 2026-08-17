@@ -1,0 +1,38 @@
+{
+  "phase": 9,
+  "title": "Enemies, states, auras, and formulas",
+  "runtimeCatalogFeatures": 2943,
+  "coveredPlugins": 34,
+  "databaseFeatures": 535,
+  "editors": {
+    "enemyDesigner": {
+      "id": "yep.enemy-designer",
+      "plugins": 14,
+      "features": 188
+    },
+    "stateLifecycle": {
+      "id": "yep.state-lifecycle",
+      "plugins": 5,
+      "features": 132
+    },
+    "passiveStatesAuras": {
+      "id": "yep.passive-state-aura",
+      "plugins": 3,
+      "features": 61
+    },
+    "formulaLab": {
+      "id": "yep.formula-lab",
+      "plugins": 12,
+      "features": 154
+    }
+  },
+  "quickSetups": 12,
+  "acceptanceTests": 28,
+  "formulaSafety": {
+    "executesCode": false,
+    "bracketValidation": true,
+    "stringValidation": true,
+    "hostAccessWarnings": true
+  },
+  "losslessNotes": true
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://playroma.local/schemas/playtext.semantic-features.schema.json",
+  "title": "Playroma Semantic Feature Map",
+  "type": "object",
+  "additionalProperties": {
+    "oneOf": [
+      {
+        "type": "string"
+      },
+      {
+        "type": "integer"
+      },
+      {
+        "type": "number"
+      },
+      {
+        "type": "boolean"
+      },
+      {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    ]
+  }
+}

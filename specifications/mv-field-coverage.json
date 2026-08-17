@@ -1,0 +1,1071 @@
+{
+  "schema": "playroma-jrpg-mv-field-coverage/1",
+  "phase": 3,
+  "principle": "Lossless preservation and specialized editor coverage are tracked independently.",
+  "documents": [
+    {
+      "file": "Actors.json",
+      "documentKind": "Actors",
+      "fieldGroups": [
+        {
+          "group": "identity",
+          "fields": [
+            "id",
+            "name",
+            "nickname",
+            "profile"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": false,
+          "validation": false,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "progression",
+          "fields": [
+            "classId",
+            "initialLevel",
+            "maxLevel"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": true,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "graphics",
+          "fields": [
+            "characterName",
+            "characterIndex",
+            "faceName",
+            "faceIndex",
+            "battlerName"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": true,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "equipment",
+          "fields": [
+            "equips"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": false,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "traitsAndNotes",
+          "fields": [
+            "traits",
+            "note"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": true,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        }
+      ]
+    },
+    {
+      "file": "Classes.json",
+      "documentKind": "Classes",
+      "fieldGroups": [
+        {
+          "group": "identity",
+          "fields": [
+            "id",
+            "name"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": false,
+          "validation": false,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "curves",
+          "fields": [
+            "expParams",
+            "params"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": false,
+          "validation": false,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "learnings",
+          "fields": [
+            "learnings[].level",
+            "learnings[].skillId",
+            "learnings[].note"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": true,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "traitsAndNotes",
+          "fields": [
+            "traits",
+            "note"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": true,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        }
+      ]
+    },
+    {
+      "file": "Skills.json",
+      "documentKind": "Skills",
+      "fieldGroups": [
+        {
+          "group": "identity",
+          "fields": [
+            "id",
+            "name",
+            "description",
+            "iconIndex"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": false,
+          "validation": false,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "classification",
+          "fields": [
+            "stypeId",
+            "scope",
+            "occasion"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": true,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "costAndInvocation",
+          "fields": [
+            "mpCost",
+            "tpCost",
+            "speed",
+            "successRate",
+            "repeats",
+            "tpGain",
+            "hitType"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": false,
+          "validation": false,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "damage",
+          "fields": [
+            "damage.type",
+            "damage.elementId",
+            "damage.formula",
+            "damage.variance",
+            "damage.critical"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": true,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "presentation",
+          "fields": [
+            "animationId",
+            "message1",
+            "message2"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": true,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "effectsAndNotes",
+          "fields": [
+            "effects",
+            "note"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": true,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        }
+      ]
+    },
+    {
+      "file": "Items.json",
+      "documentKind": "Items",
+      "fieldGroups": [
+        {
+          "group": "identity",
+          "fields": [
+            "id",
+            "name",
+            "description",
+            "iconIndex"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": false,
+          "validation": false,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "inventory",
+          "fields": [
+            "itypeId",
+            "price",
+            "consumable"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": false,
+          "validation": false,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "use",
+          "fields": [
+            "scope",
+            "occasion",
+            "speed",
+            "successRate",
+            "repeats",
+            "tpGain",
+            "hitType"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": false,
+          "validation": false,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "damage",
+          "fields": [
+            "damage"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": true,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "presentation",
+          "fields": [
+            "animationId"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": true,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "effectsAndNotes",
+          "fields": [
+            "effects",
+            "note"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": true,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        }
+      ]
+    },
+    {
+      "file": "Weapons.json",
+      "documentKind": "Weapons",
+      "fieldGroups": [
+        {
+          "group": "identity",
+          "fields": [
+            "id",
+            "name",
+            "description",
+            "iconIndex"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": false,
+          "validation": false,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "equipment",
+          "fields": [
+            "etypeId",
+            "wtypeId",
+            "price",
+            "params"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": true,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "presentation",
+          "fields": [
+            "animationId"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": true,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "traitsAndNotes",
+          "fields": [
+            "traits",
+            "note"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": true,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        }
+      ]
+    },
+    {
+      "file": "Armors.json",
+      "documentKind": "Armors",
+      "fieldGroups": [
+        {
+          "group": "identity",
+          "fields": [
+            "id",
+            "name",
+            "description",
+            "iconIndex"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": false,
+          "validation": false,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "equipment",
+          "fields": [
+            "etypeId",
+            "atypeId",
+            "price",
+            "params"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": true,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "traitsAndNotes",
+          "fields": [
+            "traits",
+            "note"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": true,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        }
+      ]
+    },
+    {
+      "file": "Enemies.json",
+      "documentKind": "Enemies",
+      "fieldGroups": [
+        {
+          "group": "identity",
+          "fields": [
+            "id",
+            "name"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": false,
+          "validation": false,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "battler",
+          "fields": [
+            "battlerName",
+            "battlerHue"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": true,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "parameters",
+          "fields": [
+            "params"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": false,
+          "validation": false,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "rewards",
+          "fields": [
+            "exp",
+            "gold",
+            "dropItems"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": true,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "actions",
+          "fields": [
+            "actions[].skillId",
+            "actions[].conditionType",
+            "actions[].conditionParam1",
+            "actions[].conditionParam2",
+            "actions[].rating"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": true,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "traitsAndNotes",
+          "fields": [
+            "traits",
+            "note"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": true,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        }
+      ]
+    },
+    {
+      "file": "Troops.json",
+      "documentKind": "Troops",
+      "fieldGroups": [
+        {
+          "group": "identity",
+          "fields": [
+            "id",
+            "name"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": false,
+          "validation": false,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "members",
+          "fields": [
+            "members[].enemyId",
+            "members[].x",
+            "members[].y",
+            "members[].hidden"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": true,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "pages",
+          "fields": [
+            "pages[].conditions",
+            "pages[].span",
+            "pages[].list"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": true,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        }
+      ]
+    },
+    {
+      "file": "States.json",
+      "documentKind": "States",
+      "fieldGroups": [
+        {
+          "group": "identity",
+          "fields": [
+            "id",
+            "name",
+            "iconIndex"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": false,
+          "validation": false,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "restriction",
+          "fields": [
+            "restriction",
+            "priority",
+            "motion",
+            "overlay"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": false,
+          "validation": false,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "removal",
+          "fields": [
+            "removeAtBattleEnd",
+            "removeByRestriction",
+            "autoRemovalTiming",
+            "minTurns",
+            "maxTurns",
+            "removeByDamage",
+            "chanceByDamage",
+            "removeByWalking",
+            "stepsToRemove"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": false,
+          "validation": false,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "messages",
+          "fields": [
+            "message1",
+            "message2",
+            "message3",
+            "message4"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": false,
+          "validation": false,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "traitsAndNotes",
+          "fields": [
+            "traits",
+            "note"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": true,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        }
+      ]
+    },
+    {
+      "file": "Animations.json",
+      "documentKind": "Animations",
+      "fieldGroups": [
+        {
+          "group": "identity",
+          "fields": [
+            "id",
+            "name"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": false,
+          "validation": false,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "sheets",
+          "fields": [
+            "animation1Name",
+            "animation1Hue",
+            "animation2Name",
+            "animation2Hue"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": true,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "frames",
+          "fields": [
+            "frames",
+            "position"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": false,
+          "validation": false,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "timings",
+          "fields": [
+            "timings[].frame",
+            "timings[].se",
+            "timings[].flashScope",
+            "timings[].flashColor",
+            "timings[].flashDuration"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": true,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        }
+      ]
+    },
+    {
+      "file": "Tilesets.json",
+      "documentKind": "Tilesets",
+      "fieldGroups": [
+        {
+          "group": "identity",
+          "fields": [
+            "id",
+            "name",
+            "mode"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": false,
+          "validation": false,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "sheets",
+          "fields": [
+            "tilesetNames"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": true,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "flags",
+          "fields": [
+            "flags"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": false,
+          "validation": false,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "notes",
+          "fields": [
+            "note"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": false,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        }
+      ]
+    },
+    {
+      "file": "CommonEvents.json",
+      "documentKind": "CommonEvents",
+      "fieldGroups": [
+        {
+          "group": "identity",
+          "fields": [
+            "id",
+            "name"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": false,
+          "validation": false,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "activation",
+          "fields": [
+            "trigger",
+            "switchId"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": true,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "commands",
+          "fields": [
+            "list"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": true,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        }
+      ]
+    },
+    {
+      "file": "MapInfos.json",
+      "documentKind": "MapInfos",
+      "fieldGroups": [
+        {
+          "group": "identity",
+          "fields": [
+            "id",
+            "name"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": false,
+          "validation": false,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "hierarchy",
+          "fields": [
+            "parentId",
+            "order",
+            "expanded"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": true,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "editorPosition",
+          "fields": [
+            "scrollX",
+            "scrollY"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": false,
+          "validation": false,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        }
+      ]
+    },
+    {
+      "file": "System.json",
+      "documentKind": "System",
+      "fieldGroups": [
+        {
+          "group": "gameIdentity",
+          "fields": [
+            "gameTitle",
+            "currencyUnit",
+            "versionId",
+            "locale"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": false,
+          "validation": false,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "partyAndPositions",
+          "fields": [
+            "partyMembers",
+            "startMapId",
+            "startX",
+            "startY",
+            "boat",
+            "ship",
+            "airship"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": true,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "types",
+          "fields": [
+            "elements",
+            "skillTypes",
+            "weaponTypes",
+            "armorTypes",
+            "equipTypes",
+            "switches",
+            "variables"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": true,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "audio",
+          "fields": [
+            "titleBgm",
+            "battleBgm",
+            "victoryMe",
+            "defeatMe",
+            "sounds"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": true,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "graphics",
+          "fields": [
+            "title1Name",
+            "title2Name",
+            "windowTone"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": true,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "battle",
+          "fields": [
+            "optSideView",
+            "attackMotions",
+            "magicSkills"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": true,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "options",
+          "fields": [
+            "optDisplayTp",
+            "optExtraExp",
+            "optFloorDeath",
+            "optFollowers",
+            "optSlipDeath",
+            "optTransparent"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": false,
+          "validation": false,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "terms",
+          "fields": [
+            "terms.basic",
+            "terms.commands",
+            "terms.params",
+            "terms.messages"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": false,
+          "validation": false,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        }
+      ]
+    },
+    {
+      "file": "MapNNN.json",
+      "documentKind": "Map",
+      "fieldGroups": [
+        {
+          "group": "identity",
+          "fields": [
+            "displayName",
+            "note"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": false,
+          "validation": false,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "dimensions",
+          "fields": [
+            "width",
+            "height",
+            "scrollType"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": false,
+          "validation": true,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "tiles",
+          "fields": [
+            "tilesetId",
+            "data"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": true,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "encounters",
+          "fields": [
+            "encounterList[].troopId",
+            "encounterList[].weight",
+            "encounterList[].regionSet",
+            "encounterStep"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": true,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "audio",
+          "fields": [
+            "autoplayBgm",
+            "bgm",
+            "autoplayBgs",
+            "bgs"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": true,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "battlebacks",
+          "fields": [
+            "specifyBattleback",
+            "battleback1Name",
+            "battleback2Name"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": true,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "parallax",
+          "fields": [
+            "parallaxName",
+            "parallaxLoopX",
+            "parallaxLoopY",
+            "parallaxSx",
+            "parallaxSy",
+            "parallaxShow"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": true,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "events",
+          "fields": [
+            "events[].id",
+            "events[].x",
+            "events[].y",
+            "events[].pages"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": true,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        },
+        {
+          "group": "eventPages",
+          "fields": [
+            "conditions",
+            "image",
+            "moveType",
+            "moveRoute",
+            "moveSpeed",
+            "moveFrequency",
+            "walkAnime",
+            "stepAnime",
+            "directionFix",
+            "through",
+            "priorityType",
+            "trigger",
+            "list"
+          ],
+          "lossless": true,
+          "typedView": true,
+          "referenceIndex": true,
+          "validation": true,
+          "notes": "Raw-backed preservation applies even when specialized accessors are pending."
+        }
+      ]
+    }
+  ]
+}

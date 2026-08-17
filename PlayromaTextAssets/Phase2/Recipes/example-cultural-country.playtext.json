@@ -1,0 +1,21 @@
+{
+  "id": "example.phase2.coastal-country",
+  "version": 1,
+  "name": "Example Coastal Country",
+  "kind": "countryName",
+  "stages": [
+    {
+      "id": "generate",
+      "kind": "phase2.name-generate",
+      "enabled": true,
+      "settings": {
+        "profile": "example-coastal",
+        "domain": "country",
+        "strategy": "hybrid",
+        "candidateCount": 32,
+        "field": "name",
+        "isPrimary": true
+      }
+    }
+  ]
+}

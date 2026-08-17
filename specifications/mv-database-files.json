@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "source": "RPG Maker MV project data layout; independently authored field fixtures",
+  "files": [
+    {
+      "name": "Actors.json",
+      "root": "nullable-one-based-array",
+      "recordType": "actor",
+      "required": true,
+      "documentKind": "Actors"
+    },
+    {
+      "name": "Animations.json",
+      "root": "nullable-one-based-array",
+      "recordType": "animation",
+      "required": true,
+      "documentKind": "Animations"
+    },
+    {
+      "name": "Armors.json",
+      "root": "nullable-one-based-array",
+      "recordType": "armor",
+      "required": true,
+      "documentKind": "Armors"
+    },
+    {
+      "name": "Classes.json",
+      "root": "nullable-one-based-array",
+      "recordType": "class",
+      "required": true,
+      "documentKind": "Classes"
+    },
+    {
+      "name": "CommonEvents.json",
+      "root": "nullable-one-based-array",
+      "recordType": "commonEvent",
+      "required": true,
+      "documentKind": "CommonEvents"
+    },
+    {
+      "name": "Enemies.json",
+      "root": "nullable-one-based-array",
+      "recordType": "enemy",
+      "required": true,
+      "documentKind": "Enemies"
+    },
+    {
+      "name": "Items.json",
+      "root": "nullable-one-based-array",
+      "recordType": "item",
+      "required": true,
+      "documentKind": "Items"
+    },
+    {
+      "name": "MapInfos.json",
+      "root": "nullable-one-based-array",
+      "recordType": "mapInfo",
+      "required": true,
+      "documentKind": "MapInfos"
+    },
+    {
+      "name": "MapNNN.json",
+      "root": "object",
+      "recordType": "map",
+      "required": false,
+      "documentKind": "Map"
+    },
+    {
+      "name": "Skills.json",
+      "root": "nullable-one-based-array",
+      "recordType": "skill",
+      "required": true,
+      "documentKind": "Skills"
+    },
+    {
+      "name": "States.json",
+      "root": "nullable-one-based-array",
+      "recordType": "state",
+      "required": true,
+      "documentKind": "States"
+    },
+    {
+      "name": "System.json",
+      "root": "object",
+      "recordType": "system",
+      "required": true,
+      "documentKind": "System"
+    },
+    {
+      "name": "Tilesets.json",
+      "root": "nullable-one-based-array",
+      "recordType": "tileset",
+      "required": true,
+      "documentKind": "Tilesets"
+    },
+    {
+      "name": "Troops.json",
+      "root": "nullable-one-based-array",
+      "recordType": "troop",
+      "required": true,
+      "documentKind": "Troops"
+    },
+    {
+      "name": "Weapons.json",
+      "root": "nullable-one-based-array",
+      "recordType": "weapon",
+      "required": true,
+      "documentKind": "Weapons"
+    }
+  ]
+}

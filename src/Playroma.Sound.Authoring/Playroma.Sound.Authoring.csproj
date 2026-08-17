@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Description>Platform-neutral project, document, history, validation, compilation, autosave, recovery, dependency, and structured streaming-scene editing services for Playroma Sound authoring tools.</Description>
+    <PackageId>Playroma.Sound.Authoring</PackageId>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Playroma.Sound.Core\Playroma.Sound.Core.csproj" />
+    <ProjectReference Include="..\Playroma.Sound.Analysis\Playroma.Sound.Analysis.csproj" />
+    <ProjectReference Include="..\Playroma.Sound.Graph\Playroma.Sound.Graph.csproj" />
+    <ProjectReference Include="..\Playroma.Sound.Generators\Playroma.Sound.Generators.csproj" />
+    <ProjectReference Include="..\Playroma.Sound.Streaming\Playroma.Sound.Streaming.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Playroma.JRPG.PluginTags.Phase10.Tests</RootNamespace>
+    <AssemblyName>Playroma.JRPG.PluginTags.Phase10.Tests</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../src/Playroma.JRPG.PluginTags/Playroma.JRPG.PluginTags.csproj" />
+    <ProjectReference Include="../../src/Playroma.JRPG.PluginTags.Yanfly/Playroma.JRPG.PluginTags.Yanfly.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,21 @@
+{
+  "schema": "playroma-sprite-workspace/1",
+  "id": "default",
+  "name": "Default",
+  "windowX": 80,
+  "windowY": 80,
+  "windowWidth": 1540,
+  "windowHeight": 940,
+  "maximized": false,
+  "mirrorInspector": false,
+  "timelineVisible": true,
+  "inspectorWidth": 410,
+  "timelineHeight": 250,
+  "activeInspectorTab": "Layers",
+  "canvasZoom": 4,
+  "panels": [
+    { "key": "inspector", "dock": "right", "visible": true, "sizeRatio": 0.27, "order": 0 },
+    { "key": "timeline", "dock": "bottom", "visible": true, "sizeRatio": 0.25, "order": 1 }
+  ],
+  "savedAt": "2026-08-05T19:00:00Z"
+}

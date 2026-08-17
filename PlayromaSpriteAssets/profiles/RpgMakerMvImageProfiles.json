@@ -1,0 +1,743 @@
+{
+  "schemaVersion": 1,
+  "engine": "RPG Maker MV",
+  "profiles": [
+    {
+      "id": "mv-animation-sheet",
+      "displayName": "Animation Effect Sheet",
+      "assetFolder": "img/animations",
+      "category": "animation",
+      "runtimeFormat": "png",
+      "validationMode": "strict",
+      "dimensions": {
+        "arbitrary": true
+      },
+      "grid": {
+        "columns": 5,
+        "minimumRows": 1,
+        "maximumRows": 20,
+        "cellWidth": 192,
+        "cellHeight": 192,
+        "maximumCells": 100
+      },
+      "filenameRules": {},
+      "motions": [],
+      "metadata": {
+        "sheetKind": "animation",
+        "cellOrder": "row-major",
+        "officialRule": "5 columns of 192x192 cells; maximum 100 cells"
+      }
+    },
+    {
+      "id": "mv-character-standard",
+      "displayName": "Character Sheet — 8 Characters",
+      "assetFolder": "img/characters",
+      "category": "character",
+      "runtimeFormat": "png",
+      "validationMode": "strict",
+      "dimensions": {
+        "arbitrary": true
+      },
+      "grid": {
+        "columns": 12,
+        "rows": 8
+      },
+      "filenameRules": {
+        "allowObjectPrefix": true
+      },
+      "motions": [],
+      "metadata": {
+        "sheetKind": "character-standard",
+        "cellOrder": "row-major",
+        "characterCount": "8",
+        "directionOrder": "down,left,right,up"
+      }
+    },
+    {
+      "id": "mv-character-single",
+      "displayName": "Character Sheet — Single Character",
+      "assetFolder": "img/characters",
+      "category": "character",
+      "runtimeFormat": "png",
+      "validationMode": "strict",
+      "dimensions": {
+        "arbitrary": true
+      },
+      "grid": {
+        "columns": 3,
+        "rows": 4
+      },
+      "filenameRules": {
+        "requireDollarPrefix": true,
+        "allowDollarPrefix": true,
+        "allowObjectPrefix": true
+      },
+      "motions": [],
+      "metadata": {
+        "sheetKind": "character-single",
+        "cellOrder": "row-major",
+        "characterCount": "1",
+        "directionOrder": "down,left,right,up"
+      }
+    },
+    {
+      "id": "mv-face-sheet",
+      "displayName": "Face Sheet",
+      "assetFolder": "img/faces",
+      "category": "face",
+      "runtimeFormat": "png",
+      "validationMode": "strict",
+      "dimensions": {
+        "fixedWidth": 576,
+        "fixedHeight": 288
+      },
+      "grid": {
+        "columns": 4,
+        "rows": 2,
+        "cellWidth": 144,
+        "cellHeight": 144
+      },
+      "filenameRules": {},
+      "motions": [],
+      "metadata": {
+        "sheetKind": "face",
+        "cellOrder": "row-major",
+        "portraitCount": "8"
+      }
+    },
+    {
+      "id": "mv-sv-actor",
+      "displayName": "Side-view Actor",
+      "assetFolder": "img/sv_actors",
+      "category": "battler",
+      "runtimeFormat": "png",
+      "validationMode": "strict",
+      "dimensions": {
+        "recommendedWidth": 576,
+        "recommendedHeight": 384
+      },
+      "grid": {
+        "columns": 9,
+        "rows": 6
+      },
+      "filenameRules": {},
+      "motions": [
+        {
+          "id": "walk",
+          "displayName": "Walk",
+          "startCell": 0,
+          "frameCount": 3,
+          "playback": "loop"
+        },
+        {
+          "id": "wait",
+          "displayName": "Wait",
+          "startCell": 3,
+          "frameCount": 3,
+          "playback": "loop"
+        },
+        {
+          "id": "chant",
+          "displayName": "Chant",
+          "startCell": 6,
+          "frameCount": 3,
+          "playback": "loop"
+        },
+        {
+          "id": "guard",
+          "displayName": "Guard",
+          "startCell": 9,
+          "frameCount": 3,
+          "playback": "loop"
+        },
+        {
+          "id": "damage",
+          "displayName": "Damage",
+          "startCell": 12,
+          "frameCount": 3,
+          "playback": "once"
+        },
+        {
+          "id": "evade",
+          "displayName": "Evade",
+          "startCell": 15,
+          "frameCount": 3,
+          "playback": "once"
+        },
+        {
+          "id": "thrust",
+          "displayName": "Thrust",
+          "startCell": 18,
+          "frameCount": 3,
+          "playback": "once"
+        },
+        {
+          "id": "swing",
+          "displayName": "Swing",
+          "startCell": 21,
+          "frameCount": 3,
+          "playback": "once"
+        },
+        {
+          "id": "missile",
+          "displayName": "Missile",
+          "startCell": 24,
+          "frameCount": 3,
+          "playback": "once"
+        },
+        {
+          "id": "skill",
+          "displayName": "Skill",
+          "startCell": 27,
+          "frameCount": 3,
+          "playback": "once"
+        },
+        {
+          "id": "spell",
+          "displayName": "Spell",
+          "startCell": 30,
+          "frameCount": 3,
+          "playback": "once"
+        },
+        {
+          "id": "item",
+          "displayName": "Item",
+          "startCell": 33,
+          "frameCount": 3,
+          "playback": "once"
+        },
+        {
+          "id": "escape",
+          "displayName": "Escape",
+          "startCell": 36,
+          "frameCount": 3,
+          "playback": "once"
+        },
+        {
+          "id": "victory",
+          "displayName": "Victory",
+          "startCell": 39,
+          "frameCount": 3,
+          "playback": "once"
+        },
+        {
+          "id": "dying",
+          "displayName": "Dying",
+          "startCell": 42,
+          "frameCount": 3,
+          "playback": "loop"
+        },
+        {
+          "id": "abnormal",
+          "displayName": "Abnormal",
+          "startCell": 45,
+          "frameCount": 3,
+          "playback": "loop"
+        },
+        {
+          "id": "sleep",
+          "displayName": "Sleep",
+          "startCell": 48,
+          "frameCount": 3,
+          "playback": "loop"
+        },
+        {
+          "id": "dead",
+          "displayName": "Dead",
+          "startCell": 51,
+          "frameCount": 3,
+          "playback": "loop"
+        }
+      ],
+      "metadata": {
+        "sheetKind": "sv-actor",
+        "cellOrder": "row-major",
+        "motionCount": "18"
+      }
+    },
+    {
+      "id": "mv-enemy",
+      "displayName": "Front-view Enemy",
+      "assetFolder": "img/enemies",
+      "category": "battler",
+      "runtimeFormat": "png",
+      "validationMode": "strict",
+      "dimensions": {
+        "arbitrary": true
+      },
+      "filenameRules": {},
+      "motions": [],
+      "metadata": {}
+    },
+    {
+      "id": "mv-sv-enemy",
+      "displayName": "Side-view Enemy",
+      "assetFolder": "img/sv_enemies",
+      "category": "battler",
+      "runtimeFormat": "png",
+      "validationMode": "strict",
+      "dimensions": {
+        "arbitrary": true
+      },
+      "filenameRules": {},
+      "motions": [],
+      "metadata": {}
+    },
+    {
+      "id": "mv-picture",
+      "displayName": "Picture",
+      "assetFolder": "img/pictures",
+      "category": "picture",
+      "runtimeFormat": "png",
+      "validationMode": "strict",
+      "dimensions": {
+        "arbitrary": true
+      },
+      "filenameRules": {},
+      "motions": [],
+      "metadata": {}
+    },
+    {
+      "id": "mv-parallax",
+      "displayName": "Parallax",
+      "assetFolder": "img/parallaxes",
+      "category": "background",
+      "runtimeFormat": "png",
+      "validationMode": "strict",
+      "dimensions": {
+        "arbitrary": true
+      },
+      "filenameRules": {
+        "allowParallaxFloorPrefix": true
+      },
+      "motions": [],
+      "metadata": {}
+    },
+    {
+      "id": "mv-battleback1",
+      "displayName": "Battleback Floor",
+      "assetFolder": "img/battlebacks1",
+      "category": "background",
+      "runtimeFormat": "png",
+      "validationMode": "strict",
+      "dimensions": {
+        "fixedWidth": 1000,
+        "fixedHeight": 740
+      },
+      "filenameRules": {},
+      "motions": [],
+      "metadata": {}
+    },
+    {
+      "id": "mv-battleback2",
+      "displayName": "Battleback Wall",
+      "assetFolder": "img/battlebacks2",
+      "category": "background",
+      "runtimeFormat": "png",
+      "validationMode": "strict",
+      "dimensions": {
+        "fixedWidth": 1000,
+        "fixedHeight": 740
+      },
+      "filenameRules": {},
+      "motions": [],
+      "metadata": {}
+    },
+    {
+      "id": "mv-title1",
+      "displayName": "Title Background",
+      "assetFolder": "img/titles1",
+      "category": "background",
+      "runtimeFormat": "png",
+      "validationMode": "strict",
+      "dimensions": {
+        "fixedWidth": 816,
+        "fixedHeight": 624
+      },
+      "filenameRules": {},
+      "motions": [],
+      "metadata": {}
+    },
+    {
+      "id": "mv-title2",
+      "displayName": "Title Overlay",
+      "assetFolder": "img/titles2",
+      "category": "background",
+      "runtimeFormat": "png",
+      "validationMode": "strict",
+      "dimensions": {
+        "fixedWidth": 816,
+        "fixedHeight": 624
+      },
+      "filenameRules": {},
+      "motions": [],
+      "metadata": {}
+    },
+    {
+      "id": "mv-iconset",
+      "displayName": "IconSet",
+      "assetFolder": "img/system",
+      "category": "system",
+      "runtimeFormat": "png",
+      "validationMode": "strict",
+      "dimensions": {
+        "arbitrary": true
+      },
+      "grid": {
+        "columns": 16,
+        "cellWidth": 32,
+        "cellHeight": 32
+      },
+      "filenameRules": {},
+      "templateKey": "system/iconset",
+      "motions": [],
+      "metadata": {
+        "expectedFileName": "IconSet.png",
+        "sheetKind": "iconset",
+        "cellOrder": "row-major",
+        "systemAssetEditor": "iconset",
+        "reservedFileName": "IconSet.png",
+        "stockWidth": "512",
+        "stockHeight": "640",
+        "phase": "7"
+      }
+    },
+    {
+      "id": "mv-balloon",
+      "displayName": "Balloon Sheet",
+      "assetFolder": "img/system",
+      "category": "system",
+      "runtimeFormat": "png",
+      "validationMode": "template",
+      "dimensions": {
+        "recommendedWidth": 384,
+        "recommendedHeight": 720
+      },
+      "filenameRules": {},
+      "templateKey": "system/balloon",
+      "motions": [],
+      "metadata": {
+        "expectedFileName": "Balloon.png",
+        "systemAssetEditor": "balloon-animation",
+        "reservedFileName": "Balloon.png",
+        "stockWidth": "384",
+        "stockHeight": "720",
+        "phase": "7"
+      },
+      "grid": {
+        "columns": 8,
+        "cellWidth": 48,
+        "cellHeight": 48
+      }
+    },
+    {
+      "id": "mv-damage",
+      "displayName": "Damage Numbers",
+      "assetFolder": "img/system",
+      "category": "system",
+      "runtimeFormat": "png",
+      "validationMode": "template",
+      "dimensions": {
+        "recommendedWidth": 240,
+        "recommendedHeight": 160
+      },
+      "filenameRules": {},
+      "templateKey": "system/damage",
+      "motions": [],
+      "metadata": {
+        "expectedFileName": "Damage.png",
+        "systemAssetEditor": "damage-glyphs",
+        "reservedFileName": "Damage.png",
+        "stockWidth": "240",
+        "stockHeight": "160",
+        "phase": "7"
+      },
+      "grid": {
+        "columns": 10,
+        "rows": 5
+      }
+    },
+    {
+      "id": "mv-window",
+      "displayName": "Window Skin",
+      "assetFolder": "img/system",
+      "category": "system",
+      "runtimeFormat": "png",
+      "validationMode": "template",
+      "dimensions": {
+        "fixedWidth": 192,
+        "fixedHeight": 192
+      },
+      "filenameRules": {},
+      "templateKey": "system/window",
+      "motions": [],
+      "metadata": {
+        "expectedFileName": "Window.png",
+        "systemAssetEditor": "window-nine-slice",
+        "reservedFileName": "Window.png",
+        "stockWidth": "192",
+        "stockHeight": "192",
+        "phase": "7"
+      }
+    },
+    {
+      "id": "mv-states",
+      "displayName": "State Overlays",
+      "assetFolder": "img/system",
+      "category": "system",
+      "runtimeFormat": "png",
+      "validationMode": "template",
+      "dimensions": {
+        "recommendedWidth": 768,
+        "recommendedHeight": 960
+      },
+      "filenameRules": {},
+      "templateKey": "system/states",
+      "motions": [],
+      "metadata": {
+        "expectedFileName": "States.png",
+        "systemAssetEditor": "state-overlay",
+        "reservedFileName": "States.png",
+        "stockWidth": "768",
+        "stockHeight": "960",
+        "phase": "7"
+      },
+      "grid": {
+        "columns": 8,
+        "cellWidth": 96,
+        "cellHeight": 96
+      }
+    },
+    {
+      "id": "mv-weapons1",
+      "displayName": "Weapon Sheet 1",
+      "assetFolder": "img/system",
+      "category": "system",
+      "runtimeFormat": "png",
+      "validationMode": "template",
+      "dimensions": {
+        "recommendedWidth": 576,
+        "recommendedHeight": 384
+      },
+      "filenameRules": {},
+      "templateKey": "system/weapons1",
+      "motions": [],
+      "metadata": {
+        "expectedFileName": "Weapons1.png",
+        "systemAssetEditor": "weapon-animation",
+        "reservedFileName": "Weapons1.png",
+        "stockWidth": "576",
+        "stockHeight": "384",
+        "phase": "7"
+      },
+      "grid": {
+        "columns": 6,
+        "rows": 6,
+        "cellWidth": 96,
+        "cellHeight": 64
+      }
+    },
+    {
+      "id": "mv-weapons2",
+      "displayName": "Weapon Sheet 2",
+      "assetFolder": "img/system",
+      "category": "system",
+      "runtimeFormat": "png",
+      "validationMode": "template",
+      "dimensions": {
+        "recommendedWidth": 576,
+        "recommendedHeight": 384
+      },
+      "filenameRules": {},
+      "templateKey": "system/weapons2",
+      "motions": [],
+      "metadata": {
+        "expectedFileName": "Weapons2.png",
+        "systemAssetEditor": "weapon-animation",
+        "reservedFileName": "Weapons2.png",
+        "stockWidth": "576",
+        "stockHeight": "384",
+        "phase": "7"
+      },
+      "grid": {
+        "columns": 6,
+        "rows": 6,
+        "cellWidth": 96,
+        "cellHeight": 64
+      }
+    },
+    {
+      "id": "mv-weapons3",
+      "displayName": "Weapon Sheet 3",
+      "assetFolder": "img/system",
+      "category": "system",
+      "runtimeFormat": "png",
+      "validationMode": "template",
+      "dimensions": {
+        "recommendedWidth": 288,
+        "recommendedHeight": 384
+      },
+      "filenameRules": {},
+      "templateKey": "system/weapons3",
+      "motions": [],
+      "metadata": {
+        "expectedFileName": "Weapons3.png",
+        "systemAssetEditor": "weapon-animation",
+        "reservedFileName": "Weapons3.png",
+        "stockWidth": "288",
+        "stockHeight": "384",
+        "phase": "7"
+      },
+      "grid": {
+        "columns": 3,
+        "rows": 6,
+        "cellWidth": 96,
+        "cellHeight": 64
+      }
+    },
+    {
+      "id": "mv-buttonset",
+      "displayName": "Touch Button Set",
+      "assetFolder": "img/system",
+      "category": "system",
+      "runtimeFormat": "png",
+      "validationMode": "template",
+      "dimensions": {
+        "recommendedWidth": 288,
+        "recommendedHeight": 96
+      },
+      "filenameRules": {},
+      "templateKey": "system/buttonset",
+      "motions": [],
+      "metadata": {
+        "expectedFileName": "ButtonSet.png",
+        "systemAssetEditor": "touch-buttons",
+        "reservedFileName": "ButtonSet.png",
+        "stockWidth": "288",
+        "stockHeight": "96",
+        "phase": "7"
+      },
+      "grid": {
+        "columns": 6,
+        "rows": 2,
+        "cellWidth": 48,
+        "cellHeight": 48
+      }
+    },
+    {
+      "id": "mv-loading",
+      "displayName": "Loading Image",
+      "assetFolder": "img/system",
+      "category": "system",
+      "runtimeFormat": "png",
+      "validationMode": "template",
+      "dimensions": {
+        "recommendedWidth": 400,
+        "recommendedHeight": 100
+      },
+      "filenameRules": {},
+      "templateKey": "system/loading",
+      "motions": [],
+      "metadata": {
+        "expectedFileName": "Loading.png",
+        "systemAssetEditor": "loading",
+        "reservedFileName": "Loading.png",
+        "stockWidth": "400",
+        "stockHeight": "100",
+        "phase": "7"
+      }
+    },
+    {
+      "id": "mv-gameover",
+      "displayName": "Game Over Image",
+      "assetFolder": "img/system",
+      "category": "system",
+      "runtimeFormat": "png",
+      "validationMode": "template",
+      "dimensions": {
+        "fixedWidth": 816,
+        "fixedHeight": 624
+      },
+      "filenameRules": {},
+      "templateKey": "system/gameover",
+      "motions": [],
+      "metadata": {
+        "expectedFileName": "GameOver.png",
+        "systemAssetEditor": "game-over",
+        "reservedFileName": "GameOver.png",
+        "stockWidth": "816",
+        "stockHeight": "624",
+        "phase": "7"
+      }
+    },
+    {
+      "id": "mv-shadow1",
+      "displayName": "Character Shadow",
+      "assetFolder": "img/system",
+      "category": "system",
+      "runtimeFormat": "png",
+      "validationMode": "template",
+      "dimensions": {
+        "recommendedWidth": 48,
+        "recommendedHeight": 48
+      },
+      "filenameRules": {},
+      "templateKey": "system/shadow1",
+      "motions": [],
+      "metadata": {
+        "expectedFileName": "Shadow1.png",
+        "systemAssetEditor": "airship-shadow",
+        "reservedFileName": "Shadow1.png",
+        "stockWidth": "48",
+        "stockHeight": "48",
+        "phase": "7"
+      }
+    },
+    {
+      "id": "mv-shadow2",
+      "displayName": "Vehicle Shadow",
+      "assetFolder": "img/system",
+      "category": "system",
+      "runtimeFormat": "png",
+      "validationMode": "template",
+      "dimensions": {
+        "recommendedWidth": 82,
+        "recommendedHeight": 38
+      },
+      "filenameRules": {},
+      "templateKey": "system/shadow2",
+      "motions": [],
+      "metadata": {
+        "expectedFileName": "Shadow2.png",
+        "systemAssetEditor": "side-view-actor-shadow",
+        "reservedFileName": "Shadow2.png",
+        "stockWidth": "82",
+        "stockHeight": "38",
+        "phase": "7"
+      }
+    },
+    {
+      "id": "mv-tileset",
+      "displayName": "Tileset Image",
+      "assetFolder": "img/tilesets",
+      "category": "tileset",
+      "runtimeFormat": "png",
+      "validationMode": "bridge",
+      "dimensions": {
+        "arbitrary": true
+      },
+      "grid": {
+        "cellWidth": 48,
+        "cellHeight": 48
+      },
+      "filenameRules": {},
+      "templateKey": "tileset/bridge",
+      "metadata": {
+        "advancedEditor": "Playroma Tile Studio",
+        "sheetKind": "tileset",
+        "bridge": "Playroma Tile Studio"
+      },
+      "motions": []
+    }
+  ]
+}

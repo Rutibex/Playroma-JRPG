@@ -1,0 +1,28 @@
+{
+  "id": "example.project-markov",
+  "version": 1,
+  "name": "Example Project Corpus Markov",
+  "kind": "dialogue",
+  "description": "Uses a Corpus Lab corpus by ID.",
+  "stages": [
+    {
+      "id": "markov",
+      "kind": "phase5.markov",
+      "enabled": true,
+      "settings": {
+        "corpusId": "example-tavern",
+        "mode": "word",
+        "order": 1,
+        "minimumOrder": 1,
+        "backoff": true,
+        "minimumTokens": 5,
+        "maximumTokens": 22,
+        "preventExactMatches": true,
+        "maximumSimilarity": 0.9,
+        "candidateAttempts": 64,
+        "field": "text",
+        "isPrimary": true
+      }
+    }
+  ]
+}

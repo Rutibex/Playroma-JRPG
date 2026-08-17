@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "id": "modal-noir",
+  "name": "Modal Noir",
+  "description": "Dark modal harmony, spacious drums, low reeds and slowly shifting ensemble colour.",
+  "version": "1.0.0",
+  "family": "jazz",
+  "abstract": false,
+  "extends": "jazz-after-hours",
+  "tempo": {
+    "minimum": 58,
+    "maximum": 104
+  },
+  "candidateCount": 16,
+  "scales": [
+    "dorian",
+    "phrygian",
+    "naturalMinor"
+  ],
+  "roles": [
+    {
+      "id": "melody",
+      "name": "Modal Noir Melody",
+      "role": "lead",
+      "instrumentSelector": {
+        "families": [
+          "reed",
+          "brass",
+          "pipe"
+        ],
+        "preferredTags": [
+          "lead",
+          "expressive",
+          "dark"
+        ],
+        "avoidTags": [
+          "very-low",
+          "very-bright"
+        ],
+        "minimumAttack": 0.15,
+        "maximumAttack": 0.95,
+        "minimumBrightness": 0.2,
+        "maximumBrightness": 0.95,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "octaveDoubling",
+          "phraseAlternation",
+          "callAndResponse",
+          "sectionSubstitution"
+        ]
+      }
+    },
+    {
+      "id": "bass",
+      "name": "Modal Noir Bass",
+      "role": "bass",
+      "instrumentSelector": {
+        "families": [
+          "bass",
+          "strings"
+        ],
+        "preferredTags": [
+          "bass",
+          "warm",
+          "low"
+        ],
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 0.72,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "registerSplit",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "chords",
+      "name": "Modal Noir Chords",
+      "role": "chords",
+      "instrumentSelector": {
+        "families": [
+          "piano",
+          "organ",
+          "synthPad"
+        ],
+        "preferredTags": [
+          "polyphonic",
+          "harmony",
+          "dark",
+          "sustaining"
+        ],
+        "minimumSustain": 0.15,
+        "maximumLayers": 3,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "registerSplit",
+          "hocket",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "arpeggio",
+      "name": "Modal Noir Arpeggio",
+      "role": "arpeggio",
+      "instrumentSelector": {
+        "families": [
+          "piano",
+          "chromaticPercussion"
+        ],
+        "preferredTags": [
+          "short",
+          "clear",
+          "pulse",
+          "sparse"
+        ],
+        "minimumAttack": 0.25,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "octaveDoubling",
+          "hocket",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "drums",
+      "name": "Modal Noir Drums",
+      "role": "drums",
+      "instrumentSelector": {
+        "families": [
+          "drums"
+        ],
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument",
+          "sectionSubstitution"
+        ],
+        "preferredTags": [
+          "drums",
+          "brush",
+          "percussive"
+        ],
+        "avoidTags": []
+      }
+    }
+  ]
+}

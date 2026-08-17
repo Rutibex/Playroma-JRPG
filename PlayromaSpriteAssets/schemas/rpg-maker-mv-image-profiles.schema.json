@@ -1,0 +1,212 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://playroma.local/schemas/rpg-maker-mv-image-profiles.schema.json",
+  "title": "Playroma RPG Maker MV Image Profiles",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "engine",
+    "profiles"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "engine": {
+      "const": "RPG Maker MV"
+    },
+    "profiles": {
+      "type": "array",
+      "minItems": 0,
+      "items": {
+        "$ref": "#/$defs/profile"
+      }
+    }
+  },
+  "$defs": {
+    "profile": {
+      "type": "object",
+      "required": [
+        "id",
+        "displayName",
+        "assetFolder",
+        "category",
+        "runtimeFormat",
+        "validationMode",
+        "dimensions",
+        "filenameRules",
+        "motions",
+        "metadata"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$"
+        },
+        "displayName": {
+          "type": "string",
+          "minLength": 1
+        },
+        "assetFolder": {
+          "type": "string",
+          "pattern": "^img/[a-z0-9_]+$"
+        },
+        "category": {
+          "type": "string",
+          "minLength": 1
+        },
+        "runtimeFormat": {
+          "const": "png"
+        },
+        "validationMode": {
+          "enum": [
+            "strict",
+            "template",
+            "bridge"
+          ]
+        },
+        "dimensions": {
+          "$ref": "#/$defs/dimensions"
+        },
+        "grid": {
+          "$ref": "#/$defs/grid"
+        },
+        "filenameRules": {
+          "$ref": "#/$defs/filenameRules"
+        },
+        "templateKey": {
+          "type": "string",
+          "minLength": 1
+        },
+        "motions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/motion"
+          }
+        },
+        "metadata": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "dimensions": {
+      "type": "object",
+      "properties": {
+        "fixedWidth": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "fixedHeight": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "recommendedWidth": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "recommendedHeight": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "arbitrary": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false,
+      "minProperties": 1
+    },
+    "grid": {
+      "type": "object",
+      "properties": {
+        "columns": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "rows": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "minimumRows": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "maximumRows": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "cellWidth": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "cellHeight": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "maximumCells": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "additionalProperties": false,
+      "minProperties": 1
+    },
+    "filenameRules": {
+      "type": "object",
+      "properties": {
+        "requireDollarPrefix": {
+          "type": "boolean"
+        },
+        "allowDollarPrefix": {
+          "type": "boolean"
+        },
+        "allowObjectPrefix": {
+          "type": "boolean"
+        },
+        "allowParallaxFloorPrefix": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false
+    },
+    "motion": {
+      "type": "object",
+      "required": [
+        "id",
+        "displayName",
+        "startCell",
+        "frameCount",
+        "playback"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$"
+        },
+        "displayName": {
+          "type": "string",
+          "minLength": 1
+        },
+        "startCell": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "frameCount": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "playback": {
+          "enum": [
+            "loop",
+            "once"
+          ]
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "parameters": [
+    {
+      "name": "BooleanLike",
+      "raw": "true",
+      "semanticHint": "boolean"
+    },
+    {
+      "name": "IntegerLike",
+      "raw": "42",
+      "semanticHint": "integer"
+    },
+    {
+      "name": "FloatLike",
+      "raw": "3.14159",
+      "semanticHint": "number"
+    },
+    {
+      "name": "ArrayString",
+      "raw": "[\"A\",\"B\",\"C\"]",
+      "semanticHint": "json-array"
+    },
+    {
+      "name": "ObjectString",
+      "raw": "{\"enabled\":true,\"count\":2}",
+      "semanticHint": "json-object"
+    },
+    {
+      "name": "StructArray",
+      "raw": "[\"{\\\"name\\\":\\\"One\\\",\\\"value\\\":\\\"1\\\"}\",\"{\\\"name\\\":\\\"Two\\\",\\\"value\\\":\\\"2\\\"}\"]",
+      "semanticHint": "json-array-of-json-strings"
+    },
+    {
+      "name": "Multiline",
+      "raw": "Line one\\nLine two",
+      "semanticHint": "multiline"
+    },
+    {
+      "name": "Filename",
+      "raw": "FixtureAsset",
+      "semanticHint": "file"
+    },
+    {
+      "name": "Unicode",
+      "raw": "Café — 日本語 — 🐈",
+      "semanticHint": "text"
+    },
+    {
+      "name": "EscapedQuote",
+      "raw": "He said \\\"Hello\\\".",
+      "semanticHint": "text"
+    },
+    {
+      "name": "Empty",
+      "raw": "",
+      "semanticHint": "text"
+    }
+  ]
+}

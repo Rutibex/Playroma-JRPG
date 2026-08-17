@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "phase": "Phase 3 \u2014 Installed-plugin intelligence",
+  "providerId": "YEP-MV",
+  "normalizedPluginProfiles": 218,
+  "resolvedDependencyRules": 110,
+  "requiredDependencyRules": 98,
+  "recommendedDependencyRules": 12,
+  "capabilities": [
+    "manifest order and enabled-state inspection",
+    "script existence and orphan-script detection",
+    "declared version extraction",
+    "SHA-256 source fingerprint verification",
+    "Imported alias extraction and collision detection",
+    "required and recommended dependency validation",
+    "load-order validation and stable correction planning",
+    "alternate battle-system conflict validation",
+    "duplicate manifest-entry validation",
+    "catalog feature availability evaluation",
+    "Plugin Manager diagnostics integration",
+    "non-executing project scanner and CLI report"
+  ],
+  "compatibilityStates": [
+    "Available",
+    "InstalledDisabled",
+    "MissingScript",
+    "UnknownPlugin",
+    "UnknownVersion",
+    "UnverifiedSource",
+    "MissingDependency",
+    "DisabledDependency",
+    "LoadOrderViolation",
+    "DuplicateManifestEntry",
+    "Conflict"
+  ],
+  "safety": {
+    "executesPluginJavaScript": false,
+    "redistributesYanflyJavaScript": false,
+    "unknownPluginsPreserved": true,
+    "modifiedSourcesPreserved": true
+  },
+  "loadOrderRules": 104,
+  "conflictGroups": 1
+}

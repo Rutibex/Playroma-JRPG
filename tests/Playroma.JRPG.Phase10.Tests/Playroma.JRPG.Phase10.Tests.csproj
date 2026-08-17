@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Playroma.JRPG.Phase10.Tests</RootNamespace>
+    <AssemblyName>Playroma.JRPG.Phase10.Tests</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../src/Playroma.JRPG.Application/Playroma.JRPG.Application.csproj" />
+    <ProjectReference Include="../../src/Playroma.JRPG.Documents.Mutable/Playroma.JRPG.Documents.Mutable.csproj" />
+    <ProjectReference Include="../../src/Playroma.JRPG.Editing/Playroma.JRPG.Editing.csproj" />
+    <ProjectReference Include="../../src/Playroma.JRPG.Eventing/Playroma.JRPG.Eventing.csproj" />
+    <ProjectReference Include="../../src/Playroma.JRPG.RpgMakerMV/Playroma.JRPG.RpgMakerMV.csproj" />
+    <ProjectReference Include="../../src/Playroma.JRPG.Workspaces/Playroma.JRPG.Workspaces.csproj" />
+  </ItemGroup>
+</Project>

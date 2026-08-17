@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "id": "deep-house",
+  "name": "Deep House",
+  "description": "Steady club pulse with warm bass, restrained chords and evolving synthetic layers.",
+  "version": "1.0.0",
+  "family": "dance",
+  "abstract": false,
+  "extends": "dance-neon-floor",
+  "tempo": {
+    "minimum": 116,
+    "maximum": 126
+  },
+  "candidateCount": 16,
+  "scales": [
+    "naturalMinor",
+    "dorian",
+    "mixolydian"
+  ],
+  "roles": [
+    {
+      "id": "melody",
+      "name": "Deep House Melody",
+      "role": "lead",
+      "instrumentSelector": {
+        "families": [
+          "synthLead",
+          "chromaticPercussion",
+          "pipe"
+        ],
+        "preferredTags": [
+          "lead",
+          "expressive",
+          "soft",
+          "synthetic"
+        ],
+        "avoidTags": [
+          "very-low"
+        ],
+        "minimumAttack": 0.15,
+        "maximumAttack": 0.95,
+        "minimumBrightness": 0.2,
+        "maximumBrightness": 0.95,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "octaveDoubling",
+          "phraseAlternation",
+          "callAndResponse",
+          "sectionSubstitution"
+        ]
+      }
+    },
+    {
+      "id": "bass",
+      "name": "Deep House Bass",
+      "role": "bass",
+      "instrumentSelector": {
+        "families": [
+          "bass",
+          "synthLead"
+        ],
+        "preferredTags": [
+          "bass",
+          "warm",
+          "deep",
+          "low"
+        ],
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 0.72,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "registerSplit",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "chords",
+      "name": "Deep House Chords",
+      "role": "chords",
+      "instrumentSelector": {
+        "families": [
+          "synthPad",
+          "piano",
+          "organ"
+        ],
+        "preferredTags": [
+          "polyphonic",
+          "harmony",
+          "warm"
+        ],
+        "minimumSustain": 0.15,
+        "maximumLayers": 3,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "registerSplit",
+          "hocket",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "arpeggio",
+      "name": "Deep House Arpeggio",
+      "role": "arpeggio",
+      "instrumentSelector": {
+        "families": [
+          "synthLead",
+          "chromaticPercussion"
+        ],
+        "preferredTags": [
+          "short",
+          "clear",
+          "pulse"
+        ],
+        "minimumAttack": 0.25,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "octaveDoubling",
+          "hocket",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "drums",
+      "name": "Deep House Drums",
+      "role": "drums",
+      "instrumentSelector": {
+        "families": [
+          "drums"
+        ],
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument",
+          "sectionSubstitution"
+        ],
+        "preferredTags": [
+          "drums",
+          "electronic",
+          "percussive"
+        ],
+        "avoidTags": []
+      }
+    }
+  ]
+}

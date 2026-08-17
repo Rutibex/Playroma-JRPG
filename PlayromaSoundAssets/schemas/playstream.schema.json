@@ -1,0 +1,239 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://playroma.dev/schemas/playstream.schema.json",
+  "title": "Playroma Sound Streaming Scene",
+  "type": "object",
+  "required": ["formatVersion", "id", "displayName", "rootSeed", "maximumVoices", "sounds", "buses"],
+  "properties": {
+    "formatVersion": { "const": 1 },
+    "id": { "$ref": "#/$defs/id" },
+    "displayName": { "type": "string", "minLength": 1 },
+    "rootSeed": { "type": "integer", "minimum": 0 },
+    "maximumVoices": { "type": "integer", "minimum": 1, "maximum": 4096 },
+    "virtualizationThreshold": { "type": "number", "minimum": 0 },
+    "sounds": { "type": "array", "items": { "$ref": "#/$defs/soundReference" } },
+    "buses": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/bus" } },
+    "acousticZones": { "type": "array", "items": { "$ref": "#/$defs/zone" } },
+    "acousticPortals": { "type": "array", "items": { "$ref": "#/$defs/portal" } },
+    "parameters": { "type": "array", "items": { "$ref": "#/$defs/parameter" } },
+    "parameterBindings": { "type": "array", "items": { "$ref": "#/$defs/binding" } },
+    "layers": { "type": "array", "items": { "$ref": "#/$defs/layer" } },
+    "emitters": { "type": "array", "items": { "$ref": "#/$defs/emitter" } },
+    "eventClusters": { "type": "array", "items": { "$ref": "#/$defs/cluster" } },
+    "stateMachines": { "type": "array", "items": { "$ref": "#/$defs/stateMachine" } },
+    "metadata": { "type": "object", "additionalProperties": { "type": "string" } }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "id": { "type": "string", "minLength": 1, "pattern": "^[A-Za-z0-9._:-]+$" },
+    "vector3": {
+      "type": "object",
+      "required": ["x", "y", "z"],
+      "properties": { "x": { "type": "number" }, "y": { "type": "number" }, "z": { "type": "number" } },
+      "additionalProperties": false
+    },
+    "spatial": {
+      "type": "object",
+      "properties": {
+        "enabled": { "type": "boolean" },
+        "position": { "$ref": "#/$defs/vector3" },
+        "velocity": { "$ref": "#/$defs/vector3" },
+        "minimumDistance": { "type": "number", "minimum": 0 },
+        "maximumDistance": { "type": "number", "minimum": 0 },
+        "occlusion": { "type": "number", "minimum": 0, "maximum": 1 },
+        "obstruction": { "type": "number", "minimum": 0, "maximum": 1 },
+        "zoneId": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "soundReference": {
+      "type": "object",
+      "required": ["soundId", "poolSize"],
+      "properties": { "soundId": { "$ref": "#/$defs/id" }, "poolSize": { "type": "integer", "minimum": 1, "maximum": 1024 } },
+      "additionalProperties": false
+    },
+    "effect": {
+      "type": "object",
+      "required": ["kind"],
+      "properties": {
+        "kind": { "enum": ["lowPass", "highPass", "compressor", "limiter", "reverb", "saturation"] },
+        "amount": { "type": "number" },
+        "secondary": { "type": "number" },
+        "mix": { "type": "number" },
+        "wetOnly": { "type": "boolean" }
+      },
+      "additionalProperties": false
+    },
+    "send": {
+      "type": "object",
+      "required": ["targetBusId", "gain"],
+      "properties": { "targetBusId": { "$ref": "#/$defs/id" }, "gain": { "type": "number" } },
+      "additionalProperties": false
+    },
+    "bus": {
+      "type": "object",
+      "required": ["id"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "parentId": { "type": "string" },
+        "gain": { "type": "number" },
+        "effects": { "type": "array", "items": { "$ref": "#/$defs/effect" } },
+        "sends": { "type": "array", "items": { "$ref": "#/$defs/send" } }
+      },
+      "additionalProperties": false
+    },
+    "zone": {
+      "type": "object",
+      "required": ["id"],
+      "properties": { "id": { "$ref": "#/$defs/id" }, "environmentBusId": { "type": "string" }, "ambientGain": { "type": "number" } },
+      "additionalProperties": false
+    },
+    "portal": {
+      "type": "object",
+      "required": ["id", "zoneAId", "zoneBId"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "zoneAId": { "$ref": "#/$defs/id" },
+        "zoneBId": { "$ref": "#/$defs/id" },
+        "transmission": { "type": "number", "minimum": 0, "maximum": 1 },
+        "lowPassAmount": { "type": "number", "minimum": 0, "maximum": 1 }
+      },
+      "additionalProperties": false
+    },
+    "parameter": {
+      "type": "object",
+      "required": ["id", "minimum", "maximum", "defaultValue"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "displayName": { "type": "string" },
+        "minimum": { "type": "number" },
+        "maximum": { "type": "number" },
+        "defaultValue": { "type": "number" },
+        "smoothingSeconds": { "type": "number", "minimum": 0 }
+      },
+      "additionalProperties": false
+    },
+    "binding": {
+      "type": "object",
+      "required": ["parameterId", "targetKind", "targetId"],
+      "properties": {
+        "parameterId": { "$ref": "#/$defs/id" },
+        "targetKind": { "enum": ["layerGain", "emitterRate", "emitterGain", "busGain", "layerMacro"] },
+        "targetId": { "$ref": "#/$defs/id" },
+        "targetParameter": { "type": "string" },
+        "outputMinimum": { "type": "number" },
+        "outputMaximum": { "type": "number" },
+        "curve": { "enum": ["linear", "smoothStep", "exponential", "inverted"] }
+      },
+      "additionalProperties": false
+    },
+    "layer": {
+      "type": "object",
+      "required": ["id", "kind", "soundId", "busId"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "kind": { "enum": ["continuous", "loop"] },
+        "soundId": { "$ref": "#/$defs/id" },
+        "busId": { "$ref": "#/$defs/id" },
+        "gain": { "type": "number" },
+        "pan": { "type": "number", "minimum": -1, "maximum": 1 },
+        "priority": { "type": "integer" },
+        "protected": { "type": "boolean" },
+        "fadeSeconds": { "type": "number", "minimum": 0 },
+        "startDelaySeconds": { "type": "number", "minimum": 0 },
+        "stateMachineId": { "type": "string" },
+        "activeStates": { "type": "array", "items": { "type": "string" } },
+        "spatial": { "$ref": "#/$defs/spatial" }
+      },
+      "additionalProperties": false
+    },
+    "distribution": {
+      "type": "object",
+      "properties": {
+        "centre": { "$ref": "#/$defs/vector3" },
+        "minimumRadius": { "type": "number", "minimum": 0 },
+        "maximumRadius": { "type": "number", "minimum": 0 },
+        "minimumDistance": { "type": "number", "minimum": 0 },
+        "maximumDistance": { "type": "number", "minimum": 0 },
+        "occlusion": { "type": "number", "minimum": 0, "maximum": 1 },
+        "obstruction": { "type": "number", "minimum": 0, "maximum": 1 },
+        "zoneId": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "emitter": {
+      "type": "object",
+      "required": ["id", "soundIds", "busId"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "soundIds": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/id" } },
+        "busId": { "$ref": "#/$defs/id" },
+        "minimumIntervalSeconds": { "type": "number", "minimum": 0 },
+        "maximumIntervalSeconds": { "type": "number", "minimum": 0 },
+        "probability": { "type": "number", "minimum": 0, "maximum": 1 },
+        "minimumBurstCount": { "type": "integer", "minimum": 1 },
+        "maximumBurstCount": { "type": "integer", "minimum": 1 },
+        "burstSpreadSeconds": { "type": "number", "minimum": 0 },
+        "maximumConcurrentVoices": { "type": "integer", "minimum": 1 },
+        "gain": { "type": "number" },
+        "priority": { "type": "integer" },
+        "stateMachineId": { "type": "string" },
+        "activeStates": { "type": "array", "items": { "type": "string" } },
+        "spatialDistribution": { "$ref": "#/$defs/distribution" }
+      },
+      "additionalProperties": false
+    },
+    "clusterEvent": {
+      "type": "object",
+      "required": ["soundId", "busId"],
+      "properties": {
+        "soundId": { "$ref": "#/$defs/id" },
+        "busId": { "$ref": "#/$defs/id" },
+        "offsetSeconds": { "type": "number", "minimum": 0 },
+        "probability": { "type": "number", "minimum": 0, "maximum": 1 },
+        "gain": { "type": "number" },
+        "pan": { "type": "number", "minimum": -1, "maximum": 1 },
+        "priority": { "type": "integer" },
+        "spatial": { "$ref": "#/$defs/spatial" }
+      },
+      "additionalProperties": false
+    },
+    "cluster": {
+      "type": "object",
+      "required": ["id", "trigger", "events"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "trigger": { "type": "string", "minLength": 1 },
+        "events": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/clusterEvent" } }
+      },
+      "additionalProperties": false
+    },
+    "state": {
+      "type": "object",
+      "required": ["id"],
+      "properties": { "id": { "$ref": "#/$defs/id" } },
+      "additionalProperties": false
+    },
+    "transition": {
+      "type": "object",
+      "required": ["fromState", "toState", "trigger"],
+      "properties": {
+        "fromState": { "type": "string", "minLength": 1 },
+        "toState": { "$ref": "#/$defs/id" },
+        "trigger": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": false
+    },
+    "stateMachine": {
+      "type": "object",
+      "required": ["id", "initialState", "states", "transitions"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "initialState": { "$ref": "#/$defs/id" },
+        "states": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/state" } },
+        "transitions": { "type": "array", "items": { "$ref": "#/$defs/transition" } }
+      },
+      "additionalProperties": false
+    }
+  }
+}

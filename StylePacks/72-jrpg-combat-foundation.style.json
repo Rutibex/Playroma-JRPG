@@ -1,0 +1,514 @@
+{
+  "schemaVersion": 1,
+  "id": "jrpg-combat-foundation",
+  "name": "JRPG Combat Foundation",
+  "description": "High-energy loop forms, driving ostinati, heroic cadences and escalating orchestral combat roles.",
+  "version": "1.0.0",
+  "family": "jrpg",
+  "abstract": true,
+  "extends": "jrpg-foundation",
+  "tempo": {
+    "minimum": 118,
+    "maximum": 180
+  },
+  "meter": {
+    "beatsPerBar": 4,
+    "beatUnit": 4
+  },
+  "candidateCount": 20,
+  "scales": [
+    "naturalMinor",
+    "dorian",
+    "harmonicMinor",
+    "phrygian",
+    "mixolydian"
+  ],
+  "forms": {
+    "grammarId": "jrpg-combat-loop-v1",
+    "productions": [
+      [
+        "I",
+        "A",
+        "B",
+        "A'",
+        "C",
+        "B''",
+        "A"
+      ],
+      [
+        "I",
+        "A",
+        "A'",
+        "B",
+        "D",
+        "B'",
+        "A"
+      ],
+      [
+        "A",
+        "B",
+        "C",
+        "A'",
+        "B",
+        "A"
+      ]
+    ],
+    "tokens": [
+      {
+        "symbol": "I",
+        "name": "Threat Intro",
+        "kind": "intro",
+        "lengthBars": 2,
+        "energy": 0.55,
+        "treatment": "fragment"
+      },
+      {
+        "symbol": "A",
+        "name": "Combat Loop A",
+        "kind": "verse",
+        "lengthBars": 4,
+        "energy": 0.78,
+        "treatment": "original"
+      },
+      {
+        "symbol": "A'",
+        "name": "Combat Escalation",
+        "kind": "verse",
+        "lengthBars": 4,
+        "energy": 0.86,
+        "treatment": "sequence"
+      },
+      {
+        "symbol": "B",
+        "name": "Heroic Answer",
+        "kind": "chorus",
+        "lengthBars": 4,
+        "energy": 0.92,
+        "treatment": "transpose"
+      },
+      {
+        "symbol": "B'",
+        "name": "Clash Variation",
+        "kind": "chorus",
+        "lengthBars": 4,
+        "energy": 0.96,
+        "treatment": "augment"
+      },
+      {
+        "symbol": "B''",
+        "name": "Peak Combat",
+        "kind": "chorus",
+        "lengthBars": 4,
+        "energy": 1.0,
+        "treatment": "sequence"
+      },
+      {
+        "symbol": "C",
+        "name": "Tactical Turn",
+        "kind": "bridge",
+        "lengthBars": 4,
+        "energy": 0.82,
+        "treatment": "invert"
+      },
+      {
+        "symbol": "D",
+        "name": "Danger Break",
+        "kind": "breakdown",
+        "lengthBars": 2,
+        "energy": 0.67,
+        "treatment": "fragment"
+      },
+      {
+        "symbol": "D'",
+        "name": "Solo Confrontation",
+        "kind": "solo",
+        "lengthBars": 4,
+        "energy": 0.94,
+        "treatment": "retrograde"
+      }
+    ]
+  },
+  "harmony": {
+    "grammarId": "jrpg-combat-harmony-v1",
+    "progressions": {
+      "intro": [
+        [
+          0,
+          5,
+          6,
+          4
+        ]
+      ],
+      "verse": [
+        [
+          0,
+          5,
+          6,
+          4
+        ],
+        [
+          0,
+          6,
+          3,
+          4
+        ],
+        [
+          0,
+          3,
+          1,
+          4
+        ]
+      ],
+      "chorus": [
+        [
+          0,
+          4,
+          5,
+          3
+        ],
+        [
+          5,
+          6,
+          0,
+          4
+        ],
+        [
+          3,
+          4,
+          0,
+          6
+        ]
+      ],
+      "bridge": [
+        [
+          5,
+          3,
+          1,
+          4
+        ],
+        [
+          1,
+          6,
+          3,
+          4
+        ],
+        [
+          0,
+          1,
+          4,
+          0
+        ]
+      ],
+      "breakdown": [
+        [
+          0,
+          6,
+          0,
+          4
+        ]
+      ],
+      "solo": [
+        [
+          0,
+          4,
+          5,
+          6
+        ]
+      ],
+      "outro": [
+        [
+          0,
+          5,
+          6,
+          4
+        ]
+      ]
+    }
+  },
+  "rhythms": [
+    {
+      "id": "combat-sixteenths",
+      "steps": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "combat-ostinato",
+      "steps": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "id": "melody",
+      "name": "Combat Lead",
+      "role": "lead",
+      "enabled": true,
+      "generalMidiProgram": 56,
+      "isPercussion": false,
+      "rhythmPatternId": "battle-drive",
+      "minimumPitch": 62,
+      "maximumPitch": 94,
+      "density": 88,
+      "instrumentSelector": {
+        "families": [
+          "brass",
+          "strings",
+          "guitar",
+          "synthLead",
+          "reed"
+        ],
+        "preferredTags": [
+          "lead",
+          "bold",
+          "aggressive",
+          "expressive"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 62,
+        "maximumPitch": 94,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.3,
+        "maximumBrightness": 1,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 3,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 0
+    },
+    {
+      "id": "bass",
+      "name": "Combat Bass Ostinato",
+      "role": "bass",
+      "enabled": true,
+      "generalMidiProgram": 42,
+      "isPercussion": false,
+      "rhythmPatternId": "boss-ostinato",
+      "minimumPitch": 26,
+      "maximumPitch": 53,
+      "density": 90,
+      "instrumentSelector": {
+        "families": [
+          "strings",
+          "bass",
+          "brass",
+          "synthLead"
+        ],
+        "preferredTags": [
+          "low",
+          "aggressive",
+          "rhythmic"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 26,
+        "maximumPitch": 53,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 2
+    },
+    {
+      "id": "chords",
+      "name": "Combat Ensemble",
+      "role": "chords",
+      "enabled": true,
+      "generalMidiProgram": 48,
+      "isPercussion": false,
+      "rhythmPatternId": "battle-drive",
+      "minimumPitch": 42,
+      "maximumPitch": 82,
+      "density": 88,
+      "instrumentSelector": {
+        "families": [
+          "strings",
+          "ensemble",
+          "brass",
+          "guitar",
+          "piano"
+        ],
+        "preferredTags": [
+          "dense",
+          "powerful",
+          "harmony"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 42,
+        "maximumPitch": 82,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 3,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 1
+    },
+    {
+      "id": "arpeggio",
+      "name": "Combat Ostinato",
+      "role": "arpeggio",
+      "enabled": true,
+      "generalMidiProgram": 46,
+      "isPercussion": false,
+      "rhythmPatternId": "combat-sixteenths",
+      "minimumPitch": 48,
+      "maximumPitch": 96,
+      "density": 88,
+      "instrumentSelector": {
+        "families": [
+          "strings",
+          "piano",
+          "chromaticPercussion",
+          "guitar",
+          "synthLead"
+        ],
+        "preferredTags": [
+          "articulate",
+          "rhythmic",
+          "urgent"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 48,
+        "maximumPitch": 96,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 3
+    },
+    {
+      "id": "drums",
+      "name": "Combat Percussion",
+      "role": "drums",
+      "enabled": true,
+      "generalMidiProgram": 0,
+      "isPercussion": true,
+      "rhythmPatternId": "combat-ostinato",
+      "minimumPitch": 35,
+      "maximumPitch": 81,
+      "density": 92,
+      "instrumentSelector": {
+        "families": [
+          "drums"
+        ],
+        "preferredTags": [
+          "percussive",
+          "powerful",
+          "aggressive"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 35,
+        "maximumPitch": 81,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 9
+    }
+  ],
+  "constraints": {
+    "minimumNotesPerPhrase": 4,
+    "maximumNotesPerPhrase": 96,
+    "maximumMelodicLeap": 19,
+    "maximumRepeatedPitch": 6,
+    "minimumChordToneRatio": 0.2,
+    "preferredMinimumRange": 7,
+    "preferredMaximumRange": 26,
+    "maximumDensityRatio": 1.8
+  },
+  "scoring": {
+    "chordTone": 27,
+    "stepwiseMotion": 15,
+    "motifFidelity": 25,
+    "phraseClosure": 19,
+    "rhythmBalance": 19,
+    "range": 13,
+    "leapPenalty": 0.9,
+    "syncopation": 10,
+    "repetitionControl": 12
+  }
+}

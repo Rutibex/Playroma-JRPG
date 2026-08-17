@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <OutputType>Library</OutputType>
+    <UseWindowsForms>true</UseWindowsForms>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <RootNamespace>Playroma.Text.Editor.WinForms</RootNamespace>
+    <AssemblyName>Playroma.Text.Editor.WinForms</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Playroma.Text.Core/Playroma.Text.Core.csproj" />
+    <ProjectReference Include="../Playroma.Text.Authoring/Playroma.Text.Authoring.csproj" />
+    <ProjectReference Include="../Playroma.Text.Generators/Playroma.Text.Generators.csproj" />
+    <ProjectReference Include="../Playroma.Text.RpgMakerMV/Playroma.Text.RpgMakerMV.csproj" />
+  </ItemGroup>
+</Project>

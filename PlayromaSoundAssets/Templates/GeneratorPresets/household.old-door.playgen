@@ -1,0 +1,26 @@
+{
+  "formatVersion": 1,
+  "id": "household.old-door",
+  "displayName": "Old Haunted Door",
+  "generatorId": "playroma.household",
+  "rootSeed": 74881,
+  "familySeed": 93943,
+  "variationIndex": 0,
+  "qualityMode": "realtimeHigh",
+  "description": {
+    "kind": "door",
+    "age": 0.92,
+    "force": 0.45,
+    "roughness": 0.72,
+    "damage": 0.32,
+    "duration": 0.55,
+    "environment": "corridor",
+    "pitchContour": "falling",
+    "rhythmStyle": "irregular",
+    "envelopeStyle": "plucked",
+    "emotion": "neutral",
+    "energyState": "weak",
+    "condition": "ancient",
+    "stereoStyle": "narrow"
+  }
+}

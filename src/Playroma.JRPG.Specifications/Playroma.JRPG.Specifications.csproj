@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Playroma.JRPG.Specifications</RootNamespace>
+    <AssemblyName>Playroma.JRPG.Specifications</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Playroma.JRPG.Core/Playroma.JRPG.Core.csproj" />
+    <EmbeddedResource Include="../../specifications/*.json" Link="Specifications/%(Filename)%(Extension)" />
+  </ItemGroup>
+</Project>

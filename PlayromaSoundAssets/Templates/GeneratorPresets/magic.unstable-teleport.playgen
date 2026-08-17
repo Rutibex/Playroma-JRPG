@@ -1,0 +1,21 @@
+{
+  "formatVersion": 1,
+  "id": "magic.unstable-teleport",
+  "displayName": "Unstable Teleport",
+  "generatorId": "playroma.magic",
+  "rootSeed": 61041,
+  "familySeed": 99310,
+  "variationIndex": 0,
+  "qualityMode": "offline",
+  "description": {
+    "archetype": "teleportation",
+    "environment": "stoneChamber",
+    "power": 0.72,
+    "stability": 0.18,
+    "benevolence": 0.45,
+    "organicTechnology": 0.78,
+    "castDuration": 0.48,
+    "impactSize": 0.58,
+    "spatialExtent": 0.88
+  }
+}

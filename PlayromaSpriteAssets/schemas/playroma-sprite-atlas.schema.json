@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://playroma.dev/schemas/playroma-sprite-atlas.schema.json",
+  "title": "Playroma Sprite Atlas Metadata",
+  "type": "object",
+  "required": ["schema", "image", "source", "settings", "frames"],
+  "properties": {
+    "schema": { "const": "playroma-sprite-atlas/1" },
+    "image": { "type": "object", "required": ["width", "height", "format"], "properties": { "width": {"type":"integer","minimum":1}, "height": {"type":"integer","minimum":1}, "format": {"const":"png"} }, "additionalProperties": false },
+    "source": { "type": "object" },
+    "settings": { "type": "object" },
+    "frames": { "type": "array", "items": { "type": "object", "required": ["name", "frameIndex", "rect", "source"] } }
+  },
+  "additionalProperties": false
+}

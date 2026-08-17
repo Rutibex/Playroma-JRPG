@@ -1,0 +1,553 @@
+{
+  "schemaVersion": 1,
+  "id": "jrpg-location-foundation",
+  "name": "JRPG Location Foundation",
+  "description": "Loopable environmental themes with landmark motifs, modal colour and room for ambience during exploration.",
+  "version": "1.0.0",
+  "family": "jrpg",
+  "abstract": true,
+  "extends": "jrpg-foundation",
+  "tempo": {
+    "minimum": 62,
+    "maximum": 122
+  },
+  "meter": {
+    "beatsPerBar": 4,
+    "beatUnit": 4
+  },
+  "candidateCount": 16,
+  "scales": [
+    "major",
+    "naturalMinor",
+    "dorian",
+    "lydian",
+    "mixolydian",
+    "majorPentatonic",
+    "minorPentatonic",
+    "hirajoshi",
+    "yo"
+  ],
+  "forms": {
+    "grammarId": "jrpg-location-loop-v1",
+    "productions": [
+      [
+        "I",
+        "A",
+        "A'",
+        "B",
+        "A''",
+        "A"
+      ],
+      [
+        "I",
+        "A",
+        "C",
+        "A'",
+        "B",
+        "A"
+      ],
+      [
+        "A",
+        "A'",
+        "B",
+        "C",
+        "A"
+      ]
+    ],
+    "tokens": [
+      {
+        "symbol": "I",
+        "name": "Arrival",
+        "kind": "intro",
+        "lengthBars": 2,
+        "energy": 0.25,
+        "treatment": "fragment"
+      },
+      {
+        "symbol": "A",
+        "name": "Place Theme",
+        "kind": "verse",
+        "lengthBars": 4,
+        "energy": 0.48,
+        "treatment": "original"
+      },
+      {
+        "symbol": "A'",
+        "name": "Wandering Variation",
+        "kind": "verse",
+        "lengthBars": 4,
+        "energy": 0.56,
+        "treatment": "rotate"
+      },
+      {
+        "symbol": "A''",
+        "name": "Deep Exploration",
+        "kind": "verse",
+        "lengthBars": 4,
+        "energy": 0.62,
+        "treatment": "sequence"
+      },
+      {
+        "symbol": "B",
+        "name": "Landmark Theme",
+        "kind": "chorus",
+        "lengthBars": 4,
+        "energy": 0.68,
+        "treatment": "transpose"
+      },
+      {
+        "symbol": "C",
+        "name": "Hidden Path",
+        "kind": "bridge",
+        "lengthBars": 4,
+        "energy": 0.43,
+        "treatment": "invert"
+      },
+      {
+        "symbol": "D",
+        "name": "Quiet Interior",
+        "kind": "breakdown",
+        "lengthBars": 4,
+        "energy": 0.31,
+        "treatment": "fragment"
+      },
+      {
+        "symbol": "O",
+        "name": "Loop Return",
+        "kind": "outro",
+        "lengthBars": 2,
+        "energy": 0.28,
+        "treatment": "diminish"
+      }
+    ]
+  },
+  "harmony": {
+    "grammarId": "jrpg-location-harmony-v1",
+    "progressions": {
+      "intro": [
+        [
+          0,
+          3,
+          5,
+          4
+        ]
+      ],
+      "verse": [
+        [
+          0,
+          3,
+          5,
+          4
+        ],
+        [
+          0,
+          6,
+          3,
+          0
+        ],
+        [
+          0,
+          5,
+          1,
+          4
+        ]
+      ],
+      "chorus": [
+        [
+          3,
+          4,
+          0,
+          5
+        ],
+        [
+          0,
+          4,
+          5,
+          3
+        ],
+        [
+          5,
+          3,
+          0,
+          4
+        ]
+      ],
+      "bridge": [
+        [
+          1,
+          6,
+          0,
+          3
+        ],
+        [
+          5,
+          1,
+          4,
+          0
+        ],
+        [
+          3,
+          6,
+          1,
+          4
+        ]
+      ],
+      "breakdown": [
+        [
+          1,
+          6,
+          0,
+          3
+        ]
+      ],
+      "solo": [
+        [
+          3,
+          4,
+          0,
+          5
+        ]
+      ],
+      "outro": [
+        [
+          0,
+          3,
+          5,
+          4
+        ]
+      ]
+    }
+  },
+  "rhythms": [
+    {
+      "id": "location-walk",
+      "steps": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "location-breath",
+      "steps": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "id": "melody",
+      "name": "Location Theme",
+      "role": "lead",
+      "enabled": true,
+      "generalMidiProgram": 73,
+      "isPercussion": false,
+      "rhythmPatternId": "location-walk",
+      "minimumPitch": 58,
+      "maximumPitch": 90,
+      "density": 68,
+      "instrumentSelector": {
+        "families": [
+          "pipe",
+          "reed",
+          "strings",
+          "piano",
+          "ethnic",
+          "chromaticPercussion"
+        ],
+        "preferredTags": [
+          "lead",
+          "expressive",
+          "memorable",
+          "clear"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 58,
+        "maximumPitch": 90,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 0
+    },
+    {
+      "id": "bass",
+      "name": "Walking Foundation",
+      "role": "bass",
+      "enabled": true,
+      "generalMidiProgram": 43,
+      "isPercussion": false,
+      "rhythmPatternId": "quarters",
+      "minimumPitch": 28,
+      "maximumPitch": 56,
+      "density": 61,
+      "instrumentSelector": {
+        "families": [
+          "strings",
+          "bass",
+          "organ",
+          "ethnic"
+        ],
+        "preferredTags": [
+          "warm",
+          "low",
+          "supportive"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 28,
+        "maximumPitch": 56,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 2
+    },
+    {
+      "id": "chords",
+      "name": "Environmental Harmony",
+      "role": "chords",
+      "enabled": true,
+      "generalMidiProgram": 48,
+      "isPercussion": false,
+      "rhythmPatternId": "quarters",
+      "minimumPitch": 44,
+      "maximumPitch": 82,
+      "density": 70,
+      "instrumentSelector": {
+        "families": [
+          "strings",
+          "ensemble",
+          "piano",
+          "guitar",
+          "organ",
+          "synthPad"
+        ],
+        "preferredTags": [
+          "harmony",
+          "warm",
+          "atmospheric"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 44,
+        "maximumPitch": 82,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 3,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 1
+    },
+    {
+      "id": "arpeggio",
+      "name": "Exploration Motion",
+      "role": "arpeggio",
+      "enabled": true,
+      "generalMidiProgram": 46,
+      "isPercussion": false,
+      "rhythmPatternId": "location-walk",
+      "minimumPitch": 50,
+      "maximumPitch": 96,
+      "density": 58,
+      "instrumentSelector": {
+        "families": [
+          "piano",
+          "chromaticPercussion",
+          "guitar",
+          "strings",
+          "ethnic"
+        ],
+        "preferredTags": [
+          "clear",
+          "sparkling",
+          "pulse"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 50,
+        "maximumPitch": 96,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 3
+    },
+    {
+      "id": "texture",
+      "name": "Environmental Texture",
+      "role": "texture",
+      "enabled": true,
+      "generalMidiProgram": 97,
+      "isPercussion": false,
+      "rhythmPatternId": "location-breath",
+      "minimumPitch": 34,
+      "maximumPitch": 100,
+      "density": 42,
+      "instrumentSelector": {
+        "families": [
+          "synthPad",
+          "ensemble",
+          "strings",
+          "synthEffects",
+          "pipe"
+        ],
+        "preferredTags": [
+          "atmospheric",
+          "sustaining",
+          "environmental"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 34,
+        "maximumPitch": 100,
+        "minimumAttack": 0,
+        "maximumAttack": 0.55,
+        "minimumSustain": 0.5,
+        "maximumSustain": 1,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 3,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 5
+    },
+    {
+      "id": "drums",
+      "name": "Light Area Percussion",
+      "role": "drums",
+      "enabled": true,
+      "generalMidiProgram": 0,
+      "isPercussion": true,
+      "rhythmPatternId": "heroic-march",
+      "minimumPitch": 35,
+      "maximumPitch": 81,
+      "density": 42,
+      "instrumentSelector": {
+        "families": [
+          "drums"
+        ],
+        "preferredTags": [
+          "percussive",
+          "light",
+          "supportive"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 35,
+        "maximumPitch": 81,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 9
+    }
+  ],
+  "constraints": {
+    "maximumMelodicLeap": 15,
+    "maximumRepeatedPitch": 5,
+    "minimumChordToneRatio": 0.22,
+    "requireCadentialFinalTone": false,
+    "preferredMinimumRange": 4,
+    "preferredMaximumRange": 20,
+    "maximumDensityRatio": 1.25
+  },
+  "scoring": {
+    "chordTone": 27,
+    "stepwiseMotion": 21,
+    "motifFidelity": 29,
+    "phraseClosure": 18,
+    "rhythmBalance": 12,
+    "range": 9,
+    "leapPenalty": 1.25,
+    "syncopation": 2,
+    "repetitionControl": 13
+  }
+}

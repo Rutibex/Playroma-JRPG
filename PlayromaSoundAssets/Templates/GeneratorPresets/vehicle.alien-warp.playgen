@@ -1,0 +1,27 @@
+{
+  "formatVersion": 1,
+  "id": "vehicle.alien-warp",
+  "displayName": "Alien Vessel Warp Exit",
+  "generatorId": "playroma.vehicle",
+  "rootSeed": 74333,
+  "familySeed": 93099,
+  "variationIndex": 0,
+  "qualityMode": "realtimeHigh",
+  "description": {
+    "vehicle": "alienVessel",
+    "action": "warpExit",
+    "speed": 0.92,
+    "engineLoad": 0.85,
+    "organicSynthetic": 0.75,
+    "complexity": 0.82,
+    "duration": 0.58,
+    "variationMode": "cinematic",
+    "pitchContour": "rising",
+    "rhythmStyle": "accelerating",
+    "envelopeStyle": "longRelease",
+    "emotion": "triumphant",
+    "energyState": "overcharged",
+    "condition": "polished",
+    "stereoStyle": "moving"
+  }
+}

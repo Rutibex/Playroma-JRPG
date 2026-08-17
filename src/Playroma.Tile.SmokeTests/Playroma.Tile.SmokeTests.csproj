@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Playroma.Tile.Core\Playroma.Tile.Core.csproj" />
+    <ProjectReference Include="..\Playroma.Tile.Autotiles\Playroma.Tile.Autotiles.csproj" />
+    <ProjectReference Include="..\Playroma.Tile.Materials\Playroma.Tile.Materials.csproj" />
+    <ProjectReference Include="..\Playroma.Tile.Tilesets\Playroma.Tile.Tilesets.csproj" />
+    <ProjectReference Include="..\Playroma.Tile.RpgMakerMV\Playroma.Tile.RpgMakerMV.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,631 @@
+{
+  "autoplayBgm": false,
+  "autoplayBgs": false,
+  "battleback1Name": "",
+  "battleback2Name": "",
+  "bgm": {
+    "name": "",
+    "pan": 0,
+    "pitch": 100,
+    "volume": 90
+  },
+  "bgs": {
+    "name": "",
+    "pan": 0,
+    "pitch": 100,
+    "volume": 90
+  },
+  "disableDashing": false,
+  "displayName": "Synthetic Fixture",
+  "encounterList": [],
+  "encounterStep": 30,
+  "height": 4,
+  "note": "<PlayromaFixture: map>",
+  "parallaxLoopX": false,
+  "parallaxLoopY": false,
+  "parallaxName": "",
+  "parallaxShow": true,
+  "parallaxSx": 0,
+  "parallaxSy": 0,
+  "scrollType": 0,
+  "specifyBattleback": false,
+  "tilesetId": 1,
+  "width": 4,
+  "data": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "events": [
+    null,
+    {
+      "id": 1,
+      "name": "All Movement Route Commands",
+      "note": "Synthetic fixture",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 2,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 1
+          },
+          "directionFix": false,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 1,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 205,
+              "indent": 0,
+              "parameters": [
+                0,
+                {
+                  "list": [
+                    {
+                      "code": 0,
+                      "parameters": []
+                    },
+                    {
+                      "code": 1,
+                      "parameters": []
+                    },
+                    {
+                      "code": 2,
+                      "parameters": []
+                    },
+                    {
+                      "code": 3,
+                      "parameters": []
+                    },
+                    {
+                      "code": 4,
+                      "parameters": []
+                    },
+                    {
+                      "code": 5,
+                      "parameters": []
+                    },
+                    {
+                      "code": 6,
+                      "parameters": []
+                    },
+                    {
+                      "code": 7,
+                      "parameters": []
+                    },
+                    {
+                      "code": 8,
+                      "parameters": []
+                    },
+                    {
+                      "code": 9,
+                      "parameters": []
+                    },
+                    {
+                      "code": 10,
+                      "parameters": []
+                    },
+                    {
+                      "code": 11,
+                      "parameters": []
+                    },
+                    {
+                      "code": 12,
+                      "parameters": []
+                    },
+                    {
+                      "code": 13,
+                      "parameters": []
+                    },
+                    {
+                      "code": 14,
+                      "parameters": [
+                        1,
+                        1
+                      ]
+                    },
+                    {
+                      "code": 15,
+                      "parameters": [
+                        60
+                      ]
+                    },
+                    {
+                      "code": 16,
+                      "parameters": []
+                    },
+                    {
+                      "code": 17,
+                      "parameters": []
+                    },
+                    {
+                      "code": 18,
+                      "parameters": []
+                    },
+                    {
+                      "code": 19,
+                      "parameters": []
+                    },
+                    {
+                      "code": 20,
+                      "parameters": []
+                    },
+                    {
+                      "code": 21,
+                      "parameters": []
+                    },
+                    {
+                      "code": 22,
+                      "parameters": []
+                    },
+                    {
+                      "code": 23,
+                      "parameters": []
+                    },
+                    {
+                      "code": 24,
+                      "parameters": []
+                    },
+                    {
+                      "code": 25,
+                      "parameters": []
+                    },
+                    {
+                      "code": 26,
+                      "parameters": []
+                    },
+                    {
+                      "code": 27,
+                      "parameters": [
+                        1
+                      ]
+                    },
+                    {
+                      "code": 28,
+                      "parameters": [
+                        1
+                      ]
+                    },
+                    {
+                      "code": 29,
+                      "parameters": [
+                        4
+                      ]
+                    },
+                    {
+                      "code": 30,
+                      "parameters": [
+                        3
+                      ]
+                    },
+                    {
+                      "code": 31,
+                      "parameters": []
+                    },
+                    {
+                      "code": 32,
+                      "parameters": []
+                    },
+                    {
+                      "code": 33,
+                      "parameters": []
+                    },
+                    {
+                      "code": 34,
+                      "parameters": []
+                    },
+                    {
+                      "code": 35,
+                      "parameters": []
+                    },
+                    {
+                      "code": 36,
+                      "parameters": []
+                    },
+                    {
+                      "code": 37,
+                      "parameters": []
+                    },
+                    {
+                      "code": 38,
+                      "parameters": []
+                    },
+                    {
+                      "code": 39,
+                      "parameters": []
+                    },
+                    {
+                      "code": 40,
+                      "parameters": []
+                    },
+                    {
+                      "code": 41,
+                      "parameters": [
+                        "",
+                        0
+                      ]
+                    },
+                    {
+                      "code": 42,
+                      "parameters": [
+                        128
+                      ]
+                    },
+                    {
+                      "code": 43,
+                      "parameters": [
+                        1
+                      ]
+                    },
+                    {
+                      "code": 44,
+                      "parameters": [
+                        {
+                          "name": "",
+                          "volume": 90,
+                          "pitch": 100,
+                          "pan": 0
+                        }
+                      ]
+                    },
+                    {
+                      "code": 45,
+                      "parameters": [
+                        "this.turnRight90();"
+                      ]
+                    }
+                  ],
+                  "repeat": false,
+                  "skippable": true,
+                  "wait": true
+                }
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              },
+              {
+                "code": 1,
+                "parameters": []
+              },
+              {
+                "code": 2,
+                "parameters": []
+              },
+              {
+                "code": 3,
+                "parameters": []
+              },
+              {
+                "code": 4,
+                "parameters": []
+              },
+              {
+                "code": 5,
+                "parameters": []
+              },
+              {
+                "code": 6,
+                "parameters": []
+              },
+              {
+                "code": 7,
+                "parameters": []
+              },
+              {
+                "code": 8,
+                "parameters": []
+              },
+              {
+                "code": 9,
+                "parameters": []
+              },
+              {
+                "code": 10,
+                "parameters": []
+              },
+              {
+                "code": 11,
+                "parameters": []
+              },
+              {
+                "code": 12,
+                "parameters": []
+              },
+              {
+                "code": 13,
+                "parameters": []
+              },
+              {
+                "code": 14,
+                "parameters": [
+                  1,
+                  1
+                ]
+              },
+              {
+                "code": 15,
+                "parameters": [
+                  60
+                ]
+              },
+              {
+                "code": 16,
+                "parameters": []
+              },
+              {
+                "code": 17,
+                "parameters": []
+              },
+              {
+                "code": 18,
+                "parameters": []
+              },
+              {
+                "code": 19,
+                "parameters": []
+              },
+              {
+                "code": 20,
+                "parameters": []
+              },
+              {
+                "code": 21,
+                "parameters": []
+              },
+              {
+                "code": 22,
+                "parameters": []
+              },
+              {
+                "code": 23,
+                "parameters": []
+              },
+              {
+                "code": 24,
+                "parameters": []
+              },
+              {
+                "code": 25,
+                "parameters": []
+              },
+              {
+                "code": 26,
+                "parameters": []
+              },
+              {
+                "code": 27,
+                "parameters": [
+                  1
+                ]
+              },
+              {
+                "code": 28,
+                "parameters": [
+                  1
+                ]
+              },
+              {
+                "code": 29,
+                "parameters": [
+                  4
+                ]
+              },
+              {
+                "code": 30,
+                "parameters": [
+                  3
+                ]
+              },
+              {
+                "code": 31,
+                "parameters": []
+              },
+              {
+                "code": 32,
+                "parameters": []
+              },
+              {
+                "code": 33,
+                "parameters": []
+              },
+              {
+                "code": 34,
+                "parameters": []
+              },
+              {
+                "code": 35,
+                "parameters": []
+              },
+              {
+                "code": 36,
+                "parameters": []
+              },
+              {
+                "code": 37,
+                "parameters": []
+              },
+              {
+                "code": 38,
+                "parameters": []
+              },
+              {
+                "code": 39,
+                "parameters": []
+              },
+              {
+                "code": 40,
+                "parameters": []
+              },
+              {
+                "code": 41,
+                "parameters": [
+                  "",
+                  0
+                ]
+              },
+              {
+                "code": 42,
+                "parameters": [
+                  128
+                ]
+              },
+              {
+                "code": 43,
+                "parameters": [
+                  1
+                ]
+              },
+              {
+                "code": 44,
+                "parameters": [
+                  {
+                    "name": "",
+                    "volume": 90,
+                    "pitch": 100,
+                    "pan": 0
+                  }
+                ]
+              },
+              {
+                "code": 45,
+                "parameters": [
+                  "this.turnRight90();"
+                ]
+              }
+            ],
+            "repeat": false,
+            "skippable": true,
+            "wait": true
+          },
+          "moveSpeed": 3,
+          "moveType": 3,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        }
+      ],
+      "x": 1,
+      "y": 1
+    }
+  ]
+}

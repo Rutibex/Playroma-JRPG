@@ -1,0 +1,29 @@
+{
+  "formatVersion": 1,
+  "id": "melodic.treasure-reveal",
+  "displayName": "Treasure Reveal",
+  "generatorId": "playroma.melodic-effect",
+  "rootSeed": 95217,
+  "familySeed": 33049,
+  "variationIndex": 0,
+  "qualityMode": "realtimeHigh",
+  "description": {
+    "kind": "treasureReveal",
+    "mood": "heroic",
+    "shape": "rising",
+    "scale": "majorPentatonic",
+    "environment": "smallRoom",
+    "duration": 0.38,
+    "complexity": 0.48,
+    "speed": 0.67,
+    "pitch": 0.62,
+    "pitchRange": 0.54,
+    "harmony": 0.48,
+    "tonalDissonant": 0.06,
+    "acousticSynthetic": 0.55,
+    "brightness": 0.82,
+    "repetition": 0.08,
+    "tail": 0.42,
+    "notes": 7
+  }
+}

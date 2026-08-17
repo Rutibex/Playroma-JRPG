@@ -1,0 +1,53 @@
+{
+  "id": "example.phase8.mv-skill-bundle",
+  "version": 1,
+  "name": "Example MV Skill Text Bundle",
+  "kind": "skill",
+  "description": "Demonstrates the semantic field names consumed by Phase 8 database import planning.",
+  "stages": [
+    {
+      "id": "name",
+      "kind": "phase1.adlib",
+      "enabled": true,
+      "settings": {
+        "template": "{{adjective|title}} {{noun|title}}",
+        "slots": {
+          "adjective": ["ashen", "frozen", "luminous", "stormbound"],
+          "noun": ["lance", "requiem", "seal", "torrent"]
+        },
+        "field": "name",
+        "isPrimary": true
+      }
+    },
+    {
+      "id": "description",
+      "kind": "phase1.template",
+      "enabled": true,
+      "settings": {
+        "template": "Unleashes the power of {{name}} upon the target.",
+        "field": "description",
+        "isPrimary": false
+      }
+    },
+    {
+      "id": "message1",
+      "kind": "phase1.template",
+      "enabled": true,
+      "settings": {
+        "template": "%1 invokes {{name}}!",
+        "field": "message1",
+        "isPrimary": false
+      }
+    },
+    {
+      "id": "message2",
+      "kind": "phase1.random-list",
+      "enabled": true,
+      "settings": {
+        "items": ["Ancient force answers the call!", "The battlefield trembles!"],
+        "field": "message2",
+        "isPrimary": false
+      }
+    }
+  ]
+}

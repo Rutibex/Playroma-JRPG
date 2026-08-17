@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Description>Semantic short-effect generators, profiles, variations, mutation, and presets for Playroma Sound.</Description>
+    <PackageId>Playroma.Sound.Generators</PackageId>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Playroma.Sound.Core\Playroma.Sound.Core.csproj" />
+    <ProjectReference Include="..\Playroma.Sound.Graph\Playroma.Sound.Graph.csproj" />
+  </ItemGroup>
+</Project>

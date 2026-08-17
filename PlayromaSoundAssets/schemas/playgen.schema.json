@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://playroma.dev/schemas/playgen.schema.json",
+  "title": "Playroma Sound Generator Request",
+  "type": "object",
+  "required": [
+    "formatVersion",
+    "id",
+    "displayName",
+    "generatorId",
+    "rootSeed",
+    "familySeed",
+    "variationIndex",
+    "qualityMode",
+    "description"
+  ],
+  "properties": {
+    "formatVersion": { "const": 1 },
+    "id": { "type": "string", "minLength": 1 },
+    "displayName": { "type": "string", "minLength": 1 },
+    "generatorId": { "type": "string", "minLength": 1 },
+    "rootSeed": { "type": "integer", "minimum": 0 },
+    "familySeed": { "type": "integer", "minimum": 0 },
+    "variationIndex": { "type": "integer", "minimum": 0 },
+    "qualityMode": {
+      "type": "string",
+      "enum": ["draft", "realtimeLow", "realtimeHigh", "offline"]
+    },
+    "description": {
+      "type": "object",
+      "description": "Generator-specific semantic description resolved through generatorId."
+    }
+  },
+  "additionalProperties": false
+}

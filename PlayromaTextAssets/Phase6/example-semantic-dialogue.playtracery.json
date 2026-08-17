@@ -1,0 +1,54 @@
+{
+  "format": "playroma-tracery",
+  "id": "example.phase6.semantic-dialogue",
+  "version": 1,
+  "name": "Semantic Gate Guard",
+  "origin": "origin",
+  "description": "Phase 6 example: rules carry typed semantic features that later stages and candidate filters can inspect.",
+  "tags": ["phase6", "semantic", "dialogue"],
+  "parameters": {
+    "mood": {
+      "name": "mood",
+      "type": "choice",
+      "required": false,
+      "defaultValue": "friendly",
+      "description": "Desired conversational mood.",
+      "choices": ["friendly", "neutral", "hostile"]
+    }
+  },
+  "symbols": {
+    "origin": [
+      {
+        "text": "Welcome, traveler. The lamps are still lit if you need shelter.",
+        "weight": 3,
+        "features": {
+          "mood": "friendly",
+          "dialogue.act": "greeting",
+          "urgency": 0.15,
+          "safe": true,
+          "audience": ["traveler", "civilian"]
+        }
+      },
+      {
+        "text": "State your business and keep the road clear.",
+        "weight": 2,
+        "features": {
+          "mood": "neutral",
+          "dialogue.act": "request",
+          "urgency": 0.45,
+          "safe": true
+        }
+      },
+      {
+        "text": "Stop there. One more step and I call the watch.",
+        "weight": 2,
+        "features": {
+          "mood": "hostile",
+          "dialogue.act": "warning",
+          "urgency": 0.9,
+          "safe": false
+        }
+      }
+    ]
+  }
+}

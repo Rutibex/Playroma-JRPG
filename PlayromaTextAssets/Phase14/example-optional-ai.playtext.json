@@ -1,0 +1,34 @@
+{
+  "id": "example.phase14.optional-ai-rewrite",
+  "version": 1,
+  "name": "Example Optional AI Rewrite",
+  "kind": "dialogue",
+  "description": "Requires an explicitly enabled local process provider named local-model. No AI provider is required by Playroma itself.",
+  "stages": [
+    {
+      "id": "draft",
+      "kind": "phase1.adlib",
+      "enabled": true,
+      "settings": {
+        "template": "{{line|sentence}}",
+        "slots": { "line": ["welcome to the village", "the north road is dangerous tonight", "I have work for a capable traveler"] },
+        "field": "text",
+        "isPrimary": true
+      }
+    },
+    {
+      "id": "optional-ai-polish",
+      "kind": "phase14.neural-text",
+      "enabled": true,
+      "settings": {
+        "providerId": "local-model",
+        "prompt": "Rewrite this as concise fantasy NPC dialogue while preserving meaning: {{text}}",
+        "systemPrompt": "Return only the rewritten dialogue.",
+        "includeProjectContext": false,
+        "maximumOutputCharacters": 500,
+        "field": "text",
+        "isPrimary": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Playroma.JRPG.PluginTags.Yanfly</RootNamespace>
+    <AssemblyName>Playroma.JRPG.PluginTags.Yanfly</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Playroma.JRPG.PluginTags/Playroma.JRPG.PluginTags.csproj" />
+    <EmbeddedResource Include="../../specifications/plugin-tags/yanfly/yanfly-phase0-inventory.json" Link="Specifications/yanfly-phase0-inventory.json" />
+    <EmbeddedResource Include="../../specifications/plugin-tags/yanfly/yanfly-phase2-catalog.json" Link="Specifications/yanfly-phase2-catalog.json" />
+    <EmbeddedResource Include="../../specifications/plugin-tags/yanfly/yanfly-phase2-semantic-overrides.json" Link="Specifications/yanfly-phase2-semantic-overrides.json" />
+  </ItemGroup>
+</Project>

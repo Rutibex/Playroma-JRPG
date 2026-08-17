@@ -1,0 +1,15 @@
+{
+  "schema": "playroma-sprite-script/1",
+  "name": "Palette and Export",
+  "description": "Generate a compact indexed palette and export an atlas.",
+  "requiredCapabilities": "readDocument, modifyDocument, writeFiles",
+  "parameters": [
+    { "name": "colors", "description": "Maximum palette colors", "default": "32", "required": false },
+    { "name": "output", "description": "Atlas output path", "default": "data/PlayromaSprite/Exports/${document}-indexed.png", "required": false }
+  ],
+  "steps": [
+    { "id": "palette", "command": "palette-generate", "enabled": true, "continueOnError": false, "arguments": { "name": "Generated ${colors}-Color Palette", "colors": 32 } },
+    { "id": "indexed", "command": "convert-mode", "enabled": true, "continueOnError": false, "arguments": { "mode": "indexed", "colors": 32, "dither": "floyd" } },
+    { "id": "atlas", "command": "export-atlas", "enabled": true, "continueOnError": false, "arguments": { "path": "${output}", "padding": 1, "extrude": true, "powerOfTwo": true } }
+  ]
+}

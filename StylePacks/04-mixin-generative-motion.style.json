@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "mixin-generative-motion",
+  "name": "Generative Motion",
+  "description": "Composable irregular rhythmic cells, wide melodic permissions and novelty-biased scoring.",
+  "version": "1.0.0",
+  "family": "foundation",
+  "abstract": true,
+  "extends": "core-musical-foundation",
+  "rhythms": [
+    {
+      "id": "euclid-5-16",
+      "steps": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "cellular-110",
+      "steps": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "prime-pulses",
+      "steps": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "constraints": {
+    "maximumMelodicLeap": 28,
+    "maximumRepeatedPitch": 3,
+    "minimumChordToneRatio": 0.0,
+    "preferredMaximumRange": 32
+  },
+  "scoring": {
+    "chordTone": 10,
+    "stepwiseMotion": 8,
+    "motifFidelity": 12,
+    "phraseClosure": 7,
+    "rhythmBalance": 18,
+    "range": 18,
+    "leapPenalty": 0.2,
+    "syncopation": 13,
+    "repetitionControl": 18
+  }
+}

@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Description>WinForms authoring application with the Playroma Sound project shell, structured streaming-scene and visual sound-graph editors, live analysis, profiling, export, validation, recovery, and WASAPI preview.</Description>
+    <AssemblyName>Playroma.Sound.Editor</AssemblyName>
+    <RootNamespace>Playroma.Sound.WinForms</RootNamespace>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="OggVorbisEncoder" Version="1.2.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Playroma.Sound.Authoring\Playroma.Sound.Authoring.csproj" />
+    <ProjectReference Include="..\Playroma.Sound.Analysis\Playroma.Sound.Analysis.csproj" />
+    <ProjectReference Include="..\Playroma.Sound.Core\Playroma.Sound.Core.csproj" />
+    <ProjectReference Include="..\Playroma.Sound.Graph\Playroma.Sound.Graph.csproj" />
+    <ProjectReference Include="..\Playroma.Sound.Generators\Playroma.Sound.Generators.csproj" />
+    <ProjectReference Include="..\Playroma.Sound.Streaming\Playroma.Sound.Streaming.csproj" />
+    <ProjectReference Include="..\Playroma.Sound.NAudio\Playroma.Sound.NAudio.csproj" />
+  </ItemGroup>
+</Project>

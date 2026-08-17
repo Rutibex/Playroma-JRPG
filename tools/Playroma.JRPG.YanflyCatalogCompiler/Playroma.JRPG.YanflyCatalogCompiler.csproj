@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Playroma.JRPG.YanflyCatalogCompiler</RootNamespace>
+    <AssemblyName>Playroma.JRPG.YanflyCatalogCompiler</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../src/Playroma.JRPG.PluginTags.Yanfly/Playroma.JRPG.PluginTags.Yanfly.csproj" />
+  </ItemGroup>
+</Project>

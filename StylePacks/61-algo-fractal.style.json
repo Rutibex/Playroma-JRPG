@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "id": "fractal-cascade",
+  "name": "Fractal Cascade",
+  "description": "Self-similar contour, layered octave relationships and recursive timbral substitutions.",
+  "version": "1.0.0",
+  "family": "algorithmic",
+  "abstract": false,
+  "extends": "algorithmic-recursive-machines",
+  "tempo": {
+    "minimum": 48,
+    "maximum": 144
+  },
+  "candidateCount": 16,
+  "scales": [
+    "major",
+    "dorian",
+    "lydian"
+  ],
+  "roles": [
+    {
+      "id": "melody",
+      "name": "Fractal Cascade Melody",
+      "role": "lead",
+      "instrumentSelector": {
+        "families": [
+          "pipe",
+          "synthLead",
+          "chromaticPercussion"
+        ],
+        "preferredTags": [
+          "lead",
+          "expressive",
+          "algorithmic"
+        ],
+        "avoidTags": [
+          "very-low"
+        ],
+        "minimumAttack": 0.15,
+        "maximumAttack": 0.95,
+        "minimumBrightness": 0.2,
+        "maximumBrightness": 0.95,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "octaveDoubling",
+          "phraseAlternation",
+          "callAndResponse",
+          "sectionSubstitution"
+        ]
+      }
+    },
+    {
+      "id": "bass",
+      "name": "Fractal Cascade Bass",
+      "role": "bass",
+      "instrumentSelector": {
+        "families": [
+          "bass",
+          "strings",
+          "organ"
+        ],
+        "preferredTags": [
+          "bass",
+          "warm",
+          "low"
+        ],
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 0.72,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "registerSplit",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "chords",
+      "name": "Fractal Cascade Chords",
+      "role": "chords",
+      "instrumentSelector": {
+        "families": [
+          "synthPad",
+          "ensemble",
+          "strings"
+        ],
+        "preferredTags": [
+          "polyphonic",
+          "harmony",
+          "sustaining"
+        ],
+        "minimumSustain": 0.15,
+        "maximumLayers": 3,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "registerSplit",
+          "hocket",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "arpeggio",
+      "name": "Fractal Cascade Arpeggio",
+      "role": "arpeggio",
+      "instrumentSelector": {
+        "families": [
+          "chromaticPercussion",
+          "piano",
+          "synthLead"
+        ],
+        "preferredTags": [
+          "short",
+          "clear",
+          "pulse"
+        ],
+        "minimumAttack": 0.25,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "octaveDoubling",
+          "hocket",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "drums",
+      "name": "Fractal Cascade Drums",
+      "role": "drums",
+      "instrumentSelector": {
+        "families": [
+          "drums"
+        ],
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument",
+          "sectionSubstitution"
+        ],
+        "preferredTags": [
+          "drums",
+          "percussive"
+        ],
+        "avoidTags": []
+      }
+    }
+  ]
+}

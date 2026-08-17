@@ -1,0 +1,413 @@
+{
+  "schemaVersion": 1,
+  "id": "retro-16bit-action",
+  "name": "16-bit — Action Stage",
+  "description": "Layered synthetic leads, sampled-style drums and energetic bass for 16-bit action.",
+  "version": "1.0.0",
+  "family": "retroConsole",
+  "abstract": false,
+  "extends": "retro-console-foundation",
+  "tempo": {
+    "minimum": 132,
+    "maximum": 178
+  },
+  "meter": {
+    "beatsPerBar": 4,
+    "beatUnit": 4
+  },
+  "candidateCount": 18,
+  "scales": [
+    "naturalMinor",
+    "dorian",
+    "mixolydian"
+  ],
+  "forms": {
+    "grammarId": "retro-16bit-action-form-v1",
+    "productions": [
+      [
+        "I",
+        "A",
+        "B",
+        "A'",
+        "B",
+        "A"
+      ],
+      [
+        "A",
+        "A'",
+        "B",
+        "C",
+        "A"
+      ]
+    ]
+  },
+  "harmony": {
+    "grammarId": "retro-16bit-action-harmony-v1",
+    "progressions": {
+      "intro": [
+        [
+          0,
+          5,
+          3,
+          4
+        ]
+      ],
+      "verse": [
+        [
+          0,
+          5,
+          3,
+          4
+        ],
+        [
+          0,
+          3,
+          5,
+          4
+        ]
+      ],
+      "chorus": [
+        [
+          0,
+          4,
+          5,
+          3
+        ],
+        [
+          3,
+          4,
+          0,
+          5
+        ]
+      ],
+      "bridge": [
+        [
+          5,
+          3,
+          1,
+          4
+        ],
+        [
+          1,
+          6,
+          3,
+          4
+        ]
+      ],
+      "breakdown": [
+        [
+          5,
+          3,
+          1,
+          4
+        ]
+      ],
+      "solo": [
+        [
+          0,
+          4,
+          5,
+          3
+        ]
+      ],
+      "outro": [
+        [
+          0,
+          5,
+          3,
+          4
+        ]
+      ]
+    }
+  },
+  "roles": [
+    {
+      "id": "melody",
+      "name": "16-bit — Action Stage Lead",
+      "role": "lead",
+      "enabled": true,
+      "generalMidiProgram": 81,
+      "isPercussion": false,
+      "rhythmPatternId": "battle-drive",
+      "minimumPitch": 60,
+      "maximumPitch": 94,
+      "density": 86,
+      "instrumentSelector": {
+        "families": [
+          "synthLead",
+          "chromaticPercussion",
+          "organ"
+        ],
+        "preferredTags": [
+          "electronic",
+          "lead",
+          "bright",
+          "clear"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 60,
+        "maximumPitch": 94,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument",
+          "octaveDoubling",
+          "phraseAlternation"
+        ]
+      },
+      "midiChannel": 0
+    },
+    {
+      "id": "bass",
+      "name": "16-bit — Action Stage Bass",
+      "role": "bass",
+      "enabled": true,
+      "generalMidiProgram": 38,
+      "isPercussion": false,
+      "rhythmPatternId": "chip-bass",
+      "minimumPitch": 26,
+      "maximumPitch": 53,
+      "density": 88,
+      "instrumentSelector": {
+        "families": [
+          "bass",
+          "synthLead",
+          "organ"
+        ],
+        "preferredTags": [
+          "electronic",
+          "bass",
+          "punchy"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 26,
+        "maximumPitch": 53,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument",
+          "octaveDoubling"
+        ]
+      },
+      "midiChannel": 2
+    },
+    {
+      "id": "chords",
+      "name": "16-bit — Action Stage Chords",
+      "role": "chords",
+      "enabled": true,
+      "generalMidiProgram": 90,
+      "isPercussion": false,
+      "rhythmPatternId": "quarters",
+      "minimumPitch": 43,
+      "maximumPitch": 80,
+      "density": 62,
+      "instrumentSelector": {
+        "families": [
+          "synthPad",
+          "synthLead",
+          "organ",
+          "chromaticPercussion"
+        ],
+        "preferredTags": [
+          "electronic",
+          "harmony",
+          "clear"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 43,
+        "maximumPitch": 80,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument",
+          "hocket",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 1
+    },
+    {
+      "id": "arpeggio",
+      "name": "16-bit — Action Stage Arpeggio",
+      "role": "arpeggio",
+      "enabled": true,
+      "generalMidiProgram": 82,
+      "isPercussion": false,
+      "rhythmPatternId": "chip-arp",
+      "minimumPitch": 48,
+      "maximumPitch": 99,
+      "density": 94,
+      "instrumentSelector": {
+        "families": [
+          "synthLead",
+          "chromaticPercussion",
+          "organ"
+        ],
+        "preferredTags": [
+          "electronic",
+          "pulse",
+          "short-attack"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 48,
+        "maximumPitch": 99,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument",
+          "hocket"
+        ]
+      },
+      "midiChannel": 3
+    },
+    {
+      "id": "counter",
+      "name": "16-bit — Action Stage Counter Voice",
+      "role": "counterMelody",
+      "enabled": true,
+      "generalMidiProgram": 80,
+      "isPercussion": false,
+      "rhythmPatternId": "chip-lead",
+      "minimumPitch": 54,
+      "maximumPitch": 91,
+      "density": 64,
+      "instrumentSelector": {
+        "families": [
+          "synthLead",
+          "chromaticPercussion"
+        ],
+        "preferredTags": [
+          "electronic",
+          "counterline",
+          "bright"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 54,
+        "maximumPitch": 91,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument",
+          "callAndResponse",
+          "hocket"
+        ]
+      },
+      "midiChannel": 4
+    },
+    {
+      "id": "texture",
+      "name": "16-bit — Action Stage Effects",
+      "role": "texture",
+      "enabled": true,
+      "generalMidiProgram": 99,
+      "isPercussion": false,
+      "rhythmPatternId": "ambient-loop",
+      "minimumPitch": 34,
+      "maximumPitch": 101,
+      "density": 27,
+      "instrumentSelector": {
+        "families": [
+          "synthEffects",
+          "synthPad",
+          "percussive"
+        ],
+        "preferredTags": [
+          "electronic",
+          "effect",
+          "atmospheric"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 34,
+        "maximumPitch": 101,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 5
+    },
+    {
+      "id": "drums",
+      "name": "16-bit — Action Stage Drum Channel",
+      "role": "drums",
+      "enabled": true,
+      "generalMidiProgram": 0,
+      "isPercussion": true,
+      "rhythmPatternId": "battle-drive",
+      "minimumPitch": 35,
+      "maximumPitch": 81,
+      "density": 80,
+      "instrumentSelector": {
+        "families": [
+          "drums"
+        ],
+        "preferredTags": [
+          "electronic",
+          "percussive",
+          "short-attack"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 35,
+        "maximumPitch": 81,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument"
+        ]
+      },
+      "midiChannel": 9
+    }
+  ]
+}

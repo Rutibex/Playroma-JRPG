@@ -1,0 +1,18 @@
+{
+  "schema": "playroma-sprite-export-preset/1",
+  "id": "builtin-power-of-two-atlas",
+  "name": "Power-of-Two Atlas",
+  "format": "atlas",
+  "outputPath": "data/PlayromaSprite/Exports/${document}-atlas.png",
+  "frameMode": "all",
+  "scale": 1,
+  "trimTransparent": true,
+  "padding": 1,
+  "extrude": true,
+  "powerOfTwo": true,
+  "maximumWidth": 4096,
+  "maximumHeight": 4096,
+  "ordering": "frame",
+  "metadataFormat": "playroma-json",
+  "userData": {}
+}

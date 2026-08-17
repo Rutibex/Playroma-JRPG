@@ -1,0 +1,37 @@
+{
+  "id": "example-tavern",
+  "version": 1,
+  "name": "Example Tavern Chatter",
+  "text": "The north road is muddy again.\nSomeone rang the chapel bell before dawn.\nThe ferryman has doubled his price.\nA red fox slept beneath the market cart.\nThe old quarry is closed until further notice.\nTravelers from the coast say the storms are getting worse.",
+  "sources": [
+    {
+      "displayName": "Original Playroma Phase 5 example",
+      "author": "Playroma project example",
+      "license": "Project-authored example",
+      "notes": "Original demonstration text supplied with Phase 5."
+    }
+  ],
+  "normalization": {
+    "normalizeUnicode": true,
+    "normalizeNewlines": true,
+    "trimLines": true,
+    "removeEmptyLines": true,
+    "collapseWhitespace": true,
+    "removeDuplicateLines": false,
+    "lowercase": false
+  },
+  "defaultTraining": {
+    "mode": "word",
+    "order": 1,
+    "minimumOrder": 1,
+    "variableOrderBackoff": true,
+    "preserveCase": true,
+    "includePunctuation": true,
+    "minimumOutputTokens": 5,
+    "maximumOutputTokens": 22,
+    "preventExactCorpusMatches": true,
+    "maximumCorpusSimilarity": 0.9,
+    "candidateAttempts": 64
+  },
+  "tags": ["example", "dialogue"]
+}

@@ -1,0 +1,250 @@
+{
+  "formatVersion": 2,
+  "id": "example.layered-impact",
+  "displayName": "Layered Procedural Impact",
+  "rootSeed": 12345,
+  "nodes": [
+    {
+      "id": "body",
+      "typeId": "core.oscillator",
+      "schemaVersion": 1,
+      "parameters": {
+        "waveform": "sine",
+        "frequencyHz": 82,
+        "amplitude": 0.85,
+        "durationSeconds": 0.42,
+        "attackSeconds": 0.001,
+        "releaseSeconds": 0.3
+      }
+    },
+    {
+      "id": "crack",
+      "typeId": "core.noise",
+      "schemaVersion": 1,
+      "parameters": {
+        "color": "white",
+        "amplitude": 0.65,
+        "durationSeconds": 0.16,
+        "attackSeconds": 0.0005,
+        "releaseSeconds": 0.12
+      }
+    },
+    {
+      "id": "crack-filter",
+      "typeId": "dsp.biquad",
+      "schemaVersion": 1,
+      "parameters": {
+        "filterType": "bandPass",
+        "frequencyHz": 2800,
+        "q": 0.8
+      }
+    },
+    {
+      "id": "debris",
+      "typeId": "core.noise",
+      "schemaVersion": 1,
+      "parameters": {
+        "color": "brown",
+        "amplitude": 0.24,
+        "durationSeconds": 0.55,
+        "attackSeconds": 0.01,
+        "releaseSeconds": 0.4
+      }
+    },
+    {
+      "id": "debris-offset",
+      "typeId": "core.offset",
+      "schemaVersion": 1,
+      "parameters": {
+        "delaySeconds": 0.035
+      }
+    },
+    {
+      "id": "mixer",
+      "typeId": "core.mixer",
+      "schemaVersion": 1,
+      "parameters": {
+        "gain": 0.72
+      }
+    },
+    {
+      "id": "shape",
+      "typeId": "dsp.waveshaper",
+      "schemaVersion": 1,
+      "parameters": {
+        "mode": "hyperbolicTangent",
+        "driveDecibels": 7,
+        "mix": 0.65,
+        "outputDecibels": -2
+      }
+    },
+    {
+      "id": "room",
+      "typeId": "dsp.reverb",
+      "schemaVersion": 1,
+      "parameters": {
+        "roomSize": 0.48,
+        "damping": 0.56,
+        "wet": 0.18,
+        "dry": 1,
+        "tailSeconds": 3.5
+      }
+    },
+    {
+      "id": "limiter",
+      "typeId": "dsp.lookahead-limiter",
+      "schemaVersion": 1,
+      "parameters": {
+        "lookAheadMilliseconds": 3,
+        "ceilingDecibels": -0.7,
+        "releaseMilliseconds": 70
+      }
+    },
+    {
+      "id": "output",
+      "typeId": "core.output",
+      "schemaVersion": 1,
+      "parameters": {}
+    }
+  ],
+  "connections": [
+    {
+      "fromNodeId": "body",
+      "fromPortId": "out",
+      "toNodeId": "mixer",
+      "toPortId": "in"
+    },
+    {
+      "fromNodeId": "crack",
+      "fromPortId": "out",
+      "toNodeId": "crack-filter",
+      "toPortId": "in"
+    },
+    {
+      "fromNodeId": "crack-filter",
+      "fromPortId": "out",
+      "toNodeId": "mixer",
+      "toPortId": "in"
+    },
+    {
+      "fromNodeId": "debris",
+      "fromPortId": "out",
+      "toNodeId": "debris-offset",
+      "toPortId": "in"
+    },
+    {
+      "fromNodeId": "debris-offset",
+      "fromPortId": "out",
+      "toNodeId": "mixer",
+      "toPortId": "in"
+    },
+    {
+      "fromNodeId": "mixer",
+      "fromPortId": "out",
+      "toNodeId": "shape",
+      "toPortId": "in"
+    },
+    {
+      "fromNodeId": "shape",
+      "fromPortId": "out",
+      "toNodeId": "room",
+      "toPortId": "in"
+    },
+    {
+      "fromNodeId": "room",
+      "fromPortId": "out",
+      "toNodeId": "limiter",
+      "toPortId": "in"
+    },
+    {
+      "fromNodeId": "limiter",
+      "fromPortId": "out",
+      "toNodeId": "output",
+      "toPortId": "in"
+    }
+  ],
+  "macros": [
+    {
+      "id": "punch",
+      "displayName": "Punch",
+      "minimum": 0,
+      "maximum": 1,
+      "defaultValue": 0.62,
+      "bindings": [
+        {
+          "targetPath": "node:body/parameter:amplitude",
+          "inputMinimum": 0,
+          "inputMaximum": 1,
+          "outputMinimum": 0.35,
+          "outputMaximum": 1.25,
+          "curve": "smoothStep",
+          "steps": 8
+        },
+        {
+          "targetPath": "node:shape/parameter:driveDecibels",
+          "inputMinimum": 0,
+          "inputMaximum": 1,
+          "outputMinimum": 1,
+          "outputMaximum": 18,
+          "curve": "exponential",
+          "steps": 8
+        }
+      ]
+    },
+    {
+      "id": "brightness",
+      "displayName": "Brightness",
+      "minimum": 0,
+      "maximum": 1,
+      "defaultValue": 0.55,
+      "bindings": [
+        {
+          "targetPath": "node:crack-filter/parameter:frequencyHz",
+          "inputMinimum": 0,
+          "inputMaximum": 1,
+          "outputMinimum": 650,
+          "outputMaximum": 7500,
+          "curve": "logarithmic",
+          "steps": 8
+        }
+      ]
+    },
+    {
+      "id": "space",
+      "displayName": "Space",
+      "minimum": 0,
+      "maximum": 1,
+      "defaultValue": 0.25,
+      "bindings": [
+        {
+          "targetPath": "node:room/parameter:wet",
+          "inputMinimum": 0,
+          "inputMaximum": 1,
+          "outputMinimum": 0.03,
+          "outputMaximum": 0.48,
+          "curve": "smoothStep",
+          "steps": 8
+        },
+        {
+          "targetPath": "node:room/parameter:roomSize",
+          "inputMinimum": 0,
+          "inputMaximum": 1,
+          "outputMinimum": 0.22,
+          "outputMaximum": 0.92,
+          "curve": "smoothStep",
+          "steps": 8
+        }
+      ]
+    }
+  ],
+  "output": {
+    "nodeId": "output",
+    "portId": "out",
+    "enableLatencyCompensation": true,
+    "maximumTailSeconds": 8
+  },
+  "metadata": {
+    "category": "Impact",
+    "authoringPhase": "3"
+  }
+}

@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>Playroma.Sprite.Resilience</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Playroma.Sprite.Core/Playroma.Sprite.Core.csproj" />
+    <ProjectReference Include="../Playroma.Sprite.Formats/Playroma.Sprite.Formats.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,22 @@
+{
+  "formatVersion": 1,
+  "id": "default.rendered-audio",
+  "displayName": "Default Rendered Audio",
+  "mode": "renderedAudio",
+  "outputDirectory": "Exports/Rendered",
+  "assetIds": [
+    "example.layered-impact",
+    "scene.authoring-preview"
+  ],
+  "sampleRate": 48000,
+  "channels": 2,
+  "blockSize": 256,
+  "waveEncoding": "pcm16",
+  "sceneDurationSeconds": 60,
+  "variationCount": 1,
+  "renderStems": true,
+  "includeSourceDefinitions": true,
+  "metadata": {
+    "phase": "6G"
+  }
+}

@@ -1,0 +1,22 @@
+﻿pluginId,databaseFeatureCount,editor,primaryArea
+YEP_ItemCore,8,"Items, Equipment, Shops & Currencies",Item Core
+YEP_EquipCore,7,"Items, Equipment, Shops & Currencies",Equipment Slots
+YEP_ItemSynthesis,12,"Items, Equipment, Shops & Currencies",Synthesis
+YEP_ShopMenuCore,4,"Items, Equipment, Shops & Currencies",Shop Prices
+YEP_WeaponAnimation,7,"Items, Equipment, Shops & Currencies",Weapon Visuals
+YEP_WeaponUnleash,29,"Items, Equipment, Shops & Currencies",Weapon Unleash
+YEP_X_ArmorScaling,20,"Items, Equipment, Shops & Currencies",Armor Scaling
+YEP_X_AttachAugments,7,"Items, Equipment, Shops & Currencies",Augments
+YEP_X_ChangeBattleEquip,3,"Items, Equipment, Shops & Currencies",Battle Equipment
+YEP_X_CondShopPrices,6,"Items, Equipment, Shops & Currencies",Shop Prices
+YEP_X_EquipRequirements,3,"Items, Equipment, Shops & Currencies",Equip Requirements
+YEP_X_HideShowShopItems,10,"Items, Equipment, Shops & Currencies",Shop Visibility
+YEP_X_ItemCategories,4,"Items, Equipment, Shops & Currencies",Categories & Pictures
+YEP_X_ItemDisassemble,15,"Items, Equipment, Shops & Currencies",Disassembly
+YEP_X_ItemDiscard,2,"Items, Equipment, Shops & Currencies",Rename & Discard
+YEP_X_ItemDurability,59,"Items, Equipment, Shops & Currencies",Durability
+YEP_X_ItemPictureImg,3,"Items, Equipment, Shops & Currencies",Categories & Pictures
+YEP_X_ItemRename,2,"Items, Equipment, Shops & Currencies",Rename & Discard
+YEP_X_ItemRequirements,2,"Items, Equipment, Shops & Currencies",Item Requirements
+YEP_X_ItemUpgradeSlots,21,"Items, Equipment, Shops & Currencies",Upgrade Slots
+YEP_X_MoreCurrencies,16,"Items, Equipment, Shops & Currencies",Currencies

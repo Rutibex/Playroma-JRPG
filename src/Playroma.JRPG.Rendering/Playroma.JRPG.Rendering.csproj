@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>Playroma.JRPG.Rendering</RootNamespace>
+    <AssemblyName>Playroma.JRPG.Rendering</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Playroma.JRPG.Core/Playroma.JRPG.Core.csproj" />
+  </ItemGroup>
+</Project>

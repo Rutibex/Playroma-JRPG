@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Playroma.Text.Authoring</RootNamespace>
+    <AssemblyName>Playroma.Text.Authoring</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup><ProjectReference Include="../Playroma.Text.Core/Playroma.Text.Core.csproj" /></ItemGroup>
+</Project>

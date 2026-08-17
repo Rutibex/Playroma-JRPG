@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "mixin-spacious-texture",
+  "name": "Spacious Texture",
+  "description": "Composable sparse rhythms, broad ranges and low-density phrase constraints.",
+  "version": "1.0.0",
+  "family": "foundation",
+  "abstract": true,
+  "extends": "core-musical-foundation",
+  "rhythms": [
+    {
+      "id": "ambient-pulse",
+      "steps": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "slow-breath",
+      "steps": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "shimmer",
+      "steps": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    }
+  ],
+  "constraints": {
+    "maximumMelodicLeap": 24,
+    "maximumNotesPerPhrase": 28,
+    "preferredMaximumRange": 28,
+    "maximumDensityRatio": 0.65
+  },
+  "scoring": {
+    "chordTone": 18,
+    "stepwiseMotion": 10,
+    "motifFidelity": 13,
+    "phraseClosure": 10,
+    "rhythmBalance": 20,
+    "range": 17,
+    "leapPenalty": 0.3,
+    "syncopation": 2,
+    "repetitionControl": 8
+  }
+}

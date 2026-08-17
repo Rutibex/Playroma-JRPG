@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://playroma.local/schemas/playtext.corpus.schema.json",
+  "title": "Playroma Text Corpus",
+  "type": "object",
+  "required": ["id", "version", "name", "text", "sources"],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "version": { "type": "integer", "minimum": 1 },
+    "name": { "type": "string", "minLength": 1 },
+    "text": { "type": "string" },
+    "description": { "type": ["string", "null"] },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["displayName"],
+        "properties": {
+          "displayName": { "type": "string" },
+          "originalFileName": { "type": ["string", "null"] },
+          "author": { "type": ["string", "null"] },
+          "license": { "type": ["string", "null"] },
+          "sourceUri": { "type": ["string", "null"] },
+          "notes": { "type": ["string", "null"] },
+          "sha256": { "type": ["string", "null"] },
+          "importedAtUtc": { "type": ["string", "null"], "format": "date-time" }
+        }
+      }
+    },
+    "normalization": {
+      "type": ["object", "null"],
+      "properties": {
+        "normalizeUnicode": { "type": "boolean" },
+        "normalizeNewlines": { "type": "boolean" },
+        "trimLines": { "type": "boolean" },
+        "removeEmptyLines": { "type": "boolean" },
+        "collapseWhitespace": { "type": "boolean" },
+        "removeDuplicateLines": { "type": "boolean" },
+        "lowercase": { "type": "boolean" }
+      }
+    },
+    "defaultTraining": {
+      "type": ["object", "null"],
+      "properties": {
+        "mode": { "enum": ["character", "word", "sentence"] },
+        "order": { "type": "integer", "minimum": 1, "maximum": 8 },
+        "minimumOrder": { "type": "integer", "minimum": 1, "maximum": 8 },
+        "variableOrderBackoff": { "type": "boolean" },
+        "preserveCase": { "type": "boolean" },
+        "includePunctuation": { "type": "boolean" },
+        "minimumOutputTokens": { "type": "integer", "minimum": 1 },
+        "maximumOutputTokens": { "type": "integer", "minimum": 1 },
+        "preventExactCorpusMatches": { "type": "boolean" },
+        "maximumCorpusSimilarity": { "type": "number", "minimum": 0, "maximum": 1 },
+        "candidateAttempts": { "type": "integer", "minimum": 1, "maximum": 512 }
+      }
+    },
+    "tags": { "type": ["array", "null"], "items": { "type": "string" } }
+  }
+}

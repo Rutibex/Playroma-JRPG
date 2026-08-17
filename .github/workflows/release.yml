@@ -1,0 +1,58 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  windows-release:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up .NET 10
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 10.0.x
+
+      - name: Restore
+        run: dotnet restore Playroma.JRPG.sln
+
+      - name: Publish Windows x64
+        run: >-
+          dotnet publish src/Playroma.JRPG.Editor.WinForms/Playroma.JRPG.Editor.WinForms.csproj
+          --configuration Release
+          --runtime win-x64
+          --self-contained true
+          --output artifacts/Playroma-jRPG-win-x64
+
+      - name: Include release notices
+        shell: pwsh
+        run: |
+          Copy-Item LICENSE artifacts/Playroma-jRPG-win-x64/LICENSE.txt
+          Copy-Item THIRD-PARTY-NOTICES.md artifacts/Playroma-jRPG-win-x64/THIRD-PARTY-NOTICES.md
+          Copy-Item TRADEMARKS.md artifacts/Playroma-jRPG-win-x64/TRADEMARKS.md
+          Copy-Item README.md artifacts/Playroma-jRPG-win-x64/README.md
+
+      - name: Create ZIP
+        shell: pwsh
+        run: Compress-Archive -Path artifacts/Playroma-jRPG-win-x64/* -DestinationPath artifacts/Playroma-jRPG-win-x64.zip
+
+      - name: Upload workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Playroma-jRPG-win-x64
+          path: artifacts/Playroma-jRPG-win-x64.zip
+
+      - name: Create GitHub release
+        if: startsWith(github.ref, 'refs/tags/')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: pwsh
+        run: gh release create $env:GITHUB_REF_NAME artifacts/Playroma-jRPG-win-x64.zip --generate-notes --title "Playroma jRPG $env:GITHUB_REF_NAME"

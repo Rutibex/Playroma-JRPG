@@ -1,0 +1,25 @@
+{
+  "formatVersion": 1,
+  "id": "liquid.alien-gurgle",
+  "displayName": "Alien Fluid Gurgle",
+  "generatorId": "playroma.liquid",
+  "rootSeed": 73785,
+  "familySeed": 92255,
+  "variationIndex": 0,
+  "qualityMode": "realtimeHigh",
+  "description": {
+    "kind": "gurgle",
+    "liquid": "alienFluid",
+    "viscosity": 0.68,
+    "containerResonance": 0.72,
+    "complexity": 0.75,
+    "variationMode": "mutated",
+    "pitchContour": "valley",
+    "rhythmStyle": "irregular",
+    "envelopeStyle": "swell",
+    "emotion": "curious",
+    "energyState": "unstable",
+    "condition": "wet",
+    "stereoStyle": "moving"
+  }
+}

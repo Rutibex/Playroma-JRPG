@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "phase": "Multi-Window Phase 11 — Visual parity and accessibility",
+  "comparisonTolerance": 0.015,
+  "requiredScales": [
+    100,
+    150,
+    200
+  ],
+  "requiredThemes": [
+    "Light",
+    "Dark",
+    "HighContrast"
+  ],
+  "surfaces": [
+    "ProjectHub",
+    "MapEditor",
+    "EventEditor",
+    "EventCommandsPage1",
+    "EventCommandsPage2",
+    "EventCommandsPage3",
+    "DatabaseActors",
+    "DatabaseItems",
+    "ResourceManager",
+    "PluginManager",
+    "Validation",
+    "RawData",
+    "CoordinatedShutdown"
+  ],
+  "notes": "Required Windows screenshot matrix for visual-regression capture. The repository intentionally contains no RPG Maker artwork."
+}

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Description>SoundFont playback and offline rendering for Playroma Music.</Description>
+    <Product>Playroma Music</Product>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../PlayromaMusic.Core/PlayromaMusic.Core.csproj" />
+    <PackageReference Include="MeltySynth" Version="2.4.1" />
+  </ItemGroup>
+</Project>

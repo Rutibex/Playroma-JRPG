@@ -1,0 +1,121 @@
+{
+  "phase": 7,
+  "coveredPlugins": 18,
+  "databaseFeatures": 327,
+  "skillDesignerFeatures": 233,
+  "progressionDesignerFeatures": 94,
+  "surfaceCorrections": {
+    "YEP_InstantCast": 16,
+    "YEP_X_Subclass": 19
+  },
+  "plugins": [
+    {
+      "pluginId": "YEP_SkillCore",
+      "editor": "Skill Designer",
+      "primaryArea": "Execution",
+      "databaseFeatureCount": 24
+    },
+    {
+      "pluginId": "YEP_X_SkillCooldowns",
+      "editor": "Skill Designer",
+      "primaryArea": "Cooldowns",
+      "databaseFeatureCount": 36
+    },
+    {
+      "pluginId": "YEP_X_LimitedSkillUses",
+      "editor": "Skill Designer",
+      "primaryArea": "Limited Uses",
+      "databaseFeatureCount": 32
+    },
+    {
+      "pluginId": "YEP_SkillMasteryLevels",
+      "editor": "Skill Designer",
+      "primaryArea": "Mastery",
+      "databaseFeatureCount": 34
+    },
+    {
+      "pluginId": "YEP_X_SkillCostItems",
+      "editor": "Skill Designer",
+      "primaryArea": "Costs",
+      "databaseFeatureCount": 37
+    },
+    {
+      "pluginId": "YEP_Z_SkillRewards",
+      "editor": "Skill Designer",
+      "primaryArea": "Rewards",
+      "databaseFeatureCount": 39
+    },
+    {
+      "pluginId": "YEP_MultiTypeSkills",
+      "editor": "Skill Designer",
+      "primaryArea": "Skill Types",
+      "databaseFeatureCount": 3
+    },
+    {
+      "pluginId": "YEP_InstantCast",
+      "editor": "Skill Designer",
+      "primaryArea": "Instant Cast",
+      "databaseFeatureCount": 16
+    },
+    {
+      "pluginId": "YEP_X_PartyLimitGauge",
+      "editor": "Skill Designer",
+      "primaryArea": "Party Limit",
+      "databaseFeatureCount": 12
+    },
+    {
+      "pluginId": "YEP_SkillLearnSystem",
+      "editor": "Progression Designer",
+      "primaryArea": "Learning",
+      "databaseFeatureCount": 18
+    },
+    {
+      "pluginId": "YEP_JobPoints",
+      "editor": "Progression Designer",
+      "primaryArea": "Job Points",
+      "databaseFeatureCount": 6
+    },
+    {
+      "pluginId": "YEP_ClassChangeCore",
+      "editor": "Progression Designer",
+      "primaryArea": "Classes",
+      "databaseFeatureCount": 17
+    },
+    {
+      "pluginId": "YEP_X_Subclass",
+      "editor": "Progression Designer",
+      "primaryArea": "Subclasses",
+      "databaseFeatureCount": 19
+    },
+    {
+      "pluginId": "YEP_StatAllocation",
+      "editor": "Progression Designer",
+      "primaryArea": "Stat Allocation",
+      "databaseFeatureCount": 2
+    },
+    {
+      "pluginId": "YEP_EnhancedTP",
+      "editor": "Progression Designer",
+      "primaryArea": "TP Modes",
+      "databaseFeatureCount": 7
+    },
+    {
+      "pluginId": "YEP_EquipBattleSkills",
+      "editor": "Progression Designer",
+      "primaryArea": "Equipped Skills",
+      "databaseFeatureCount": 11
+    },
+    {
+      "pluginId": "YEP_X_EquipSkillTiers",
+      "editor": "Progression Designer",
+      "primaryArea": "Equipped Skills",
+      "databaseFeatureCount": 3
+    },
+    {
+      "pluginId": "YEP_LevelUpGrowthEffects",
+      "editor": "Progression Designer",
+      "primaryArea": "Level Growth",
+      "databaseFeatureCount": 11
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+name: Feature request
+description: Propose a focused improvement
+title: "[Feature] "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Authoring problem
+      description: Describe the workflow problem rather than only the desired control.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+    validations:
+      required: true
+  - type: textarea
+    id: compatibility
+    attributes:
+      label: MV compatibility impact
+      description: Explain how Strict MV Mode should represent or compile the feature.

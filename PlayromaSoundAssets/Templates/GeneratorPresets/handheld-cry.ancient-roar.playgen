@@ -1,0 +1,25 @@
+{
+  "formatVersion": 1,
+  "id": "handheld-cry.ancient-roar",
+  "displayName": "Ancient Cartridge Roar",
+  "generatorId": "playroma.classic-handheld-cry",
+  "rootSeed": 73019,
+  "familySeed": 33091,
+  "variationIndex": 0,
+  "qualityMode": "realtimeHigh",
+  "description": {
+    "archetype": "roar",
+    "contour": "falling",
+    "pitch": 0.28,
+    "length": 0.72,
+    "bodySize": 0.92,
+    "syllables": 8,
+    "complexity": 0.72,
+    "sweep": 0.64,
+    "pulseBlend": 0.82,
+    "noise": 0.78,
+    "roughness": 0.74,
+    "repetition": 0.08,
+    "punch": 0.78
+  }
+}

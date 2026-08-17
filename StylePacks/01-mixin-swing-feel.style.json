@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "mixin-swing-feel",
+  "name": "Swing Feel",
+  "description": "Composable swing vocabulary and jazz-biased phrase scoring.",
+  "version": "1.0.0",
+  "family": "foundation",
+  "abstract": true,
+  "extends": "core-musical-foundation",
+  "rhythms": [
+    {
+      "id": "swing-eighths",
+      "steps": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "charleston",
+      "steps": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "jazz-ride",
+      "steps": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ]
+    }
+  ],
+  "constraints": {
+    "maximumMelodicLeap": 18,
+    "minimumChordToneRatio": 0.28
+  },
+  "scoring": {
+    "chordTone": 31,
+    "stepwiseMotion": 13,
+    "motifFidelity": 11,
+    "phraseClosure": 15,
+    "rhythmBalance": 10,
+    "range": 12,
+    "leapPenalty": 0.6,
+    "syncopation": 10,
+    "repetitionControl": 3
+  }
+}

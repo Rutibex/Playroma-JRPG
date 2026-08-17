@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "id": "jrpg-defeat-lament",
+  "name": "Battle — Defeat and Loss",
+  "description": "A brief minor lament with falling melody, sparse piano and low strings after failure.",
+  "version": "1.0.0",
+  "family": "jrpg",
+  "abstract": false,
+  "extends": "jrpg-emotion-foundation",
+  "tempo": {
+    "minimum": 48,
+    "maximum": 72
+  },
+  "meter": {
+    "beatsPerBar": 4,
+    "beatUnit": 4
+  },
+  "candidateCount": 14,
+  "scales": [
+    "naturalMinor",
+    "harmonicMinor"
+  ],
+  "forms": {
+    "grammarId": "jrpg-defeat-cue-v1",
+    "productions": [
+      [
+        "I",
+        "A",
+        "A'",
+        "O"
+      ]
+    ]
+  },
+  "harmony": {
+    "grammarId": "defeat-lament-harmony-v1",
+    "progressions": {
+      "intro": [
+        [
+          0,
+          6,
+          5,
+          4
+        ]
+      ],
+      "verse": [
+        [
+          0,
+          6,
+          5,
+          4
+        ],
+        [
+          0,
+          3,
+          1,
+          0
+        ]
+      ],
+      "chorus": [
+        [
+          5,
+          3,
+          1,
+          0
+        ]
+      ],
+      "bridge": [
+        [
+          1,
+          6,
+          0,
+          0
+        ]
+      ],
+      "breakdown": [
+        [
+          1,
+          6,
+          0,
+          0
+        ]
+      ],
+      "solo": [
+        [
+          5,
+          3,
+          1,
+          0
+        ]
+      ],
+      "outro": [
+        [
+          0,
+          6,
+          5,
+          4
+        ]
+      ]
+    }
+  },
+  "roles": [
+    {
+      "id": "melody",
+      "name": "Falling Solo String",
+      "role": "lead",
+      "enabled": true,
+      "generalMidiProgram": 40,
+      "isPercussion": false,
+      "rhythmPatternId": "emotional-breath",
+      "minimumPitch": 58,
+      "maximumPitch": 84,
+      "density": 48,
+      "instrumentSelector": {
+        "families": [
+          "strings",
+          "reed",
+          "piano"
+        ],
+        "preferredTags": [
+          "sad",
+          "expressive",
+          "soft"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 58,
+        "maximumPitch": 84,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 0
+    },
+    {
+      "id": "chords",
+      "name": "Defeat Piano",
+      "role": "chords",
+      "enabled": true,
+      "generalMidiProgram": 0,
+      "isPercussion": false,
+      "rhythmPatternId": "sparse-breath",
+      "minimumPitch": 43,
+      "maximumPitch": 76,
+      "density": 42,
+      "instrumentSelector": {
+        "families": [
+          "piano",
+          "strings"
+        ],
+        "preferredTags": [
+          "intimate",
+          "dark",
+          "harmony"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 43,
+        "maximumPitch": 76,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 1
+    },
+    {
+      "id": "bass",
+      "name": "Low Lament Strings",
+      "role": "bass",
+      "enabled": true,
+      "generalMidiProgram": 42,
+      "isPercussion": false,
+      "rhythmPatternId": "sparse-breath",
+      "minimumPitch": 28,
+      "maximumPitch": 49,
+      "density": 38,
+      "instrumentSelector": {
+        "families": [
+          "strings"
+        ],
+        "preferredTags": [
+          "low",
+          "dark",
+          "sustaining"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 28,
+        "maximumPitch": 49,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 2
+    },
+    {
+      "id": "drums",
+      "name": "Silent Percussion",
+      "role": "drums",
+      "enabled": false,
+      "generalMidiProgram": 0,
+      "isPercussion": true,
+      "rhythmPatternId": "sparse-breath",
+      "minimumPitch": 35,
+      "maximumPitch": 81,
+      "density": 0,
+      "instrumentSelector": {
+        "families": [
+          "drums"
+        ],
+        "preferredTags": [
+          "soft"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 35,
+        "maximumPitch": 81,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 9
+    }
+  ]
+}

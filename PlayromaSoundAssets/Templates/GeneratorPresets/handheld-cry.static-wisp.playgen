@@ -1,0 +1,25 @@
+{
+  "formatVersion": 1,
+  "id": "handheld-cry.static-wisp",
+  "displayName": "Static Wisp Cry",
+  "generatorId": "playroma.classic-handheld-cry",
+  "rootSeed": 95231,
+  "familySeed": 41809,
+  "variationIndex": 0,
+  "qualityMode": "realtimeHigh",
+  "description": {
+    "archetype": "electronic",
+    "contour": "broken",
+    "pitch": 0.68,
+    "length": 0.34,
+    "bodySize": 0.26,
+    "syllables": 9,
+    "complexity": 0.84,
+    "sweep": 0.88,
+    "pulseBlend": 0.66,
+    "noise": 0.52,
+    "roughness": 0.8,
+    "repetition": 0.48,
+    "punch": 0.82
+  }
+}

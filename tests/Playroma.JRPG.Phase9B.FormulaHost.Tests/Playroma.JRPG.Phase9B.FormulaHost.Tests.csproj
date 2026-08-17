@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Playroma.JRPG.Phase9B.FormulaHost.Tests</RootNamespace>
+    <AssemblyName>Playroma.JRPG.Phase9B.FormulaHost.Tests</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../src/Playroma.JRPG.FormulaSandbox/Playroma.JRPG.FormulaSandbox.csproj" />
+    <ProjectReference Include="../../src/Playroma.JRPG.FormulaWorker/Playroma.JRPG.FormulaWorker.csproj" ReferenceOutputAssembly="false" />
+  </ItemGroup>
+  <Target Name="CopyFormulaWorker" AfterTargets="Build">
+    <ItemGroup>
+      <FormulaWorkerFiles Include="../../src/Playroma.JRPG.FormulaWorker/bin/$(Configuration)/net10.0/Playroma.JRPG.FormulaWorker*" />
+    </ItemGroup>
+    <Copy SourceFiles="@(FormulaWorkerFiles)" DestinationFolder="$(OutDir)" SkipUnchangedFiles="true" Condition="'@(FormulaWorkerFiles)' != ''" />
+  </Target>
+</Project>

@@ -1,0 +1,247 @@
+﻿commandId,displayName,canonicalLine,pluginId,category,advanced,source
+curated.action-animation,Action Animation,ACTION ANIMATION,YEP_X_ActSeqPack1,Animation,False,Curated verified command
+x-actseqpack1.animation.b66e2a72,Animation 5,animation 5: user,YEP_X_ActSeqPack1,Animation,False,Generated catalog
+x-actseqpack1.animation.48018207,Animation Wait,ANIMATION WAIT: X,YEP_X_ActSeqPack1,Animation,False,Generated catalog
+curated.attack-animation,Attack Animation,ATTACK ANIMATION: TARGET,YEP_X_ActSeqPack2,Animation,False,Curated verified command
+x-actseqpack1.cast.0ba2064d,Cast Animation,cast animation,YEP_X_ActSeqPack1,Animation,False,Generated catalog
+improvedbattlebacks.battleback.9635b6d8,Battleback 1 Change To,"battleback 1 change to: parallaxes, SeaofClouds",YEP_ImprovedBattlebacks,Audio,False,Generated catalog
+improvedbattlebacks.battleback.955975cc,Battleback 1 Reset Scroll Speed,battleback 1 reset scroll speed,YEP_ImprovedBattlebacks,Audio,False,Generated catalog
+x-actseqpack1.bgm.4553b155,Bgm,BGM: MEMORIZE,YEP_X_ActSeqPack1,Audio,False,Generated catalog
+x-actseqpack1.bgm.686882cd,Bgm,BGM: MEMORY,YEP_X_ActSeqPack1,Audio,False,Generated catalog
+x-actseqpack1.bgm.13c7a2e1,Bgm,BGM: STOP,YEP_X_ActSeqPack1,Audio,False,Generated catalog
+x-actseqpack1.bgs.f3c35b38,Bgs,BGS: MEMORIZE,YEP_X_ActSeqPack1,Audio,False,Generated catalog
+x-actseqpack1.bgs.a15b9210,Bgs,BGS: MEMORY,YEP_X_ActSeqPack1,Audio,False,Generated catalog
+x-actseqpack1.bgs.9fc52684,Bgs,BGS: STOP,YEP_X_ActSeqPack1,Audio,False,Generated catalog
+x-actseqpack1.collapse.a33b0025,Collapse,collapse: user,YEP_X_ActSeqPack1,Audio,False,Generated catalog
+x-actseqpack1.eval.5dbe5663,Eval,"eval: $gameParty.loseItem($dataItems[3], 10)",YEP_X_ActSeqPack1,Audio,True,Generated catalog
+x-actseqpack2.face.42d37314,Face User,face user: forward,YEP_X_ActSeqPack2,Audio,False,Generated catalog
+x-actseqpack1.gain.f3c10db7,Gain Armor X,GAIN ARMOR X: Y          LOSE ARMOR X: Y,YEP_X_ActSeqPack1,Audio,False,Generated catalog
+x-actseqpack1.gain.152a2f11,Gain Item X,GAIN ITEM X: Y           LOSE ITEM X: Y,YEP_X_ActSeqPack1,Audio,False,Generated catalog
+x-actseqpack1.gain.a410d701,Gain Weapon X,GAIN WEAPON X: Y         LOSE WEAPON X: Y,YEP_X_ActSeqPack1,Audio,False,Generated catalog
+x-actseqpack1.hp.37728a0e,Hp +500,hp +500: user,YEP_X_ActSeqPack1,Audio,False,Generated catalog
+x-actseqpack1.mp.bbe66f51,Mp +500,mp +500: user,YEP_X_ActSeqPack1,Audio,False,Generated catalog
+x-actseqpack2.opacity.feb2cc97,Opacity User,"opacity user: 50%, 30",YEP_X_ActSeqPack2,Audio,False,Generated catalog
+x-armorscaling.reset.d6300e27,Reset Armor Penetration,reset armor penetration,YEP_X_ArmorScaling,Audio,False,Generated catalog
+x-armorscaling.reset.2fb13311,Reset Armor Reduction,reset armor reduction,YEP_X_ArmorScaling,Audio,False,Generated catalog
+x-actseqpack1.se.b3874c8a,Se,SE: PLAY ACTOR COLLAPSE,YEP_X_ActSeqPack1,Audio,False,Generated catalog
+x-actseqpack1.se.8877f1b1,Se,SE: PLAY BATTLE START,YEP_X_ActSeqPack1,Audio,False,Generated catalog
+x-actseqpack1.se.d798cfc9,Se,SE: PLAY BOSS COLLAPSE 1,YEP_X_ActSeqPack1,Audio,False,Generated catalog
+x-actseqpack1.se.f06eaa80,Se,SE: PLAY BOSS COLLAPSE 2,YEP_X_ActSeqPack1,Audio,False,Generated catalog
+x-actseqpack1.se.a4689479,Se,SE: PLAY BUZZER,YEP_X_ActSeqPack1,Audio,False,Generated catalog
+x-actseqpack1.se.95e18329,Se,SE: PLAY CANCEL,YEP_X_ActSeqPack1,Audio,False,Generated catalog
+x-actseqpack1.se.31d13f10,Se,SE: PLAY CURSOR,YEP_X_ActSeqPack1,Audio,False,Generated catalog
+x-actseqpack1.se.71ba3a14,Se,SE: PLAY ENEMY ATTACK,YEP_X_ActSeqPack1,Audio,False,Generated catalog
+x-actseqpack1.se.2d3b26e9,Se,SE: PLAY ENEMY COLLAPSE,YEP_X_ActSeqPack1,Audio,False,Generated catalog
+x-actseqpack1.se.4a29c7b0,Se,SE: PLAY EQUIP,YEP_X_ActSeqPack1,Audio,False,Generated catalog
+x-actseqpack1.se.5df3d3d5,Se,SE: PLAY ESCAPE,YEP_X_ActSeqPack1,Audio,False,Generated catalog
+x-actseqpack1.se.09801380,Se,SE: PLAY EVASION,YEP_X_ActSeqPack1,Audio,False,Generated catalog
+x-actseqpack1.se.837f2c9b,Se,SE: PLAY LOAD,YEP_X_ActSeqPack1,Audio,False,Generated catalog
+x-actseqpack1.se.7264dbc1,Se,SE: PLAY MAGIC EVASION,YEP_X_ActSeqPack1,Audio,False,Generated catalog
+x-actseqpack1.se.fe169689,Se,SE: PLAY MISS,YEP_X_ActSeqPack1,Audio,False,Generated catalog
+x-actseqpack1.se.664f78a7,Se,SE: PLAY OK,YEP_X_ActSeqPack1,Audio,False,Generated catalog
+x-actseqpack1.se.fcc131d9,Se,SE: PLAY RECOVERY,YEP_X_ActSeqPack1,Audio,False,Generated catalog
+x-actseqpack1.se.0c75b284,Se,SE: PLAY REFLECTION,YEP_X_ActSeqPack1,Audio,False,Generated catalog
+x-actseqpack1.se.317c2607,Se,SE: PLAY SAVE,YEP_X_ActSeqPack1,Audio,False,Generated catalog
+x-actseqpack1.se.caeec29d,Se,SE: PLAY SHOP,YEP_X_ActSeqPack1,Audio,False,Generated catalog
+x-actseqpack1.se.f82f148c,Se,SE: PLAY USE ITEM,YEP_X_ActSeqPack1,Audio,False,Generated catalog
+x-actseqpack1.se.6e733e74,Se,SE: PLAY USE SKILL,YEP_X_ActSeqPack1,Audio,False,Generated catalog
+x-actseqpack1.tp.82285b24,Tp +500,tp +500: user,YEP_X_ActSeqPack1,Audio,False,Generated catalog
+x-actseqpack1.clear.2ec9e607,Clear Battle Log,clear battle log,YEP_X_ActSeqPack1,Battle Log,False,Generated catalog
+curated.display-action,Display Action,DISPLAY ACTION,YEP_X_ActSeqPack1,Battle Log,False,Curated verified command
+curated.immortal-off,Clear Target Immortality,"IMMORTAL: TARGETS, FALSE",YEP_X_ActSeqPack1,Battler State,False,Curated verified command
+curated.immortal-on,Make Targets Immortal,"IMMORTAL: TARGETS, TRUE",YEP_X_ActSeqPack1,Battler State,False,Curated verified command
+x-actseqpack3.camera.fdf153de,Camera Clamp On,camera clamp on,YEP_X_ActSeqPack3,Camera,False,Generated catalog
+curated.camera-focus,Camera Focus,"CAMERA FOCUS: TARGET, CENTER, 30",YEP_X_ActSeqPack3,Camera,False,Curated verified command
+x-actseqpack3.camera.3f31fabb,Camera Focus,camera focus: user,YEP_X_ActSeqPack3,Camera,False,Generated catalog
+x-actseqpack3.camera.a93e1a07,Camera Offset,"CAMERA OFFSET: DIRECTION, DISTANCE",YEP_X_ActSeqPack3,Camera,False,Generated catalog
+x-actseqpack3.camera.4cc7dadb,Camera Offset,"CAMERA OFFSET: DOWN, distance",YEP_X_ActSeqPack3,Camera,False,Generated catalog
+x-actseqpack3.camera.c4728d2a,Camera Offset,"camera offset: left, 200",YEP_X_ActSeqPack3,Camera,False,Generated catalog
+x-actseqpack3.camera.230506c4,Camera Offset,"CAMERA OFFSET: LEFT, distance",YEP_X_ActSeqPack3,Camera,False,Generated catalog
+x-actseqpack3.camera.a33cd77f,Camera Offset,"CAMERA OFFSET: RIGHT, distance",YEP_X_ActSeqPack3,Camera,False,Generated catalog
+x-actseqpack3.camera.cfae8198,Camera Pan,"camera pan: left, 200",YEP_X_ActSeqPack3,Camera,False,Generated catalog
+x-actseqpack3.camera.d5cad677,Camera Screen,"CAMERA SCREEN: BOTTOM CENTER, (frames)",YEP_X_ActSeqPack3,Camera,False,Generated catalog
+x-actseqpack3.camera.eaf7b969,Camera Screen,"CAMERA SCREEN: BOTTOM LEFT, (frames)",YEP_X_ActSeqPack3,Camera,False,Generated catalog
+x-actseqpack3.camera.bb532152,Camera Screen,"CAMERA SCREEN: BOTTOM RIGHT, (frames)",YEP_X_ActSeqPack3,Camera,False,Generated catalog
+x-actseqpack3.camera.cc0d8877,Camera Screen,"CAMERA SCREEN: CENTER, (frames)",YEP_X_ActSeqPack3,Camera,False,Generated catalog
+x-actseqpack3.camera.91305623,Camera Screen,"CAMERA SCREEN: FAR LEFT, (frames)",YEP_X_ActSeqPack3,Camera,False,Generated catalog
+x-actseqpack3.camera.3fe4a2f9,Camera Screen,"CAMERA SCREEN: FAR RIGHT, (frames)",YEP_X_ActSeqPack3,Camera,False,Generated catalog
+x-actseqpack3.camera.5e8ca274,Camera Screen,"CAMERA SCREEN: POINT, {value1}, {value2}, (frames)",YEP_X_ActSeqPack3,Camera,False,Generated catalog
+x-actseqpack3.camera.a1aaf55b,Camera Screen,"CAMERA SCREEN: TOP CENTER, (frames)",YEP_X_ActSeqPack3,Camera,False,Generated catalog
+x-actseqpack3.camera.68b1ac9d,Camera Screen,camera screen: top left,YEP_X_ActSeqPack3,Camera,False,Generated catalog
+x-actseqpack3.camera.ad290ad4,Camera Screen,"CAMERA SCREEN: TOP LEFT, (frames)",YEP_X_ActSeqPack3,Camera,False,Generated catalog
+x-actseqpack3.camera.09ac5ee4,Camera Screen,"CAMERA SCREEN: TOP RIGHT, (frames)",YEP_X_ActSeqPack3,Camera,False,Generated catalog
+curated.zoom,Camera Zoom,"ZOOM: 125%, 30",YEP_X_ActSeqPack3,Camera,False,Curated verified command
+x-actseqpack3.reset.2712a4fa,Reset Camera,reset camera,YEP_X_ActSeqPack3,Camera,False,Generated catalog
+curated.reset-camera,Reset Camera,RESET CAMERA: 30,YEP_X_ActSeqPack3,Camera,False,Curated verified command
+x-actseqpack3.reset.3f11b9c6,Reset Zoom,reset zoom,YEP_X_ActSeqPack3,Camera,False,Generated catalog
+curated.reset-zoom,Reset Zoom,RESET ZOOM: 30,YEP_X_ActSeqPack3,Camera,False,Curated verified command
+x-actseqpack3.wait.24ef6643,Wait For Camera,wait for camera,YEP_X_ActSeqPack3,Camera,False,Generated catalog
+x-actseqpack3.wait.ca3bc4be,Wait For Zoom,wait for zoom,YEP_X_ActSeqPack3,Camera,False,Generated catalog
+x-actseqpack3.zoom.53615735,Zoom,zoom: 200%,YEP_X_ActSeqPack3,Camera,False,Generated catalog
+curated.action-effect,Action Effect,ACTION EFFECT,YEP_X_ActSeqPack1,Damage and Effects,False,Curated verified command
+x-actseqpack1.action.9e223f7d,Action Effect,ACTION EFFECT: target,YEP_X_ActSeqPack1,Damage and Effects,False,Generated catalog
+x-actseqpack1.add.10c77781,Add Atk Buff,"add atk buff: user, 3, show",YEP_X_ActSeqPack1,Damage and Effects,False,Generated catalog
+x-actseqpack1.add.19afd0c1,Add Atk Debuff,"add atk debuff: user, 3, show",YEP_X_ActSeqPack1,Damage and Effects,False,Generated catalog
+x-actseqpack1.add.01db12e8,Add State 5,add state 5: target,YEP_X_ActSeqPack1,Damage and Effects,False,Generated catalog
+damagecore.bypass.2b0c54ca,Bypass Damage Cap,bypass damage cap,YEP_DamageCore,Damage and Effects,False,Generated catalog
+damagecore.damage.f674116d,Damage Cap,damage cap: 999,YEP_DamageCore,Damage and Effects,False,Generated catalog
+damagecore.damage.7c700c82,Damage Cap,DAMAGE CAP: {value1},YEP_DamageCore,Damage and Effects,False,Generated catalog
+damagecore.damage.70b336f9,Damage Rate,DAMAGE RATE: VARIABLE {value1},YEP_DamageCore,Damage and Effects,False,Generated catalog
+damagecore.damage.258341ce,Damage Rate,DAMAGE RATE: {value1},YEP_DamageCore,Damage and Effects,False,Generated catalog
+damagecore.damage.908f9385,Damage Rate,DAMAGE RATE: {value1}%,YEP_DamageCore,Damage and Effects,False,Generated catalog
+damagecore.damage.84b4a884,Damage {Rate},damage {rate}: 50%,YEP_DamageCore,Damage and Effects,False,Generated catalog
+x-actseqpack2.enemy.a6b44a82,Enemy Effect,"enemy effect: targets, whiten",YEP_X_ActSeqPack2,Damage and Effects,False,Generated catalog
+damagecore.flat.b6d85140,Flat Damage,flat damage: +100,YEP_DamageCore,Damage and Effects,False,Generated catalog
+damagecore.flat.a0ab8130,Flat Damage,FLAT DAMAGE: +{value1},YEP_DamageCore,Damage and Effects,False,Generated catalog
+damagecore.flat.5d3482c9,Flat Damage,FLAT DAMAGE: -{value1},YEP_DamageCore,Damage and Effects,False,Generated catalog
+damagecore.flat.753ed813,Flat Damage,FLAT DAMAGE: VARIABLE {value1},YEP_DamageCore,Damage and Effects,False,Generated catalog
+damagecore.reset.e965013f,Reset Damage Cap,reset damage cap,YEP_DamageCore,Damage and Effects,False,Generated catalog
+damagecore.reset.996b6864,Reset Damage Modifiers,reset damage modifiers,YEP_DamageCore,Damage and Effects,False,Generated catalog
+x-actseqpack1.se.cec6a849,Se,SE: PLAY ACTOR DAMAGE,YEP_X_ActSeqPack1,Damage and Effects,False,Generated catalog
+x-actseqpack1.se.6f589be2,Se,SE: PLAY ENEMY DAMAGE,YEP_X_ActSeqPack1,Damage and Effects,False,Generated catalog
+x-actseqpack1.break.9262bb53,Break Action,break action,YEP_X_ActSeqPack1,Flow,False,Generated catalog
+curated.else,Conditional ELSE,ELSE,YEP_X_ActSeqPack1,Flow,True,Curated verified command
+curated.end,Conditional END,END,YEP_X_ActSeqPack1,Flow,True,Curated verified command
+curated.if,Conditional IF,IF user.hpRate() <= 0.5,YEP_X_ActSeqPack1,Flow,True,Curated verified command
+curated.death-break,Death Break,DEATH BREAK,YEP_X_ActSeqPack1,Flow,False,Curated verified command
+x-actseqpack1.action.9a625d90,Action Common Event,action common event,YEP_X_ActSeqPack1,General,False,Generated catalog
+elementcore.add.5bc89e95,Add Element,add element: 4,YEP_ElementCore,General,False,Generated catalog
+elementcore.add.49b04fe9,Add Element,ADD ELEMENT: NAME,YEP_ElementCore,General,False,Generated catalog
+elementcore.add.e0f99508,Add Element,"ADD ELEMENT: NAME, NAME, NAME",YEP_ElementCore,General,False,Generated catalog
+elementcore.add.614be43a,Add Element,ADD ELEMENT: X,YEP_ElementCore,General,False,Generated catalog
+elementcore.add.6d2fed7c,Add Element,"ADD ELEMENT: X, X, X",YEP_ElementCore,General,False,Generated catalog
+x-armorscaling.armor.95c71e6b,Armor Penetration,armor penetration: 20,YEP_X_ArmorScaling,General,False,Generated catalog
+x-armorscaling.armor.67bf92f4,Armor Penetration,ARMOR PENETRATION: X,YEP_X_ArmorScaling,General,False,Generated catalog
+x-armorscaling.armor.dffc9778,Armor Penetration,ARMOR PENETRATION: X%,YEP_X_ArmorScaling,General,False,Generated catalog
+x-armorscaling.armor.507dc64f,Armor Reduction,armor reduction: 20,YEP_X_ArmorScaling,General,False,Generated catalog
+x-armorscaling.armor.ceabe8e9,Armor Reduction,ARMOR REDUCTION: X,YEP_X_ArmorScaling,General,False,Generated catalog
+x-armorscaling.armor.4ace2efc,Armor Reduction,ARMOR REDUCTION: X%,YEP_X_ArmorScaling,General,False,Generated catalog
+x-battlesysatb.atb.349f203b,Atb Charge,"atb charge: targets, +5000",YEP_X_BattleSysATB,General,False,Generated catalog
+x-battlesysatb.atb.7dd5c10f,Atb Gauge,"atb gauge: targets, +5000",YEP_X_BattleSysATB,General,False,Generated catalog
+x-battlesysatb.atb.8cafe703,Atb Interrupt,ATB INTERRUPT: target,YEP_X_BattleSysATB,General,False,Generated catalog
+x-battlesysatb.atb.7c00f4fb,Atb Interrupt,atb interrupt: targets,YEP_X_BattleSysATB,General,False,Generated catalog
+x-battlesysatb.atb.b10e12a1,Atb Speed,"atb speed: targets, +5000",YEP_X_BattleSysATB,General,False,Generated catalog
+improvedbattlebacks.battleback.0a75db47,Battleback 1 Fade Out,battleback 1 fade out,YEP_ImprovedBattlebacks,General,False,Generated catalog
+improvedbattlebacks.battleback.7220fc84,Battleback 1 Opacity,battleback 1 opacity: 127,YEP_ImprovedBattlebacks,General,False,Generated catalog
+improvedbattlebacks.battleback.ee8c667a,Battleback 1 Scroll Speed {Value1},battleback 1 scroll speed {value1}: +1,YEP_ImprovedBattlebacks,General,False,Generated catalog
+improvedbattlebacks.battleback.0402f5c1,Battleback 3 Add,"battleback 3 add: battlebacks1, GrassMazePool",YEP_ImprovedBattlebacks,General,False,Generated catalog
+improvedbattlebacks.battleback.28a60308,Battleback {Value1} Opacity,BATTLEBACK {value1} OPACITY: {value2},YEP_ImprovedBattlebacks,General,False,Generated catalog
+improvedbattlebacks.battleback.66de00b0,Battleback {Value1} Opacity,BATTLEBACK {value1} OPACITY: {value2}%,YEP_ImprovedBattlebacks,General,False,Generated catalog
+improvedbattlebacks.battleback.57140363,Battleback {Value1} Scroll Speed X,BATTLEBACK {value1} SCROLL SPEED X: +{value2},YEP_ImprovedBattlebacks,General,False,Generated catalog
+improvedbattlebacks.battleback.7f4c8dfa,Battleback {Value1} Scroll Speed X,BATTLEBACK {value1} SCROLL SPEED X: -{value2},YEP_ImprovedBattlebacks,General,False,Generated catalog
+improvedbattlebacks.battleback.540e00cc,Battleback {Value1} Scroll Speed Y,BATTLEBACK {value1} SCROLL SPEED Y: +{value2},YEP_ImprovedBattlebacks,General,False,Generated catalog
+improvedbattlebacks.battleback.4b8cf0be,Battleback {Value1} Scroll Speed Y,BATTLEBACK {value1} SCROLL SPEED Y: -{value2},YEP_ImprovedBattlebacks,General,False,Generated catalog
+x-actseqpack1.change.28caa3e4,Change Switch 1,change switch 1: on,YEP_X_ActSeqPack1,General,False,Generated catalog
+x-actseqpack1.change.031b882c,Change Variable 1 = 2,change variable 1 = 2,YEP_X_ActSeqPack1,General,False,Generated catalog
+elementcore.clear.c280635a,Clear Element,clear element,YEP_ElementCore,General,False,Generated catalog
+x-actseqpack1.common.500d2e94,Common Event,common event: 1,YEP_X_ActSeqPack1,General,False,Generated catalog
+x-actseqpack1.common.a735aa52,Common Event,COMMON EVENT: X,YEP_X_ActSeqPack1,General,False,Generated catalog
+x-criticalcontrol.critical.5972b7f5,Critical Multiplier,critical multiplier: 50%,YEP_X_CriticalControl,General,False,Generated catalog
+x-criticalcontrol.critical.80d0814b,Critical Multiplier,CRITICAL MULTIPLIER: VARIABLE {value1},YEP_X_CriticalControl,General,False,Generated catalog
+x-criticalcontrol.critical.8c3926c4,Critical Multiplier,CRITICAL MULTIPLIER: {value1},YEP_X_CriticalControl,General,False,Generated catalog
+x-criticalcontrol.critical.d593669d,Critical Multiplier,CRITICAL MULTIPLIER: {value1}%,YEP_X_CriticalControl,General,False,Generated catalog
+x-battlesysctb.ctb.8d0d1c9d,Ctb Order,"ctb order: target, -2",YEP_X_BattleSysCTB,General,False,Generated catalog
+x-battlesysctb.ctb.e0e3063c,Ctb Speed,"ctb speed: targets, +5000",YEP_X_BattleSysCTB,General,False,Generated catalog
+x-actseqpack2.face.dbfdb43f,Face Target1,FACE target1: AWAY FROM HOME,YEP_X_ActSeqPack2,General,False,Generated catalog
+x-actseqpack2.face.cd8a15ba,Face Target1,FACE target1: BACKWARD,YEP_X_ActSeqPack2,General,False,Generated catalog
+x-actseqpack2.fade.c160073b,Fade Out,fade out,YEP_X_ActSeqPack2,General,False,Generated catalog
+x-criticalcontrol.flat.d9afa6cc,Flat Critical,flat critical: +100,YEP_X_CriticalControl,General,False,Generated catalog
+x-criticalcontrol.flat.f9d3be85,Flat Critical,FLAT CRITICAL: +{value1},YEP_X_CriticalControl,General,False,Generated catalog
+x-criticalcontrol.flat.58fa97bc,Flat Critical,FLAT CRITICAL: -{value1},YEP_X_CriticalControl,General,False,Generated catalog
+x-criticalcontrol.flat.ae3042b6,Flat Critical,FLAT CRITICAL: VARIABLE {value1},YEP_X_CriticalControl,General,False,Generated catalog
+damagecore.flat.288326ea,Flat Global,flat global: +100,YEP_DamageCore,General,False,Generated catalog
+damagecore.flat.50393663,Flat Global,FLAT GLOBAL: +{value1},YEP_DamageCore,General,False,Generated catalog
+damagecore.flat.48c0ee40,Flat Global,FLAT GLOBAL: -{value1},YEP_DamageCore,General,False,Generated catalog
+damagecore.flat.6470f478,Flat Global,FLAT GLOBAL: VARIABLE {value1},YEP_DamageCore,General,False,Generated catalog
+damagecore.flat.9a6be8e1,Flat Heal,flat heal: +100,YEP_DamageCore,General,False,Generated catalog
+damagecore.flat.641c4aa7,Flat Heal,FLAT HEAL: +{value1},YEP_DamageCore,General,False,Generated catalog
+damagecore.flat.6ca53f14,Flat Heal,FLAT HEAL: -{value1},YEP_DamageCore,General,False,Generated catalog
+damagecore.flat.31325f14,Flat Heal,FLAT HEAL: VARIABLE {value1},YEP_DamageCore,General,False,Generated catalog
+x-criticalcontrol.force.a6a4dcc3,Force Critical,force critical,YEP_X_CriticalControl,General,False,Generated catalog
+elementcore.force.70972903,Force Element,force element: 4,YEP_ElementCore,General,False,Generated catalog
+elementcore.force.253bdabc,Force Element,FORCE ELEMENT: NAME,YEP_ElementCore,General,False,Generated catalog
+elementcore.force.d6adbe69,Force Element,"FORCE ELEMENT: NAME, NAME, NAME",YEP_ElementCore,General,False,Generated catalog
+elementcore.force.ec0a787c,Force Element,FORCE ELEMENT: X,YEP_ElementCore,General,False,Generated catalog
+elementcore.force.309d91f6,Force Element,"FORCE ELEMENT: X, X, X",YEP_ElementCore,General,False,Generated catalog
+x-actseqpack1.gain.40c8dac8,Gain Item 1,gain item 1: 20,YEP_X_ActSeqPack1,General,False,Generated catalog
+x-skillcooldowns.global.4b3ac8c8,Global Cooldown,"global cooldown: target, +5",YEP_X_SkillCooldowns,General,False,Generated catalog
+x-skillcooldowns.global.a00bed2d,Global Cooldown,"GLOBAL COOLDOWN: targets, +X",YEP_X_SkillCooldowns,General,False,Generated catalog
+x-skillcooldowns.global.a07ecaef,Global Cooldown,"GLOBAL COOLDOWN: targets, -X",YEP_X_SkillCooldowns,General,False,Generated catalog
+x-skillcooldowns.global.27710372,Global Cooldown,"GLOBAL COOLDOWN: targets, X",YEP_X_SkillCooldowns,General,False,Generated catalog
+damagecore.global.63759a77,Global Rate,GLOBAL RATE: VARIABLE {value1},YEP_DamageCore,General,False,Generated catalog
+damagecore.global.e668c0dc,Global Rate,GLOBAL RATE: {value1},YEP_DamageCore,General,False,Generated catalog
+damagecore.global.8cd0730a,Global Rate,GLOBAL RATE: {value1}%,YEP_DamageCore,General,False,Generated catalog
+damagecore.global.4e0efaee,Global {Rate},global {rate}: 50%,YEP_DamageCore,General,False,Generated catalog
+x-actseqpack1.gold.03342f8e,Gold +2000,gold +2000,YEP_X_ActSeqPack1,General,False,Generated catalog
+damagecore.heal.d7167edc,Heal Rate,HEAL RATE: VARIABLE {value1},YEP_DamageCore,General,False,Generated catalog
+damagecore.heal.73d08afb,Heal Rate,HEAL RATE: {value1},YEP_DamageCore,General,False,Generated catalog
+damagecore.heal.81488c1b,Heal Rate,HEAL RATE: {value1}%,YEP_DamageCore,General,False,Generated catalog
+damagecore.heal.6ddee0ec,Heal {Rate},heal {rate}: 50%,YEP_DamageCore,General,False,Generated catalog
+damagecore.healing.f3ebf63f,Healing Cap,HEALING CAP: {value1},YEP_DamageCore,General,False,Generated catalog
+x-actseqpack2.hide.59409ced,Hide Battle Hud,hide battle hud,YEP_X_ActSeqPack2,General,False,Generated catalog
+x-actseqpack1.immortal.5af8568f,Immortal,immortal: targets true,YEP_X_ActSeqPack1,General,False,Generated catalog
+x-actseqpack1.me.82899eae,Me,ME: STOP,YEP_X_ActSeqPack1,General,False,Generated catalog
+elementcore.null.6ef8e414,Null Element,null element,YEP_ElementCore,General,False,Generated catalog
+x-actseqpack1.refresh.70539a07,Refresh Status,refresh status,YEP_X_ActSeqPack1,General,False,Generated catalog
+x-actseqpack2.show.2814739e,Show Battle Hud,show battle hud,YEP_X_ActSeqPack2,General,False,Generated catalog
+x-skillcooldowns.skill.2cf86dd6,Skill 10 Cooldown,"skill 10 cooldown: target, +5",YEP_X_SkillCooldowns,General,False,Generated catalog
+x-skillcooldowns.skill.b253cc36,Skill Type X Cooldown,"SKILL TYPE X COOLDOWN: targets, +Y",YEP_X_SkillCooldowns,General,False,Generated catalog
+x-skillcooldowns.skill.f8da040f,Skill Type X Cooldown,"SKILL TYPE X COOLDOWN: targets, -Y",YEP_X_SkillCooldowns,General,False,Generated catalog
+x-skillcooldowns.skill.5565c5c5,Skill Type X Cooldown,"SKILL TYPE X COOLDOWN: targets, Y",YEP_X_SkillCooldowns,General,False,Generated catalog
+x-skillcooldowns.skill.b2e643e1,Skill X Cooldown,"SKILL X COOLDOWN: targets, +Y",YEP_X_SkillCooldowns,General,False,Generated catalog
+x-skillcooldowns.skill.011b280b,Skill X Cooldown,"SKILL X COOLDOWN: targets, -Y",YEP_X_SkillCooldowns,General,False,Generated catalog
+x-skillcooldowns.skill.f45ca5db,Skill X Cooldown,"SKILL X COOLDOWN: targets, Y",YEP_X_SkillCooldowns,General,False,Generated catalog
+x-skillcooldowns.skill.adec490b,Skill {Type} 1 Cooldown,"skill {type} 1 cooldown: target, +5",YEP_X_SkillCooldowns,General,False,Generated catalog
+weatherinbattle.weather.998df89f,Weather,"weather: rain, 5, 20",YEP_WeatherInBattle,General,False,Generated catalog
+curated.motion-attack,Attack Motion,MOTION ATTACK: USER,YEP_X_ActSeqPack2,Motion,False,Curated verified command
+x-actseqpack2.motion.a601728f,Motion Abnormal,MOTION ABNORMAL: target,YEP_X_ActSeqPack2,Motion,False,Generated catalog
+x-actseqpack2.motion.5eedfb90,Motion Attack,MOTION ATTACK: target,YEP_X_ActSeqPack2,Motion,False,Generated catalog
+x-actseqpack2.motion.7003d78f,Motion Damage,MOTION DAMAGE: target,YEP_X_ActSeqPack2,Motion,False,Generated catalog
+x-actseqpack2.motion.58a4ae75,Motion Escape,MOTION ESCAPE: target,YEP_X_ActSeqPack2,Motion,False,Generated catalog
+x-actseqpack2.motion.5076b73f,Motion Missile,MOTION MISSILE: target,YEP_X_ActSeqPack2,Motion,False,Generated catalog
+x-actseqpack2.motion.da92cd6a,Motion Standby,MOTION STANDBY: target,YEP_X_ActSeqPack2,Motion,False,Generated catalog
+x-actseqpack2.motion.8f1356a1,Motion Thrust,MOTION THRUST: target,YEP_X_ActSeqPack2,Motion,False,Generated catalog
+x-actseqpack2.motion.0b12edec,Motion Victory,MOTION VICTORY: target,YEP_X_ActSeqPack2,Motion,False,Generated catalog
+x-actseqpack1.motion.db7726b7,Motion Wait,motion wait: user,YEP_X_ActSeqPack1,Motion,False,Generated catalog
+x-actseqpack2.motion.ae0eebac,Motion Walk,motion walk: user,YEP_X_ActSeqPack2,Motion,False,Generated catalog
+curated.perform-action,Perform Action,PERFORM ACTION,YEP_X_ActSeqPack1,Motion,False,Curated verified command
+curated.perform-finish,Perform Finish,PERFORM FINISH,YEP_X_ActSeqPack1,Motion,False,Curated verified command
+curated.perform-start,Perform Start,PERFORM START,YEP_X_ActSeqPack1,Motion,False,Curated verified command
+improvedbattlebacks.battleback.773af0ae,Battleback 3 Remove,battleback 3 remove,YEP_ImprovedBattlebacks,Movement,False,Generated catalog
+x-actseqpack2.float.df239499,Float User,float user: 200%,YEP_X_ActSeqPack2,Movement,False,Generated catalog
+x-actseqpack2.jump.b8b20b8d,Jump User,jump user: 150%,YEP_X_ActSeqPack2,Movement,False,Generated catalog
+curated.jump-user,Jump User,"JUMP USER: 150%, 24",YEP_X_ActSeqPack2,Movement,False,Curated verified command
+x-actseqpack2.move.949854d2,Move User,"move user: home, 20",YEP_X_ActSeqPack2,Movement,False,Generated catalog
+curated.move-user,Move User to Target,"MOVE USER: TARGET, FRONT BASE, 20",YEP_X_ActSeqPack2,Movement,False,Curated verified command
+x-actseqpack1.remove.eb111fcd,Remove Atk Buff,"remove atk buff: user, show",YEP_X_ActSeqPack1,Movement,False,Generated catalog
+x-actseqpack1.remove.b8646c3d,Remove Atk Debuff,"remove atk debuff: user, show",YEP_X_ActSeqPack1,Movement,False,Generated catalog
+x-actseqpack1.remove.f64f3254,Remove State 5,remove state 5: target,YEP_X_ActSeqPack1,Movement,False,Generated catalog
+x-actseqpack2.wait.27a535ba,Wait For Float,wait for float,YEP_X_ActSeqPack2,Movement,False,Generated catalog
+x-actseqpack2.flash.b39f141a,Flash Screen,FLASH SCREEN: args,YEP_X_ActSeqPack2,Screen,False,Generated catalog
+x-actseqpack2.flash.a1b0ae91,Flash Screen,"FLASH SCREEN: BLACK, (frames)",YEP_X_ActSeqPack2,Screen,False,Generated catalog
+x-actseqpack2.flash.915eee72,Flash Screen,"FLASH SCREEN: BLUE, (frames)",YEP_X_ActSeqPack2,Screen,False,Generated catalog
+x-actseqpack2.flash.b43ad67b,Flash Screen,"FLASH SCREEN: GREEN, (frames)",YEP_X_ActSeqPack2,Screen,False,Generated catalog
+x-actseqpack2.flash.e73851fb,Flash Screen,"FLASH SCREEN: MAGENTA, (frames)",YEP_X_ActSeqPack2,Screen,False,Generated catalog
+x-actseqpack2.flash.2db4cfeb,Flash Screen,"FLASH SCREEN: ORANGE, (frames)",YEP_X_ActSeqPack2,Screen,False,Generated catalog
+x-actseqpack2.flash.a1adb129,Flash Screen,"FLASH SCREEN: PURPLE, (frames)",YEP_X_ActSeqPack2,Screen,False,Generated catalog
+x-actseqpack2.flash.91a5a0d2,Flash Screen,"FLASH SCREEN: RED, (frames)",YEP_X_ActSeqPack2,Screen,False,Generated catalog
+x-actseqpack2.flash.26eeacf7,Flash Screen,flash screen: white,YEP_X_ActSeqPack2,Screen,False,Generated catalog
+x-actseqpack2.flash.a1a72101,Flash Screen,"FLASH SCREEN: WHITE, (frames)",YEP_X_ActSeqPack2,Screen,False,Generated catalog
+x-actseqpack2.flash.1c93d94d,Flash Screen,"FLASH SCREEN: YELLOW, (frames)",YEP_X_ActSeqPack2,Screen,False,Generated catalog
+x-actseqpack2.shake.2293bdbb,Shake Screen,shake screen,YEP_X_ActSeqPack2,Screen,False,Generated catalog
+x-actseqpack2.tint.b5d68fc7,Tint Screen,TINT SCREEN: args,YEP_X_ActSeqPack2,Screen,False,Generated catalog
+x-actseqpack2.tint.2dd1fc61,Tint Screen,"TINT SCREEN: DARK, (frames)",YEP_X_ActSeqPack2,Screen,False,Generated catalog
+x-actseqpack2.tint.06ff9387,Tint Screen,"TINT SCREEN: NIGHT, (frames)",YEP_X_ActSeqPack2,Screen,False,Generated catalog
+x-actseqpack2.tint.3092a0fa,Tint Screen,tint screen: normal,YEP_X_ActSeqPack2,Screen,False,Generated catalog
+x-actseqpack2.tint.4ff3e032,Tint Screen,"TINT SCREEN: NORMAL, (frames)",YEP_X_ActSeqPack2,Screen,False,Generated catalog
+x-actseqpack2.tint.554bb8fa,Tint Screen,"TINT SCREEN: SEPIA, (frames)",YEP_X_ActSeqPack2,Screen,False,Generated catalog
+x-actseqpack2.tint.1fcb7cac,Tint Screen,"TINT SCREEN: SUNSET, (frames)",YEP_X_ActSeqPack2,Screen,False,Generated catalog
+x-actseqpack1.wait.68cf7cbb,Wait,wait: 60,YEP_X_ActSeqPack1,Wait,False,Generated catalog
+curated.wait-animation,Wait for Animation,WAIT FOR ANIMATION,YEP_X_ActSeqPack1,Wait,False,Curated verified command
+x-actseqpack1.wait.76bda154,Wait For Effect,wait for effect,YEP_X_ActSeqPack1,Wait,False,Generated catalog
+curated.wait-jump,Wait for Jump,WAIT FOR JUMP,YEP_X_ActSeqPack2,Wait,False,Curated verified command
+curated.wait-movement,Wait for Movement,WAIT FOR MOVEMENT,YEP_X_ActSeqPack1,Wait,False,Curated verified command
+x-actseqpack1.wait.e99a995c,Wait For New Line,wait for new line,YEP_X_ActSeqPack1,Wait,False,Generated catalog
+x-actseqpack2.wait.b7a9d903,Wait For Opacity,wait for opacity,YEP_X_ActSeqPack2,Wait,False,Generated catalog
+x-actseqpack1.wait.3abbd469,Wait For Popups,wait for popups,YEP_X_ActSeqPack1,Wait,False,Generated catalog
+curated.wait,Wait Frames,WAIT: 12,YEP_X_ActSeqPack1,Wait,False,Curated verified command

@@ -1,0 +1,17 @@
+{
+  "format": "playroma-tracery",
+  "id": "example.phase3.guarded-rumor",
+  "version": 1,
+  "name": "Guarded Rumor",
+  "origin": "origin",
+  "parameters": {
+    "tone": { "type": "choice", "defaultValue": "quiet", "choices": ["quiet", "alarmed"] }
+  },
+  "symbols": {
+    "origin": [
+      { "text": "Keep your voice down. #rumor#", "weight": 3, "condition": "tone=quiet", "metadata": { "tone": "quiet" } },
+      { "text": "You haven't heard? #rumor#", "weight": 3, "condition": "tone=alarmed", "metadata": { "tone": "alarmed" } }
+    ],
+    "rumor": ["The lights are back in the abandoned watchtower.", "Someone has been digging beneath the chapel."]
+  }
+}

@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <UseWindowsForms>true</UseWindowsForms>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <RootNamespace>Playroma.JRPG.GoldenFileBuilder</RootNamespace>
+    <AssemblyName>Playroma.JRPG.GoldenFileBuilder</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../src/Playroma.JRPG.Application/Playroma.JRPG.Application.csproj" />
+    <ProjectReference Include="../../src/Playroma.JRPG.Core/Playroma.JRPG.Core.csproj" />
+    <ProjectReference Include="../../src/Playroma.JRPG.Rendering/Playroma.JRPG.Rendering.csproj" />
+    <ProjectReference Include="../../src/Playroma.JRPG.Rendering.Windows/Playroma.JRPG.Rendering.Windows.csproj" />
+  </ItemGroup>
+</Project>

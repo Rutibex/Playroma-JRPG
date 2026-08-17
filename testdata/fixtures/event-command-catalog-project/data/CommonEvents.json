@@ -1,0 +1,2904 @@
+[
+  null,
+  {
+    "id": 1,
+    "list": [
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 000 - End of List",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 2,
+    "list": [
+      {
+        "code": 101,
+        "indent": 0,
+        "parameters": [
+          "",
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 101 - Show Text",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 3,
+    "list": [
+      {
+        "code": 102,
+        "indent": 0,
+        "parameters": [
+          [
+            "Choice A",
+            "Choice B"
+          ],
+          1,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 102 - Show Choices",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 4,
+    "list": [
+      {
+        "code": 103,
+        "indent": 0,
+        "parameters": [
+          1,
+          4
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 103 - Input Number",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 5,
+    "list": [
+      {
+        "code": 104,
+        "indent": 0,
+        "parameters": [
+          1,
+          2
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 104 - Select Item",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 6,
+    "list": [
+      {
+        "code": 105,
+        "indent": 0,
+        "parameters": [
+          2,
+          false
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 105 - Show Scrolling Text",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 7,
+    "list": [
+      {
+        "code": 108,
+        "indent": 0,
+        "parameters": [
+          "Fixture comment"
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 108 - Comment",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 8,
+    "list": [
+      {
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 111 - Conditional Branch",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 9,
+    "list": [
+      {
+        "code": 112,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 112 - Loop",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 10,
+    "list": [
+      {
+        "code": 113,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 113 - Break Loop",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 11,
+    "list": [
+      {
+        "code": 115,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 115 - Exit Event Processing",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 12,
+    "list": [
+      {
+        "code": 117,
+        "indent": 0,
+        "parameters": [
+          1
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 117 - Common Event",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 13,
+    "list": [
+      {
+        "code": 118,
+        "indent": 0,
+        "parameters": [
+          "FixtureLabel"
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 118 - Label",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 14,
+    "list": [
+      {
+        "code": 119,
+        "indent": 0,
+        "parameters": [
+          "FixtureLabel"
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 119 - Jump to Label",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 15,
+    "list": [
+      {
+        "code": 121,
+        "indent": 0,
+        "parameters": [
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 121 - Control Switches",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 16,
+    "list": [
+      {
+        "code": 122,
+        "indent": 0,
+        "parameters": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 122 - Control Variables",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 17,
+    "list": [
+      {
+        "code": 123,
+        "indent": 0,
+        "parameters": [
+          "A",
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 123 - Control Self Switch",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 18,
+    "list": [
+      {
+        "code": 124,
+        "indent": 0,
+        "parameters": [
+          0,
+          60
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 124 - Control Timer",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 19,
+    "list": [
+      {
+        "code": 125,
+        "indent": 0,
+        "parameters": [
+          0,
+          0,
+          10
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 125 - Change Gold",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 20,
+    "list": [
+      {
+        "code": 126,
+        "indent": 0,
+        "parameters": [
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 126 - Change Items",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 21,
+    "list": [
+      {
+        "code": 127,
+        "indent": 0,
+        "parameters": [
+          1,
+          0,
+          0,
+          1,
+          false
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 127 - Change Weapons",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 22,
+    "list": [
+      {
+        "code": 128,
+        "indent": 0,
+        "parameters": [
+          1,
+          0,
+          0,
+          1,
+          false
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 128 - Change Armors",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 23,
+    "list": [
+      {
+        "code": 129,
+        "indent": 0,
+        "parameters": [
+          1,
+          0,
+          false
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 129 - Change Party Member",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 24,
+    "list": [
+      {
+        "code": 132,
+        "indent": 0,
+        "parameters": [
+          {
+            "name": "",
+            "volume": 90,
+            "pitch": 100,
+            "pan": 0
+          }
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 132 - Change Battle BGM",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 25,
+    "list": [
+      {
+        "code": 133,
+        "indent": 0,
+        "parameters": [
+          {
+            "name": "",
+            "volume": 90,
+            "pitch": 100,
+            "pan": 0
+          }
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 133 - Change Victory ME",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 26,
+    "list": [
+      {
+        "code": 134,
+        "indent": 0,
+        "parameters": [
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 134 - Change Save Access",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 27,
+    "list": [
+      {
+        "code": 135,
+        "indent": 0,
+        "parameters": [
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 135 - Change Menu Access",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 28,
+    "list": [
+      {
+        "code": 136,
+        "indent": 0,
+        "parameters": [
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 136 - Change Encounter Disable",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 29,
+    "list": [
+      {
+        "code": 137,
+        "indent": 0,
+        "parameters": [
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 137 - Change Formation Access",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 30,
+    "list": [
+      {
+        "code": 138,
+        "indent": 0,
+        "parameters": [
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 138 - Change Window Color",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 31,
+    "list": [
+      {
+        "code": 139,
+        "indent": 0,
+        "parameters": [
+          {
+            "name": "",
+            "volume": 90,
+            "pitch": 100,
+            "pan": 0
+          }
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 139 - Change Defeat ME",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 32,
+    "list": [
+      {
+        "code": 140,
+        "indent": 0,
+        "parameters": [
+          0,
+          {
+            "name": "",
+            "volume": 90,
+            "pitch": 100,
+            "pan": 0
+          }
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 140 - Change Vehicle BGM",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 33,
+    "list": [
+      {
+        "code": 201,
+        "indent": 0,
+        "parameters": [
+          0,
+          1,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 201 - Transfer Player",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 34,
+    "list": [
+      {
+        "code": 202,
+        "indent": 0,
+        "parameters": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 202 - Set Vehicle Location",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 35,
+    "list": [
+      {
+        "code": 203,
+        "indent": 0,
+        "parameters": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 203 - Set Event Location",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 36,
+    "list": [
+      {
+        "code": 204,
+        "indent": 0,
+        "parameters": [
+          2,
+          5,
+          4,
+          false
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 204 - Scroll Map",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 37,
+    "list": [
+      {
+        "code": 205,
+        "indent": 0,
+        "parameters": [
+          0,
+          {
+            "repeat": false,
+            "skippable": true,
+            "wait": true,
+            "list": [
+              {
+                "code": 1,
+                "parameters": []
+              },
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 205 - Set Movement Route",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 38,
+    "list": [
+      {
+        "code": 206,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 206 - Get On/Off Vehicle",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 39,
+    "list": [
+      {
+        "code": 211,
+        "indent": 0,
+        "parameters": [
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 211 - Change Transparency",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 40,
+    "list": [
+      {
+        "code": 212,
+        "indent": 0,
+        "parameters": [
+          0,
+          1,
+          false
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 212 - Show Animation",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 41,
+    "list": [
+      {
+        "code": 213,
+        "indent": 0,
+        "parameters": [
+          0,
+          1,
+          false
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 213 - Show Balloon Icon",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 42,
+    "list": [
+      {
+        "code": 214,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 214 - Erase Event",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 43,
+    "list": [
+      {
+        "code": 216,
+        "indent": 0,
+        "parameters": [
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 216 - Change Player Followers",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 44,
+    "list": [
+      {
+        "code": 217,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 217 - Gather Followers",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 45,
+    "list": [
+      {
+        "code": 221,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 221 - Fadeout Screen",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 46,
+    "list": [
+      {
+        "code": 222,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 222 - Fadein Screen",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 47,
+    "list": [
+      {
+        "code": 223,
+        "indent": 0,
+        "parameters": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          60,
+          false
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 223 - Tint Screen",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 48,
+    "list": [
+      {
+        "code": 224,
+        "indent": 0,
+        "parameters": [
+          [
+            255,
+            255,
+            255,
+            170
+          ],
+          60,
+          false
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 224 - Flash Screen",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 49,
+    "list": [
+      {
+        "code": 225,
+        "indent": 0,
+        "parameters": [
+          5,
+          5,
+          60,
+          false
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 225 - Shake Screen",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 50,
+    "list": [
+      {
+        "code": 230,
+        "indent": 0,
+        "parameters": [
+          60
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 230 - Wait",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 51,
+    "list": [
+      {
+        "code": 231,
+        "indent": 0,
+        "parameters": [
+          1,
+          "Fixture",
+          0,
+          0,
+          0,
+          0,
+          100,
+          100,
+          255,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 231 - Show Picture",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 52,
+    "list": [
+      {
+        "code": 232,
+        "indent": 0,
+        "parameters": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          100,
+          100,
+          255,
+          0,
+          60,
+          false
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 232 - Move Picture",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 53,
+    "list": [
+      {
+        "code": 233,
+        "indent": 0,
+        "parameters": [
+          1,
+          5
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 233 - Rotate Picture",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 54,
+    "list": [
+      {
+        "code": 234,
+        "indent": 0,
+        "parameters": [
+          1,
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          60,
+          false
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 234 - Tint Picture",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 55,
+    "list": [
+      {
+        "code": 235,
+        "indent": 0,
+        "parameters": [
+          1
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 235 - Erase Picture",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 56,
+    "list": [
+      {
+        "code": 236,
+        "indent": 0,
+        "parameters": [
+          "rain",
+          5,
+          60,
+          false
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 236 - Set Weather Effect",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 57,
+    "list": [
+      {
+        "code": 241,
+        "indent": 0,
+        "parameters": [
+          {
+            "name": "",
+            "volume": 90,
+            "pitch": 100,
+            "pan": 0
+          }
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 241 - Play BGM",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 58,
+    "list": [
+      {
+        "code": 242,
+        "indent": 0,
+        "parameters": [
+          10
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 242 - Fadeout BGM",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 59,
+    "list": [
+      {
+        "code": 243,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 243 - Save BGM",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 60,
+    "list": [
+      {
+        "code": 244,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 244 - Resume BGM",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 61,
+    "list": [
+      {
+        "code": 245,
+        "indent": 0,
+        "parameters": [
+          {
+            "name": "",
+            "volume": 90,
+            "pitch": 100,
+            "pan": 0
+          }
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 245 - Play BGS",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 62,
+    "list": [
+      {
+        "code": 246,
+        "indent": 0,
+        "parameters": [
+          10
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 246 - Fadeout BGS",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 63,
+    "list": [
+      {
+        "code": 249,
+        "indent": 0,
+        "parameters": [
+          {
+            "name": "",
+            "volume": 90,
+            "pitch": 100,
+            "pan": 0
+          }
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 249 - Play ME",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 64,
+    "list": [
+      {
+        "code": 250,
+        "indent": 0,
+        "parameters": [
+          {
+            "name": "",
+            "volume": 90,
+            "pitch": 100,
+            "pan": 0
+          }
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 250 - Play SE",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 65,
+    "list": [
+      {
+        "code": 251,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 251 - Stop SE",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 66,
+    "list": [
+      {
+        "code": 261,
+        "indent": 0,
+        "parameters": [
+          "FixtureMovie"
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 261 - Play Movie",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 67,
+    "list": [
+      {
+        "code": 281,
+        "indent": 0,
+        "parameters": [
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 281 - Change Map Name Display",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 68,
+    "list": [
+      {
+        "code": 282,
+        "indent": 0,
+        "parameters": [
+          1
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 282 - Change Tileset",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 69,
+    "list": [
+      {
+        "code": 283,
+        "indent": 0,
+        "parameters": [
+          "",
+          ""
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 283 - Change Battle Back",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 70,
+    "list": [
+      {
+        "code": 284,
+        "indent": 0,
+        "parameters": [
+          "",
+          false,
+          false,
+          0,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 284 - Change Parallax",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 71,
+    "list": [
+      {
+        "code": 285,
+        "indent": 0,
+        "parameters": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 285 - Get Location Info",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 72,
+    "list": [
+      {
+        "code": 301,
+        "indent": 0,
+        "parameters": [
+          0,
+          1,
+          true,
+          true
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 301 - Battle Processing",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 73,
+    "list": [
+      {
+        "code": 302,
+        "indent": 0,
+        "parameters": [
+          0,
+          1,
+          0,
+          0,
+          false
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 302 - Shop Processing",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 74,
+    "list": [
+      {
+        "code": 303,
+        "indent": 0,
+        "parameters": [
+          1,
+          8
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 303 - Name Input Processing",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 75,
+    "list": [
+      {
+        "code": 311,
+        "indent": 0,
+        "parameters": [
+          0,
+          0,
+          0,
+          0,
+          10,
+          true
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 311 - Change HP",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 76,
+    "list": [
+      {
+        "code": 312,
+        "indent": 0,
+        "parameters": [
+          0,
+          0,
+          0,
+          0,
+          10
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 312 - Change MP",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 77,
+    "list": [
+      {
+        "code": 313,
+        "indent": 0,
+        "parameters": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 313 - Change State",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 78,
+    "list": [
+      {
+        "code": 314,
+        "indent": 0,
+        "parameters": [
+          0,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 314 - Recover All",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 79,
+    "list": [
+      {
+        "code": 315,
+        "indent": 0,
+        "parameters": [
+          0,
+          0,
+          0,
+          0,
+          10,
+          true
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 315 - Change EXP",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 80,
+    "list": [
+      {
+        "code": 316,
+        "indent": 0,
+        "parameters": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          true
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 316 - Change Level",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 81,
+    "list": [
+      {
+        "code": 317,
+        "indent": 0,
+        "parameters": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 317 - Change Parameter",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 82,
+    "list": [
+      {
+        "code": 318,
+        "indent": 0,
+        "parameters": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 318 - Change Skill",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 83,
+    "list": [
+      {
+        "code": 319,
+        "indent": 0,
+        "parameters": [
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 319 - Change Equipment",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 84,
+    "list": [
+      {
+        "code": 320,
+        "indent": 0,
+        "parameters": [
+          1,
+          "Fixture Actor"
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 320 - Change Name",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 85,
+    "list": [
+      {
+        "code": 321,
+        "indent": 0,
+        "parameters": [
+          1,
+          1,
+          false
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 321 - Change Class",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 86,
+    "list": [
+      {
+        "code": 322,
+        "indent": 0,
+        "parameters": [
+          1,
+          "",
+          0,
+          "",
+          0,
+          ""
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 322 - Change Actor Images",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 87,
+    "list": [
+      {
+        "code": 323,
+        "indent": 0,
+        "parameters": [
+          0,
+          "",
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 323 - Change Vehicle Image",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 88,
+    "list": [
+      {
+        "code": 324,
+        "indent": 0,
+        "parameters": [
+          1,
+          "Fixture"
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 324 - Change Nickname",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 89,
+    "list": [
+      {
+        "code": 325,
+        "indent": 0,
+        "parameters": [
+          1,
+          "Fixture profile"
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 325 - Change Profile",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 90,
+    "list": [
+      {
+        "code": 326,
+        "indent": 0,
+        "parameters": [
+          0,
+          0,
+          0,
+          0,
+          10
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 326 - Change TP",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 91,
+    "list": [
+      {
+        "code": 331,
+        "indent": 0,
+        "parameters": [
+          0,
+          0,
+          0,
+          10,
+          true
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 331 - Change Enemy HP",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 92,
+    "list": [
+      {
+        "code": 332,
+        "indent": 0,
+        "parameters": [
+          0,
+          0,
+          0,
+          10
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 332 - Change Enemy MP",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 93,
+    "list": [
+      {
+        "code": 333,
+        "indent": 0,
+        "parameters": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 333 - Change Enemy State",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 94,
+    "list": [
+      {
+        "code": 334,
+        "indent": 0,
+        "parameters": [
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 334 - Enemy Recover All",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 95,
+    "list": [
+      {
+        "code": 335,
+        "indent": 0,
+        "parameters": [
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 335 - Enemy Appear",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 96,
+    "list": [
+      {
+        "code": 336,
+        "indent": 0,
+        "parameters": [
+          0,
+          1
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 336 - Enemy Transform",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 97,
+    "list": [
+      {
+        "code": 337,
+        "indent": 0,
+        "parameters": [
+          0,
+          1,
+          false
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 337 - Show Battle Animation",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 98,
+    "list": [
+      {
+        "code": 339,
+        "indent": 0,
+        "parameters": [
+          0,
+          0,
+          1,
+          -1
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 339 - Force Action",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 99,
+    "list": [
+      {
+        "code": 340,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 340 - Abort Battle",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 100,
+    "list": [
+      {
+        "code": 342,
+        "indent": 0,
+        "parameters": [
+          0,
+          0,
+          0,
+          10
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 342 - Change Enemy TP",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 101,
+    "list": [
+      {
+        "code": 351,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 351 - Open Menu Screen",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 102,
+    "list": [
+      {
+        "code": 352,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 352 - Open Save Screen",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 103,
+    "list": [
+      {
+        "code": 353,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 353 - Game Over",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 104,
+    "list": [
+      {
+        "code": 354,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 354 - Return to Title Screen",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 105,
+    "list": [
+      {
+        "code": 355,
+        "indent": 0,
+        "parameters": [
+          "var fixture = true;"
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 355 - Script",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 106,
+    "list": [
+      {
+        "code": 356,
+        "indent": 0,
+        "parameters": [
+          "FixtureCommand value"
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 356 - Plugin Command",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 107,
+    "list": [
+      {
+        "code": 101,
+        "indent": 0,
+        "parameters": [
+          "",
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "code": 401,
+        "indent": 0,
+        "parameters": [
+          "Fixture text line"
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 401 - Text Line",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 108,
+    "list": [
+      {
+        "code": 102,
+        "indent": 0,
+        "parameters": [
+          [
+            "Choice A"
+          ],
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "code": 402,
+        "indent": 0,
+        "parameters": [
+          0,
+          "Choice A"
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 404,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 402 - When Choice",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 109,
+    "list": [
+      {
+        "code": 102,
+        "indent": 0,
+        "parameters": [
+          [
+            "Choice A"
+          ],
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "code": 403,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 404,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 403 - When Cancel",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 110,
+    "list": [
+      {
+        "code": 102,
+        "indent": 0,
+        "parameters": [
+          [
+            "Choice A"
+          ],
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "code": 402,
+        "indent": 0,
+        "parameters": [
+          0,
+          "Choice A"
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 404,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 404 - End Choices",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 111,
+    "list": [
+      {
+        "code": 105,
+        "indent": 0,
+        "parameters": [
+          2,
+          false
+        ]
+      },
+      {
+        "code": 405,
+        "indent": 0,
+        "parameters": [
+          "Fixture scrolling line"
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 405 - Scrolling Text Line",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 112,
+    "list": [
+      {
+        "code": 108,
+        "indent": 0,
+        "parameters": [
+          "Fixture comment"
+        ]
+      },
+      {
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "Continuation"
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 408 - Comment Continuation",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 113,
+    "list": [
+      {
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 411,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 411 - Else",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 114,
+    "list": [
+      {
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 412 - Branch End",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 115,
+    "list": [
+      {
+        "code": 112,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 413,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 413 - Repeat Above",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 116,
+    "list": [
+      {
+        "code": 205,
+        "indent": 0,
+        "parameters": [
+          0,
+          {
+            "list": [
+              {
+                "code": 1,
+                "parameters": []
+              },
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": true,
+            "wait": true
+          }
+        ]
+      },
+      {
+        "code": 505,
+        "indent": 0,
+        "parameters": [
+          {
+            "code": 1,
+            "parameters": []
+          }
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 505 - Movement Route Command",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 117,
+    "list": [
+      {
+        "code": 301,
+        "indent": 0,
+        "parameters": [
+          0,
+          1,
+          true,
+          true
+        ]
+      },
+      {
+        "code": 601,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 604,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 601 - If Win",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 118,
+    "list": [
+      {
+        "code": 301,
+        "indent": 0,
+        "parameters": [
+          0,
+          1,
+          true,
+          true
+        ]
+      },
+      {
+        "code": 602,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 604,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 602 - If Escape",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 119,
+    "list": [
+      {
+        "code": 301,
+        "indent": 0,
+        "parameters": [
+          0,
+          1,
+          true,
+          true
+        ]
+      },
+      {
+        "code": 603,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 604,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 603 - If Lose",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 120,
+    "list": [
+      {
+        "code": 301,
+        "indent": 0,
+        "parameters": [
+          0,
+          1,
+          true,
+          true
+        ]
+      },
+      {
+        "code": 604,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 604,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 604 - End Battle Processing",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 121,
+    "list": [
+      {
+        "code": 302,
+        "indent": 0,
+        "parameters": [
+          0,
+          1,
+          0,
+          0,
+          false
+        ]
+      },
+      {
+        "code": 605,
+        "indent": 0,
+        "parameters": [
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 605 - Shop Merchandise",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 122,
+    "list": [
+      {
+        "code": 355,
+        "indent": 0,
+        "parameters": [
+          "var fixture = true;"
+        ]
+      },
+      {
+        "code": 655,
+        "indent": 0,
+        "parameters": [
+          "fixture = fixture && true;"
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Command 655 - Script Continuation",
+    "switchId": 1,
+    "trigger": 0
+  }
+]

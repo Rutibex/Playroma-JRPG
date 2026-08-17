@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "conditions": [
+    {
+      "key": "switch1Valid",
+      "label": "Switch 1",
+      "idKey": "switch1Id"
+    },
+    {
+      "key": "switch2Valid",
+      "label": "Switch 2",
+      "idKey": "switch2Id"
+    },
+    {
+      "key": "variableValid",
+      "label": "Variable",
+      "idKey": "variableId",
+      "valueKey": "variableValue"
+    },
+    {
+      "key": "selfSwitchValid",
+      "label": "Self Switch",
+      "valueKey": "selfSwitchCh"
+    },
+    {
+      "key": "itemValid",
+      "label": "Item",
+      "idKey": "itemId"
+    },
+    {
+      "key": "actorValid",
+      "label": "Actor",
+      "idKey": "actorId"
+    }
+  ]
+}

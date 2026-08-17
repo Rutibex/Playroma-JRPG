@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "id": "deep-drone",
+  "name": "Deep Drone",
+  "description": "Very slow form, low sustained layers and sparse high spectral events.",
+  "version": "1.0.0",
+  "family": "ambient",
+  "abstract": false,
+  "extends": "ambient-drifting-light",
+  "tempo": {
+    "minimum": 36,
+    "maximum": 72
+  },
+  "candidateCount": 16,
+  "scales": [
+    "naturalMinor",
+    "phrygian",
+    "dorian"
+  ],
+  "roles": [
+    {
+      "id": "melody",
+      "name": "Deep Drone Melody",
+      "role": "lead",
+      "instrumentSelector": {
+        "families": [
+          "pipe",
+          "strings",
+          "synthEffects"
+        ],
+        "preferredTags": [
+          "lead",
+          "expressive",
+          "slow"
+        ],
+        "avoidTags": [
+          "very-low"
+        ],
+        "minimumAttack": 0.15,
+        "maximumAttack": 0.95,
+        "minimumBrightness": 0.2,
+        "maximumBrightness": 0.95,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "octaveDoubling",
+          "phraseAlternation",
+          "callAndResponse",
+          "sectionSubstitution"
+        ]
+      }
+    },
+    {
+      "id": "bass",
+      "name": "Deep Drone Bass",
+      "role": "bass",
+      "instrumentSelector": {
+        "families": [
+          "synthPad",
+          "strings",
+          "organ"
+        ],
+        "preferredTags": [
+          "bass",
+          "warm",
+          "low",
+          "sustaining"
+        ],
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 0.72,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "registerSplit",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "chords",
+      "name": "Deep Drone Chords",
+      "role": "chords",
+      "instrumentSelector": {
+        "families": [
+          "synthPad",
+          "ensemble",
+          "strings"
+        ],
+        "preferredTags": [
+          "polyphonic",
+          "harmony",
+          "sustaining",
+          "dark"
+        ],
+        "minimumSustain": 0.15,
+        "maximumLayers": 3,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "registerSplit",
+          "hocket",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "arpeggio",
+      "name": "Deep Drone Arpeggio",
+      "role": "arpeggio",
+      "instrumentSelector": {
+        "families": [
+          "chromaticPercussion",
+          "soundEffects"
+        ],
+        "preferredTags": [
+          "short",
+          "clear",
+          "pulse",
+          "sparse"
+        ],
+        "minimumAttack": 0.25,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "octaveDoubling",
+          "hocket",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "drums",
+      "name": "Deep Drone Drums",
+      "role": "drums",
+      "instrumentSelector": {
+        "families": [
+          "drums"
+        ],
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument",
+          "sectionSubstitution"
+        ],
+        "preferredTags": [
+          "drums",
+          "sparse",
+          "percussive"
+        ],
+        "avoidTags": []
+      }
+    }
+  ]
+}

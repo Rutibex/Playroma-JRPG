@@ -1,0 +1,372 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://playroma.dev/schemas/playsound.schema.json",
+  "title": "Playroma Sound Graph",
+  "type": "object",
+  "required": [
+    "formatVersion",
+    "id",
+    "nodes",
+    "connections",
+    "macros",
+    "output"
+  ],
+  "properties": {
+    "formatVersion": {
+      "const": 2
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "displayName": {
+      "type": "string"
+    },
+    "rootSeed": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "nodes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/node"
+      }
+    },
+    "connections": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/connection"
+      }
+    },
+    "macros": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/macro"
+      }
+    },
+    "output": {
+      "$ref": "#/$defs/output"
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "editor": {
+      "$ref": "#/$defs/graphEditor"
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "scalar": {
+      "type": [
+        "number",
+        "string",
+        "boolean",
+        "null"
+      ]
+    },
+    "node": {
+      "type": "object",
+      "required": [
+        "id",
+        "typeId",
+        "schemaVersion",
+        "parameters"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "typeId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "schemaVersion": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "localSeed": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "parameters": {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/$defs/scalar"
+          }
+        },
+        "editor": {
+          "type": "object",
+          "properties": {
+            "x": {
+              "type": "number"
+            },
+            "y": {
+              "type": "number"
+            },
+            "collapsed": {
+              "type": "boolean"
+            },
+            "comment": {
+              "type": "string"
+            },
+            "bypassed": {
+              "type": "boolean"
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "connection": {
+      "type": "object",
+      "required": [
+        "fromNodeId",
+        "fromPortId",
+        "toNodeId",
+        "toPortId"
+      ],
+      "properties": {
+        "fromNodeId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "fromPortId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "toNodeId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "toPortId": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "output": {
+      "type": "object",
+      "required": [
+        "nodeId",
+        "portId",
+        "enableLatencyCompensation",
+        "maximumTailSeconds"
+      ],
+      "properties": {
+        "nodeId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "portId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "enableLatencyCompensation": {
+          "type": "boolean"
+        },
+        "maximumTailSeconds": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 300
+        }
+      },
+      "additionalProperties": false
+    },
+    "macro": {
+      "type": "object",
+      "required": [
+        "id",
+        "displayName",
+        "minimum",
+        "maximum",
+        "defaultValue",
+        "bindings"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "displayName": {
+          "type": "string"
+        },
+        "minimum": {
+          "type": "number"
+        },
+        "maximum": {
+          "type": "number"
+        },
+        "defaultValue": {
+          "type": "number"
+        },
+        "bindings": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/macroBinding"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "macroBinding": {
+      "type": "object",
+      "required": [
+        "targetPath",
+        "inputMinimum",
+        "inputMaximum",
+        "outputMinimum",
+        "outputMaximum",
+        "curve",
+        "steps"
+      ],
+      "properties": {
+        "targetPath": {
+          "type": "string",
+          "pattern": "^node:[^/]+/parameter:.+$"
+        },
+        "inputMinimum": {
+          "type": "number"
+        },
+        "inputMaximum": {
+          "type": "number"
+        },
+        "outputMinimum": {
+          "type": "number"
+        },
+        "outputMaximum": {
+          "type": "number"
+        },
+        "curve": {
+          "enum": [
+            "linear",
+            "smoothStep",
+            "exponential",
+            "logarithmic",
+            "stepped",
+            "inverted"
+          ]
+        },
+        "steps": {
+          "type": "integer",
+          "minimum": 2
+        }
+      },
+      "additionalProperties": false
+    },
+    "graphEditor": {
+      "type": "object",
+      "properties": {
+        "viewX": {
+          "type": "number"
+        },
+        "viewY": {
+          "type": "number"
+        },
+        "zoom": {
+          "type": "number",
+          "minimum": 0.1,
+          "maximum": 4
+        },
+        "showGrid": {
+          "type": "boolean"
+        },
+        "snapToGrid": {
+          "type": "boolean"
+        },
+        "groups": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/graphGroup"
+          }
+        },
+        "comments": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/graphComment"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "graphGroup": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "x",
+        "y",
+        "width",
+        "height",
+        "collapsed"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string"
+        },
+        "x": {
+          "type": "number"
+        },
+        "y": {
+          "type": "number"
+        },
+        "width": {
+          "type": "number",
+          "minimum": 40
+        },
+        "height": {
+          "type": "number",
+          "minimum": 40
+        },
+        "collapsed": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false
+    },
+    "graphComment": {
+      "type": "object",
+      "required": [
+        "id",
+        "text",
+        "x",
+        "y",
+        "width",
+        "height"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "text": {
+          "type": "string"
+        },
+        "x": {
+          "type": "number"
+        },
+        "y": {
+          "type": "number"
+        },
+        "width": {
+          "type": "number",
+          "minimum": 40
+        },
+        "height": {
+          "type": "number",
+          "minimum": 40
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

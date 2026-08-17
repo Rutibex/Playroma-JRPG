@@ -1,0 +1,213 @@
+{
+  "formatVersion": 2,
+  "id": "example.engine-drone",
+  "displayName": "Reactive Engine Drone",
+  "rootSeed": 90001,
+  "nodes": [
+    {
+      "id": "fundamental",
+      "typeId": "core.oscillator",
+      "schemaVersion": 1,
+      "parameters": {
+        "waveform": "saw",
+        "frequencyHz": 52,
+        "amplitude": 0.24
+      }
+    },
+    {
+      "id": "sub",
+      "typeId": "core.oscillator",
+      "schemaVersion": 1,
+      "parameters": {
+        "waveform": "sine",
+        "frequencyHz": 26,
+        "amplitude": 0.35
+      }
+    },
+    {
+      "id": "air",
+      "typeId": "core.noise",
+      "schemaVersion": 1,
+      "parameters": {
+        "color": "pink",
+        "amplitude": 0.055
+      }
+    },
+    {
+      "id": "mixer",
+      "typeId": "core.mixer",
+      "schemaVersion": 1,
+      "parameters": {
+        "gain": 0.75
+      }
+    },
+    {
+      "id": "filter",
+      "typeId": "dsp.state-variable",
+      "schemaVersion": 1,
+      "parameters": {
+        "mode": "lowPass",
+        "frequencyHz": 1400,
+        "resonance": 0.24,
+        "drive": 0.4
+      }
+    },
+    {
+      "id": "chorus",
+      "typeId": "dsp.chorus",
+      "schemaVersion": 1,
+      "parameters": {
+        "baseDelayMilliseconds": 9,
+        "depthMilliseconds": 3.5,
+        "rateHz": 0.18,
+        "feedback": 0.08,
+        "wet": 0.28,
+        "dry": 1
+      }
+    },
+    {
+      "id": "compressor",
+      "typeId": "dsp.compressor",
+      "schemaVersion": 1,
+      "parameters": {
+        "thresholdDecibels": -20,
+        "ratio": 3.5,
+        "attackMilliseconds": 18,
+        "releaseMilliseconds": 140,
+        "makeupGainDecibels": 2,
+        "mix": 1
+      }
+    },
+    {
+      "id": "output",
+      "typeId": "core.output",
+      "schemaVersion": 1,
+      "parameters": {}
+    }
+  ],
+  "connections": [
+    {
+      "fromNodeId": "fundamental",
+      "fromPortId": "out",
+      "toNodeId": "mixer",
+      "toPortId": "in"
+    },
+    {
+      "fromNodeId": "sub",
+      "fromPortId": "out",
+      "toNodeId": "mixer",
+      "toPortId": "in"
+    },
+    {
+      "fromNodeId": "air",
+      "fromPortId": "out",
+      "toNodeId": "mixer",
+      "toPortId": "in"
+    },
+    {
+      "fromNodeId": "mixer",
+      "fromPortId": "out",
+      "toNodeId": "filter",
+      "toPortId": "in"
+    },
+    {
+      "fromNodeId": "filter",
+      "fromPortId": "out",
+      "toNodeId": "chorus",
+      "toPortId": "in"
+    },
+    {
+      "fromNodeId": "chorus",
+      "fromPortId": "out",
+      "toNodeId": "compressor",
+      "toPortId": "in"
+    },
+    {
+      "fromNodeId": "compressor",
+      "fromPortId": "out",
+      "toNodeId": "output",
+      "toPortId": "in"
+    }
+  ],
+  "macros": [
+    {
+      "id": "throttle",
+      "displayName": "Throttle",
+      "minimum": 0,
+      "maximum": 1,
+      "defaultValue": 0.35,
+      "bindings": [
+        {
+          "targetPath": "node:fundamental/parameter:frequencyHz",
+          "inputMinimum": 0,
+          "inputMaximum": 1,
+          "outputMinimum": 32,
+          "outputMaximum": 135,
+          "curve": "exponential",
+          "steps": 8
+        },
+        {
+          "targetPath": "node:sub/parameter:frequencyHz",
+          "inputMinimum": 0,
+          "inputMaximum": 1,
+          "outputMinimum": 16,
+          "outputMaximum": 67.5,
+          "curve": "exponential",
+          "steps": 8
+        },
+        {
+          "targetPath": "node:filter/parameter:frequencyHz",
+          "inputMinimum": 0,
+          "inputMaximum": 1,
+          "outputMinimum": 420,
+          "outputMaximum": 6500,
+          "curve": "logarithmic",
+          "steps": 8
+        },
+        {
+          "targetPath": "node:filter/parameter:drive",
+          "inputMinimum": 0,
+          "inputMaximum": 1,
+          "outputMinimum": 0.05,
+          "outputMaximum": 1.8,
+          "curve": "smoothStep",
+          "steps": 8
+        }
+      ]
+    },
+    {
+      "id": "damage",
+      "displayName": "Damage",
+      "minimum": 0,
+      "maximum": 1,
+      "defaultValue": 0,
+      "bindings": [
+        {
+          "targetPath": "node:air/parameter:amplitude",
+          "inputMinimum": 0,
+          "inputMaximum": 1,
+          "outputMinimum": 0.03,
+          "outputMaximum": 0.28,
+          "curve": "exponential",
+          "steps": 8
+        },
+        {
+          "targetPath": "node:chorus/parameter:feedback",
+          "inputMinimum": 0,
+          "inputMaximum": 1,
+          "outputMinimum": 0.05,
+          "outputMaximum": 0.72,
+          "curve": "exponential",
+          "steps": 8
+        }
+      ]
+    }
+  ],
+  "output": {
+    "nodeId": "output",
+    "portId": "out",
+    "enableLatencyCompensation": true,
+    "maximumTailSeconds": 4
+  },
+  "metadata": {}
+}

@@ -1,0 +1,31 @@
+{
+  "formatVersion": 1,
+  "id": "complex-magic.healing-rite",
+  "displayName": "Healing Rite",
+  "generatorId": "playroma.complex-magic",
+  "rootSeed": 10531,
+  "familySeed": 63997,
+  "variationIndex": 0,
+  "qualityMode": "realtimeHigh",
+  "description": {
+    "archetype": "healing",
+    "mood": "holy",
+    "shape": "arch",
+    "scale": "majorPentatonic",
+    "environment": "smallRoom",
+    "power": 0.58,
+    "stability": 0.82,
+    "benevolence": 0.95,
+    "organicTechnology": 0.18,
+    "duration": 0.46,
+    "musicality": 0.88,
+    "anticipation": 0.3,
+    "charge": 0.62,
+    "motif": 0.72,
+    "release": 0.5,
+    "impact": 0.32,
+    "afterglow": 0.68,
+    "motifNotes": 6,
+    "spatialExtent": 0.62
+  }
+}

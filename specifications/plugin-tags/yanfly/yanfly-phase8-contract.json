@@ -1,0 +1,40 @@
+{
+  "phase": 8,
+  "name": "Items, equipment, shops, and currencies",
+  "runtimeCatalogFeatureCount": 2943,
+  "coveredPluginCount": 21,
+  "databaseFeatureCount": 240,
+  "quickSetupCount": 8,
+  "acceptanceTests": 21,
+  "specializedEditorId": "yep.item-commerce-designer",
+  "areas": [
+    "CoreItems",
+    "IndependentItems",
+    "Durability",
+    "Augments",
+    "UpgradeSlots",
+    "Synthesis",
+    "Disassembly",
+    "ItemRequirements",
+    "EquipRequirements",
+    "RenameAndDiscard",
+    "CategoriesAndPictures",
+    "EquipmentSlots",
+    "BattleEquipment",
+    "ShopPrices",
+    "ShopVisibility",
+    "Currencies",
+    "ArmorScaling",
+    "WeaponVisuals",
+    "WeaponUnleash",
+    "Advanced"
+  ],
+  "guarantees": {
+    "notesRemainAuthoritative": true,
+    "losslessUnknownSyntax": true,
+    "installedPluginGating": true,
+    "exactPreviewBeforeMutation": true,
+    "usesExistingUndoLifecycle": true,
+    "redistributesYanflyJavaScript": false
+  }
+}

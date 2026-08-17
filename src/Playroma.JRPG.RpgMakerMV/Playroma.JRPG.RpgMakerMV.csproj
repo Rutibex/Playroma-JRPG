@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Playroma.JRPG.RpgMakerMV</RootNamespace>
+    <AssemblyName>Playroma.JRPG.RpgMakerMV</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Playroma.JRPG.Core/Playroma.JRPG.Core.csproj" />
+    <ProjectReference Include="../Playroma.JRPG.Documents/Playroma.JRPG.Documents.csproj" />
+    <ProjectReference Include="../Playroma.JRPG.Assets/Playroma.JRPG.Assets.csproj" />
+    <ProjectReference Include="../Playroma.JRPG.Runtime.MV/Playroma.JRPG.Runtime.MV.csproj" />
+    <ProjectReference Include="../Playroma.JRPG.Specifications/Playroma.JRPG.Specifications.csproj" />
+  </ItemGroup>
+</Project>

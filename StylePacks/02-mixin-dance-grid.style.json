@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "id": "mixin-dance-grid",
+  "name": "Dance Grid",
+  "description": "Composable club-grid rhythms, high repetition control and compact melodic motion.",
+  "version": "1.0.0",
+  "family": "foundation",
+  "abstract": true,
+  "extends": "core-musical-foundation",
+  "rhythms": [
+    {
+      "id": "offbeat-eighths",
+      "steps": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "sixteenth-drive",
+      "steps": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "dance-syncopation",
+      "steps": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1
+      ]
+    }
+  ],
+  "constraints": {
+    "maximumMelodicLeap": 10,
+    "maximumRepeatedPitch": 8,
+    "preferredMaximumRange": 14
+  },
+  "scoring": {
+    "chordTone": 24,
+    "stepwiseMotion": 22,
+    "motifFidelity": 20,
+    "phraseClosure": 10,
+    "rhythmBalance": 17,
+    "range": 6,
+    "leapPenalty": 1.4,
+    "syncopation": 5,
+    "repetitionControl": 12
+  }
+}

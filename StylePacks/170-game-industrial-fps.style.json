@@ -1,0 +1,442 @@
+{
+  "schemaVersion": 1,
+  "id": "game-industrial-fps",
+  "name": "PC Action — Industrial Metal",
+  "description": "Aggressive General MIDI guitar riffs, pounding drums and synthetic alarms for fast first-person combat.",
+  "version": "1.0.0",
+  "family": "game",
+  "abstract": false,
+  "extends": "pc-industrial-metal-foundation",
+  "tempo": {
+    "minimum": 148,
+    "maximum": 190
+  },
+  "meter": {
+    "beatsPerBar": 4,
+    "beatUnit": 4
+  },
+  "candidateCount": 20,
+  "scales": [
+    "naturalMinor",
+    "phrygian",
+    "blues"
+  ],
+  "forms": {
+    "grammarId": "game-industrial-fps-form-v1",
+    "productions": [
+      [
+        "I",
+        "A",
+        "B",
+        "A'",
+        "D",
+        "B'",
+        "A"
+      ],
+      [
+        "A",
+        "A'",
+        "B",
+        "C",
+        "A"
+      ]
+    ]
+  },
+  "harmony": {
+    "grammarId": "game-industrial-fps-harmony-v1",
+    "progressions": {
+      "intro": [
+        [
+          0,
+          6,
+          1,
+          4
+        ]
+      ],
+      "verse": [
+        [
+          0,
+          6,
+          1,
+          4
+        ],
+        [
+          0,
+          3,
+          1,
+          0
+        ]
+      ],
+      "chorus": [
+        [
+          0,
+          4,
+          5,
+          3
+        ],
+        [
+          5,
+          6,
+          0,
+          4
+        ]
+      ],
+      "bridge": [
+        [
+          5,
+          3,
+          1,
+          4
+        ],
+        [
+          1,
+          6,
+          3,
+          4
+        ]
+      ],
+      "breakdown": [
+        [
+          5,
+          3,
+          1,
+          4
+        ]
+      ],
+      "solo": [
+        [
+          0,
+          4,
+          5,
+          3
+        ]
+      ],
+      "outro": [
+        [
+          0,
+          6,
+          1,
+          4
+        ]
+      ]
+    }
+  },
+  "roles": [
+    {
+      "id": "melody",
+      "name": "PC Action — Industrial Metal Lead",
+      "role": "lead",
+      "enabled": true,
+      "generalMidiProgram": 30,
+      "isPercussion": false,
+      "rhythmPatternId": "metal-riff",
+      "minimumPitch": 55,
+      "maximumPitch": 94,
+      "density": 88,
+      "instrumentSelector": {
+        "families": [
+          "guitar",
+          "synthLead",
+          "strings",
+          "brass",
+          "reed",
+          "pipe",
+          "piano",
+          "chromaticPercussion"
+        ],
+        "preferredTags": [
+          "lead",
+          "distinct",
+          "expressive"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 55,
+        "maximumPitch": 94,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 0
+    },
+    {
+      "id": "bass",
+      "name": "PC Action — Industrial Metal Bass",
+      "role": "bass",
+      "enabled": true,
+      "generalMidiProgram": 34,
+      "isPercussion": false,
+      "rhythmPatternId": "metal-riff",
+      "minimumPitch": 25,
+      "maximumPitch": 55,
+      "density": 94,
+      "instrumentSelector": {
+        "families": [
+          "bass",
+          "guitar",
+          "strings",
+          "organ",
+          "synthLead"
+        ],
+        "preferredTags": [
+          "low",
+          "supportive",
+          "rhythmic"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 25,
+        "maximumPitch": 55,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 2
+    },
+    {
+      "id": "chords",
+      "name": "PC Action — Industrial Metal Harmony",
+      "role": "chords",
+      "enabled": true,
+      "generalMidiProgram": 30,
+      "isPercussion": false,
+      "rhythmPatternId": "metal-riff",
+      "minimumPitch": 39,
+      "maximumPitch": 84,
+      "density": 88,
+      "instrumentSelector": {
+        "families": [
+          "guitar",
+          "strings",
+          "ensemble",
+          "piano",
+          "organ",
+          "synthPad",
+          "synthLead"
+        ],
+        "preferredTags": [
+          "harmony",
+          "supportive",
+          "atmospheric",
+          "aggressive"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 39,
+        "maximumPitch": 84,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 3,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 1
+    },
+    {
+      "id": "arpeggio",
+      "name": "PC Action — Industrial Metal Pulse",
+      "role": "arpeggio",
+      "enabled": true,
+      "generalMidiProgram": 87,
+      "isPercussion": false,
+      "rhythmPatternId": "metal-riff",
+      "minimumPitch": 45,
+      "maximumPitch": 98,
+      "density": 88,
+      "instrumentSelector": {
+        "families": [
+          "synthLead",
+          "chromaticPercussion",
+          "piano",
+          "guitar",
+          "strings",
+          "synthEffects"
+        ],
+        "preferredTags": [
+          "pulse",
+          "articulate",
+          "rhythmic"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 45,
+        "maximumPitch": 98,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 3
+    },
+    {
+      "id": "counter",
+      "name": "PC Action — Industrial Metal Counterline",
+      "role": "counterMelody",
+      "enabled": true,
+      "generalMidiProgram": 81,
+      "isPercussion": false,
+      "rhythmPatternId": "adventure-ostinato",
+      "minimumPitch": 52,
+      "maximumPitch": 91,
+      "density": 72,
+      "instrumentSelector": {
+        "families": [
+          "reed",
+          "pipe",
+          "strings",
+          "brass",
+          "synthLead"
+        ],
+        "preferredTags": [
+          "counterline",
+          "clear"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 52,
+        "maximumPitch": 91,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 4
+    },
+    {
+      "id": "texture",
+      "name": "PC Action — Industrial Metal Atmosphere",
+      "role": "texture",
+      "enabled": true,
+      "generalMidiProgram": 99,
+      "isPercussion": false,
+      "rhythmPatternId": "ambient-loop",
+      "minimumPitch": 28,
+      "maximumPitch": 103,
+      "density": 40,
+      "instrumentSelector": {
+        "families": [
+          "synthPad",
+          "synthEffects",
+          "ensemble",
+          "strings",
+          "organ",
+          "soundEffects"
+        ],
+        "preferredTags": [
+          "atmospheric",
+          "sustaining",
+          "environmental"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 28,
+        "maximumPitch": 103,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 3,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 5
+    },
+    {
+      "id": "drums",
+      "name": "PC Action — Industrial Metal Drums",
+      "role": "drums",
+      "enabled": true,
+      "generalMidiProgram": 0,
+      "isPercussion": true,
+      "rhythmPatternId": "metal-riff",
+      "minimumPitch": 35,
+      "maximumPitch": 81,
+      "density": 94,
+      "instrumentSelector": {
+        "families": [
+          "drums"
+        ],
+        "preferredTags": [
+          "percussive",
+          "aggressive",
+          "powerful"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 35,
+        "maximumPitch": 81,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 9
+    }
+  ]
+}

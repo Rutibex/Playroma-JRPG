@@ -1,0 +1,27 @@
+name: CodeQL
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+  schedule:
+    - cron: '17 4 * * 2'
+
+permissions:
+  security-events: write
+  packages: read
+  contents: read
+
+jobs:
+  analyze:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: github/codeql-action/init@v3
+        with:
+          languages: csharp
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 10.0.x
+      - run: dotnet build Playroma.JRPG.sln --configuration Release
+      - uses: github/codeql-action/analyze@v3

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://playroma.dev/schemas/playroma-sprite-recovery.schema.json",
+  "title": "Playroma Sprite Studio Recovery Manifest",
+  "type": "object",
+  "required": ["schema", "snapshotId", "documentId", "documentName", "capturedAt", "packageFileName", "sha256", "reason", "packageBytes"],
+  "properties": {
+    "schema": { "const": "playroma-sprite-recovery/1" },
+    "snapshotId": { "type": "string", "format": "uuid" },
+    "documentId": { "type": "string", "format": "uuid" },
+    "documentName": { "type": "string", "minLength": 1 },
+    "capturedAt": { "type": "string", "format": "date-time" },
+    "packageFileName": { "type": "string", "pattern": "^[^/\\\\]+\\.recovery\\.playromasprite$" },
+    "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "originalPackagePath": { "type": ["string", "null"] },
+    "runtimeExportPath": { "type": ["string", "null"] },
+    "reason": { "type": "string", "minLength": 1 },
+    "packageBytes": { "type": "integer", "minimum": 1 }
+  },
+  "additionalProperties": false
+}

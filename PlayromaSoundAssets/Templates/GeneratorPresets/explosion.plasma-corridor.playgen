@@ -1,0 +1,20 @@
+{
+  "formatVersion": 1,
+  "id": "explosion.plasma-corridor",
+  "displayName": "Plasma Explosion in Corridor",
+  "generatorId": "playroma.explosion",
+  "rootSeed": 7721,
+  "familySeed": 9917,
+  "variationIndex": 0,
+  "qualityMode": "realtimeHigh",
+  "description": {
+    "energyType": "plasma",
+    "environment": "corridor",
+    "size": 0.72,
+    "containment": 0.55,
+    "distance": 0.2,
+    "debris": 0.32,
+    "sharpness": 0.7,
+    "secondaryEvents": 3
+  }
+}

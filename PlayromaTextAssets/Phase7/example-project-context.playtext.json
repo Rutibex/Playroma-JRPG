@@ -1,0 +1,32 @@
+{
+  "id": "example.phase7.project-context",
+  "version": 1,
+  "name": "Project Context Probe",
+  "kind": "custom",
+  "description": "Demonstrates the read-only host-project context injected into every Phase 7 Text Studio generation request.",
+  "stages": [
+    {
+      "id": "message",
+      "kind": "phase1.random-list",
+      "enabled": true,
+      "settings": {
+        "items": ["Text Studio is connected to the active Playroma project context."],
+        "field": "text",
+        "isPrimary": true
+      }
+    },
+    {
+      "id": "project-context",
+      "kind": "phase6.semantic-annotate",
+      "enabled": true,
+      "settings": {
+        "fromContext": {
+          "projectTitle": "project.title",
+          "mapCount": "project.mapCount",
+          "actorCount": "project.database.actors.count",
+          "enabledPluginCount": "project.enabledPluginCount"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+﻿pluginId,specializedEditor,databaseFeatureCount,advancedFeatureCount,documentKinds
+KELYEP_DragonBones,Enemy Designer,39,1,actor; enemy; item; skill
+YEP_BattleBgmControl,Enemy Designer,9,0,enemy
+YEP_EnemyLevels,Enemy Designer,27,3,actor; enemy; item; skill
+YEP_ExtraEnemyDrops,Enemy Designer,11,5,armor; enemy; item; weapon
+YEP_HitDamageSounds,Enemy Designer,7,0,armor; enemy
+YEP_OverkillBonus,Enemy Designer,10,3,enemy; item
+YEP_RowFormation,Enemy Designer,16,3,actor; armor; class; enemy; item; skill; state; weapon
+YEP_SwapEnemies,Enemy Designer,3,1,enemy
+YEP_Taunt,Enemy Designer,10,0,actor; armor; class; enemy; item; skill; state; weapon
+YEP_X_AnimatedSVEnemies,Enemy Designer,40,0,enemy; item; skill; state; weapon
+YEP_X_DifficultySlider,Enemy Designer,1,0,enemy
+YEP_X_VisualATBGauge,Enemy Designer,3,0,enemy
+YEP_X_VisualHpGauge,Enemy Designer,7,0,class; enemy
+YEP_X_WeakEnemyPoses,Enemy Designer,5,1,enemy; state
+YEP_BuffsStatesCore,State Lifecycle,61,33,actor; armor; class; enemy; item; skill; state; weapon
+YEP_X_ExtDoT,State Lifecycle,20,2,state
+YEP_X_StateCategories,State Lifecycle,4,1,item; skill; state
+YEP_X_VisualStateFX,State Lifecycle,19,0,item; skill; state
+YEP_Z_StateProtection,State Lifecycle,28,0,item; skill; state
+YEP_AutoPassiveStates,Passive States & Auras,14,1,actor; armor; class; enemy; skill; state; weapon
+YEP_X_PassiveAuras,Passive States & Auras,46,1,actor; enemy; state; troop
+YEP_Z_PassiveCases,Passive States & Auras,1,1,armor; item; state; weapon
+YEP_AbsorptionBarrier,Formula Lab,33,10,actor; armor; class; enemy; item; skill; state; weapon
+YEP_BaseParamControl,Formula Lab,8,0,actor; armor; class; enemy; state; weapon
+YEP_DamageCore,Formula Lab,4,1,actor; armor; class; enemy; item; skill; state; weapon
+YEP_ElementAbsorb,Formula Lab,3,0,actor; armor; class; enemy; state; weapon
+YEP_ElementCore,Formula Lab,29,0,actor; armor; class; enemy; item; skill; state; weapon
+YEP_ElementReflect,Formula Lab,2,0,actor; armor; class; enemy; skill; state; weapon
+YEP_ExtraParamFormula,Formula Lab,10,0,actor; armor; class; enemy; state; weapon
+YEP_SpecialParamFormula,Formula Lab,10,0,actor; armor; class; enemy; state; weapon
+YEP_X_ClassBaseParam,Formula Lab,2,2,class
+YEP_X_CriticalControl,Formula Lab,18,3,actor; armor; class; enemy; item; skill; state; weapon
+YEP_X_EnemyBaseParam,Formula Lab,4,2,class; enemy
+YEP_Z_CriticalSway,Formula Lab,31,0,item; skill; state

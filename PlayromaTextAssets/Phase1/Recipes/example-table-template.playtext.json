@@ -1,0 +1,51 @@
+{
+  "id": "example.phase1.table-template",
+  "version": 1,
+  "name": "Example Table + Template",
+  "kind": "rumor",
+  "stages": [
+    {
+      "id": "subject",
+      "kind": "phase1.random-list",
+      "enabled": true,
+      "settings": {
+        "items": [
+          "the miners",
+          "an old knight",
+          "a merchant"
+        ],
+        "field": "subject",
+        "isPrimary": false
+      }
+    },
+    {
+      "id": "event",
+      "kind": "phase1.weighted-table",
+      "enabled": true,
+      "settings": {
+        "entries": [
+          {
+            "text": "vanished last night",
+            "weight": 2
+          },
+          {
+            "text": "found a sealed door",
+            "weight": 1
+          }
+        ],
+        "field": "event",
+        "isPrimary": false
+      }
+    },
+    {
+      "id": "format",
+      "kind": "phase1.template",
+      "enabled": true,
+      "settings": {
+        "template": "They say {{subject}} {{event}}.",
+        "field": "text",
+        "isPrimary": true
+      }
+    }
+  ]
+}

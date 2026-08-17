@@ -1,0 +1,28 @@
+{
+  "formatVersion": 1,
+  "id": "creature-cry.ancient-drake",
+  "displayName": "Ancient Drake Cry",
+  "generatorId": "playroma.creature-cry",
+  "rootSeed": 44721,
+  "familySeed": 81509,
+  "variationIndex": 0,
+  "qualityMode": "offline",
+  "description": {
+    "style": "draconic",
+    "shape": "callAndResponse",
+    "environment": "cave",
+    "size": 0.9,
+    "cuteness": 0.05,
+    "menace": 0.85,
+    "energy": 0.7,
+    "intelligence": 0.68,
+    "organicSynthetic": 0.08,
+    "musicalAnimal": 0.72,
+    "smoothRaspy": 0.82,
+    "pitchMovement": 0.72,
+    "syllables": 3,
+    "repetition": 0.32,
+    "duration": 0.58,
+    "retroModern": 0.9
+  }
+}

@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Description>Structured, algorithmic, style-driven, orchestration, and reference-descendant generation engines.</Description>
+    <Product>Playroma Music</Product>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../PlayromaMusic.Core/PlayromaMusic.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="../../StylePacks/**/*.json" Link="StylePacks/%(RecursiveDir)%(Filename)%(Extension)" />
+    <None Include="../../StylePacks/**/*.json" Link="StylePacks/%(RecursiveDir)%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

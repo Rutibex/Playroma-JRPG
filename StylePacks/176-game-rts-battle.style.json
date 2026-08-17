@@ -1,0 +1,442 @@
+{
+  "schemaVersion": 1,
+  "id": "game-rts-battle",
+  "name": "Strategy — Large Battle",
+  "description": "Martial brass, low strings and driving percussion for armies engaging at scale.",
+  "version": "1.0.0",
+  "family": "game",
+  "abstract": false,
+  "extends": "pc-game-foundation",
+  "tempo": {
+    "minimum": 118,
+    "maximum": 158
+  },
+  "meter": {
+    "beatsPerBar": 4,
+    "beatUnit": 4
+  },
+  "candidateCount": 20,
+  "scales": [
+    "naturalMinor",
+    "dorian",
+    "harmonicMinor"
+  ],
+  "forms": {
+    "grammarId": "game-rts-battle-form-v1",
+    "productions": [
+      [
+        "I",
+        "A",
+        "B",
+        "A'",
+        "D",
+        "B'",
+        "A"
+      ],
+      [
+        "A",
+        "A'",
+        "B",
+        "C",
+        "A"
+      ]
+    ]
+  },
+  "harmony": {
+    "grammarId": "game-rts-battle-harmony-v1",
+    "progressions": {
+      "intro": [
+        [
+          0,
+          6,
+          1,
+          4
+        ]
+      ],
+      "verse": [
+        [
+          0,
+          6,
+          1,
+          4
+        ],
+        [
+          0,
+          3,
+          1,
+          0
+        ]
+      ],
+      "chorus": [
+        [
+          0,
+          4,
+          5,
+          3
+        ],
+        [
+          5,
+          6,
+          0,
+          4
+        ]
+      ],
+      "bridge": [
+        [
+          5,
+          3,
+          1,
+          4
+        ],
+        [
+          1,
+          6,
+          3,
+          4
+        ]
+      ],
+      "breakdown": [
+        [
+          5,
+          3,
+          1,
+          4
+        ]
+      ],
+      "solo": [
+        [
+          0,
+          4,
+          5,
+          3
+        ]
+      ],
+      "outro": [
+        [
+          0,
+          6,
+          1,
+          4
+        ]
+      ]
+    }
+  },
+  "roles": [
+    {
+      "id": "melody",
+      "name": "Strategy — Large Battle Lead",
+      "role": "lead",
+      "enabled": true,
+      "generalMidiProgram": 61,
+      "isPercussion": false,
+      "rhythmPatternId": "strategy-march",
+      "minimumPitch": 55,
+      "maximumPitch": 94,
+      "density": 88,
+      "instrumentSelector": {
+        "families": [
+          "guitar",
+          "synthLead",
+          "strings",
+          "brass",
+          "reed",
+          "pipe",
+          "piano",
+          "chromaticPercussion"
+        ],
+        "preferredTags": [
+          "lead",
+          "distinct",
+          "expressive"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 55,
+        "maximumPitch": 94,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 0
+    },
+    {
+      "id": "bass",
+      "name": "Strategy — Large Battle Bass",
+      "role": "bass",
+      "enabled": true,
+      "generalMidiProgram": 43,
+      "isPercussion": false,
+      "rhythmPatternId": "strategy-march",
+      "minimumPitch": 25,
+      "maximumPitch": 55,
+      "density": 94,
+      "instrumentSelector": {
+        "families": [
+          "bass",
+          "guitar",
+          "strings",
+          "organ",
+          "synthLead"
+        ],
+        "preferredTags": [
+          "low",
+          "supportive",
+          "rhythmic"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 25,
+        "maximumPitch": 55,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 2
+    },
+    {
+      "id": "chords",
+      "name": "Strategy — Large Battle Harmony",
+      "role": "chords",
+      "enabled": true,
+      "generalMidiProgram": 48,
+      "isPercussion": false,
+      "rhythmPatternId": "strategy-march",
+      "minimumPitch": 39,
+      "maximumPitch": 84,
+      "density": 88,
+      "instrumentSelector": {
+        "families": [
+          "guitar",
+          "strings",
+          "ensemble",
+          "piano",
+          "organ",
+          "synthPad",
+          "synthLead"
+        ],
+        "preferredTags": [
+          "harmony",
+          "supportive",
+          "atmospheric",
+          "aggressive"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 39,
+        "maximumPitch": 84,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 3,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 1
+    },
+    {
+      "id": "arpeggio",
+      "name": "Strategy — Large Battle Pulse",
+      "role": "arpeggio",
+      "enabled": true,
+      "generalMidiProgram": 47,
+      "isPercussion": false,
+      "rhythmPatternId": "strategy-march",
+      "minimumPitch": 45,
+      "maximumPitch": 98,
+      "density": 88,
+      "instrumentSelector": {
+        "families": [
+          "synthLead",
+          "chromaticPercussion",
+          "piano",
+          "guitar",
+          "strings",
+          "synthEffects"
+        ],
+        "preferredTags": [
+          "pulse",
+          "articulate",
+          "rhythmic"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 45,
+        "maximumPitch": 98,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 3
+    },
+    {
+      "id": "counter",
+      "name": "Strategy — Large Battle Counterline",
+      "role": "counterMelody",
+      "enabled": true,
+      "generalMidiProgram": 56,
+      "isPercussion": false,
+      "rhythmPatternId": "adventure-ostinato",
+      "minimumPitch": 52,
+      "maximumPitch": 91,
+      "density": 72,
+      "instrumentSelector": {
+        "families": [
+          "reed",
+          "pipe",
+          "strings",
+          "brass",
+          "synthLead"
+        ],
+        "preferredTags": [
+          "counterline",
+          "clear"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 52,
+        "maximumPitch": 91,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 4
+    },
+    {
+      "id": "texture",
+      "name": "Strategy — Large Battle Atmosphere",
+      "role": "texture",
+      "enabled": true,
+      "generalMidiProgram": 52,
+      "isPercussion": false,
+      "rhythmPatternId": "ambient-loop",
+      "minimumPitch": 28,
+      "maximumPitch": 103,
+      "density": 40,
+      "instrumentSelector": {
+        "families": [
+          "synthPad",
+          "synthEffects",
+          "ensemble",
+          "strings",
+          "organ",
+          "soundEffects"
+        ],
+        "preferredTags": [
+          "atmospheric",
+          "sustaining",
+          "environmental"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 28,
+        "maximumPitch": 103,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 3,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 5
+    },
+    {
+      "id": "drums",
+      "name": "Strategy — Large Battle Drums",
+      "role": "drums",
+      "enabled": true,
+      "generalMidiProgram": 0,
+      "isPercussion": true,
+      "rhythmPatternId": "strategy-march",
+      "minimumPitch": 35,
+      "maximumPitch": 81,
+      "density": 94,
+      "instrumentSelector": {
+        "families": [
+          "drums"
+        ],
+        "preferredTags": [
+          "percussive",
+          "aggressive",
+          "powerful"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 35,
+        "maximumPitch": 81,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 9
+    }
+  ]
+}

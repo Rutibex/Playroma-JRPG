@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType><TargetFramework>net10.0-windows</TargetFramework><UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>Playroma.Sprite.Editor.WinForms</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Playroma.Sprite.Core/Playroma.Sprite.Core.csproj" />
+    <ProjectReference Include="../Playroma.Sprite.Automation/Playroma.Sprite.Automation.csproj" />
+    <ProjectReference Include="../Playroma.Sprite.Animation/Playroma.Sprite.Animation.csproj" />
+    <ProjectReference Include="../Playroma.Sprite.Pixel/Playroma.Sprite.Pixel.csproj" />
+    <ProjectReference Include="../Playroma.Sprite.Formats/Playroma.Sprite.Formats.csproj" />
+    <ProjectReference Include="../Playroma.Sprite.RpgMakerMV/Playroma.Sprite.RpgMakerMV.csproj" />
+    <ProjectReference Include="../Playroma.Sprite.Resilience/Playroma.Sprite.Resilience.csproj" />
+    <ProjectReference Include="../Playroma.Sprite.Tilemaps/Playroma.Sprite.Tilemaps.csproj" />
+    <ProjectReference Include="../Playroma.Tile.Core/Playroma.Tile.Core.csproj" />
+    <ProjectReference Include="../Playroma.Tile.Editor.WinForms/Playroma.Tile.Editor.WinForms.csproj" />
+  </ItemGroup>
+</Project>

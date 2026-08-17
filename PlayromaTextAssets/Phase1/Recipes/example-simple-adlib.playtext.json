@@ -1,0 +1,31 @@
+{
+  "id": "example.phase1.adlib",
+  "version": 1,
+  "name": "Example Ad-Lib Spell",
+  "kind": "spell",
+  "description": "Minimal editable Phase 1 recipe example.",
+  "stages": [
+    {
+      "id": "name",
+      "kind": "phase1.adlib",
+      "enabled": true,
+      "settings": {
+        "template": "{{adjective|title}} {{noun|title}}",
+        "slots": {
+          "adjective": [
+            "ashen",
+            "frozen",
+            "silent"
+          ],
+          "noun": [
+            "crown",
+            "lance",
+            "requiem"
+          ]
+        },
+        "field": "name",
+        "isPrimary": true
+      }
+    }
+  ]
+}

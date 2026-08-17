@@ -1,0 +1,434 @@
+{
+  "schemaVersion": 1,
+  "id": "jrpg-ending-credits",
+  "name": "Narrative — Ending Credits",
+  "description": "Long-form emotional summation with piano, orchestra and callbacks suitable for a finale or credits roll.",
+  "version": "1.0.0",
+  "family": "jrpg",
+  "abstract": false,
+  "extends": "jrpg-emotion-foundation",
+  "tempo": {
+    "minimum": 62,
+    "maximum": 98
+  },
+  "meter": {
+    "beatsPerBar": 6,
+    "beatUnit": 8
+  },
+  "candidateCount": 19,
+  "scales": [
+    "major",
+    "naturalMinor",
+    "lydian",
+    "melodicMinor"
+  ],
+  "forms": {
+    "grammarId": "jrpg-ending-credits-form-v1",
+    "productions": [
+      [
+        "I",
+        "A",
+        "B",
+        "A'",
+        "C",
+        "B'",
+        "A''",
+        "O"
+      ],
+      [
+        "I",
+        "A",
+        "A'",
+        "B",
+        "C",
+        "B''",
+        "O"
+      ]
+    ]
+  },
+  "harmony": {
+    "grammarId": "jrpg-ending-credits-harmony-v1",
+    "progressions": {
+      "intro": [
+        [
+          0,
+          5,
+          3,
+          4
+        ]
+      ],
+      "verse": [
+        [
+          0,
+          5,
+          3,
+          4
+        ],
+        [
+          0,
+          3,
+          1,
+          4
+        ]
+      ],
+      "chorus": [
+        [
+          3,
+          4,
+          0,
+          5
+        ],
+        [
+          0,
+          4,
+          5,
+          3
+        ]
+      ],
+      "bridge": [
+        [
+          5,
+          1,
+          3,
+          4
+        ],
+        [
+          1,
+          6,
+          0,
+          3
+        ]
+      ],
+      "breakdown": [
+        [
+          5,
+          1,
+          3,
+          4
+        ]
+      ],
+      "solo": [
+        [
+          3,
+          4,
+          0,
+          5
+        ]
+      ],
+      "outro": [
+        [
+          0,
+          5,
+          3,
+          4
+        ]
+      ]
+    }
+  },
+  "roles": [
+    {
+      "id": "melody",
+      "name": "Narrative — Ending Credits Solo",
+      "role": "lead",
+      "enabled": true,
+      "generalMidiProgram": 40,
+      "isPercussion": false,
+      "rhythmPatternId": "six-eight-flow",
+      "minimumPitch": 57,
+      "maximumPitch": 91,
+      "density": 62,
+      "instrumentSelector": {
+        "families": [
+          "strings",
+          "piano",
+          "reed",
+          "pipe",
+          "brass",
+          "chromaticPercussion"
+        ],
+        "preferredTags": [
+          "lead",
+          "expressive",
+          "intimate"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 57,
+        "maximumPitch": 91,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 0
+    },
+    {
+      "id": "bass",
+      "name": "Narrative — Ending Credits Bass",
+      "role": "bass",
+      "enabled": true,
+      "generalMidiProgram": 43,
+      "isPercussion": false,
+      "rhythmPatternId": "sparse-breath",
+      "minimumPitch": 28,
+      "maximumPitch": 52,
+      "density": 42,
+      "instrumentSelector": {
+        "families": [
+          "strings",
+          "bass",
+          "organ"
+        ],
+        "preferredTags": [
+          "low",
+          "warm",
+          "supportive"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 28,
+        "maximumPitch": 52,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 2
+    },
+    {
+      "id": "chords",
+      "name": "Narrative — Ending Credits Harmony",
+      "role": "chords",
+      "enabled": true,
+      "generalMidiProgram": 0,
+      "isPercussion": false,
+      "rhythmPatternId": "sparse-breath",
+      "minimumPitch": 42,
+      "maximumPitch": 82,
+      "density": 58,
+      "instrumentSelector": {
+        "families": [
+          "piano",
+          "strings",
+          "ensemble",
+          "organ",
+          "guitar",
+          "synthPad"
+        ],
+        "preferredTags": [
+          "warm",
+          "harmony",
+          "expressive"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 42,
+        "maximumPitch": 82,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 3,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 1
+    },
+    {
+      "id": "arpeggio",
+      "name": "Narrative — Ending Credits Motion",
+      "role": "arpeggio",
+      "enabled": true,
+      "generalMidiProgram": 46,
+      "isPercussion": false,
+      "rhythmPatternId": "six-eight-flow",
+      "minimumPitch": 49,
+      "maximumPitch": 96,
+      "density": 48,
+      "instrumentSelector": {
+        "families": [
+          "piano",
+          "chromaticPercussion",
+          "guitar",
+          "strings"
+        ],
+        "preferredTags": [
+          "delicate",
+          "clear",
+          "pulse"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 49,
+        "maximumPitch": 96,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 3
+    },
+    {
+      "id": "counter",
+      "name": "Narrative — Ending Credits Answer",
+      "role": "counterMelody",
+      "enabled": true,
+      "generalMidiProgram": 68,
+      "isPercussion": false,
+      "rhythmPatternId": "emotional-breath",
+      "minimumPitch": 54,
+      "maximumPitch": 88,
+      "density": 42,
+      "instrumentSelector": {
+        "families": [
+          "reed",
+          "pipe",
+          "strings",
+          "brass"
+        ],
+        "preferredTags": [
+          "counterline",
+          "expressive",
+          "soft"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 54,
+        "maximumPitch": 88,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 4
+    },
+    {
+      "id": "texture",
+      "name": "Narrative — Ending Credits Atmosphere",
+      "role": "texture",
+      "enabled": true,
+      "generalMidiProgram": 52,
+      "isPercussion": false,
+      "rhythmPatternId": "emotional-breath",
+      "minimumPitch": 36,
+      "maximumPitch": 100,
+      "density": 38,
+      "instrumentSelector": {
+        "families": [
+          "ensemble",
+          "strings",
+          "synthPad",
+          "organ"
+        ],
+        "preferredTags": [
+          "atmospheric",
+          "warm",
+          "sustaining"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 36,
+        "maximumPitch": 100,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 3,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 5
+    },
+    {
+      "id": "drums",
+      "name": "Narrative — Ending Credits Percussion",
+      "role": "drums",
+      "enabled": true,
+      "generalMidiProgram": 0,
+      "isPercussion": true,
+      "rhythmPatternId": "sparse-breath",
+      "minimumPitch": 35,
+      "maximumPitch": 81,
+      "density": 18,
+      "instrumentSelector": {
+        "families": [
+          "drums"
+        ],
+        "preferredTags": [
+          "soft",
+          "restrained"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 35,
+        "maximumPitch": 81,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument"
+        ]
+      },
+      "midiChannel": 9
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "phase": 9,
+  "name": "Enemies, states, auras, and formulas",
+  "coveredPluginCount": 34,
+  "databaseFeatureCount": 535,
+  "runtimeCatalogFeatureCount": 2943,
+  "specializedEditors": [
+    {
+      "id": "yep.enemy-designer",
+      "displayName": "Enemy Designer",
+      "featureCount": 188
+    },
+    {
+      "id": "yep.state-lifecycle",
+      "displayName": "State Lifecycle",
+      "featureCount": 132
+    },
+    {
+      "id": "yep.passive-state-aura",
+      "displayName": "Passive States & Auras",
+      "featureCount": 61
+    },
+    {
+      "id": "yep.formula-lab",
+      "displayName": "Formula Lab",
+      "featureCount": 154
+    }
+  ],
+  "areas": [
+    "EnemyLevels",
+    "EnemyRewards",
+    "EnemyAppearance",
+    "EnemyAnimation",
+    "EnemyGauges",
+    "EnemyAudio",
+    "EnemyFormation",
+    "EnemyBehavior",
+    "StateTiming",
+    "StateLifecycle",
+    "StateCounters",
+    "DamageOverTime",
+    "StateCategories",
+    "StateProtection",
+    "StateVisuals",
+    "PassiveStates",
+    "Auras",
+    "AuraConditions",
+    "Barriers",
+    "BaseParameters",
+    "ExtraParameters",
+    "SpecialParameters",
+    "DamageRules",
+    "Elements",
+    "Criticals",
+    "Advanced"
+  ],
+  "quickSetupCount": 12,
+  "acceptanceTests": 28,
+  "guarantees": {
+    "losslessNotes": true,
+    "unknownSyntaxPreserved": true,
+    "executesFormulaCode": false,
+    "installedPluginGating": true,
+    "exactDiffPreview": true,
+    "redistributesYanflyJavaScript": false
+  }
+}

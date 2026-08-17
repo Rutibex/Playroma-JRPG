@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "id": "synthwave-night",
+  "name": "Synthwave Night",
+  "description": "Retro pulse, broad pads, octave bass and bright melodic leads.",
+  "version": "1.0.0",
+  "family": "dance",
+  "abstract": false,
+  "extends": "dance-neon-floor",
+  "tempo": {
+    "minimum": 86,
+    "maximum": 126
+  },
+  "candidateCount": 16,
+  "scales": [
+    "naturalMinor",
+    "dorian",
+    "naturalMinor"
+  ],
+  "roles": [
+    {
+      "id": "melody",
+      "name": "Synthwave Night Melody",
+      "role": "lead",
+      "instrumentSelector": {
+        "families": [
+          "synthLead"
+        ],
+        "preferredTags": [
+          "lead",
+          "expressive",
+          "synthetic",
+          "bright"
+        ],
+        "avoidTags": [
+          "very-low"
+        ],
+        "minimumAttack": 0.15,
+        "maximumAttack": 0.95,
+        "minimumBrightness": 0.2,
+        "maximumBrightness": 0.95,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "octaveDoubling",
+          "phraseAlternation",
+          "callAndResponse",
+          "sectionSubstitution"
+        ]
+      }
+    },
+    {
+      "id": "bass",
+      "name": "Synthwave Night Bass",
+      "role": "bass",
+      "instrumentSelector": {
+        "families": [
+          "bass",
+          "synthLead"
+        ],
+        "preferredTags": [
+          "bass",
+          "warm",
+          "synthetic",
+          "low"
+        ],
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 0.72,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "registerSplit",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "chords",
+      "name": "Synthwave Night Chords",
+      "role": "chords",
+      "instrumentSelector": {
+        "families": [
+          "synthPad",
+          "ensemble"
+        ],
+        "preferredTags": [
+          "polyphonic",
+          "harmony",
+          "wide",
+          "sustaining"
+        ],
+        "minimumSustain": 0.15,
+        "maximumLayers": 3,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "registerSplit",
+          "hocket",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "arpeggio",
+      "name": "Synthwave Night Arpeggio",
+      "role": "arpeggio",
+      "instrumentSelector": {
+        "families": [
+          "synthLead",
+          "chromaticPercussion"
+        ],
+        "preferredTags": [
+          "short",
+          "clear",
+          "pulse",
+          "bright"
+        ],
+        "minimumAttack": 0.25,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "octaveDoubling",
+          "hocket",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "drums",
+      "name": "Synthwave Night Drums",
+      "role": "drums",
+      "instrumentSelector": {
+        "families": [
+          "drums"
+        ],
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument",
+          "sectionSubstitution"
+        ],
+        "preferredTags": [
+          "drums",
+          "electronic",
+          "percussive"
+        ],
+        "avoidTags": []
+      }
+    }
+  ]
+}

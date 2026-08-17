@@ -1,0 +1,77 @@
+{
+  "formatVersion": 1,
+  "id": "scene.reactive-engine",
+  "displayName": "Reactive Engine",
+  "rootSeed": 92811,
+  "maximumVoices": 12,
+  "virtualizationThreshold": 0.001,
+  "sounds": [
+    { "soundId": "stream.engine.motor", "poolSize": 2 },
+    { "soundId": "stream.engine.damage", "poolSize": 6 }
+  ],
+  "buses": [
+    { "id": "master", "gain": 0.92, "effects": [{ "kind": "limiter", "amount": 0.1, "secondary": 0.2, "mix": 1 }], "sends": [] },
+    { "id": "engine", "parentId": "master", "gain": 1, "effects": [{ "kind": "saturation", "amount": 0.2, "secondary": 0.2, "mix": 0.45 }], "sends": [] }
+  ],
+  "acousticZones": [],
+  "acousticPortals": [],
+  "parameters": [
+    { "id": "throttle", "displayName": "Throttle", "minimum": 0, "maximum": 1, "defaultValue": 0.2, "smoothingSeconds": 0.08 },
+    { "id": "damage", "displayName": "Damage", "minimum": 0, "maximum": 1, "defaultValue": 0, "smoothingSeconds": 0.15 }
+  ],
+  "parameterBindings": [
+    { "parameterId": "throttle", "targetKind": "layerMacro", "targetId": "motor", "targetParameter": "throttle", "outputMinimum": 0, "outputMaximum": 1, "curve": "smoothStep" },
+    { "parameterId": "damage", "targetKind": "emitterRate", "targetId": "damage-events", "targetParameter": "", "outputMinimum": 0.05, "outputMaximum": 2.5, "curve": "exponential" },
+    { "parameterId": "damage", "targetKind": "emitterGain", "targetId": "damage-events", "targetParameter": "", "outputMinimum": 0.05, "outputMaximum": 1, "curve": "linear" }
+  ],
+  "layers": [
+    {
+      "id": "motor",
+      "kind": "continuous",
+      "soundId": "stream.engine.motor",
+      "busId": "engine",
+      "gain": 0.8,
+      "pan": 0,
+      "priority": 90,
+      "protected": true,
+      "fadeSeconds": 0.12,
+      "startDelaySeconds": 0,
+      "stateMachineId": "engine-state",
+      "activeStates": ["running", "damaged"],
+      "spatial": { "enabled": false, "position": { "x": 0, "y": 0, "z": 0 }, "velocity": { "x": 0, "y": 0, "z": 0 }, "minimumDistance": 1, "maximumDistance": 100, "occlusion": 0, "obstruction": 0, "zoneId": "" }
+    }
+  ],
+  "emitters": [
+    {
+      "id": "damage-events",
+      "soundIds": ["stream.engine.damage"],
+      "busId": "engine",
+      "minimumIntervalSeconds": 0.3,
+      "maximumIntervalSeconds": 2.5,
+      "probability": 0.75,
+      "minimumBurstCount": 1,
+      "maximumBurstCount": 2,
+      "burstSpreadSeconds": 0.08,
+      "maximumConcurrentVoices": 4,
+      "gain": 0.65,
+      "priority": 65,
+      "stateMachineId": "engine-state",
+      "activeStates": ["damaged"],
+      "spatialDistribution": { "centre": { "x": 0, "y": 0, "z": 0 }, "minimumRadius": 0, "maximumRadius": 0, "minimumDistance": 1, "maximumDistance": 30, "occlusion": 0, "obstruction": 0, "zoneId": "" }
+    }
+  ],
+  "eventClusters": [],
+  "stateMachines": [
+    {
+      "id": "engine-state",
+      "initialState": "off",
+      "states": [{ "id": "off" }, { "id": "running" }, { "id": "damaged" }],
+      "transitions": [
+        { "fromState": "off", "toState": "running", "trigger": "engine.start" },
+        { "fromState": "running", "toState": "damaged", "trigger": "engine.damage" },
+        { "fromState": "*", "toState": "off", "trigger": "engine.stop" }
+      ]
+    }
+  ],
+  "metadata": { "example": "true", "assetResolver": "Referenced graph IDs must be supplied by an ISoundAssetResolver." }
+}

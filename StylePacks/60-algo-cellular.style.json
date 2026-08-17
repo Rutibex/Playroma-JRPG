@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "id": "cellular-orchestra",
+  "name": "Cellular Orchestra",
+  "description": "Cellular activation grids distributed across a changing multi-family ensemble.",
+  "version": "1.0.0",
+  "family": "algorithmic",
+  "abstract": false,
+  "extends": "algorithmic-recursive-machines",
+  "tempo": {
+    "minimum": 62,
+    "maximum": 156
+  },
+  "candidateCount": 16,
+  "scales": [
+    "chromatic",
+    "dorian",
+    "lydian"
+  ],
+  "roles": [
+    {
+      "id": "melody",
+      "name": "Cellular Orchestra Melody",
+      "role": "lead",
+      "instrumentSelector": {
+        "families": [
+          "chromaticPercussion",
+          "synthLead",
+          "reed",
+          "ethnic"
+        ],
+        "preferredTags": [
+          "lead",
+          "expressive",
+          "algorithmic",
+          "clear"
+        ],
+        "avoidTags": [
+          "very-low"
+        ],
+        "minimumAttack": 0.15,
+        "maximumAttack": 0.95,
+        "minimumBrightness": 0.2,
+        "maximumBrightness": 0.95,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "octaveDoubling",
+          "phraseAlternation",
+          "callAndResponse",
+          "sectionSubstitution"
+        ]
+      }
+    },
+    {
+      "id": "bass",
+      "name": "Cellular Orchestra Bass",
+      "role": "bass",
+      "instrumentSelector": {
+        "families": [
+          "bass",
+          "organ",
+          "synthLead"
+        ],
+        "preferredTags": [
+          "bass",
+          "warm",
+          "low"
+        ],
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 0.72,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "registerSplit",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "chords",
+      "name": "Cellular Orchestra Chords",
+      "role": "chords",
+      "instrumentSelector": {
+        "families": [
+          "ensemble",
+          "synthPad",
+          "piano"
+        ],
+        "preferredTags": [
+          "polyphonic",
+          "harmony"
+        ],
+        "minimumSustain": 0.15,
+        "maximumLayers": 3,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "registerSplit",
+          "hocket",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "arpeggio",
+      "name": "Cellular Orchestra Arpeggio",
+      "role": "arpeggio",
+      "instrumentSelector": {
+        "families": [
+          "chromaticPercussion",
+          "synthLead",
+          "ethnic"
+        ],
+        "preferredTags": [
+          "short",
+          "clear",
+          "pulse"
+        ],
+        "minimumAttack": 0.25,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "octaveDoubling",
+          "hocket",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "drums",
+      "name": "Cellular Orchestra Drums",
+      "role": "drums",
+      "instrumentSelector": {
+        "families": [
+          "drums"
+        ],
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument",
+          "sectionSubstitution"
+        ],
+        "preferredTags": [
+          "drums",
+          "percussive"
+        ],
+        "avoidTags": []
+      }
+    }
+  ]
+}

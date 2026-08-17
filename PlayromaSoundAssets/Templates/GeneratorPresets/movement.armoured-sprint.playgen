@@ -1,0 +1,28 @@
+{
+  "formatVersion": 1,
+  "id": "movement.armoured-sprint",
+  "displayName": "Armoured Sprint on Stone",
+  "generatorId": "playroma.movement",
+  "rootSeed": 73648,
+  "familySeed": 92044,
+  "variationIndex": 0,
+  "qualityMode": "realtimeHigh",
+  "description": {
+    "movementKind": "sprint",
+    "mover": "armoured",
+    "surface": "stone",
+    "steps": 8,
+    "size": 0.7,
+    "intensity": 0.82,
+    "equipment": 0.8,
+    "duration": 0.46,
+    "environment": "stoneChamber",
+    "pitchContour": "zigzag",
+    "rhythmStyle": "accelerating",
+    "envelopeStyle": "percussive",
+    "emotion": "nervous",
+    "energyState": "frantic",
+    "condition": "worn",
+    "stereoStyle": "alternating"
+  }
+}

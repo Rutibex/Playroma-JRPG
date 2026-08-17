@@ -1,0 +1,389 @@
+{
+  "airship": {
+    "bgm": {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    "characterIndex": 0,
+    "characterName": "",
+    "startMapId": 0,
+    "startX": 0,
+    "startY": 0
+  },
+  "armorTypes": [
+    "",
+    "Fixture Armor"
+  ],
+  "attackMotions": [
+    {
+      "type": 0,
+      "weaponImageId": 0
+    },
+    {
+      "type": 0,
+      "weaponImageId": 1
+    },
+    {
+      "type": 0,
+      "weaponImageId": 2
+    },
+    {
+      "type": 0,
+      "weaponImageId": 3
+    },
+    {
+      "type": 0,
+      "weaponImageId": 4
+    },
+    {
+      "type": 0,
+      "weaponImageId": 5
+    },
+    {
+      "type": 0,
+      "weaponImageId": 6
+    },
+    {
+      "type": 0,
+      "weaponImageId": 7
+    },
+    {
+      "type": 0,
+      "weaponImageId": 8
+    },
+    {
+      "type": 0,
+      "weaponImageId": 9
+    },
+    {
+      "type": 0,
+      "weaponImageId": 10
+    },
+    {
+      "type": 0,
+      "weaponImageId": 11
+    },
+    {
+      "type": 0,
+      "weaponImageId": 12
+    }
+  ],
+  "battleBgm": {
+    "name": "",
+    "pan": 0,
+    "pitch": 100,
+    "volume": 90
+  },
+  "battleback1Name": "",
+  "battleback2Name": "",
+  "battlerHue": 0,
+  "battlerName": "",
+  "boat": {
+    "bgm": {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    "characterIndex": 0,
+    "characterName": "",
+    "startMapId": 0,
+    "startX": 0,
+    "startY": 0
+  },
+  "currencyUnit": "Gold",
+  "defeatMe": {
+    "name": "",
+    "pan": 0,
+    "pitch": 100,
+    "volume": 90
+  },
+  "editMapId": 1,
+  "elements": [
+    "",
+    "Normal"
+  ],
+  "equipTypes": [
+    "",
+    "Weapon",
+    "Shield",
+    "Head",
+    "Body",
+    "Accessory"
+  ],
+  "gameTitle": "Playroma Synthetic Fixture",
+  "gameoverMe": {
+    "name": "",
+    "pan": 0,
+    "pitch": 100,
+    "volume": 90
+  },
+  "locale": "en_US",
+  "magicSkills": [
+    1
+  ],
+  "menuCommands": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "optDisplayTp": true,
+  "optDrawTitle": true,
+  "optExtraExp": true,
+  "optFloorDeath": false,
+  "optFollowers": true,
+  "optSideView": false,
+  "optSlipDeath": false,
+  "optTransparent": false,
+  "partyMembers": [
+    1
+  ],
+  "ship": {
+    "bgm": {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    "characterIndex": 0,
+    "characterName": "",
+    "startMapId": 0,
+    "startX": 0,
+    "startY": 0
+  },
+  "skillTypes": [
+    "",
+    "Skills"
+  ],
+  "sounds": [
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    }
+  ],
+  "startMapId": 1,
+  "startX": 1,
+  "startY": 1,
+  "switches": [
+    "",
+    "Fixture Switch 1",
+    "Fixture Switch 2"
+  ],
+  "terms": {
+    "basic": [
+      "Level",
+      "Lv",
+      "HP",
+      "HP",
+      "MP",
+      "MP",
+      "TP",
+      "TP",
+      "EXP",
+      "EXP"
+    ],
+    "commands": [
+      "Fight",
+      "Escape",
+      "Attack",
+      "Guard",
+      "Item",
+      "Skill",
+      "Equip",
+      "Status",
+      "Formation",
+      "Save",
+      "Game End",
+      "Options"
+    ],
+    "params": [
+      "Max HP",
+      "Max MP",
+      "Attack",
+      "Defense",
+      "M.Attack",
+      "M.Defense",
+      "Agility",
+      "Luck",
+      "Hit",
+      "Evasion"
+    ],
+    "messages": {}
+  },
+  "testBattlers": [],
+  "testTroopId": 1,
+  "title1Name": "",
+  "title2Name": "",
+  "titleBgm": {
+    "name": "",
+    "pan": 0,
+    "pitch": 100,
+    "volume": 90
+  },
+  "variables": [
+    "",
+    "Fixture Variable"
+  ],
+  "versionId": 1,
+  "victoryMe": {
+    "name": "",
+    "pan": 0,
+    "pitch": 100,
+    "volume": 90
+  },
+  "weaponTypes": [
+    "",
+    "Fixture Weapon"
+  ],
+  "windowTone": [
+    0,
+    0,
+    0,
+    0
+  ]
+}

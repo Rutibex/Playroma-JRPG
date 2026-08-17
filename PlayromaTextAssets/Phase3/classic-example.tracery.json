@@ -1,0 +1,5 @@
+{
+  "origin": ["#[hero:#name#]story#"],
+  "name": ["Mira", "Orin", "Selka"],
+  "story": ["#hero# entered the old tower. #hero# did not return before dawn."]
+}

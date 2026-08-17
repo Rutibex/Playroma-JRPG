@@ -1,0 +1,525 @@
+{
+  "schemaVersion": 1,
+  "id": "pc-dungeon-synth-foundation",
+  "name": "Medieval Dungeon Synth Foundation",
+  "description": "Vast procedural fantasy exploration with ancient organ, choir, flute, harp, low drones and modal wandering.",
+  "version": "1.0.0",
+  "family": "game",
+  "abstract": true,
+  "extends": "pc-game-foundation",
+  "tempo": {
+    "minimum": 52,
+    "maximum": 96
+  },
+  "meter": {
+    "beatsPerBar": 4,
+    "beatUnit": 4
+  },
+  "candidateCount": 16,
+  "scales": [
+    "naturalMinor",
+    "dorian",
+    "phrygian",
+    "harmonicMinor",
+    "minorPentatonic",
+    "iwato"
+  ],
+  "forms": {
+    "grammarId": "dungeon-synth-exploration-v1",
+    "productions": [
+      [
+        "I",
+        "A",
+        "A'",
+        "C",
+        "B",
+        "A''",
+        "A"
+      ],
+      [
+        "A",
+        "C",
+        "A'",
+        "D",
+        "B",
+        "A"
+      ],
+      [
+        "I",
+        "A",
+        "B",
+        "A'",
+        "A"
+      ]
+    ]
+  },
+  "harmony": {
+    "grammarId": "dungeon-synth-modal-v1",
+    "progressions": {
+      "intro": [
+        [
+          0,
+          6,
+          3,
+          0
+        ]
+      ],
+      "verse": [
+        [
+          0,
+          6,
+          3,
+          0
+        ],
+        [
+          0,
+          1,
+          6,
+          0
+        ],
+        [
+          0,
+          3,
+          1,
+          0
+        ]
+      ],
+      "chorus": [
+        [
+          3,
+          6,
+          0,
+          0
+        ],
+        [
+          0,
+          5,
+          6,
+          0
+        ],
+        [
+          1,
+          6,
+          0,
+          3
+        ]
+      ],
+      "bridge": [
+        [
+          5,
+          3,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          3,
+          6
+        ],
+        [
+          6,
+          3,
+          1,
+          0
+        ]
+      ],
+      "breakdown": [
+        [
+          5,
+          3,
+          1,
+          0
+        ]
+      ],
+      "solo": [
+        [
+          3,
+          6,
+          0,
+          0
+        ]
+      ],
+      "outro": [
+        [
+          0,
+          6,
+          3,
+          0
+        ]
+      ]
+    }
+  },
+  "rhythms": [
+    {
+      "id": "dungeon-step",
+      "steps": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "dungeon-breath",
+      "steps": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "id": "melody",
+      "name": "Ancient Dungeon Lead",
+      "role": "lead",
+      "enabled": true,
+      "generalMidiProgram": 73,
+      "isPercussion": false,
+      "rhythmPatternId": "adventure-ostinato",
+      "minimumPitch": 55,
+      "maximumPitch": 86,
+      "density": 58,
+      "instrumentSelector": {
+        "families": [
+          "pipe",
+          "reed",
+          "organ",
+          "strings",
+          "ethnic"
+        ],
+        "preferredTags": [
+          "lead",
+          "ancient",
+          "dark",
+          "expressive"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 55,
+        "maximumPitch": 86,
+        "minimumAttack": 0.08,
+        "maximumAttack": 0.8,
+        "minimumSustain": 0.25,
+        "maximumSustain": 1,
+        "minimumBrightness": 0.05,
+        "maximumBrightness": 0.65,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 0
+    },
+    {
+      "id": "bass",
+      "name": "Dungeon Drone Bass",
+      "role": "bass",
+      "enabled": true,
+      "generalMidiProgram": 43,
+      "isPercussion": false,
+      "rhythmPatternId": "sparse-breath",
+      "minimumPitch": 24,
+      "maximumPitch": 50,
+      "density": 54,
+      "instrumentSelector": {
+        "families": [
+          "strings",
+          "organ",
+          "synthPad",
+          "bass"
+        ],
+        "preferredTags": [
+          "low",
+          "dark",
+          "sustaining"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 24,
+        "maximumPitch": 50,
+        "minimumAttack": 0,
+        "maximumAttack": 0.45,
+        "minimumSustain": 0.65,
+        "maximumSustain": 1,
+        "minimumBrightness": 0,
+        "maximumBrightness": 0.45,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 2
+    },
+    {
+      "id": "chords",
+      "name": "Ancient Organ and Strings",
+      "role": "chords",
+      "enabled": true,
+      "generalMidiProgram": 19,
+      "isPercussion": false,
+      "rhythmPatternId": "sparse-breath",
+      "minimumPitch": 38,
+      "maximumPitch": 78,
+      "density": 62,
+      "instrumentSelector": {
+        "families": [
+          "organ",
+          "strings",
+          "ensemble",
+          "synthPad"
+        ],
+        "preferredTags": [
+          "ancient",
+          "harmony",
+          "dark",
+          "sustaining"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 38,
+        "maximumPitch": 78,
+        "minimumAttack": 0,
+        "maximumAttack": 0.45,
+        "minimumSustain": 0.55,
+        "maximumSustain": 1,
+        "minimumBrightness": 0,
+        "maximumBrightness": 0.65,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 3,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 1
+    },
+    {
+      "id": "arpeggio",
+      "name": "Dungeon Harp Motion",
+      "role": "arpeggio",
+      "enabled": true,
+      "generalMidiProgram": 46,
+      "isPercussion": false,
+      "rhythmPatternId": "adventure-ostinato",
+      "minimumPitch": 46,
+      "maximumPitch": 91,
+      "density": 48,
+      "instrumentSelector": {
+        "families": [
+          "piano",
+          "strings",
+          "chromaticPercussion",
+          "ethnic"
+        ],
+        "preferredTags": [
+          "clear",
+          "ancient",
+          "pulse"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 46,
+        "maximumPitch": 91,
+        "minimumAttack": 0.25,
+        "maximumAttack": 1,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 3
+    },
+    {
+      "id": "counter",
+      "name": "Lost Woodwind Voice",
+      "role": "counterMelody",
+      "enabled": true,
+      "generalMidiProgram": 69,
+      "isPercussion": false,
+      "rhythmPatternId": "sparse-breath",
+      "minimumPitch": 52,
+      "maximumPitch": 83,
+      "density": 37,
+      "instrumentSelector": {
+        "families": [
+          "reed",
+          "pipe",
+          "strings"
+        ],
+        "preferredTags": [
+          "airy",
+          "mysterious",
+          "counterline"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 52,
+        "maximumPitch": 83,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 4
+    },
+    {
+      "id": "texture",
+      "name": "Dungeon Mist",
+      "role": "texture",
+      "enabled": true,
+      "generalMidiProgram": 97,
+      "isPercussion": false,
+      "rhythmPatternId": "ambient-loop",
+      "minimumPitch": 28,
+      "maximumPitch": 98,
+      "density": 52,
+      "instrumentSelector": {
+        "families": [
+          "synthPad",
+          "ensemble",
+          "organ",
+          "synthEffects"
+        ],
+        "preferredTags": [
+          "dark",
+          "atmospheric",
+          "sustaining",
+          "ancient"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 28,
+        "maximumPitch": 98,
+        "minimumAttack": 0,
+        "maximumAttack": 0.35,
+        "minimumSustain": 0.7,
+        "maximumSustain": 1,
+        "minimumBrightness": 0,
+        "maximumBrightness": 0.5,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 3,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 5
+    },
+    {
+      "id": "drums",
+      "name": "Ritual Percussion",
+      "role": "drums",
+      "enabled": true,
+      "generalMidiProgram": 0,
+      "isPercussion": true,
+      "rhythmPatternId": "sparse-breath",
+      "minimumPitch": 35,
+      "maximumPitch": 81,
+      "density": 26,
+      "instrumentSelector": {
+        "families": [
+          "drums"
+        ],
+        "preferredTags": [
+          "dark",
+          "ritual",
+          "restrained"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 35,
+        "maximumPitch": 81,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument"
+        ]
+      },
+      "midiChannel": 9
+    }
+  ],
+  "constraints": {
+    "minimumNotesPerPhrase": 2,
+    "maximumNotesPerPhrase": 54,
+    "maximumMelodicLeap": 16,
+    "maximumRepeatedPitch": 8,
+    "minimumChordToneRatio": 0.14,
+    "preferredMinimumRange": 4,
+    "preferredMaximumRange": 20,
+    "maximumDensityRatio": 1.15
+  },
+  "scoring": {
+    "chordTone": 23,
+    "stepwiseMotion": 22,
+    "motifFidelity": 24,
+    "phraseClosure": 14,
+    "rhythmBalance": 10,
+    "range": 12,
+    "leapPenalty": 1.2,
+    "syncopation": 0,
+    "repetitionControl": 12
+  }
+}

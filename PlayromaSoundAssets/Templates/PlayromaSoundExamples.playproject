@@ -1,0 +1,409 @@
+{
+  "formatVersion": 1,
+  "id": "playroma.examples",
+  "displayName": "Playroma Sound Examples",
+  "assets": [
+    {
+      "id": "example.engine-drone",
+      "displayName": "Reactive Engine Drone",
+      "kind": "soundGraph",
+      "relativePath": "Graphs/engine-drone.playsound",
+      "tags": [
+        "engine",
+        "continuous"
+      ]
+    },
+    {
+      "id": "example.layered-impact",
+      "displayName": "Layered Procedural Impact",
+      "kind": "soundGraph",
+      "relativePath": "Graphs/layered-impact.playsound",
+      "tags": [
+        "impact",
+        "short"
+      ]
+    },
+    {
+      "id": "explosion.plasma-corridor",
+      "displayName": "Plasma Explosion in Corridor",
+      "kind": "generatorRequest",
+      "relativePath": "GeneratorPresets/explosion.plasma-corridor.playgen",
+      "tags": [
+        "explosion",
+        "plasma"
+      ]
+    },
+    {
+      "id": "footstep.boot-wet-concrete",
+      "displayName": "Boot on Wet Concrete",
+      "kind": "generatorRequest",
+      "relativePath": "GeneratorPresets/footstep.boot-wet-concrete.playgen",
+      "tags": [
+        "footstep",
+        "wet"
+      ]
+    },
+    {
+      "id": "impact.heavy-steel-on-stone",
+      "displayName": "Heavy Steel on Stone",
+      "kind": "generatorRequest",
+      "relativePath": "GeneratorPresets/impact.heavy-steel-on-stone.playgen",
+      "tags": [
+        "impact",
+        "metal"
+      ]
+    },
+    {
+      "id": "magic.unstable-teleport",
+      "displayName": "Unstable Teleport",
+      "kind": "generatorRequest",
+      "relativePath": "GeneratorPresets/magic.unstable-teleport.playgen",
+      "tags": [
+        "magic",
+        "teleport"
+      ]
+    },
+    {
+      "id": "creature-cry.spark-mouse",
+      "displayName": "Spark Mouse Cry",
+      "kind": "generatorRequest",
+      "relativePath": "GeneratorPresets/creature-cry.spark-mouse.playgen",
+      "tags": [
+        "creature",
+        "cry",
+        "expressive"
+      ]
+    },
+    {
+      "id": "creature-cry.ancient-drake",
+      "displayName": "Ancient Drake Cry",
+      "kind": "generatorRequest",
+      "relativePath": "GeneratorPresets/creature-cry.ancient-drake.playgen",
+      "tags": [
+        "creature",
+        "draconic",
+        "long"
+      ]
+    },
+    {
+      "id": "handheld-cry.pocket-spark",
+      "displayName": "Pocket Spark Squeak",
+      "kind": "generatorRequest",
+      "relativePath": "GeneratorPresets/handheld-cry.pocket-spark.playgen",
+      "tags": [
+        "handheld",
+        "cry",
+        "squeak"
+      ]
+    },
+    {
+      "id": "handheld-cry.marsh-croak",
+      "displayName": "Marsh Cartridge Croak",
+      "kind": "generatorRequest",
+      "relativePath": "GeneratorPresets/handheld-cry.marsh-croak.playgen",
+      "tags": [
+        "handheld",
+        "cry",
+        "croak"
+      ]
+    },
+    {
+      "id": "handheld-cry.ancient-roar",
+      "displayName": "Ancient Cartridge Roar",
+      "kind": "generatorRequest",
+      "relativePath": "GeneratorPresets/handheld-cry.ancient-roar.playgen",
+      "tags": [
+        "handheld",
+        "cry",
+        "roar"
+      ]
+    },
+    {
+      "id": "handheld-cry.static-wisp",
+      "displayName": "Static Wisp Cry",
+      "kind": "generatorRequest",
+      "relativePath": "GeneratorPresets/handheld-cry.static-wisp.playgen",
+      "tags": [
+        "handheld",
+        "cry",
+        "electronic"
+      ]
+    },
+    {
+      "id": "melodic.treasure-reveal",
+      "displayName": "Treasure Reveal",
+      "kind": "generatorRequest",
+      "relativePath": "GeneratorPresets/melodic.treasure-reveal.playgen",
+      "tags": [
+        "melodic",
+        "treasure",
+        "stinger"
+      ]
+    },
+    {
+      "id": "melodic.ominous-vision",
+      "displayName": "Ominous Vision",
+      "kind": "generatorRequest",
+      "relativePath": "GeneratorPresets/melodic.ominous-vision.playgen",
+      "tags": [
+        "melodic",
+        "sinister",
+        "vision"
+      ]
+    },
+    {
+      "id": "complex-magic.grand-teleport",
+      "displayName": "Grand Teleport",
+      "kind": "generatorRequest",
+      "relativePath": "GeneratorPresets/complex-magic.grand-teleport.playgen",
+      "tags": [
+        "magic",
+        "teleport",
+        "multi-stage"
+      ]
+    },
+    {
+      "id": "complex-magic.healing-rite",
+      "displayName": "Healing Rite",
+      "kind": "generatorRequest",
+      "relativePath": "GeneratorPresets/complex-magic.healing-rite.playgen",
+      "tags": [
+        "magic",
+        "healing",
+        "multi-stage"
+      ]
+    },
+    {
+      "id": "scene.authoring-preview",
+      "displayName": "Authoring Preview Scene",
+      "kind": "streamingScene",
+      "relativePath": "StreamingScenes/authoring-preview.playstream",
+      "tags": [
+        "scene",
+        "authoring",
+        "preview"
+      ]
+    },
+    {
+      "id": "creature-action.dragon-enrage",
+      "displayName": "Dragon Enrage",
+      "kind": "generatorRequest",
+      "relativePath": "GeneratorPresets/creature-action.dragon-enrage.playgen",
+      "tags": [
+        "creature",
+        "dragon",
+        "action"
+      ]
+    },
+    {
+      "id": "combat.railgun-armour",
+      "displayName": "Railgun Against Armour",
+      "kind": "generatorRequest",
+      "relativePath": "GeneratorPresets/combat.railgun-armour.playgen",
+      "tags": [
+        "combat",
+        "railgun",
+        "armour"
+      ]
+    },
+    {
+      "id": "destruction.cathedral-collapse",
+      "displayName": "Cathedral Collapse",
+      "kind": "generatorRequest",
+      "relativePath": "GeneratorPresets/destruction.cathedral-collapse.playgen",
+      "tags": [
+        "destruction",
+        "collapse",
+        "debris"
+      ]
+    },
+    {
+      "id": "foley.old-leather",
+      "displayName": "Old Leather Strap",
+      "kind": "generatorRequest",
+      "relativePath": "GeneratorPresets/foley.old-leather.playgen",
+      "tags": [
+        "foley",
+        "leather",
+        "creak"
+      ]
+    },
+    {
+      "id": "movement.armoured-sprint",
+      "displayName": "Armoured Sprint on Stone",
+      "kind": "generatorRequest",
+      "relativePath": "GeneratorPresets/movement.armoured-sprint.playgen",
+      "tags": [
+        "movement",
+        "armour",
+        "footsteps"
+      ]
+    },
+    {
+      "id": "liquid.alien-gurgle",
+      "displayName": "Alien Fluid Gurgle",
+      "kind": "generatorRequest",
+      "relativePath": "GeneratorPresets/liquid.alien-gurgle.playgen",
+      "tags": [
+        "liquid",
+        "alien",
+        "gurgle"
+      ]
+    },
+    {
+      "id": "energy.unstable-void",
+      "displayName": "Unstable Void Energy",
+      "kind": "generatorRequest",
+      "relativePath": "GeneratorPresets/energy.unstable-void.playgen",
+      "tags": [
+        "energy",
+        "void",
+        "unstable"
+      ]
+    },
+    {
+      "id": "environment.alien-planet",
+      "displayName": "Alien Planet Ambience",
+      "kind": "generatorRequest",
+      "relativePath": "GeneratorPresets/environment.alien-planet.playgen",
+      "tags": [
+        "environment",
+        "alien",
+        "ambience"
+      ]
+    },
+    {
+      "id": "machine.factory-cycle",
+      "displayName": "Factory Production Cycle",
+      "kind": "generatorRequest",
+      "relativePath": "GeneratorPresets/machine.factory-cycle.playgen",
+      "tags": [
+        "machine",
+        "factory",
+        "sequence"
+      ]
+    },
+    {
+      "id": "vehicle.alien-warp",
+      "displayName": "Alien Vessel Warp Exit",
+      "kind": "generatorRequest",
+      "relativePath": "GeneratorPresets/vehicle.alien-warp.playgen",
+      "tags": [
+        "vehicle",
+        "alien",
+        "warp"
+      ]
+    },
+    {
+      "id": "scifi.psychic-interface",
+      "displayName": "Psychic Interface",
+      "kind": "generatorRequest",
+      "relativePath": "GeneratorPresets/scifi.psychic-interface.playgen",
+      "tags": [
+        "science-fiction",
+        "psychic",
+        "interface"
+      ]
+    },
+    {
+      "id": "horror.behind-you",
+      "displayName": "Something Behind You",
+      "kind": "generatorRequest",
+      "relativePath": "GeneratorPresets/horror.behind-you.playgen",
+      "tags": [
+        "horror",
+        "spatial",
+        "dread"
+      ]
+    },
+    {
+      "id": "cartoon.heroic-boing",
+      "displayName": "Heroic Boing",
+      "kind": "generatorRequest",
+      "relativePath": "GeneratorPresets/cartoon.heroic-boing.playgen",
+      "tags": [
+        "cartoon",
+        "boing",
+        "comedy"
+      ]
+    },
+    {
+      "id": "household.old-door",
+      "displayName": "Old Haunted Door",
+      "kind": "generatorRequest",
+      "relativePath": "GeneratorPresets/household.old-door.playgen",
+      "tags": [
+        "household",
+        "door",
+        "creak"
+      ]
+    },
+    {
+      "id": "signal.reactor-warning",
+      "displayName": "Reactor Warning",
+      "kind": "generatorRequest",
+      "relativePath": "GeneratorPresets/signal.reactor-warning.playgen",
+      "tags": [
+        "signal",
+        "alarm",
+        "reactor"
+      ]
+    },
+    {
+      "id": "crowd.arena-victory",
+      "displayName": "Arena Victory Cheer",
+      "kind": "generatorRequest",
+      "relativePath": "GeneratorPresets/crowd.arena-victory.playgen",
+      "tags": [
+        "crowd",
+        "sports",
+        "victory"
+      ]
+    },
+    {
+      "id": "transformation.corruption",
+      "displayName": "Corruption Spreads",
+      "kind": "generatorRequest",
+      "relativePath": "GeneratorPresets/transformation.corruption.playgen",
+      "tags": [
+        "transformation",
+        "corruption",
+        "state"
+      ]
+    },
+    {
+      "id": "synth.granular-cloud",
+      "displayName": "Granular Star Cloud",
+      "kind": "generatorRequest",
+      "relativePath": "GeneratorPresets/synth.granular-cloud.playgen",
+      "tags": [
+        "synth",
+        "granular",
+        "abstract"
+      ]
+    },
+    {
+      "id": "sequence.portal",
+      "displayName": "Portal Open and Close",
+      "kind": "generatorRequest",
+      "relativePath": "GeneratorPresets/sequence.portal.playgen",
+      "tags": [
+        "sequence",
+        "portal",
+        "multi-stage"
+      ]
+    }
+  ],
+  "sampleDirectories": [
+    "Samples"
+  ],
+  "impulseResponseDirectories": [
+    "ImpulseResponses"
+  ],
+  "exportProfiles": [
+    "Exports/default.playexport"
+  ],
+  "metadata": {
+    "description": "Example project for Playroma Sound procedural generation, expressive effects, authoring, streaming, analysis, and export."
+  }
+}

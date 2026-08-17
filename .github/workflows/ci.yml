@@ -1,0 +1,49 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-test:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up .NET 10
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 10.0.x
+
+      - name: Restore
+        run: dotnet restore Playroma.JRPG.sln
+
+      - name: Build
+        run: dotnet build Playroma.JRPG.sln --configuration Release --no-restore
+
+      - name: Run compatibility and editor tests
+        shell: pwsh
+        run: ./eng/run-ci-tests.ps1
+
+      - name: CLI inspection smoke test
+        run: dotnet run --project src/Playroma.JRPG.Cli --configuration Release --no-build -- inspect testdata/fixtures/phase1/source-layout-project --complete
+
+      - name: Exact-byte round-trip smoke test
+        run: dotnet run --project src/Playroma.JRPG.Cli --configuration Release --no-build -- roundtrip verify testdata/fixtures/phase1/source-layout-project
+
+      - name: Check deterministic fixtures
+        run: dotnet run --project tools/Playroma.JRPG.FixtureBuilder --configuration Release --no-build -- --check
+
+      - name: Repository audit
+        run: dotnet run --project tools/Playroma.JRPG.RepositoryAudit --configuration Release --no-build

@@ -1,0 +1,25 @@
+{
+  "formatVersion": 1,
+  "id": "crowd.arena-victory",
+  "displayName": "Arena Victory Cheer",
+  "generatorId": "playroma.crowd-sports",
+  "rootSeed": 75155,
+  "familySeed": 94365,
+  "variationIndex": 0,
+  "qualityMode": "realtimeHigh",
+  "description": {
+    "kind": "cheer",
+    "population": 0.92,
+    "excitement": 0.95,
+    "intensity": 0.82,
+    "duration": 0.55,
+    "environment": "warehouse",
+    "pitchContour": "rising",
+    "rhythmStyle": "bursts",
+    "envelopeStyle": "sustained",
+    "emotion": "triumphant",
+    "energyState": "energetic",
+    "condition": "normal",
+    "stereoStyle": "wide"
+  }
+}

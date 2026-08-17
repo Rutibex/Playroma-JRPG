@@ -1,0 +1,26 @@
+{
+  "formatVersion": 1,
+  "id": "destruction.cathedral-collapse",
+  "displayName": "Cathedral Collapse",
+  "generatorId": "playroma.destruction",
+  "rootSeed": 73374,
+  "familySeed": 91622,
+  "variationIndex": 0,
+  "qualityMode": "realtimeHigh",
+  "description": {
+    "kind": "towerCollapse",
+    "size": 0.92,
+    "intensity": 0.9,
+    "debris": 0.88,
+    "secondaryEvents": 7,
+    "duration": 0.65,
+    "environment": "stoneChamber",
+    "pitchContour": "cascade",
+    "rhythmStyle": "decelerating",
+    "envelopeStyle": "longRelease",
+    "emotion": "desperate",
+    "energyState": "unstable",
+    "condition": "ancient",
+    "stereoStyle": "wide"
+  }
+}

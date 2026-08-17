@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://playroma.local/schemas/playtext.storylet.schema.json",
+  "title": "Playroma Text Storylet",
+  "type": "object",
+  "required": ["id", "version", "name", "realization"],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "version": { "type": "integer", "minimum": 1 },
+    "name": { "type": "string", "minLength": 1 },
+    "description": { "type": ["string", "null"] },
+    "enabled": { "type": "boolean" },
+    "weight": { "type": "number", "minimum": 0 },
+    "salience": { "type": "number", "minimum": 0 },
+    "onceOnly": { "type": "boolean" },
+    "cooldownTurns": { "type": "integer", "minimum": 0 },
+    "prerequisites": { "type": ["array", "null"], "items": { "type": "string" } },
+    "bindings": {
+      "type": ["array", "null"],
+      "items": {
+        "type": "object",
+        "required": ["id", "kind", "candidateContextKey"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "kind": { "enum": ["character", "location", "item", "faction", "custom"] },
+          "candidateContextKey": { "type": "string", "minLength": 1 },
+          "required": { "type": "boolean" },
+          "distinct": { "type": "boolean" },
+          "requiredTags": { "type": ["array", "null"], "items": { "type": "string" } },
+          "description": { "type": ["string", "null"] }
+        },
+        "additionalProperties": false
+      }
+    },
+    "effects": {
+      "type": ["array", "null"],
+      "items": {
+        "type": "object",
+        "required": ["kind", "key"],
+        "properties": {
+          "kind": { "enum": ["set", "increment", "addTag", "removeTag"] },
+          "key": { "type": "string", "minLength": 1 },
+          "value": {},
+          "description": { "type": ["string", "null"] }
+        },
+        "additionalProperties": false
+      }
+    },
+    "realization": {
+      "type": "object",
+      "required": ["recipeId"],
+      "properties": {
+        "recipeId": { "type": "string", "minLength": 1 },
+        "voiceProfileId": { "type": ["string", "null"] },
+        "dialogueAct": { "type": ["string", "null"] },
+        "emotion": { "type": ["string", "null"] },
+        "parameters": { "type": ["object", "null"] }
+      },
+      "additionalProperties": false
+    },
+    "tags": { "type": ["array", "null"], "items": { "type": "string" } }
+  },
+  "additionalProperties": false
+}

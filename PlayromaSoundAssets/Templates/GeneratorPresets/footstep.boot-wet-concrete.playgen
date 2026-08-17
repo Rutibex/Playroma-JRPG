@@ -1,0 +1,21 @@
+{
+  "formatVersion": 1,
+  "id": "footstep.boot-wet-concrete",
+  "displayName": "Boot on Wet Concrete",
+  "generatorId": "playroma.footstep",
+  "rootSeed": 4511,
+  "familySeed": 8802,
+  "variationIndex": 0,
+  "qualityMode": "realtimeLow",
+  "description": {
+    "footwear": "boot",
+    "surface": "concrete",
+    "environment": "urbanStreet",
+    "gait": "walk",
+    "weight": 0.62,
+    "speed": 0.45,
+    "wetness": 0.55,
+    "looseDebris": 0.12,
+    "leftFoot": true
+  }
+}

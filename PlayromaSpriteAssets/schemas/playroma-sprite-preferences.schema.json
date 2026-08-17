@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://playroma.dev/schemas/playroma-sprite-preferences.schema.json",
+  "title": "Playroma Sprite Studio Preferences",
+  "type": "object",
+  "required": ["schema", "theme", "autosaveSeconds", "recoverySnapshotsPerDocument", "undoMemoryLimitBytes", "backgroundExportConcurrency", "shortcuts"],
+  "properties": {
+    "schema": { "const": "playroma-sprite-preferences/1" },
+    "theme": { "enum": ["system", "light", "dark", "highContrast"] },
+    "uiScale": { "type": "number", "minimum": 0.75, "maximum": 3 },
+    "canvasScale": { "type": "number", "minimum": 0.25, "maximum": 8 },
+    "fontScale": { "type": "number", "minimum": 0.75, "maximum": 2 },
+    "highContrast": { "type": "boolean" },
+    "reduceMotion": { "type": "boolean" },
+    "autosaveSeconds": { "type": "integer", "minimum": 15, "maximum": 3600 },
+    "recoverySnapshotsPerDocument": { "type": "integer", "minimum": 2, "maximum": 100 },
+    "undoMemoryLimitBytes": { "type": "integer", "minimum": 16777216 },
+    "backgroundExportConcurrency": { "type": "integer", "minimum": 1, "maximum": 8 },
+    "activeWorkspaceId": { "type": "string", "minLength": 1 },
+    "shortcuts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["command", "gesture", "scope", "enabled"],
+        "properties": {
+          "command": { "type": "string", "minLength": 1 },
+          "gesture": { "type": "string" },
+          "scope": { "type": "string", "minLength": 1 },
+          "enabled": { "type": "boolean" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": true
+}

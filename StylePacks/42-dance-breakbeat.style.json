@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "id": "breakbeat-lab",
+  "name": "Breakbeat Lab",
+  "description": "Broken drums, syncopated bass and sharply contrasted sampled-style colours.",
+  "version": "1.0.0",
+  "family": "dance",
+  "abstract": false,
+  "extends": "dance-neon-floor",
+  "tempo": {
+    "minimum": 104,
+    "maximum": 148
+  },
+  "candidateCount": 16,
+  "scales": [
+    "naturalMinor",
+    "dorian",
+    "chromatic"
+  ],
+  "roles": [
+    {
+      "id": "melody",
+      "name": "Breakbeat Lab Melody",
+      "role": "lead",
+      "instrumentSelector": {
+        "families": [
+          "synthLead",
+          "soundEffects",
+          "reed"
+        ],
+        "preferredTags": [
+          "lead",
+          "expressive",
+          "rhythmic",
+          "bright"
+        ],
+        "avoidTags": [
+          "very-low"
+        ],
+        "minimumAttack": 0.15,
+        "maximumAttack": 0.95,
+        "minimumBrightness": 0.2,
+        "maximumBrightness": 0.95,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "octaveDoubling",
+          "phraseAlternation",
+          "callAndResponse",
+          "sectionSubstitution"
+        ]
+      }
+    },
+    {
+      "id": "bass",
+      "name": "Breakbeat Lab Bass",
+      "role": "bass",
+      "instrumentSelector": {
+        "families": [
+          "bass",
+          "synthLead"
+        ],
+        "preferredTags": [
+          "bass",
+          "warm",
+          "punchy",
+          "low"
+        ],
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 0.72,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "registerSplit",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "chords",
+      "name": "Breakbeat Lab Chords",
+      "role": "chords",
+      "instrumentSelector": {
+        "families": [
+          "synthPad",
+          "piano",
+          "synthEffects"
+        ],
+        "preferredTags": [
+          "polyphonic",
+          "harmony",
+          "short",
+          "stabbing"
+        ],
+        "minimumSustain": 0.15,
+        "maximumLayers": 3,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "registerSplit",
+          "hocket",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "arpeggio",
+      "name": "Breakbeat Lab Arpeggio",
+      "role": "arpeggio",
+      "instrumentSelector": {
+        "families": [
+          "chromaticPercussion",
+          "synthLead"
+        ],
+        "preferredTags": [
+          "short",
+          "clear",
+          "pulse",
+          "syncopated"
+        ],
+        "minimumAttack": 0.25,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "octaveDoubling",
+          "hocket",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "drums",
+      "name": "Breakbeat Lab Drums",
+      "role": "drums",
+      "instrumentSelector": {
+        "families": [
+          "drums"
+        ],
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument",
+          "sectionSubstitution"
+        ],
+        "preferredTags": [
+          "drums",
+          "breakbeat",
+          "percussive"
+        ],
+        "avoidTags": []
+      }
+    }
+  ]
+}

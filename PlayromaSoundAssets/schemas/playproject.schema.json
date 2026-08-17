@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://playroma.dev/schemas/playproject.schema.json",
+  "title": "Playroma Sound Project",
+  "type": "object",
+  "required": ["formatVersion", "id", "displayName", "assets"],
+  "properties": {
+    "formatVersion": { "type": "integer", "minimum": 1 },
+    "id": { "type": "string", "minLength": 1 },
+    "displayName": { "type": "string", "minLength": 1 },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "kind", "relativePath"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "displayName": { "type": "string" },
+          "kind": {
+            "type": "string",
+            "enum": ["soundGraph", "generatorRequest", "streamingScene", "sample", "impulseResponse", "other"]
+          },
+          "relativePath": { "type": "string", "minLength": 1 },
+          "tags": { "type": "array", "items": { "type": "string" } },
+          "metadata": { "type": "object", "additionalProperties": { "type": "string" } }
+        },
+        "additionalProperties": false
+      }
+    },
+    "sampleDirectories": { "type": "array", "items": { "type": "string" } },
+    "impulseResponseDirectories": { "type": "array", "items": { "type": "string" } },
+    "exportProfiles": { "type": "array", "items": { "type": "string" } },
+    "metadata": { "type": "object", "additionalProperties": { "type": "string" } }
+  },
+  "additionalProperties": false
+}

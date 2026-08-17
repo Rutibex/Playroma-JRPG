@@ -1,0 +1,438 @@
+{
+  "schemaVersion": 1,
+  "id": "jrpg-battle-strategic",
+  "name": "Battle — Tactical and Strategic",
+  "description": "Measured asymmetric-feeling combat motion, articulate counterpoint and controlled tension for planning-heavy encounters.",
+  "version": "1.0.0",
+  "family": "jrpg",
+  "abstract": false,
+  "extends": "jrpg-combat-foundation",
+  "tempo": {
+    "minimum": 108,
+    "maximum": 138
+  },
+  "meter": {
+    "beatsPerBar": 4,
+    "beatUnit": 4
+  },
+  "candidateCount": 22,
+  "scales": [
+    "dorian",
+    "naturalMinor",
+    "melodicMinor"
+  ],
+  "forms": {
+    "grammarId": "jrpg-battle-strategic-form-v1",
+    "productions": [
+      [
+        "I",
+        "A",
+        "B",
+        "A'",
+        "C",
+        "B''",
+        "A"
+      ],
+      [
+        "I",
+        "A",
+        "A'",
+        "B",
+        "D",
+        "B'",
+        "A"
+      ]
+    ]
+  },
+  "harmony": {
+    "grammarId": "jrpg-battle-strategic-harmony-v1",
+    "progressions": {
+      "intro": [
+        [
+          0,
+          3,
+          6,
+          4
+        ]
+      ],
+      "verse": [
+        [
+          0,
+          3,
+          6,
+          4
+        ],
+        [
+          0,
+          1,
+          5,
+          4
+        ]
+      ],
+      "chorus": [
+        [
+          3,
+          1,
+          4,
+          0
+        ],
+        [
+          5,
+          3,
+          1,
+          4
+        ]
+      ],
+      "bridge": [
+        [
+          5,
+          3,
+          1,
+          4
+        ],
+        [
+          1,
+          6,
+          3,
+          4
+        ]
+      ],
+      "breakdown": [
+        [
+          5,
+          3,
+          1,
+          4
+        ]
+      ],
+      "solo": [
+        [
+          3,
+          1,
+          4,
+          0
+        ]
+      ],
+      "outro": [
+        [
+          0,
+          3,
+          6,
+          4
+        ]
+      ]
+    }
+  },
+  "roles": [
+    {
+      "id": "melody",
+      "name": "Battle — Tactical and Strategic Lead",
+      "role": "lead",
+      "enabled": true,
+      "generalMidiProgram": 68,
+      "isPercussion": false,
+      "rhythmPatternId": "adventure-ostinato",
+      "minimumPitch": 60,
+      "maximumPitch": 95,
+      "density": 88,
+      "instrumentSelector": {
+        "families": [
+          "brass",
+          "strings",
+          "guitar",
+          "synthLead",
+          "reed",
+          "organ"
+        ],
+        "preferredTags": [
+          "lead",
+          "bold",
+          "aggressive",
+          "expressive"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 60,
+        "maximumPitch": 95,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 3,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 0
+    },
+    {
+      "id": "bass",
+      "name": "Battle — Tactical and Strategic Bass",
+      "role": "bass",
+      "enabled": true,
+      "generalMidiProgram": 42,
+      "isPercussion": false,
+      "rhythmPatternId": "boss-ostinato",
+      "minimumPitch": 25,
+      "maximumPitch": 54,
+      "density": 92,
+      "instrumentSelector": {
+        "families": [
+          "strings",
+          "bass",
+          "organ",
+          "synthLead"
+        ],
+        "preferredTags": [
+          "low",
+          "rhythmic",
+          "aggressive"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 25,
+        "maximumPitch": 54,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 2
+    },
+    {
+      "id": "chords",
+      "name": "Battle — Tactical and Strategic Ensemble",
+      "role": "chords",
+      "enabled": true,
+      "generalMidiProgram": 48,
+      "isPercussion": false,
+      "rhythmPatternId": "adventure-ostinato",
+      "minimumPitch": 40,
+      "maximumPitch": 84,
+      "density": 91,
+      "instrumentSelector": {
+        "families": [
+          "strings",
+          "ensemble",
+          "brass",
+          "organ",
+          "guitar",
+          "synthPad"
+        ],
+        "preferredTags": [
+          "harmony",
+          "powerful",
+          "dense"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 40,
+        "maximumPitch": 84,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 3,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 1
+    },
+    {
+      "id": "arpeggio",
+      "name": "Battle — Tactical and Strategic Ostinato",
+      "role": "arpeggio",
+      "enabled": true,
+      "generalMidiProgram": 11,
+      "isPercussion": false,
+      "rhythmPatternId": "combat-sixteenths",
+      "minimumPitch": 47,
+      "maximumPitch": 98,
+      "density": 90,
+      "instrumentSelector": {
+        "families": [
+          "strings",
+          "piano",
+          "chromaticPercussion",
+          "guitar",
+          "synthLead",
+          "organ"
+        ],
+        "preferredTags": [
+          "urgent",
+          "articulate",
+          "rhythmic"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 47,
+        "maximumPitch": 98,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 3
+    },
+    {
+      "id": "counter",
+      "name": "Battle — Tactical and Strategic Counterline",
+      "role": "counterMelody",
+      "enabled": true,
+      "generalMidiProgram": 70,
+      "isPercussion": false,
+      "rhythmPatternId": "battle-drive",
+      "minimumPitch": 55,
+      "maximumPitch": 93,
+      "density": 66,
+      "instrumentSelector": {
+        "families": [
+          "brass",
+          "reed",
+          "strings",
+          "synthLead"
+        ],
+        "preferredTags": [
+          "counterline",
+          "bold",
+          "clear"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 55,
+        "maximumPitch": 93,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 4
+    },
+    {
+      "id": "texture",
+      "name": "Battle — Tactical and Strategic Atmosphere",
+      "role": "texture",
+      "enabled": true,
+      "generalMidiProgram": 50,
+      "isPercussion": false,
+      "rhythmPatternId": "sparse-breath",
+      "minimumPitch": 30,
+      "maximumPitch": 101,
+      "density": 48,
+      "instrumentSelector": {
+        "families": [
+          "ensemble",
+          "organ",
+          "synthPad",
+          "synthEffects"
+        ],
+        "preferredTags": [
+          "dark",
+          "grand",
+          "atmospheric"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 30,
+        "maximumPitch": 101,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 3,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 5
+    },
+    {
+      "id": "drums",
+      "name": "Battle — Tactical and Strategic Percussion",
+      "role": "drums",
+      "enabled": true,
+      "generalMidiProgram": 0,
+      "isPercussion": true,
+      "rhythmPatternId": "industrial-kick",
+      "minimumPitch": 35,
+      "maximumPitch": 81,
+      "density": 96,
+      "instrumentSelector": {
+        "families": [
+          "drums"
+        ],
+        "preferredTags": [
+          "percussive",
+          "powerful",
+          "aggressive"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 35,
+        "maximumPitch": 81,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 9
+    }
+  ]
+}

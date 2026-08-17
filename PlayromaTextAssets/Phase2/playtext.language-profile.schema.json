@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://playroma.local/schemas/playtext.language-profile.schema.json",
+  "title": "Playroma Text Language Profile",
+  "type": "object",
+  "required": ["id", "name", "onsets", "nuclei", "codas", "syllablePatterns"],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "name": { "type": "string", "minLength": 1 },
+    "parentId": { "type": ["string", "null"] },
+    "onsets": { "$ref": "#/$defs/tokens" },
+    "nuclei": { "$ref": "#/$defs/tokens" },
+    "codas": { "$ref": "#/$defs/tokens" },
+    "syllablePatterns": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "forbiddenSequences": { "type": ["array", "null"], "items": { "type": "string" } },
+    "orthographicRules": { "type": ["array", "null"], "items": { "type": "object" } },
+    "domains": { "type": ["object", "null"] },
+    "corpora": { "type": ["object", "null"] },
+    "description": { "type": ["string", "null"] },
+    "tags": { "type": ["array", "null"], "items": { "type": "string" } }
+  },
+  "$defs": {
+    "tokens": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["text"],
+        "properties": { "text": { "type": "string" }, "weight": { "type": "number", "exclusiveMinimum": 0 } },
+        "additionalProperties": false
+      }
+    }
+  }
+}

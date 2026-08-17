@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <RootNamespace>Playroma.Text.Phase7.Tests</RootNamespace>
+    <AssemblyName>Playroma.Text.Phase7.Tests</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../src/Playroma.Text.Core/Playroma.Text.Core.csproj" />
+    <ProjectReference Include="../../src/Playroma.Text.Authoring/Playroma.Text.Authoring.csproj" />
+    <ProjectReference Include="../../src/Playroma.Text.Generators/Playroma.Text.Generators.csproj" />
+    <ProjectReference Include="../../src/Playroma.Text.Editor.WinForms/Playroma.Text.Editor.WinForms.csproj" />
+    <ProjectReference Include="../../src/Playroma.JRPG.Editor.Shell/Playroma.JRPG.Editor.Shell.csproj" />
+  </ItemGroup>
+</Project>

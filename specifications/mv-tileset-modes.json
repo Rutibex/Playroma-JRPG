@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "modes": [
+    {
+      "value": 0,
+      "name": "World Type"
+    },
+    {
+      "value": 1,
+      "name": "Area Type"
+    }
+  ],
+  "slots": [
+    {
+      "index": 0,
+      "name": "A1",
+      "kind": "Animation autotiles"
+    },
+    {
+      "index": 1,
+      "name": "A2",
+      "kind": "Ground autotiles"
+    },
+    {
+      "index": 2,
+      "name": "A3",
+      "kind": "Building autotiles"
+    },
+    {
+      "index": 3,
+      "name": "A4",
+      "kind": "Wall autotiles"
+    },
+    {
+      "index": 4,
+      "name": "A5",
+      "kind": "Normal lower tiles"
+    },
+    {
+      "index": 5,
+      "name": "B",
+      "kind": "Normal upper tiles"
+    },
+    {
+      "index": 6,
+      "name": "C",
+      "kind": "Normal upper tiles"
+    },
+    {
+      "index": 7,
+      "name": "D",
+      "kind": "Normal upper tiles"
+    },
+    {
+      "index": 8,
+      "name": "E",
+      "kind": "Normal upper tiles"
+    }
+  ]
+}

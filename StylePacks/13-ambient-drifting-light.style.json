@@ -1,0 +1,387 @@
+{
+  "schemaVersion": 1,
+  "id": "ambient-drifting-light",
+  "name": "Drifting Light Ambient",
+  "description": "Long-form modal sections, sparse breath-like rhythm, broad registers and gradually evolving texture roles.",
+  "version": "1.0.0",
+  "family": "ambient",
+  "abstract": false,
+  "extends": "core-musical-foundation",
+  "mixins": [
+    "mixin-spacious-texture"
+  ],
+  "tempo": {
+    "minimum": 48,
+    "maximum": 82
+  },
+  "candidateCount": 16,
+  "scales": [
+    "lydian",
+    "dorian",
+    "mixolydian",
+    "naturalMinor"
+  ],
+  "forms": {
+    "grammarId": "ambient-evolution-v1",
+    "productions": [
+      [
+        "I",
+        "A",
+        "A'",
+        "C",
+        "A''",
+        "D",
+        "O"
+      ],
+      [
+        "I",
+        "A",
+        "D",
+        "A'",
+        "B",
+        "A''",
+        "O"
+      ],
+      [
+        "I",
+        "A",
+        "C",
+        "D",
+        "A'",
+        "C",
+        "O"
+      ]
+    ],
+    "tokens": [
+      {
+        "symbol": "I",
+        "name": "Fade In",
+        "kind": "intro",
+        "lengthBars": 4,
+        "energy": 0.15,
+        "treatment": "fragment"
+      },
+      {
+        "symbol": "A",
+        "name": "Field One",
+        "kind": "verse",
+        "lengthBars": 8,
+        "energy": 0.38,
+        "treatment": "original"
+      },
+      {
+        "symbol": "A'",
+        "name": "Field Two",
+        "kind": "verse",
+        "lengthBars": 8,
+        "energy": 0.5,
+        "treatment": "augment"
+      },
+      {
+        "symbol": "A''",
+        "name": "Field Three",
+        "kind": "verse",
+        "lengthBars": 8,
+        "energy": 0.62,
+        "treatment": "sequence"
+      },
+      {
+        "symbol": "C",
+        "name": "Color Shift",
+        "kind": "bridge",
+        "lengthBars": 8,
+        "energy": 0.56,
+        "treatment": "invert"
+      },
+      {
+        "symbol": "D",
+        "name": "Dissolve",
+        "kind": "breakdown",
+        "lengthBars": 6,
+        "energy": 0.25,
+        "treatment": "fragment"
+      },
+      {
+        "symbol": "B",
+        "name": "Bloom",
+        "kind": "chorus",
+        "lengthBars": 8,
+        "energy": 0.7,
+        "treatment": "transpose"
+      },
+      {
+        "symbol": "O",
+        "name": "Fade Out",
+        "kind": "outro",
+        "lengthBars": 4,
+        "energy": 0.12,
+        "treatment": "diminish"
+      }
+    ]
+  },
+  "harmony": {
+    "grammarId": "ambient-modal-fields-v1",
+    "progressions": {
+      "intro": [
+        [
+          0,
+          0,
+          3,
+          0
+        ]
+      ],
+      "verse": [
+        [
+          0,
+          6,
+          3,
+          0
+        ],
+        [
+          0,
+          3,
+          6,
+          3
+        ],
+        [
+          0,
+          1,
+          6,
+          0
+        ]
+      ],
+      "chorus": [
+        [
+          3,
+          0,
+          6,
+          0
+        ]
+      ],
+      "bridge": [
+        [
+          1,
+          6,
+          0,
+          3
+        ],
+        [
+          3,
+          1,
+          6,
+          0
+        ]
+      ],
+      "breakdown": [
+        [
+          0,
+          0,
+          6,
+          0
+        ]
+      ],
+      "solo": [
+        [
+          0,
+          6,
+          3,
+          0
+        ]
+      ],
+      "outro": [
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "roles": [
+    {
+      "id": "melody",
+      "name": "Breath Lead",
+      "role": "lead",
+      "generalMidiProgram": 73,
+      "rhythmPatternId": "slow-breath",
+      "minimumPitch": 55,
+      "maximumPitch": 96,
+      "density": 38,
+      "instrumentSelector": {
+        "families": [
+          "reed",
+          "pipe",
+          "synthLead",
+          "guitar",
+          "chromaticPercussion",
+          "brass",
+          "strings",
+          "ethnic"
+        ],
+        "preferredTags": [
+          "lead",
+          "expressive"
+        ],
+        "avoidTags": [
+          "very-low"
+        ],
+        "minimumAttack": 0.15,
+        "maximumAttack": 0.95,
+        "minimumBrightness": 0.2,
+        "maximumBrightness": 0.95,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "octaveDoubling",
+          "phraseAlternation",
+          "callAndResponse",
+          "sectionSubstitution"
+        ],
+        "minimumPitch": 55,
+        "maximumPitch": 96
+      }
+    },
+    {
+      "id": "bass",
+      "name": "Low Drone",
+      "role": "bass",
+      "generalMidiProgram": 43,
+      "rhythmPatternId": "ambient-pulse",
+      "minimumPitch": 24,
+      "maximumPitch": 48,
+      "density": 34,
+      "instrumentSelector": {
+        "families": [
+          "bass",
+          "guitar",
+          "organ",
+          "strings",
+          "synthLead",
+          "ethnic"
+        ],
+        "preferredTags": [
+          "bass",
+          "warm",
+          "low"
+        ],
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 0.72,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "registerSplit",
+          "sectionSubstitution"
+        ],
+        "minimumPitch": 24,
+        "maximumPitch": 48
+      }
+    },
+    {
+      "id": "chords",
+      "name": "Warm Pad",
+      "role": "chords",
+      "generalMidiProgram": 89,
+      "rhythmPatternId": "ambient-pulse",
+      "minimumPitch": 40,
+      "maximumPitch": 84,
+      "density": 45,
+      "instrumentSelector": {
+        "families": [
+          "piano",
+          "organ",
+          "guitar",
+          "strings",
+          "ensemble",
+          "synthPad",
+          "chromaticPercussion"
+        ],
+        "preferredTags": [
+          "polyphonic",
+          "harmony"
+        ],
+        "minimumSustain": 0.15,
+        "maximumLayers": 3,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "registerSplit",
+          "hocket",
+          "sectionSubstitution"
+        ],
+        "minimumPitch": 40,
+        "maximumPitch": 84
+      }
+    },
+    {
+      "id": "arpeggio",
+      "name": "Shimmer",
+      "role": "texture",
+      "generalMidiProgram": 98,
+      "rhythmPatternId": "shimmer",
+      "minimumPitch": 60,
+      "maximumPitch": 104,
+      "density": 42,
+      "instrumentSelector": {
+        "families": [
+          "synthPad",
+          "synthEffects",
+          "ensemble",
+          "strings",
+          "ethnic",
+          "soundEffects",
+          "pipe"
+        ],
+        "preferredTags": [
+          "texture",
+          "sustaining",
+          "unusual"
+        ],
+        "minimumSustain": 0.25,
+        "maximumLayers": 3,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "registerSplit",
+          "sectionSubstitution"
+        ],
+        "minimumPitch": 60,
+        "maximumPitch": 104
+      }
+    },
+    {
+      "id": "drums",
+      "name": "Soft Pulse",
+      "role": "drums",
+      "midiChannel": 9,
+      "isPercussion": true,
+      "rhythmPatternId": "ambient-pulse",
+      "density": 30,
+      "instrumentSelector": {
+        "families": [
+          "drums"
+        ],
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument",
+          "sectionSubstitution"
+        ],
+        "minimumPitch": 0,
+        "maximumPitch": 127,
+        "preferredTags": [
+          "percussive"
+        ]
+      }
+    }
+  ],
+  "constraints": {
+    "maximumMelodicLeap": 24,
+    "maximumNotesPerPhrase": 24,
+    "minimumChordToneRatio": 0.08,
+    "preferredMaximumRange": 30,
+    "maximumDensityRatio": 0.55
+  }
+}

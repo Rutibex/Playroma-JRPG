@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Playroma Sprite Studio mark</title>
+  <desc id="desc">An original pixel grid forming a letter P and a four-frame motion trail.</desc>
+  <path fill="#111" d="M8 8h32v8h8v24h-8v8H24v8H8V8zm16 8v24h16V16H24zm8 8h8v8h-8v-8z"/>
+  <path fill="#666" d="M48 48h8v8h-8zM40 48h4v4h-4zM34 48h2v2h-2z"/>
+</svg>

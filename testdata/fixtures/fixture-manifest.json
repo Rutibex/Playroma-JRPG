@@ -1,0 +1,1682 @@
+{
+  "schemaVersion": 1,
+  "hashMode": "Semantic JSON hash; raw SHA-256 for non-JSON files",
+  "files": [
+    {
+      "path": "database-catalog-project/Game.rpgproject",
+      "sha256": "6a29f0912404972bb0e48f0b3fc29f23543f23895ca9256b68acf374c407c791"
+    },
+    {
+      "path": "database-catalog-project/data/Actors.json",
+      "sha256": "f9795749366b50459eec3324f3e8b636e8bb3f0409615fd4914fa2d41766dcd5"
+    },
+    {
+      "path": "database-catalog-project/data/Animations.json",
+      "sha256": "69f0a8d293611e81eab499a34b4105110425ef9b9e483389de57565ee5a6f4ac"
+    },
+    {
+      "path": "database-catalog-project/data/Armors.json",
+      "sha256": "89813a14a38b6d2d6b1e9a155d9fb049b021e7cf4f7b18968e05ec2240ff6f7a"
+    },
+    {
+      "path": "database-catalog-project/data/Classes.json",
+      "sha256": "e4f3cf77d3fd95ccc458097cc78bfd0d90b2c081889fb18df8e4cb37291aebc6"
+    },
+    {
+      "path": "database-catalog-project/data/CommonEvents.json",
+      "sha256": "e7fb62c1e7256db24ce56d04a334848bdbefbaa23d0c5f929e0123045e55d24d"
+    },
+    {
+      "path": "database-catalog-project/data/Enemies.json",
+      "sha256": "4e7f9688e0ebfb66591414fba566c4a03aaf816b6bca93a66f15fa9ddec94a70"
+    },
+    {
+      "path": "database-catalog-project/data/Items.json",
+      "sha256": "297f8e7bdfe7255874107dda0f60718622b3dca040b904b97b0fa867e12b5ec7"
+    },
+    {
+      "path": "database-catalog-project/data/Map001.json",
+      "sha256": "da46ad7499dd885b903b19551f429dca880ae57126cc7bfce169986a246b0124"
+    },
+    {
+      "path": "database-catalog-project/data/MapInfos.json",
+      "sha256": "2643c96ef03d565b46acfc698971335305e51499566b1bfec0e0207357c06149"
+    },
+    {
+      "path": "database-catalog-project/data/Skills.json",
+      "sha256": "4f067a74c0fa3692ec59124b56d34f8d94f79e3da29704b31c1fcef23bba256b"
+    },
+    {
+      "path": "database-catalog-project/data/States.json",
+      "sha256": "4593192ff5c38c32df397b9adefd886bce73a2b8587a19b1ac7ebcb88095c617"
+    },
+    {
+      "path": "database-catalog-project/data/System.json",
+      "sha256": "c8012e1ef50e5f759b15e8b3cc025316045aa6b8fc3850dc009b645a5b190d91"
+    },
+    {
+      "path": "database-catalog-project/data/Tilesets.json",
+      "sha256": "f6f26aa27456adb20d7ecbe6fb527f5dd8557c8709fdb88e3ead3c72c4d1bfeb"
+    },
+    {
+      "path": "database-catalog-project/data/Troops.json",
+      "sha256": "11de6e014e60b224c5c1e5e20eee0bae2cb8c91c688e8ea217e8d426eaf50d28"
+    },
+    {
+      "path": "database-catalog-project/data/Weapons.json",
+      "sha256": "72c408ee296d1af7881c6c951e6fe5ef60b59f93816b9ba57a566ddba75259d9"
+    },
+    {
+      "path": "empty-source-project/Game.rpgproject",
+      "sha256": "6a29f0912404972bb0e48f0b3fc29f23543f23895ca9256b68acf374c407c791"
+    },
+    {
+      "path": "empty-source-project/data/Actors.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "empty-source-project/data/Animations.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "empty-source-project/data/Armors.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "empty-source-project/data/Classes.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "empty-source-project/data/CommonEvents.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "empty-source-project/data/Enemies.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "empty-source-project/data/Items.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "empty-source-project/data/MapInfos.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "empty-source-project/data/Skills.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "empty-source-project/data/States.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "empty-source-project/data/System.json",
+      "sha256": "c8012e1ef50e5f759b15e8b3cc025316045aa6b8fc3850dc009b645a5b190d91"
+    },
+    {
+      "path": "empty-source-project/data/Tilesets.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "empty-source-project/data/Troops.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "empty-source-project/data/Weapons.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "event-command-catalog-project/Game.rpgproject",
+      "sha256": "6a29f0912404972bb0e48f0b3fc29f23543f23895ca9256b68acf374c407c791"
+    },
+    {
+      "path": "event-command-catalog-project/data/Actors.json",
+      "sha256": "f9795749366b50459eec3324f3e8b636e8bb3f0409615fd4914fa2d41766dcd5"
+    },
+    {
+      "path": "event-command-catalog-project/data/Animations.json",
+      "sha256": "69f0a8d293611e81eab499a34b4105110425ef9b9e483389de57565ee5a6f4ac"
+    },
+    {
+      "path": "event-command-catalog-project/data/Armors.json",
+      "sha256": "89813a14a38b6d2d6b1e9a155d9fb049b021e7cf4f7b18968e05ec2240ff6f7a"
+    },
+    {
+      "path": "event-command-catalog-project/data/Classes.json",
+      "sha256": "e4f3cf77d3fd95ccc458097cc78bfd0d90b2c081889fb18df8e4cb37291aebc6"
+    },
+    {
+      "path": "event-command-catalog-project/data/CommonEvents.json",
+      "sha256": "b58061b8b1eeefb9048adde2971f54580d5c72c0cf4d42227954f0841732d790"
+    },
+    {
+      "path": "event-command-catalog-project/data/Enemies.json",
+      "sha256": "4e7f9688e0ebfb66591414fba566c4a03aaf816b6bca93a66f15fa9ddec94a70"
+    },
+    {
+      "path": "event-command-catalog-project/data/Items.json",
+      "sha256": "297f8e7bdfe7255874107dda0f60718622b3dca040b904b97b0fa867e12b5ec7"
+    },
+    {
+      "path": "event-command-catalog-project/data/Map001.json",
+      "sha256": "da46ad7499dd885b903b19551f429dca880ae57126cc7bfce169986a246b0124"
+    },
+    {
+      "path": "event-command-catalog-project/data/MapInfos.json",
+      "sha256": "2643c96ef03d565b46acfc698971335305e51499566b1bfec0e0207357c06149"
+    },
+    {
+      "path": "event-command-catalog-project/data/Skills.json",
+      "sha256": "4f067a74c0fa3692ec59124b56d34f8d94f79e3da29704b31c1fcef23bba256b"
+    },
+    {
+      "path": "event-command-catalog-project/data/States.json",
+      "sha256": "4593192ff5c38c32df397b9adefd886bce73a2b8587a19b1ac7ebcb88095c617"
+    },
+    {
+      "path": "event-command-catalog-project/data/System.json",
+      "sha256": "c8012e1ef50e5f759b15e8b3cc025316045aa6b8fc3850dc009b645a5b190d91"
+    },
+    {
+      "path": "event-command-catalog-project/data/Tilesets.json",
+      "sha256": "f6f26aa27456adb20d7ecbe6fb527f5dd8557c8709fdb88e3ead3c72c4d1bfeb"
+    },
+    {
+      "path": "event-command-catalog-project/data/Troops.json",
+      "sha256": "11de6e014e60b224c5c1e5e20eee0bae2cb8c91c688e8ea217e8d426eaf50d28"
+    },
+    {
+      "path": "event-command-catalog-project/data/Weapons.json",
+      "sha256": "72c408ee296d1af7881c6c951e6fe5ef60b59f93816b9ba57a566ddba75259d9"
+    },
+    {
+      "path": "malformed/duplicate-plugin-entry/expected-diagnostics.json",
+      "sha256": "77e26aed4fe90d755d87008291e01d0db62f6c7e7994f97007cf3ebac0f627f0"
+    },
+    {
+      "path": "malformed/duplicate-plugin-entry/js/plugins.js",
+      "sha256": "d0fb76ac80b98e2b59573be38b5233327e44d2848597c1010ce209b50a12ee9c"
+    },
+    {
+      "path": "malformed/invalid-json/data/Actors.json",
+      "sha256": "62f51974ca63c76baff5bfe382e08a9fdab766826290eb87a5477296959079a7"
+    },
+    {
+      "path": "malformed/invalid-json/expected-diagnostics.json",
+      "sha256": "1e107d3eadc024dec75d848114a214d6cec85d45b5ad82de8ef399ad6ce9a269"
+    },
+    {
+      "path": "malformed/map-data-length-mismatch/data/Map001.json",
+      "sha256": "d8b8088a264c6153571d0d403d564f24fc686fc709c663c1eed0cc94fe34d294"
+    },
+    {
+      "path": "malformed/map-data-length-mismatch/expected-diagnostics.json",
+      "sha256": "e677dd65ac1bb068e08f1bdacd2aeafd9c903c7be42ce5c8d8b6bbfc5eabaec8"
+    },
+    {
+      "path": "malformed/missing-index-zero/data/Actors.json",
+      "sha256": "26ad2e1c1777249d689eeb275107563fceae74e30d8e2f11dfbfd12836d0fc43"
+    },
+    {
+      "path": "malformed/missing-index-zero/expected-diagnostics.json",
+      "sha256": "2b41e455da6bf14d8ad81280a82947e64e7857029270561d68ee2277e2644b80"
+    },
+    {
+      "path": "malformed/missing-standard-file/data/Actors.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "malformed/missing-standard-file/expected-diagnostics.json",
+      "sha256": "2df7edf9cb2c49e50f17fd5553e4ee8d9249c45711795ffb1cd1edea296ba23d"
+    },
+    {
+      "path": "malformed/unknown-event-command/data/CommonEvents.json",
+      "sha256": "cec9fa18acf59aeb077d92ca72ad2b9f7723d6e095145657cf7807f0c499fabc"
+    },
+    {
+      "path": "malformed/unknown-event-command/expected-diagnostics.json",
+      "sha256": "056ebd9ce0ed370b1d8127c580a69aa3d401f936d795f488315d8adb9bee3381"
+    },
+    {
+      "path": "map-layer-catalog-project/Game.rpgproject",
+      "sha256": "6a29f0912404972bb0e48f0b3fc29f23543f23895ca9256b68acf374c407c791"
+    },
+    {
+      "path": "map-layer-catalog-project/data/Actors.json",
+      "sha256": "f9795749366b50459eec3324f3e8b636e8bb3f0409615fd4914fa2d41766dcd5"
+    },
+    {
+      "path": "map-layer-catalog-project/data/Animations.json",
+      "sha256": "69f0a8d293611e81eab499a34b4105110425ef9b9e483389de57565ee5a6f4ac"
+    },
+    {
+      "path": "map-layer-catalog-project/data/Armors.json",
+      "sha256": "89813a14a38b6d2d6b1e9a155d9fb049b021e7cf4f7b18968e05ec2240ff6f7a"
+    },
+    {
+      "path": "map-layer-catalog-project/data/Classes.json",
+      "sha256": "e4f3cf77d3fd95ccc458097cc78bfd0d90b2c081889fb18df8e4cb37291aebc6"
+    },
+    {
+      "path": "map-layer-catalog-project/data/CommonEvents.json",
+      "sha256": "e7fb62c1e7256db24ce56d04a334848bdbefbaa23d0c5f929e0123045e55d24d"
+    },
+    {
+      "path": "map-layer-catalog-project/data/Enemies.json",
+      "sha256": "4e7f9688e0ebfb66591414fba566c4a03aaf816b6bca93a66f15fa9ddec94a70"
+    },
+    {
+      "path": "map-layer-catalog-project/data/Items.json",
+      "sha256": "297f8e7bdfe7255874107dda0f60718622b3dca040b904b97b0fa867e12b5ec7"
+    },
+    {
+      "path": "map-layer-catalog-project/data/Map001.json",
+      "sha256": "547807c350861b27368266de5ea198c3a6f2c67dbccaac514326d13375361fa8"
+    },
+    {
+      "path": "map-layer-catalog-project/data/MapInfos.json",
+      "sha256": "1bc0fdb284ba6aada9cf745cbcb466de6de52dbb77d4f46e1195d74ca23549da"
+    },
+    {
+      "path": "map-layer-catalog-project/data/Skills.json",
+      "sha256": "4f067a74c0fa3692ec59124b56d34f8d94f79e3da29704b31c1fcef23bba256b"
+    },
+    {
+      "path": "map-layer-catalog-project/data/States.json",
+      "sha256": "4593192ff5c38c32df397b9adefd886bce73a2b8587a19b1ac7ebcb88095c617"
+    },
+    {
+      "path": "map-layer-catalog-project/data/System.json",
+      "sha256": "c8012e1ef50e5f759b15e8b3cc025316045aa6b8fc3850dc009b645a5b190d91"
+    },
+    {
+      "path": "map-layer-catalog-project/data/Tilesets.json",
+      "sha256": "cbe3cf3ea251ed2f62e4310f906c1d1b71b22b2366b0a8721024534c8f86ef02"
+    },
+    {
+      "path": "map-layer-catalog-project/data/Troops.json",
+      "sha256": "11de6e014e60b224c5c1e5e20eee0bae2cb8c91c688e8ea217e8d426eaf50d28"
+    },
+    {
+      "path": "map-layer-catalog-project/data/Weapons.json",
+      "sha256": "72c408ee296d1af7881c6c951e6fe5ef60b59f93816b9ba57a566ddba75259d9"
+    },
+    {
+      "path": "movement-route-catalog-project/Game.rpgproject",
+      "sha256": "6a29f0912404972bb0e48f0b3fc29f23543f23895ca9256b68acf374c407c791"
+    },
+    {
+      "path": "movement-route-catalog-project/data/Actors.json",
+      "sha256": "f9795749366b50459eec3324f3e8b636e8bb3f0409615fd4914fa2d41766dcd5"
+    },
+    {
+      "path": "movement-route-catalog-project/data/Animations.json",
+      "sha256": "69f0a8d293611e81eab499a34b4105110425ef9b9e483389de57565ee5a6f4ac"
+    },
+    {
+      "path": "movement-route-catalog-project/data/Armors.json",
+      "sha256": "89813a14a38b6d2d6b1e9a155d9fb049b021e7cf4f7b18968e05ec2240ff6f7a"
+    },
+    {
+      "path": "movement-route-catalog-project/data/Classes.json",
+      "sha256": "e4f3cf77d3fd95ccc458097cc78bfd0d90b2c081889fb18df8e4cb37291aebc6"
+    },
+    {
+      "path": "movement-route-catalog-project/data/CommonEvents.json",
+      "sha256": "e7fb62c1e7256db24ce56d04a334848bdbefbaa23d0c5f929e0123045e55d24d"
+    },
+    {
+      "path": "movement-route-catalog-project/data/Enemies.json",
+      "sha256": "4e7f9688e0ebfb66591414fba566c4a03aaf816b6bca93a66f15fa9ddec94a70"
+    },
+    {
+      "path": "movement-route-catalog-project/data/Items.json",
+      "sha256": "297f8e7bdfe7255874107dda0f60718622b3dca040b904b97b0fa867e12b5ec7"
+    },
+    {
+      "path": "movement-route-catalog-project/data/Map001.json",
+      "sha256": "f6b530fdddfd326ed6873490357ac9ab10918f5fa1f4ce3c934e4e218eff37c9"
+    },
+    {
+      "path": "movement-route-catalog-project/data/MapInfos.json",
+      "sha256": "e1fa6c695ea15e8806afc111255e5765ef343e1566901dcca3e5f26830c9bcf5"
+    },
+    {
+      "path": "movement-route-catalog-project/data/Skills.json",
+      "sha256": "4f067a74c0fa3692ec59124b56d34f8d94f79e3da29704b31c1fcef23bba256b"
+    },
+    {
+      "path": "movement-route-catalog-project/data/States.json",
+      "sha256": "4593192ff5c38c32df397b9adefd886bce73a2b8587a19b1ac7ebcb88095c617"
+    },
+    {
+      "path": "movement-route-catalog-project/data/System.json",
+      "sha256": "c8012e1ef50e5f759b15e8b3cc025316045aa6b8fc3850dc009b645a5b190d91"
+    },
+    {
+      "path": "movement-route-catalog-project/data/Tilesets.json",
+      "sha256": "f6f26aa27456adb20d7ecbe6fb527f5dd8557c8709fdb88e3ead3c72c4d1bfeb"
+    },
+    {
+      "path": "movement-route-catalog-project/data/Troops.json",
+      "sha256": "11de6e014e60b224c5c1e5e20eee0bae2cb8c91c688e8ea217e8d426eaf50d28"
+    },
+    {
+      "path": "movement-route-catalog-project/data/Weapons.json",
+      "sha256": "72c408ee296d1af7881c6c951e6fe5ef60b59f93816b9ba57a566ddba75259d9"
+    },
+    {
+      "path": "phase1/browser-only-project/data/Actors.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/browser-only-project/data/Animations.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/browser-only-project/data/Armors.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/browser-only-project/data/Classes.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/browser-only-project/data/CommonEvents.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/browser-only-project/data/Enemies.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/browser-only-project/data/Items.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/browser-only-project/data/MapInfos.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/browser-only-project/data/Skills.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/browser-only-project/data/States.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/browser-only-project/data/System.json",
+      "sha256": "c8012e1ef50e5f759b15e8b3cc025316045aa6b8fc3850dc009b645a5b190d91"
+    },
+    {
+      "path": "phase1/browser-only-project/data/Tilesets.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/browser-only-project/data/Troops.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/browser-only-project/data/Weapons.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/browser-only-project/index.html",
+      "sha256": "b8bf36ea69ae6a83c63b21fd05fb153fc972c7c6823903bd1ed9c5ad19776a17"
+    },
+    {
+      "path": "phase1/browser-only-project/js/main.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/browser-only-project/js/plugins.js",
+      "sha256": "7018cd14eccc084582178612683a18f68d0ae508d7e842271c6a299914754d33"
+    },
+    {
+      "path": "phase1/browser-only-project/js/rpg_core.js",
+      "sha256": "4c074962743bdeb3f85d1391420edb6e08f7da5fee56a236112105863088dd92"
+    },
+    {
+      "path": "phase1/browser-only-project/js/rpg_managers.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/browser-only-project/js/rpg_objects.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/browser-only-project/js/rpg_scenes.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/browser-only-project/js/rpg_sprites.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/browser-only-project/js/rpg_windows.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/encrypted-asset-layout/Game.rpgproject",
+      "sha256": "6a29f0912404972bb0e48f0b3fc29f23543f23895ca9256b68acf374c407c791"
+    },
+    {
+      "path": "phase1/encrypted-asset-layout/data/Actors.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/encrypted-asset-layout/data/Animations.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/encrypted-asset-layout/data/Armors.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/encrypted-asset-layout/data/Classes.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/encrypted-asset-layout/data/CommonEvents.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/encrypted-asset-layout/data/Enemies.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/encrypted-asset-layout/data/Items.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/encrypted-asset-layout/data/MapInfos.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/encrypted-asset-layout/data/Skills.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/encrypted-asset-layout/data/States.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/encrypted-asset-layout/data/System.json",
+      "sha256": "c8012e1ef50e5f759b15e8b3cc025316045aa6b8fc3850dc009b645a5b190d91"
+    },
+    {
+      "path": "phase1/encrypted-asset-layout/data/Tilesets.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/encrypted-asset-layout/data/Troops.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/encrypted-asset-layout/data/Weapons.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/encrypted-asset-layout/img/pictures/SyntheticEncrypted.rpgmvp",
+      "sha256": "8c7417d24579a924e43ddfa17d982b02e2e0b1f49e8a147829cba78331bdb355"
+    },
+    {
+      "path": "phase1/encrypted-asset-layout/index.html",
+      "sha256": "b8bf36ea69ae6a83c63b21fd05fb153fc972c7c6823903bd1ed9c5ad19776a17"
+    },
+    {
+      "path": "phase1/encrypted-asset-layout/js/main.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/encrypted-asset-layout/js/plugins.js",
+      "sha256": "7018cd14eccc084582178612683a18f68d0ae508d7e842271c6a299914754d33"
+    },
+    {
+      "path": "phase1/encrypted-asset-layout/js/rpg_core.js",
+      "sha256": "4c074962743bdeb3f85d1391420edb6e08f7da5fee56a236112105863088dd92"
+    },
+    {
+      "path": "phase1/encrypted-asset-layout/js/rpg_managers.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/encrypted-asset-layout/js/rpg_objects.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/encrypted-asset-layout/js/rpg_scenes.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/encrypted-asset-layout/js/rpg_sprites.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/encrypted-asset-layout/js/rpg_windows.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/encrypted-asset-layout/package.json",
+      "sha256": "731bfd9e74e4c83977e5550e2e2686dcfd15c04caeb47ab567a408d06351be82"
+    },
+    {
+      "path": "phase1/incomplete-runtime-project/Game.rpgproject",
+      "sha256": "6a29f0912404972bb0e48f0b3fc29f23543f23895ca9256b68acf374c407c791"
+    },
+    {
+      "path": "phase1/incomplete-runtime-project/data/Actors.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/incomplete-runtime-project/data/Animations.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/incomplete-runtime-project/data/Armors.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/incomplete-runtime-project/data/Classes.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/incomplete-runtime-project/data/CommonEvents.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/incomplete-runtime-project/data/Enemies.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/incomplete-runtime-project/data/Items.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/incomplete-runtime-project/data/MapInfos.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/incomplete-runtime-project/data/Skills.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/incomplete-runtime-project/data/States.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/incomplete-runtime-project/data/System.json",
+      "sha256": "c8012e1ef50e5f759b15e8b3cc025316045aa6b8fc3850dc009b645a5b190d91"
+    },
+    {
+      "path": "phase1/incomplete-runtime-project/data/Tilesets.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/incomplete-runtime-project/data/Troops.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/incomplete-runtime-project/data/Weapons.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/incomplete-runtime-project/index.html",
+      "sha256": "fb63c1d75932cee1a55dd43bd699bf6a4600a0aa0ef1c1bcc2dde70b4178d06c"
+    },
+    {
+      "path": "phase1/large-map-inventory-project/Game.rpgproject",
+      "sha256": "6a29f0912404972bb0e48f0b3fc29f23543f23895ca9256b68acf374c407c791"
+    },
+    {
+      "path": "phase1/large-map-inventory-project/data/Actors.json",
+      "sha256": "f9795749366b50459eec3324f3e8b636e8bb3f0409615fd4914fa2d41766dcd5"
+    },
+    {
+      "path": "phase1/large-map-inventory-project/data/Animations.json",
+      "sha256": "69f0a8d293611e81eab499a34b4105110425ef9b9e483389de57565ee5a6f4ac"
+    },
+    {
+      "path": "phase1/large-map-inventory-project/data/Armors.json",
+      "sha256": "89813a14a38b6d2d6b1e9a155d9fb049b021e7cf4f7b18968e05ec2240ff6f7a"
+    },
+    {
+      "path": "phase1/large-map-inventory-project/data/Classes.json",
+      "sha256": "e4f3cf77d3fd95ccc458097cc78bfd0d90b2c081889fb18df8e4cb37291aebc6"
+    },
+    {
+      "path": "phase1/large-map-inventory-project/data/CommonEvents.json",
+      "sha256": "e7fb62c1e7256db24ce56d04a334848bdbefbaa23d0c5f929e0123045e55d24d"
+    },
+    {
+      "path": "phase1/large-map-inventory-project/data/Enemies.json",
+      "sha256": "4e7f9688e0ebfb66591414fba566c4a03aaf816b6bca93a66f15fa9ddec94a70"
+    },
+    {
+      "path": "phase1/large-map-inventory-project/data/Items.json",
+      "sha256": "297f8e7bdfe7255874107dda0f60718622b3dca040b904b97b0fa867e12b5ec7"
+    },
+    {
+      "path": "phase1/large-map-inventory-project/data/Map001.json",
+      "sha256": "547807c350861b27368266de5ea198c3a6f2c67dbccaac514326d13375361fa8"
+    },
+    {
+      "path": "phase1/large-map-inventory-project/data/MapInfos.json",
+      "sha256": "1bc0fdb284ba6aada9cf745cbcb466de6de52dbb77d4f46e1195d74ca23549da"
+    },
+    {
+      "path": "phase1/large-map-inventory-project/data/Skills.json",
+      "sha256": "4f067a74c0fa3692ec59124b56d34f8d94f79e3da29704b31c1fcef23bba256b"
+    },
+    {
+      "path": "phase1/large-map-inventory-project/data/States.json",
+      "sha256": "4593192ff5c38c32df397b9adefd886bce73a2b8587a19b1ac7ebcb88095c617"
+    },
+    {
+      "path": "phase1/large-map-inventory-project/data/System.json",
+      "sha256": "c8012e1ef50e5f759b15e8b3cc025316045aa6b8fc3850dc009b645a5b190d91"
+    },
+    {
+      "path": "phase1/large-map-inventory-project/data/Tilesets.json",
+      "sha256": "cbe3cf3ea251ed2f62e4310f906c1d1b71b22b2366b0a8721024534c8f86ef02"
+    },
+    {
+      "path": "phase1/large-map-inventory-project/data/Troops.json",
+      "sha256": "11de6e014e60b224c5c1e5e20eee0bae2cb8c91c688e8ea217e8d426eaf50d28"
+    },
+    {
+      "path": "phase1/large-map-inventory-project/data/Weapons.json",
+      "sha256": "72c408ee296d1af7881c6c951e6fe5ef60b59f93816b9ba57a566ddba75259d9"
+    },
+    {
+      "path": "phase1/large-map-inventory-project/index.html",
+      "sha256": "b8bf36ea69ae6a83c63b21fd05fb153fc972c7c6823903bd1ed9c5ad19776a17"
+    },
+    {
+      "path": "phase1/large-map-inventory-project/js/main.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/large-map-inventory-project/js/plugins.js",
+      "sha256": "7018cd14eccc084582178612683a18f68d0ae508d7e842271c6a299914754d33"
+    },
+    {
+      "path": "phase1/large-map-inventory-project/js/rpg_core.js",
+      "sha256": "4c074962743bdeb3f85d1391420edb6e08f7da5fee56a236112105863088dd92"
+    },
+    {
+      "path": "phase1/large-map-inventory-project/js/rpg_managers.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/large-map-inventory-project/js/rpg_objects.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/large-map-inventory-project/js/rpg_scenes.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/large-map-inventory-project/js/rpg_sprites.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/large-map-inventory-project/js/rpg_windows.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/large-map-inventory-project/package.json",
+      "sha256": "731bfd9e74e4c83977e5550e2e2686dcfd15c04caeb47ab567a408d06351be82"
+    },
+    {
+      "path": "phase1/markerless-readable-project/data/Actors.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/markerless-readable-project/data/Animations.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/markerless-readable-project/data/Armors.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/markerless-readable-project/data/Classes.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/markerless-readable-project/data/CommonEvents.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/markerless-readable-project/data/Enemies.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/markerless-readable-project/data/Items.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/markerless-readable-project/data/MapInfos.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/markerless-readable-project/data/Skills.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/markerless-readable-project/data/States.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/markerless-readable-project/data/System.json",
+      "sha256": "c8012e1ef50e5f759b15e8b3cc025316045aa6b8fc3850dc009b645a5b190d91"
+    },
+    {
+      "path": "phase1/markerless-readable-project/data/Tilesets.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/markerless-readable-project/data/Troops.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/markerless-readable-project/data/Weapons.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-a/Game.rpgproject",
+      "sha256": "6a29f0912404972bb0e48f0b3fc29f23543f23895ca9256b68acf374c407c791"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-a/data/Actors.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-a/data/Animations.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-a/data/Armors.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-a/data/Classes.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-a/data/CommonEvents.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-a/data/Enemies.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-a/data/Items.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-a/data/MapInfos.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-a/data/Skills.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-a/data/States.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-a/data/System.json",
+      "sha256": "c8012e1ef50e5f759b15e8b3cc025316045aa6b8fc3850dc009b645a5b190d91"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-a/data/Tilesets.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-a/data/Troops.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-a/data/Weapons.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-a/index.html",
+      "sha256": "b8bf36ea69ae6a83c63b21fd05fb153fc972c7c6823903bd1ed9c5ad19776a17"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-a/js/main.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-a/js/plugins.js",
+      "sha256": "7018cd14eccc084582178612683a18f68d0ae508d7e842271c6a299914754d33"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-a/js/rpg_core.js",
+      "sha256": "4c074962743bdeb3f85d1391420edb6e08f7da5fee56a236112105863088dd92"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-a/js/rpg_managers.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-a/js/rpg_objects.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-a/js/rpg_scenes.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-a/js/rpg_sprites.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-a/js/rpg_windows.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-a/package.json",
+      "sha256": "731bfd9e74e4c83977e5550e2e2686dcfd15c04caeb47ab567a408d06351be82"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-b/Game.rpgproject",
+      "sha256": "6a29f0912404972bb0e48f0b3fc29f23543f23895ca9256b68acf374c407c791"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-b/data/Actors.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-b/data/Animations.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-b/data/Armors.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-b/data/Classes.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-b/data/CommonEvents.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-b/data/Enemies.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-b/data/Items.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-b/data/MapInfos.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-b/data/Skills.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-b/data/States.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-b/data/System.json",
+      "sha256": "c8012e1ef50e5f759b15e8b3cc025316045aa6b8fc3850dc009b645a5b190d91"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-b/data/Tilesets.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-b/data/Troops.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-b/data/Weapons.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-b/index.html",
+      "sha256": "b8bf36ea69ae6a83c63b21fd05fb153fc972c7c6823903bd1ed9c5ad19776a17"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-b/js/main.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-b/js/plugins.js",
+      "sha256": "7018cd14eccc084582178612683a18f68d0ae508d7e842271c6a299914754d33"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-b/js/rpg_core.js",
+      "sha256": "4c074962743bdeb3f85d1391420edb6e08f7da5fee56a236112105863088dd92"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-b/js/rpg_managers.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-b/js/rpg_objects.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-b/js/rpg_scenes.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-b/js/rpg_sprites.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-b/js/rpg_windows.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/multiple-project-candidates/project-b/package.json",
+      "sha256": "731bfd9e74e4c83977e5550e2e2686dcfd15c04caeb47ab567a408d06351be82"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/Game.rpgproject",
+      "sha256": "6a29f0912404972bb0e48f0b3fc29f23543f23895ca9256b68acf374c407c791"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/data/Actors.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/data/Animations.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/data/Armors.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/data/Classes.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/data/CommonEvents.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/data/Enemies.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/data/Items.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/data/MapInfos.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/data/Skills.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/data/States.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/data/System.json",
+      "sha256": "c8012e1ef50e5f759b15e8b3cc025316045aa6b8fc3850dc009b645a5b190d91"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/data/Tilesets.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/data/Troops.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/data/Weapons.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/index.html",
+      "sha256": "b8bf36ea69ae6a83c63b21fd05fb153fc972c7c6823903bd1ed9c5ad19776a17"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/js/main.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/js/plugins.js",
+      "sha256": "0ac68f790542e6f1d9547310462cdeaee50bde2b4bef69669d9390dbfe2a5fb3"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/js/plugins/SyntheticPlugin01.js",
+      "sha256": "af0bd32579c89d07474860137f79b8f1735add22e139ca62952853855573f558"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/js/plugins/SyntheticPlugin02.js",
+      "sha256": "af0bd32579c89d07474860137f79b8f1735add22e139ca62952853855573f558"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/js/plugins/SyntheticPlugin03.js",
+      "sha256": "af0bd32579c89d07474860137f79b8f1735add22e139ca62952853855573f558"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/js/plugins/SyntheticPlugin04.js",
+      "sha256": "af0bd32579c89d07474860137f79b8f1735add22e139ca62952853855573f558"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/js/plugins/SyntheticPlugin05.js",
+      "sha256": "af0bd32579c89d07474860137f79b8f1735add22e139ca62952853855573f558"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/js/plugins/SyntheticPlugin06.js",
+      "sha256": "af0bd32579c89d07474860137f79b8f1735add22e139ca62952853855573f558"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/js/plugins/SyntheticPlugin07.js",
+      "sha256": "af0bd32579c89d07474860137f79b8f1735add22e139ca62952853855573f558"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/js/plugins/SyntheticPlugin08.js",
+      "sha256": "af0bd32579c89d07474860137f79b8f1735add22e139ca62952853855573f558"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/js/plugins/SyntheticPlugin09.js",
+      "sha256": "af0bd32579c89d07474860137f79b8f1735add22e139ca62952853855573f558"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/js/plugins/SyntheticPlugin10.js",
+      "sha256": "af0bd32579c89d07474860137f79b8f1735add22e139ca62952853855573f558"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/js/plugins/SyntheticPlugin11.js",
+      "sha256": "af0bd32579c89d07474860137f79b8f1735add22e139ca62952853855573f558"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/js/plugins/SyntheticPlugin12.js",
+      "sha256": "af0bd32579c89d07474860137f79b8f1735add22e139ca62952853855573f558"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/js/plugins/SyntheticPlugin13.js",
+      "sha256": "af0bd32579c89d07474860137f79b8f1735add22e139ca62952853855573f558"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/js/plugins/SyntheticPlugin14.js",
+      "sha256": "af0bd32579c89d07474860137f79b8f1735add22e139ca62952853855573f558"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/js/plugins/SyntheticPlugin15.js",
+      "sha256": "af0bd32579c89d07474860137f79b8f1735add22e139ca62952853855573f558"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/js/plugins/SyntheticPlugin16.js",
+      "sha256": "af0bd32579c89d07474860137f79b8f1735add22e139ca62952853855573f558"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/js/plugins/SyntheticPlugin17.js",
+      "sha256": "af0bd32579c89d07474860137f79b8f1735add22e139ca62952853855573f558"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/js/plugins/SyntheticPlugin18.js",
+      "sha256": "af0bd32579c89d07474860137f79b8f1735add22e139ca62952853855573f558"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/js/plugins/SyntheticPlugin19.js",
+      "sha256": "af0bd32579c89d07474860137f79b8f1735add22e139ca62952853855573f558"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/js/plugins/SyntheticPlugin20.js",
+      "sha256": "af0bd32579c89d07474860137f79b8f1735add22e139ca62952853855573f558"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/js/plugins/SyntheticPlugin21.js",
+      "sha256": "af0bd32579c89d07474860137f79b8f1735add22e139ca62952853855573f558"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/js/plugins/SyntheticPlugin22.js",
+      "sha256": "af0bd32579c89d07474860137f79b8f1735add22e139ca62952853855573f558"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/js/plugins/SyntheticPlugin23.js",
+      "sha256": "af0bd32579c89d07474860137f79b8f1735add22e139ca62952853855573f558"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/js/plugins/SyntheticPlugin24.js",
+      "sha256": "af0bd32579c89d07474860137f79b8f1735add22e139ca62952853855573f558"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/js/plugins/SyntheticPlugin25.js",
+      "sha256": "7ac7a97687a83119f31164306ea266bf85b9f01f85e10b657f6d76412f37426e"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/js/rpg_core.js",
+      "sha256": "4c074962743bdeb3f85d1391420edb6e08f7da5fee56a236112105863088dd92"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/js/rpg_managers.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/js/rpg_objects.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/js/rpg_scenes.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/js/rpg_sprites.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/js/rpg_windows.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/plugin-heavy-project/package.json",
+      "sha256": "731bfd9e74e4c83977e5550e2e2686dcfd15c04caeb47ab567a408d06351be82"
+    },
+    {
+      "path": "phase1/source-layout-project/Game.rpgproject",
+      "sha256": "6a29f0912404972bb0e48f0b3fc29f23543f23895ca9256b68acf374c407c791"
+    },
+    {
+      "path": "phase1/source-layout-project/data/Actors.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/source-layout-project/data/Animations.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/source-layout-project/data/Armors.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/source-layout-project/data/Classes.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/source-layout-project/data/CommonEvents.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/source-layout-project/data/Enemies.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/source-layout-project/data/Items.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/source-layout-project/data/MapInfos.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/source-layout-project/data/Skills.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/source-layout-project/data/States.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/source-layout-project/data/System.json",
+      "sha256": "c8012e1ef50e5f759b15e8b3cc025316045aa6b8fc3850dc009b645a5b190d91"
+    },
+    {
+      "path": "phase1/source-layout-project/data/Tilesets.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/source-layout-project/data/Troops.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/source-layout-project/data/Weapons.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/source-layout-project/index.html",
+      "sha256": "b8bf36ea69ae6a83c63b21fd05fb153fc972c7c6823903bd1ed9c5ad19776a17"
+    },
+    {
+      "path": "phase1/source-layout-project/js/main.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/source-layout-project/js/plugins.js",
+      "sha256": "7018cd14eccc084582178612683a18f68d0ae508d7e842271c6a299914754d33"
+    },
+    {
+      "path": "phase1/source-layout-project/js/rpg_core.js",
+      "sha256": "4c074962743bdeb3f85d1391420edb6e08f7da5fee56a236112105863088dd92"
+    },
+    {
+      "path": "phase1/source-layout-project/js/rpg_managers.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/source-layout-project/js/rpg_objects.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/source-layout-project/js/rpg_scenes.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/source-layout-project/js/rpg_sprites.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/source-layout-project/js/rpg_windows.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/source-layout-project/package.json",
+      "sha256": "731bfd9e74e4c83977e5550e2e2686dcfd15c04caeb47ab567a408d06351be82"
+    },
+    {
+      "path": "phase1/unicode-path-project-\u732b/Game.rpgproject",
+      "sha256": "6a29f0912404972bb0e48f0b3fc29f23543f23895ca9256b68acf374c407c791"
+    },
+    {
+      "path": "phase1/unicode-path-project-\u732b/data/Actors.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/unicode-path-project-\u732b/data/Animations.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/unicode-path-project-\u732b/data/Armors.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/unicode-path-project-\u732b/data/Classes.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/unicode-path-project-\u732b/data/CommonEvents.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/unicode-path-project-\u732b/data/Enemies.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/unicode-path-project-\u732b/data/Items.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/unicode-path-project-\u732b/data/MapInfos.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/unicode-path-project-\u732b/data/Skills.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/unicode-path-project-\u732b/data/States.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/unicode-path-project-\u732b/data/System.json",
+      "sha256": "c8012e1ef50e5f759b15e8b3cc025316045aa6b8fc3850dc009b645a5b190d91"
+    },
+    {
+      "path": "phase1/unicode-path-project-\u732b/data/Tilesets.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/unicode-path-project-\u732b/data/Troops.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/unicode-path-project-\u732b/data/Weapons.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/unicode-path-project-\u732b/index.html",
+      "sha256": "b8bf36ea69ae6a83c63b21fd05fb153fc972c7c6823903bd1ed9c5ad19776a17"
+    },
+    {
+      "path": "phase1/unicode-path-project-\u732b/js/main.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/unicode-path-project-\u732b/js/plugins.js",
+      "sha256": "7018cd14eccc084582178612683a18f68d0ae508d7e842271c6a299914754d33"
+    },
+    {
+      "path": "phase1/unicode-path-project-\u732b/js/rpg_core.js",
+      "sha256": "4c074962743bdeb3f85d1391420edb6e08f7da5fee56a236112105863088dd92"
+    },
+    {
+      "path": "phase1/unicode-path-project-\u732b/js/rpg_managers.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/unicode-path-project-\u732b/js/rpg_objects.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/unicode-path-project-\u732b/js/rpg_scenes.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/unicode-path-project-\u732b/js/rpg_sprites.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/unicode-path-project-\u732b/js/rpg_windows.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/unicode-path-project-\u732b/package.json",
+      "sha256": "731bfd9e74e4c83977e5550e2e2686dcfd15c04caeb47ab567a408d06351be82"
+    },
+    {
+      "path": "phase1/unsafe-plugin-path/Game.rpgproject",
+      "sha256": "6a29f0912404972bb0e48f0b3fc29f23543f23895ca9256b68acf374c407c791"
+    },
+    {
+      "path": "phase1/unsafe-plugin-path/data/Actors.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/unsafe-plugin-path/data/Animations.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/unsafe-plugin-path/data/Armors.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/unsafe-plugin-path/data/Classes.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/unsafe-plugin-path/data/CommonEvents.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/unsafe-plugin-path/data/Enemies.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/unsafe-plugin-path/data/Items.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/unsafe-plugin-path/data/MapInfos.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/unsafe-plugin-path/data/Skills.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/unsafe-plugin-path/data/States.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/unsafe-plugin-path/data/System.json",
+      "sha256": "c8012e1ef50e5f759b15e8b3cc025316045aa6b8fc3850dc009b645a5b190d91"
+    },
+    {
+      "path": "phase1/unsafe-plugin-path/data/Tilesets.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/unsafe-plugin-path/data/Troops.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/unsafe-plugin-path/data/Weapons.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/unsafe-plugin-path/index.html",
+      "sha256": "b8bf36ea69ae6a83c63b21fd05fb153fc972c7c6823903bd1ed9c5ad19776a17"
+    },
+    {
+      "path": "phase1/unsafe-plugin-path/js/main.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/unsafe-plugin-path/js/plugins.js",
+      "sha256": "683f5a92abfd6ec183c35124967a156009979787c1da45350f8660a3ac4d63c7"
+    },
+    {
+      "path": "phase1/unsafe-plugin-path/js/rpg_core.js",
+      "sha256": "4c074962743bdeb3f85d1391420edb6e08f7da5fee56a236112105863088dd92"
+    },
+    {
+      "path": "phase1/unsafe-plugin-path/js/rpg_managers.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/unsafe-plugin-path/js/rpg_objects.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/unsafe-plugin-path/js/rpg_scenes.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/unsafe-plugin-path/js/rpg_sprites.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/unsafe-plugin-path/js/rpg_windows.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/unsafe-plugin-path/package.json",
+      "sha256": "731bfd9e74e4c83977e5550e2e2686dcfd15c04caeb47ab567a408d06351be82"
+    },
+    {
+      "path": "phase1/unsupported-mz-project/Game.rmmzproject",
+      "sha256": "f680bd0dda7d470a11781b024a09ec51980d90d9b6d0c30f2cd21864b102054a"
+    },
+    {
+      "path": "phase1/unsupported-mz-project/data/System.json",
+      "sha256": "6d359b03ae16cbe16ec79a978f4fdca742932ec9aae5edff5f4c4e4dfd68f243"
+    },
+    {
+      "path": "phase1/www-layout-project/www/data/Actors.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/www-layout-project/www/data/Animations.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/www-layout-project/www/data/Armors.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/www-layout-project/www/data/Classes.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/www-layout-project/www/data/CommonEvents.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/www-layout-project/www/data/Enemies.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/www-layout-project/www/data/Items.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/www-layout-project/www/data/MapInfos.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/www-layout-project/www/data/Skills.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/www-layout-project/www/data/States.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/www-layout-project/www/data/System.json",
+      "sha256": "c8012e1ef50e5f759b15e8b3cc025316045aa6b8fc3850dc009b645a5b190d91"
+    },
+    {
+      "path": "phase1/www-layout-project/www/data/Tilesets.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/www-layout-project/www/data/Troops.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/www-layout-project/www/data/Weapons.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "phase1/www-layout-project/www/index.html",
+      "sha256": "b8bf36ea69ae6a83c63b21fd05fb153fc972c7c6823903bd1ed9c5ad19776a17"
+    },
+    {
+      "path": "phase1/www-layout-project/www/js/main.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/www-layout-project/www/js/plugins.js",
+      "sha256": "7018cd14eccc084582178612683a18f68d0ae508d7e842271c6a299914754d33"
+    },
+    {
+      "path": "phase1/www-layout-project/www/js/rpg_core.js",
+      "sha256": "4c074962743bdeb3f85d1391420edb6e08f7da5fee56a236112105863088dd92"
+    },
+    {
+      "path": "phase1/www-layout-project/www/js/rpg_managers.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/www-layout-project/www/js/rpg_objects.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/www-layout-project/www/js/rpg_scenes.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/www-layout-project/www/js/rpg_sprites.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/www-layout-project/www/js/rpg_windows.js",
+      "sha256": "09b83c92c6f494bc264d07fbd0d102c30933f35c01d7e626f6f2bfda9c7f089f"
+    },
+    {
+      "path": "phase1/www-layout-project/www/package.json",
+      "sha256": "731bfd9e74e4c83977e5550e2e2686dcfd15c04caeb47ab567a408d06351be82"
+    },
+    {
+      "path": "phase2/lossless-lexical/Actors.json",
+      "sha256": "706e7bc3ba7396b25ae456a1730023557913b66055ff99666349c963bc59681e"
+    },
+    {
+      "path": "phase2/map-data/Map001.json",
+      "sha256": "33c019b91dc3509ef6424841103cca322ed36bd0e6116a4bf503dd52170ccf3a"
+    },
+    {
+      "path": "phase2/plugin-extension/Actors.json",
+      "sha256": "aa0d6b92a92879216acd7b093a91872d1a1e6bf0a7095e35061ec51fd9c42948"
+    },
+    {
+      "path": "phase2/plugin-manifest/plugins.js",
+      "sha256": "cafd19a0de4f0152dee08b83cd92429223575b14bafef3c6af80b96d08ca0f7b"
+    },
+    {
+      "path": "phase2/pretty-json/System.json",
+      "sha256": "c2749ad9c915b9548a67ee50d1ab6bae282424eae9da2ad87651ce78f1122867"
+    },
+    {
+      "path": "plugin-parameter-catalog-project/Game.rpgproject",
+      "sha256": "6a29f0912404972bb0e48f0b3fc29f23543f23895ca9256b68acf374c407c791"
+    },
+    {
+      "path": "plugin-parameter-catalog-project/data/Actors.json",
+      "sha256": "f9795749366b50459eec3324f3e8b636e8bb3f0409615fd4914fa2d41766dcd5"
+    },
+    {
+      "path": "plugin-parameter-catalog-project/data/Animations.json",
+      "sha256": "69f0a8d293611e81eab499a34b4105110425ef9b9e483389de57565ee5a6f4ac"
+    },
+    {
+      "path": "plugin-parameter-catalog-project/data/Armors.json",
+      "sha256": "89813a14a38b6d2d6b1e9a155d9fb049b021e7cf4f7b18968e05ec2240ff6f7a"
+    },
+    {
+      "path": "plugin-parameter-catalog-project/data/Classes.json",
+      "sha256": "e4f3cf77d3fd95ccc458097cc78bfd0d90b2c081889fb18df8e4cb37291aebc6"
+    },
+    {
+      "path": "plugin-parameter-catalog-project/data/CommonEvents.json",
+      "sha256": "e7fb62c1e7256db24ce56d04a334848bdbefbaa23d0c5f929e0123045e55d24d"
+    },
+    {
+      "path": "plugin-parameter-catalog-project/data/Enemies.json",
+      "sha256": "4e7f9688e0ebfb66591414fba566c4a03aaf816b6bca93a66f15fa9ddec94a70"
+    },
+    {
+      "path": "plugin-parameter-catalog-project/data/Items.json",
+      "sha256": "297f8e7bdfe7255874107dda0f60718622b3dca040b904b97b0fa867e12b5ec7"
+    },
+    {
+      "path": "plugin-parameter-catalog-project/data/MapInfos.json",
+      "sha256": "1d8fc6ceb1f94c6326d6d5483d258fcb2e179e9869325b245d105c2219bf69fd"
+    },
+    {
+      "path": "plugin-parameter-catalog-project/data/Skills.json",
+      "sha256": "4f067a74c0fa3692ec59124b56d34f8d94f79e3da29704b31c1fcef23bba256b"
+    },
+    {
+      "path": "plugin-parameter-catalog-project/data/States.json",
+      "sha256": "4593192ff5c38c32df397b9adefd886bce73a2b8587a19b1ac7ebcb88095c617"
+    },
+    {
+      "path": "plugin-parameter-catalog-project/data/System.json",
+      "sha256": "c8012e1ef50e5f759b15e8b3cc025316045aa6b8fc3850dc009b645a5b190d91"
+    },
+    {
+      "path": "plugin-parameter-catalog-project/data/Tilesets.json",
+      "sha256": "f6f26aa27456adb20d7ecbe6fb527f5dd8557c8709fdb88e3ead3c72c4d1bfeb"
+    },
+    {
+      "path": "plugin-parameter-catalog-project/data/Troops.json",
+      "sha256": "11de6e014e60b224c5c1e5e20eee0bae2cb8c91c688e8ea217e8d426eaf50d28"
+    },
+    {
+      "path": "plugin-parameter-catalog-project/data/Weapons.json",
+      "sha256": "72c408ee296d1af7881c6c951e6fe5ef60b59f93816b9ba57a566ddba75259d9"
+    },
+    {
+      "path": "plugin-parameter-catalog-project/js/plugins.js",
+      "sha256": "3121a84059e20442334602fa0d3e017074ec399861ac826d4d2479d2340e31cb"
+    },
+    {
+      "path": "plugin-parameter-catalog-project/js/plugins/PlayromaFixtureParameters.js",
+      "sha256": "08fad76194a6d4c147b098d5575cbebd473bec7e55027ee9ddb1c71ded82c1c0"
+    }
+  ]
+}

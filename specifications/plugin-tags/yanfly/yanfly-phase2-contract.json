@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "phase": "Phase 2 — Complete YEP catalog compiler",
+  "providerId": "YEP-MV",
+  "catalogVersion": "0.2.0",
+  "inputs": [
+    "Phase 0 canonical inventory",
+    "User-owned YEP plugin folder or ZIP",
+    "Versioned semantic overlay"
+  ],
+  "guarantees": [
+    "Every canonical plugin receives a compilation result.",
+    "Every extracted source candidate receives a final disposition.",
+    "No RequiresReview discovery is accepted in a golden catalog.",
+    "Every emitted feature satisfies the Phase 1 platform-neutral catalog contract.",
+    "Paired blocks include opening and closing patterns.",
+    "Generated feature keys are unique and deterministic.",
+    "Runtime parser evidence contains line numbers and hashes but no JavaScript source excerpts.",
+    "Long YEP help prose and parameter descriptions are not redistributed.",
+    "The compiler never executes plugin JavaScript.",
+    "The generated catalog can be loaded without the source bundle."
+  ],
+  "goldenCounts": {
+    "plugins": 218,
+    "helpSections": 976,
+    "pluginParameters": 8979,
+    "discoveries": 22525,
+    "uniqueDiscoveries": 12292,
+    "duplicateDiscoveries": 10233,
+    "generatedFeatures": 2903,
+    "requiresReview": 0
+  },
+  "verificationCommands": [
+    "python eng/validate-plugin-tags-phase2.py",
+    "dotnet build Playroma.PluginTags.Phase2.slnf",
+    "dotnet run --project tests/Playroma.JRPG.PluginTags.Phase2.Tests"
+  ]
+}

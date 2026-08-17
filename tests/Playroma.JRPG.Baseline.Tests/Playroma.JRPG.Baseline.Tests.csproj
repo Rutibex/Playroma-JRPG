@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Playroma.JRPG.Baseline.Tests</RootNamespace>
+    <AssemblyName>Playroma.JRPG.Baseline.Tests</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../src/Playroma.JRPG.Core/Playroma.JRPG.Core.csproj" />
+    <ProjectReference Include="../../src/Playroma.JRPG.Specifications/Playroma.JRPG.Specifications.csproj" />
+    <ProjectReference Include="../../src/Playroma.JRPG.Testing/Playroma.JRPG.Testing.csproj" />
+  </ItemGroup>
+</Project>

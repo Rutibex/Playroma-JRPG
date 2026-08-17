@@ -1,0 +1,21 @@
+{
+  "formatVersion": 1,
+  "id": "impact.heavy-steel-on-stone",
+  "displayName": "Heavy Steel on Stone",
+  "generatorId": "playroma.impact",
+  "rootSeed": 92811,
+  "familySeed": 44001,
+  "variationIndex": 0,
+  "qualityMode": "realtimeHigh",
+  "description": {
+    "materialA": "steel",
+    "materialB": "stone",
+    "environment": "warehouse",
+    "mass": 0.88,
+    "velocity": 0.72,
+    "contactArea": 0.45,
+    "glancing": 0.08,
+    "breakage": 0.08,
+    "distance": 0.2
+  }
+}

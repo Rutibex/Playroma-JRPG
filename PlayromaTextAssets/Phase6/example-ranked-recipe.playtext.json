@@ -1,0 +1,68 @@
+{
+  "id": "example.phase6.ranked-greeting",
+  "version": 1,
+  "name": "Ranked Semantic Greeting",
+  "kind": "dialogue",
+  "description": "Generate a hidden candidate pool, require the requested semantic mood, then prefer compact varied results.",
+  "parameters": {
+    "mood": {
+      "name": "mood",
+      "type": "choice",
+      "required": false,
+      "defaultValue": "friendly",
+      "description": "Desired mood.",
+      "choices": ["friendly", "neutral", "hostile"]
+    }
+  },
+  "stages": [
+    {
+      "id": "grammar",
+      "kind": "phase3.tracery",
+      "enabled": true,
+      "settings": {
+        "grammarId": "example.phase6.semantic-dialogue",
+        "field": "text",
+        "isPrimary": true,
+        "emitSemanticFeatures": true
+      }
+    }
+  ],
+  "candidatePipeline": {
+    "candidateCount": 18,
+    "filters": [
+      {
+        "id": "mood-match",
+        "predicate": "feature.mood == context.mood",
+        "required": true,
+        "description": "Only keep candidates whose semantic mood matches the authoring control."
+      }
+    ],
+    "scorers": [
+      {
+        "id": "brevity",
+        "kind": "wordCount",
+        "weight": 0.5,
+        "ideal": 12,
+        "minimum": 5,
+        "maximum": 24,
+        "invert": false
+      },
+      {
+        "id": "variety",
+        "kind": "uniqueWordRatio",
+        "weight": 0.25,
+        "invert": false
+      },
+      {
+        "id": "semanticCoverage",
+        "kind": "featureCoverage",
+        "weight": 0.25,
+        "target": "mood,dialogue.act,urgency",
+        "invert": false
+      }
+    ],
+    "diversityWeight": 0.2,
+    "minimumDiversity": 0.0,
+    "rejectGenerationErrors": true
+  }
+}

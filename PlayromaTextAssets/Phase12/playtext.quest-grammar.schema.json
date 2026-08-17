@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://playroma.dev/schemas/playtext.quest-grammar.schema.json",
+  "title": "Playroma Text Studio Quest Grammar",
+  "type": "object",
+  "required": ["id", "version", "name", "goalPredicates", "actions"],
+  "properties": {
+    "id": {"type":"string","minLength":1},
+    "version": {"type":"integer","minimum":1},
+    "name": {"type":"string","minLength":1},
+    "description": {"type":["string","null"]},
+    "enabled": {"type":"boolean"},
+    "rootTask": {"type":["string","null"]},
+    "goalPredicates": {"type":"array","minItems":1,"items":{"type":"string"}},
+    "bindings": {"type":"array","items":{"$ref":"#/$defs/binding"}},
+    "actions": {"type":"array","minItems":1,"items":{"$ref":"#/$defs/action"}},
+    "methods": {"type":"array","items":{"$ref":"#/$defs/method"}},
+    "summaryRecipeId": {"type":["string","null"]},
+    "realizationParameters": {"type":["object","null"]},
+    "planner": {"$ref":"#/$defs/planner"},
+    "tags": {"type":"array","items":{"type":"string"}}
+  },
+  "$defs": {
+    "binding": {"type":"object","required":["id","kind","candidateContextKey"],"properties":{"id":{"type":"string"},"kind":{"enum":["character","location","item","faction","custom","Character","Location","Item","Faction","Custom"]},"candidateContextKey":{"type":"string"},"required":{"type":"boolean"},"distinct":{"type":"boolean"},"requiredTags":{"type":"array","items":{"type":"string"}},"description":{"type":["string","null"]}}},
+    "effect": {"type":"object","required":["kind","key"],"properties":{"kind":{"enum":["set","increment","addTag","removeTag","Set","Increment","AddTag","RemoveTag"]},"key":{"type":"string"},"value":{},"description":{"type":["string","null"]}}},
+    "action": {"type":"object","required":["id","name"],"properties":{"id":{"type":"string"},"name":{"type":"string"},"description":{"type":["string","null"]},"cost":{"type":"number","minimum":0},"preconditions":{"type":"array","items":{"type":"string"}},"bindings":{"type":"array","items":{"$ref":"#/$defs/binding"}},"effects":{"type":"array","items":{"$ref":"#/$defs/effect"}},"realizationRecipeId":{"type":["string","null"]},"realizationParameters":{"type":["object","null"]},"tags":{"type":"array","items":{"type":"string"}}}},
+    "method": {"type":"object","required":["id","taskId","subtasks"],"properties":{"id":{"type":"string"},"taskId":{"type":"string"},"subtasks":{"type":"array","minItems":1,"items":{"type":"string"}},"description":{"type":["string","null"]},"priority":{"type":"integer"},"preconditions":{"type":"array","items":{"type":"string"}}}},
+    "planner": {"type":["object","null"],"properties":{"maxPlanSteps":{"type":"integer","minimum":1,"maximum":256},"maxSearchNodes":{"type":"integer","minimum":1,"maximum":1000000},"maxDecompositionDepth":{"type":"integer","minimum":1,"maximum":128},"preferLowerCost":{"type":"boolean"}}}
+  }
+}

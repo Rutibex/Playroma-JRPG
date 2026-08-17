@@ -1,0 +1,27 @@
+{
+  "formatVersion": 1,
+  "id": "creature-action.dragon-enrage",
+  "displayName": "Dragon Enrage",
+  "generatorId": "playroma.creature-action",
+  "rootSeed": 73100,
+  "familySeed": 91200,
+  "variationIndex": 0,
+  "qualityMode": "realtimeHigh",
+  "description": {
+    "action": "enrage",
+    "bodyType": "dragon",
+    "size": 0.9,
+    "intensity": 0.92,
+    "roughness": 0.78,
+    "structure": "callAndResponse",
+    "duration": 0.55,
+    "environment": "cave",
+    "pitchContour": "falling",
+    "rhythmStyle": "bursts",
+    "envelopeStyle": "doubleAttack",
+    "emotion": "enraged",
+    "energyState": "overcharged",
+    "condition": "ancient",
+    "stereoStyle": "moving"
+  }
+}

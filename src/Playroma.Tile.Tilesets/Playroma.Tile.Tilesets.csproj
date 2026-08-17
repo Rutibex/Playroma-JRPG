@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Playroma.Tile.Core\Playroma.Tile.Core.csproj" />
+    <ProjectReference Include="..\Playroma.Tile.RpgMakerMV\Playroma.Tile.RpgMakerMV.csproj" />
+    <ProjectReference Include="..\Playroma.Tile.Autotiles\Playroma.Tile.Autotiles.csproj" />
+    <ProjectReference Include="..\Playroma.Tile.Materials\Playroma.Tile.Materials.csproj" />
+  </ItemGroup>
+</Project>

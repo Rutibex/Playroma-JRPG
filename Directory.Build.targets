@@ -1,0 +1,15 @@
+<Project>
+  <ItemGroup>
+    <ForbiddenEncryptedMvAsset Include="$(MSBuildThisFileDirectory)**/*.rpgmvp;$(MSBuildThisFileDirectory)**/*.rpgmvo;$(MSBuildThisFileDirectory)**/*.rpgmvm"
+                               Exclude="$(MSBuildThisFileDirectory)**/bin/**;$(MSBuildThisFileDirectory)**/obj/**;$(MSBuildThisFileDirectory)testdata/fixtures/phase1/encrypted-asset-layout/img/pictures/SyntheticEncrypted.rpgmvp" />
+    <ForbiddenMvRuntime Include="$(MSBuildThisFileDirectory)**/Game.exe;$(MSBuildThisFileDirectory)**/nw.pak"
+                        Exclude="$(MSBuildThisFileDirectory)**/bin/**;$(MSBuildThisFileDirectory)**/obj/**" />
+  </ItemGroup>
+
+  <Target Name="RejectProprietaryMvArtifacts" BeforeTargets="PrepareForBuild">
+    <Error Condition="'@(ForbiddenEncryptedMvAsset)' != ''"
+           Text="Encrypted RPG Maker deployment assets are not permitted in the repository: @(ForbiddenEncryptedMvAsset)" />
+    <Error Condition="'@(ForbiddenMvRuntime)' != ''"
+           Text="Proprietary/deployed runtime artifacts are not permitted in the repository: @(ForbiddenMvRuntime)" />
+  </Target>
+</Project>

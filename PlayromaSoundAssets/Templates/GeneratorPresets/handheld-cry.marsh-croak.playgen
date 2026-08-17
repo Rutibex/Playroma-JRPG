@@ -1,0 +1,25 @@
+{
+  "formatVersion": 1,
+  "id": "handheld-cry.marsh-croak",
+  "displayName": "Marsh Cartridge Croak",
+  "generatorId": "playroma.classic-handheld-cry",
+  "rootSeed": 10493,
+  "familySeed": 61703,
+  "variationIndex": 0,
+  "qualityMode": "realtimeHigh",
+  "description": {
+    "archetype": "croak",
+    "contour": "valley",
+    "pitch": 0.34,
+    "length": 0.52,
+    "bodySize": 0.72,
+    "syllables": 6,
+    "complexity": 0.48,
+    "sweep": 0.46,
+    "pulseBlend": 0.7,
+    "noise": 0.58,
+    "roughness": 0.63,
+    "repetition": 0.18,
+    "punch": 0.64
+  }
+}

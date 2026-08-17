@@ -1,0 +1,634 @@
+{
+  "schemaVersion": 1,
+  "id": "game-score-foundation",
+  "name": "Game Score Foundation",
+  "description": "Loop-conscious forms, foreground motifs, adaptive accompaniment roles and restrained repetition for interactive scoring.",
+  "version": "1.0.0",
+  "family": "game",
+  "abstract": true,
+  "extends": "core-musical-foundation",
+  "tempo": {
+    "minimum": 70,
+    "maximum": 132
+  },
+  "meter": {
+    "beatsPerBar": 4,
+    "beatUnit": 4
+  },
+  "candidateCount": 15,
+  "scales": [
+    "major",
+    "naturalMinor",
+    "dorian",
+    "mixolydian",
+    "lydian"
+  ],
+  "forms": {
+    "grammarId": "game-loop-form-v1",
+    "productions": [
+      [
+        "I",
+        "A",
+        "A'",
+        "B",
+        "C",
+        "A"
+      ],
+      [
+        "I",
+        "A",
+        "B",
+        "A'",
+        "C",
+        "A"
+      ],
+      [
+        "A",
+        "B",
+        "A'",
+        "B"
+      ]
+    ]
+  },
+  "harmony": {
+    "grammarId": "game-loop-harmony-v1",
+    "progressions": {
+      "intro": [
+        [
+          0,
+          5,
+          3,
+          4
+        ]
+      ],
+      "verse": [
+        [
+          0,
+          5,
+          3,
+          4
+        ],
+        [
+          0,
+          3,
+          6,
+          4
+        ]
+      ],
+      "chorus": [
+        [
+          0,
+          4,
+          5,
+          3
+        ],
+        [
+          3,
+          4,
+          0,
+          5
+        ]
+      ],
+      "bridge": [
+        [
+          5,
+          3,
+          1,
+          4
+        ],
+        [
+          1,
+          6,
+          3,
+          4
+        ]
+      ],
+      "breakdown": [
+        [
+          5,
+          3,
+          1,
+          4
+        ]
+      ],
+      "solo": [
+        [
+          0,
+          4,
+          5,
+          3
+        ]
+      ],
+      "outro": [
+        [
+          0,
+          5,
+          3,
+          4
+        ]
+      ]
+    }
+  },
+  "rhythms": [
+    {
+      "id": "game-pulse",
+      "steps": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "adventure-ostinato",
+      "steps": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "heroic-march",
+      "steps": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "battle-drive",
+      "steps": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "boss-ostinato",
+      "steps": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "sparse-breath",
+      "steps": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "waltz-pulse",
+      "steps": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "six-eight-flow",
+      "steps": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "ship-sway",
+      "steps": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "chip-lead",
+      "steps": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "chip-bass",
+      "steps": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "chip-arp",
+      "steps": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "metal-riff",
+      "steps": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "industrial-kick",
+      "steps": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "stealth-pulse",
+      "steps": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "horror-heartbeat",
+      "steps": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "strategy-march",
+      "steps": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "puzzle-tick",
+      "steps": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "ambient-loop",
+      "steps": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "id": "counter",
+      "name": "Countermelody",
+      "role": "counterMelody",
+      "enabled": true,
+      "generalMidiProgram": 68,
+      "isPercussion": false,
+      "rhythmPatternId": "adventure-ostinato",
+      "minimumPitch": 55,
+      "maximumPitch": 86,
+      "density": 54,
+      "instrumentSelector": {
+        "families": [
+          "reed",
+          "pipe",
+          "strings",
+          "brass",
+          "synthLead"
+        ],
+        "preferredTags": [
+          "counterline",
+          "expressive",
+          "clear"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 55,
+        "maximumPitch": 86,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "phraseAlternation",
+          "callAndResponse",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 4
+    },
+    {
+      "id": "texture",
+      "name": "Atmosphere",
+      "role": "texture",
+      "enabled": true,
+      "generalMidiProgram": 91,
+      "isPercussion": false,
+      "rhythmPatternId": "sparse-breath",
+      "minimumPitch": 36,
+      "maximumPitch": 96,
+      "density": 38,
+      "instrumentSelector": {
+        "families": [
+          "synthPad",
+          "ensemble",
+          "strings",
+          "synthEffects",
+          "pipe"
+        ],
+        "preferredTags": [
+          "atmospheric",
+          "sustaining",
+          "supportive"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 36,
+        "maximumPitch": 96,
+        "minimumAttack": 0,
+        "maximumAttack": 0.55,
+        "minimumSustain": 0.45,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0,
+        "maximumBrightness": 0.75,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "registerSplit",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 5
+    }
+  ],
+  "constraints": {
+    "minimumNotesPerPhrase": 2,
+    "maximumNotesPerPhrase": 72,
+    "maximumMelodicLeap": 16,
+    "maximumRepeatedPitch": 5,
+    "minimumChordToneRatio": 0.2,
+    "preferredMinimumRange": 4,
+    "preferredMaximumRange": 22,
+    "maximumDensityRatio": 1.35
+  },
+  "scoring": {
+    "chordTone": 27,
+    "stepwiseMotion": 18,
+    "motifFidelity": 24,
+    "phraseClosure": 17,
+    "rhythmBalance": 14,
+    "range": 10,
+    "leapPenalty": 1.1,
+    "syncopation": 4,
+    "repetitionControl": 10
+  }
+}

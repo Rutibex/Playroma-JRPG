@@ -1,0 +1,539 @@
+{
+  "schemaVersion": 3,
+  "commands": [
+    {
+      "code": 0,
+      "name": "End",
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 1,
+      "name": "Move Down",
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 2,
+      "name": "Move Left",
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 3,
+      "name": "Move Right",
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 4,
+      "name": "Move Up",
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 5,
+      "name": "Move Lower Left",
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 6,
+      "name": "Move Lower Right",
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 7,
+      "name": "Move Upper Left",
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 8,
+      "name": "Move Upper Right",
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 9,
+      "name": "Move Random",
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 10,
+      "name": "Move Toward Player",
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 11,
+      "name": "Move Away from Player",
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 12,
+      "name": "Move Forward",
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 13,
+      "name": "Move Backward",
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 14,
+      "name": "Jump",
+      "sampleParameters": [
+        1,
+        1
+      ],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "x",
+          "displayName": "X Offset",
+          "type": "integer",
+          "description": "X Offset",
+          "minimum": -999,
+          "maximum": 999
+        },
+        {
+          "index": 1,
+          "name": "y",
+          "displayName": "Y Offset",
+          "type": "integer",
+          "description": "Y Offset",
+          "minimum": -999,
+          "maximum": 999
+        }
+      ]
+    },
+    {
+      "code": 15,
+      "name": "Wait",
+      "sampleParameters": [
+        60
+      ],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "frames",
+          "displayName": "Frames",
+          "type": "integer",
+          "description": "Frames",
+          "minimum": 1,
+          "maximum": 9999,
+          "unit": "frames"
+        }
+      ]
+    },
+    {
+      "code": 16,
+      "name": "Turn Down",
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 17,
+      "name": "Turn Left",
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 18,
+      "name": "Turn Right",
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 19,
+      "name": "Turn Up",
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 20,
+      "name": "Turn 90° Right",
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 21,
+      "name": "Turn 90° Left",
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 22,
+      "name": "Turn 180°",
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 23,
+      "name": "Turn 90° Right or Left",
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 24,
+      "name": "Turn Random",
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 25,
+      "name": "Turn Toward Player",
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 26,
+      "name": "Turn Away from Player",
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 27,
+      "name": "Switch On",
+      "sampleParameters": [
+        1
+      ],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "switchId",
+          "displayName": "Switch",
+          "type": "databaseId",
+          "target": "Switch",
+          "description": "Switch"
+        }
+      ]
+    },
+    {
+      "code": 28,
+      "name": "Switch Off",
+      "sampleParameters": [
+        1
+      ],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "switchId",
+          "displayName": "Switch",
+          "type": "databaseId",
+          "target": "Switch",
+          "description": "Switch"
+        }
+      ]
+    },
+    {
+      "code": 29,
+      "name": "Change Speed",
+      "sampleParameters": [
+        4
+      ],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "speed",
+          "displayName": "Speed",
+          "type": "enum",
+          "description": "Speed",
+          "options": {
+            "1": "1: x8 Slower",
+            "2": "2: x4 Slower",
+            "3": "3: x2 Slower",
+            "4": "4: Normal",
+            "5": "5: x2 Faster",
+            "6": "6: x4 Faster"
+          }
+        }
+      ]
+    },
+    {
+      "code": 30,
+      "name": "Change Frequency",
+      "sampleParameters": [
+        3
+      ],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "frequency",
+          "displayName": "Frequency",
+          "type": "enum",
+          "description": "Frequency",
+          "options": {
+            "1": "1: Lowest",
+            "2": "2: Lower",
+            "3": "3: Normal",
+            "4": "4: Higher",
+            "5": "5: Highest"
+          }
+        }
+      ]
+    },
+    {
+      "code": 31,
+      "name": "Walking Animation On",
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 32,
+      "name": "Walking Animation Off",
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 33,
+      "name": "Stepping Animation On",
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 34,
+      "name": "Stepping Animation Off",
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 35,
+      "name": "Direction Fix On",
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 36,
+      "name": "Direction Fix Off",
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 37,
+      "name": "Through On",
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 38,
+      "name": "Through Off",
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 39,
+      "name": "Transparent On",
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 40,
+      "name": "Transparent Off",
+      "sampleParameters": [],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": []
+    },
+    {
+      "code": 41,
+      "name": "Change Image",
+      "sampleParameters": [
+        "",
+        0
+      ],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "characterName",
+          "displayName": "Character",
+          "type": "asset",
+          "assetCategory": "Characters",
+          "description": "Character"
+        },
+        {
+          "index": 1,
+          "name": "characterIndex",
+          "displayName": "Character Index",
+          "type": "integer",
+          "description": "Character Index",
+          "minimum": 0,
+          "maximum": 7
+        }
+      ]
+    },
+    {
+      "code": 42,
+      "name": "Change Opacity",
+      "sampleParameters": [
+        128
+      ],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "opacity",
+          "displayName": "Opacity",
+          "type": "integer",
+          "description": "Opacity",
+          "minimum": 0,
+          "maximum": 255
+        }
+      ]
+    },
+    {
+      "code": 43,
+      "name": "Change Blend Mode",
+      "sampleParameters": [
+        1
+      ],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "schema",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "blendMode",
+          "displayName": "Blend Mode",
+          "type": "enum",
+          "description": "Blend Mode",
+          "options": {
+            "0": "Normal",
+            "1": "Additive",
+            "2": "Multiply",
+            "3": "Screen"
+          }
+        }
+      ]
+    },
+    {
+      "code": 44,
+      "name": "Play SE",
+      "sampleParameters": [
+        {
+          "name": "",
+          "volume": 90,
+          "pitch": 100,
+          "pan": 0
+        }
+      ],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "audio",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "audio",
+          "displayName": "Sound Effect",
+          "type": "audio",
+          "description": "Sound Effect"
+        }
+      ]
+    },
+    {
+      "code": 45,
+      "name": "Script",
+      "sampleParameters": [
+        "this.turnRight90();"
+      ],
+      "source": "MV CoreScript Game_Character route constants / clean-room fixture",
+      "editor": "script",
+      "parameters": [
+        {
+          "index": 0,
+          "name": "script",
+          "displayName": "Script",
+          "type": "string",
+          "description": "Script"
+        }
+      ]
+    }
+  ]
+}

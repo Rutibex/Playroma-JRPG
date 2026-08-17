@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Playroma.JRPG.FormulaWorker</RootNamespace>
+    <AssemblyName>Playroma.JRPG.FormulaWorker</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Playroma.JRPG.FormulaSandbox/Playroma.JRPG.FormulaSandbox.csproj" />
+  </ItemGroup>
+</Project>

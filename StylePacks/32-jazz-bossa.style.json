@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "id": "bossa-jazz",
+  "name": "Bossa Jazz",
+  "description": "Syncopated guitar or piano, gentle bass and brushed Latin-inflected rhythm.",
+  "version": "1.0.0",
+  "family": "jazz",
+  "abstract": false,
+  "extends": "jazz-after-hours",
+  "tempo": {
+    "minimum": 96,
+    "maximum": 142
+  },
+  "candidateCount": 16,
+  "scales": [
+    "major",
+    "dorian",
+    "mixolydian"
+  ],
+  "roles": [
+    {
+      "id": "melody",
+      "name": "Bossa Jazz Melody",
+      "role": "lead",
+      "instrumentSelector": {
+        "families": [
+          "pipe",
+          "reed",
+          "guitar"
+        ],
+        "preferredTags": [
+          "lead",
+          "expressive",
+          "soft",
+          "acoustic"
+        ],
+        "avoidTags": [
+          "very-low"
+        ],
+        "minimumAttack": 0.15,
+        "maximumAttack": 0.95,
+        "minimumBrightness": 0.2,
+        "maximumBrightness": 0.95,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "octaveDoubling",
+          "phraseAlternation",
+          "callAndResponse",
+          "sectionSubstitution"
+        ]
+      }
+    },
+    {
+      "id": "bass",
+      "name": "Bossa Jazz Bass",
+      "role": "bass",
+      "instrumentSelector": {
+        "families": [
+          "bass",
+          "guitar"
+        ],
+        "preferredTags": [
+          "bass",
+          "warm",
+          "low"
+        ],
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 0.72,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "registerSplit",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "chords",
+      "name": "Bossa Jazz Chords",
+      "role": "chords",
+      "instrumentSelector": {
+        "families": [
+          "guitar",
+          "piano"
+        ],
+        "preferredTags": [
+          "polyphonic",
+          "harmony",
+          "acoustic",
+          "comping"
+        ],
+        "minimumSustain": 0.15,
+        "maximumLayers": 3,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "registerSplit",
+          "hocket",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "arpeggio",
+      "name": "Bossa Jazz Arpeggio",
+      "role": "arpeggio",
+      "instrumentSelector": {
+        "families": [
+          "guitar",
+          "piano",
+          "chromaticPercussion"
+        ],
+        "preferredTags": [
+          "short",
+          "clear",
+          "pulse",
+          "syncopated"
+        ],
+        "minimumAttack": 0.25,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "octaveDoubling",
+          "hocket",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "drums",
+      "name": "Bossa Jazz Drums",
+      "role": "drums",
+      "instrumentSelector": {
+        "families": [
+          "drums"
+        ],
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument",
+          "sectionSubstitution"
+        ],
+        "preferredTags": [
+          "drums",
+          "latin",
+          "percussive"
+        ],
+        "avoidTags": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Playroma.JRPG.FixtureBuilder</RootNamespace>
+    <AssemblyName>Playroma.JRPG.FixtureBuilder</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../src/Playroma.JRPG.Core/Playroma.JRPG.Core.csproj" />
+    <ProjectReference Include="../../src/Playroma.JRPG.Testing/Playroma.JRPG.Testing.csproj" />
+  </ItemGroup>
+</Project>

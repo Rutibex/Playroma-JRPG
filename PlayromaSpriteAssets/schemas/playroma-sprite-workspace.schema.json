@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://playroma.dev/schemas/playroma-sprite-workspace.schema.json",
+  "title": "Playroma Sprite Studio Workspace",
+  "type": "object",
+  "required": ["schema", "id", "name", "windowWidth", "windowHeight", "inspectorWidth", "timelineHeight", "activeInspectorTab", "canvasZoom"],
+  "properties": {
+    "schema": { "const": "playroma-sprite-workspace/1" },
+    "id": { "type": "string", "pattern": "^[a-z0-9_-]+$" },
+    "name": { "type": "string", "minLength": 1 },
+    "windowX": { "type": "integer" },
+    "windowY": { "type": "integer" },
+    "windowWidth": { "type": "integer", "minimum": 800 },
+    "windowHeight": { "type": "integer", "minimum": 600 },
+    "maximized": { "type": "boolean" },
+    "mirrorInspector": { "type": "boolean" },
+    "timelineVisible": { "type": "boolean" },
+    "inspectorWidth": { "type": "integer", "minimum": 240 },
+    "timelineHeight": { "type": "integer", "minimum": 100 },
+    "activeInspectorTab": { "type": "string", "minLength": 1 },
+    "canvasZoom": { "type": "integer", "minimum": 1, "maximum": 64 },
+    "panels": { "type": "array", "items": { "type": "object" } },
+    "savedAt": { "type": "string", "format": "date-time" }
+  },
+  "additionalProperties": true
+}

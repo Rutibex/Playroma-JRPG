@@ -1,0 +1,41 @@
+name: MV compatibility report
+description: Report an RPG Maker MV format, runtime, or plugin compatibility issue
+title: "[Compatibility] "
+labels: [compatibility]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Project discovery
+        - JSON round trip
+        - Map data
+        - Event commands
+        - Movement routes
+        - Plugin parameters
+        - Runtime version
+        - NW.js behavior
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: minimal-case
+    attributes:
+      label: Minimal reproduction
+      description: Attach only content that you may legally redistribute.
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed and expected behavior
+    validations:
+      required: true
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: Redistribution confirmation
+      options:
+        - label: I have the right to share every attached file.
+          required: true

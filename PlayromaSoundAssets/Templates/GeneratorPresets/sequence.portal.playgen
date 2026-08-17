@@ -1,0 +1,26 @@
+{
+  "formatVersion": 1,
+  "id": "sequence.portal",
+  "displayName": "Portal Open and Close",
+  "generatorId": "playroma.procedural-sequence",
+  "rootSeed": 75566,
+  "familySeed": 94998,
+  "variationIndex": 0,
+  "qualityMode": "realtimeHigh",
+  "description": {
+    "kind": "portalOpenClose",
+    "events": 9,
+    "structure": "buildAndRelease",
+    "rhythm": 0.55,
+    "repetition": 0.2,
+    "duration": 0.58,
+    "variationMode": "cinematic",
+    "pitchContour": "arch",
+    "rhythmStyle": "callAndResponse",
+    "envelopeStyle": "longRelease",
+    "emotion": "majestic",
+    "energyState": "overcharged",
+    "condition": "ancient",
+    "stereoStyle": "moving"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "formatVersion": 1,
+  "id": "cartoon.heroic-boing",
+  "displayName": "Heroic Boing",
+  "generatorId": "playroma.cartoon",
+  "rootSeed": 74744,
+  "familySeed": 93732,
+  "variationIndex": 0,
+  "qualityMode": "realtimeHigh",
+  "description": {
+    "kind": "boing",
+    "exaggeration": 0.95,
+    "elasticity": 0.9,
+    "brightness": 0.82,
+    "structure": "triple",
+    "duration": 0.28,
+    "pitchContour": "bounce",
+    "rhythmStyle": "swing",
+    "envelopeStyle": "plucked",
+    "emotion": "playful",
+    "energyState": "energetic",
+    "condition": "new",
+    "stereoStyle": "wide"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "phase": 10,
+  "name": "Maps, tilesets, events, comments, and commands",
+  "provider": "YEP-MV",
+  "sourceCatalogFeatureCount": 2903,
+  "runtimeCatalogFeatureCount": 2943,
+  "coveredPluginCount": 89,
+  "routedFeatureCount": 774,
+  "excludedPluginCommandDocumentationHeadings": 117,
+  "surfaces": {
+    "pluginCommand": 607,
+    "eventPageComment": 54,
+    "eventNote": 22,
+    "mapNote": 77,
+    "tilesetNote": 9,
+    "moveRouteScript": 5
+  },
+  "specializedEditors": [
+    {
+      "id": "yep.map-tags",
+      "name": "Map Plugin Tags",
+      "featureCount": 11,
+      "storage": "MapNNN.json note"
+    },
+    {
+      "id": "yep.region-rules",
+      "name": "Region Rules",
+      "featureCount": 66,
+      "storage": "MapNNN.json note"
+    },
+    {
+      "id": "yep.tileset-tags",
+      "name": "Tileset Plugin Tags",
+      "featureCount": 9,
+      "storage": "Tilesets.json record note"
+    },
+    {
+      "id": "yep.event-tags",
+      "name": "Event Plugin Tags",
+      "featureCount": 22,
+      "storage": "Map event note"
+    },
+    {
+      "id": "yep.event-page-comments",
+      "name": "Event Page Comment Tags",
+      "featureCount": 54,
+      "storage": "Event commands 108/408"
+    },
+    {
+      "id": "yep.plugin-command-builder",
+      "name": "YEP Plugin Command Builder",
+      "featureCount": 607,
+      "storage": "Event command 356"
+    },
+    {
+      "id": "yep.move-route-builder",
+      "name": "YEP Move Route Helpers",
+      "featureCount": 5,
+      "storage": "Movement-route script command 45"
+    }
+  ],
+  "trueEventNotePlugins": [
+    "YEP_CommonEventMenu",
+    "YEP_EventEncounterAid",
+    "YEP_EventSpriteOffset",
+    "YEP_EventStepAniOpt",
+    "YEP_MoveRouteCore",
+    "YEP_X_MenuActorEvents"
+  ],
+  "serialization": {
+    "eventCommentOpeningCode": 108,
+    "eventCommentContinuationCode": 408,
+    "pluginCommandCode": 356,
+    "movementRouteScriptCode": 45,
+    "movementRouteTerminatorCode": 0
+  },
+  "acceptanceTests": 23,
+  "guarantees": {
+    "losslessTextRoundTrip": true,
+    "commentsStoredInEventCommandList": true,
+    "commandsStoredInEventCommandList": true,
+    "moveHelpersStoredInMovementRoute": true,
+    "documentationHeadingsExcludedFromCommandPicker": true,
+    "executesPluginJavaScript": false,
+    "redistributesYanflyJavaScript": false
+  }
+}

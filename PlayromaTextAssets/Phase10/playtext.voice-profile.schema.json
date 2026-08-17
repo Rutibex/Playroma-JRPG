@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://playroma.local/schemas/playtext.voice-profile.schema.json",
+  "title": "Playroma Text Studio Dialogue Voice Profile",
+  "type": "object",
+  "required": ["id", "version", "name"],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "version": { "type": "integer", "minimum": 1 },
+    "name": { "type": "string", "minLength": 1 },
+    "description": { "type": ["string", "null"] },
+    "formality": { "type": "number", "minimum": 0, "maximum": 1 },
+    "verbosity": { "type": "number", "minimum": 0, "maximum": 1 },
+    "warmth": { "type": "number", "minimum": 0, "maximum": 1 },
+    "aggression": { "type": "number", "minimum": 0, "maximum": 1 },
+    "humor": { "type": "number", "minimum": 0, "maximum": 1 },
+    "archaic": { "type": "number", "minimum": 0, "maximum": 1 },
+    "contractionPreference": { "type": "number", "minimum": 0, "maximum": 1 },
+    "fillerPreference": { "type": "number", "minimum": 0, "maximum": 1 },
+    "catchphrasePreference": { "type": "number", "minimum": 0, "maximum": 1 },
+    "exclamationPreference": { "type": "number", "minimum": 0, "maximum": 1 },
+    "ellipsisPreference": { "type": "number", "minimum": 0, "maximum": 1 },
+    "defaultEmotion": { "type": "string" },
+    "vocabulary": { "type": "object", "additionalProperties": { "type": "string" } },
+    "dialectRules": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["from", "to"],
+        "properties": {
+          "from": { "type": "string" },
+          "to": { "type": "string" },
+          "wholeWord": { "type": "boolean" },
+          "caseInsensitive": { "type": "boolean" }
+        }
+      }
+    },
+    "catchphrases": { "type": "array", "items": { "type": "string" } },
+    "fillers": { "type": "array", "items": { "type": "string" } },
+    "tabooWords": { "type": "array", "items": { "type": "string" } },
+    "actOpeners": { "$ref": "#/$defs/phraseMap" },
+    "actClosers": { "$ref": "#/$defs/phraseMap" },
+    "emotionOpeners": { "$ref": "#/$defs/phraseMap" },
+    "emotionClosers": { "$ref": "#/$defs/phraseMap" },
+    "tags": { "type": "array", "items": { "type": "string" } }
+  },
+  "$defs": {
+    "phraseMap": {
+      "type": "object",
+      "additionalProperties": { "type": "array", "items": { "type": "string" } }
+    }
+  },
+  "additionalProperties": false
+}

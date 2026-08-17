@@ -1,0 +1,76 @@
+{
+  "formatVersion": 1,
+  "id": "scene.authoring-preview",
+  "displayName": "Authoring Preview Scene",
+  "rootSeed": 60601,
+  "maximumVoices": 8,
+  "virtualizationThreshold": 0.001,
+  "sounds": [
+    { "soundId": "example.engine-drone", "poolSize": 2 },
+    { "soundId": "example.layered-impact", "poolSize": 6 }
+  ],
+  "buses": [
+    { "id": "master", "gain": 0.9, "effects": [], "sends": [] }
+  ],
+  "acousticZones": [],
+  "acousticPortals": [],
+  "parameters": [],
+  "parameterBindings": [],
+  "layers": [
+    {
+      "id": "engine-bed",
+      "kind": "continuous",
+      "soundId": "example.engine-drone",
+      "busId": "master",
+      "gain": 0.45,
+      "pan": 0,
+      "priority": 80,
+      "protected": true,
+      "fadeSeconds": 0.1,
+      "startDelaySeconds": 0,
+      "stateMachineId": "",
+      "activeStates": [],
+      "spatial": {
+        "enabled": false,
+        "position": { "x": 0, "y": 0, "z": 0 },
+        "velocity": { "x": 0, "y": 0, "z": 0 },
+        "minimumDistance": 1,
+        "maximumDistance": 100,
+        "occlusion": 0,
+        "obstruction": 0,
+        "zoneId": ""
+      }
+    }
+  ],
+  "emitters": [
+    {
+      "id": "impacts",
+      "soundIds": ["example.layered-impact"],
+      "busId": "master",
+      "minimumIntervalSeconds": 2,
+      "maximumIntervalSeconds": 6,
+      "probability": 0.7,
+      "minimumBurstCount": 1,
+      "maximumBurstCount": 1,
+      "burstSpreadSeconds": 0,
+      "maximumConcurrentVoices": 3,
+      "gain": 0.6,
+      "priority": 40,
+      "stateMachineId": "",
+      "activeStates": [],
+      "spatialDistribution": {
+        "centre": { "x": 0, "y": 0, "z": 0 },
+        "minimumRadius": 0,
+        "maximumRadius": 0,
+        "minimumDistance": 1,
+        "maximumDistance": 100,
+        "occlusion": 0,
+        "obstruction": 0,
+        "zoneId": ""
+      }
+    }
+  ],
+  "eventClusters": [],
+  "stateMachines": [],
+  "metadata": { "phase": "6C", "example": "true" }
+}

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Description>Platform-neutral long-duration streaming scenes with hardened real-time control, immutable preparation, snapshots, telemetry, hot replacement, buses, spatialization, and procedural ambience for Playroma Sound.</Description>
+    <PackageId>Playroma.Sound.Streaming</PackageId>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Playroma.Sound.Core\Playroma.Sound.Core.csproj" />
+    <ProjectReference Include="..\Playroma.Sound.Dsp\Playroma.Sound.Dsp.csproj" />
+    <ProjectReference Include="..\Playroma.Sound.Graph\Playroma.Sound.Graph.csproj" />
+    <ProjectReference Include="..\Playroma.Sound.Generators\Playroma.Sound.Generators.csproj" />
+  </ItemGroup>
+</Project>

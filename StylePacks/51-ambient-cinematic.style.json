@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "id": "cinematic-ambient",
+  "name": "Cinematic Ambient",
+  "description": "Evolving orchestral and synthetic layers shaped by a broad tension curve.",
+  "version": "1.0.0",
+  "family": "ambient",
+  "abstract": false,
+  "extends": "ambient-drifting-light",
+  "tempo": {
+    "minimum": 54,
+    "maximum": 96
+  },
+  "candidateCount": 16,
+  "scales": [
+    "major",
+    "naturalMinor",
+    "naturalMinor"
+  ],
+  "roles": [
+    {
+      "id": "melody",
+      "name": "Cinematic Ambient Melody",
+      "role": "lead",
+      "instrumentSelector": {
+        "families": [
+          "strings",
+          "brass",
+          "pipe",
+          "reed"
+        ],
+        "preferredTags": [
+          "lead",
+          "expressive",
+          "cinematic"
+        ],
+        "avoidTags": [
+          "very-low"
+        ],
+        "minimumAttack": 0.15,
+        "maximumAttack": 0.95,
+        "minimumBrightness": 0.2,
+        "maximumBrightness": 0.95,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "octaveDoubling",
+          "phraseAlternation",
+          "callAndResponse",
+          "sectionSubstitution"
+        ]
+      }
+    },
+    {
+      "id": "bass",
+      "name": "Cinematic Ambient Bass",
+      "role": "bass",
+      "instrumentSelector": {
+        "families": [
+          "strings",
+          "synthPad",
+          "brass"
+        ],
+        "preferredTags": [
+          "bass",
+          "warm",
+          "low",
+          "sustaining"
+        ],
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 0.72,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "registerSplit",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "chords",
+      "name": "Cinematic Ambient Chords",
+      "role": "chords",
+      "instrumentSelector": {
+        "families": [
+          "strings",
+          "ensemble",
+          "synthPad"
+        ],
+        "preferredTags": [
+          "polyphonic",
+          "harmony",
+          "wide",
+          "sustaining"
+        ],
+        "minimumSustain": 0.15,
+        "maximumLayers": 3,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "registerSplit",
+          "hocket",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "arpeggio",
+      "name": "Cinematic Ambient Arpeggio",
+      "role": "arpeggio",
+      "instrumentSelector": {
+        "families": [
+          "piano",
+          "chromaticPercussion",
+          "ethnic"
+        ],
+        "preferredTags": [
+          "short",
+          "clear",
+          "pulse",
+          "delicate"
+        ],
+        "minimumAttack": 0.25,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "octaveDoubling",
+          "hocket",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "drums",
+      "name": "Cinematic Ambient Drums",
+      "role": "drums",
+      "instrumentSelector": {
+        "families": [
+          "drums"
+        ],
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument",
+          "sectionSubstitution"
+        ],
+        "preferredTags": [
+          "drums",
+          "cinematic",
+          "percussive"
+        ],
+        "avoidTags": []
+      }
+    }
+  ]
+}

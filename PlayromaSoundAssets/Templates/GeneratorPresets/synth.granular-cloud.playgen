@@ -1,0 +1,27 @@
+{
+  "formatVersion": 1,
+  "id": "synth.granular-cloud",
+  "displayName": "Granular Star Cloud",
+  "generatorId": "playroma.abstract-synth",
+  "rootSeed": 75429,
+  "familySeed": 94787,
+  "variationIndex": 0,
+  "qualityMode": "realtimeHigh",
+  "description": {
+    "kind": "granularCloud",
+    "synthesisMode": "granular",
+    "waveform": "sine",
+    "pitch": 0.48,
+    "spread": 0.85,
+    "modulation": 0.72,
+    "duration": 0.58,
+    "variationMode": "crossbred",
+    "pitchContour": "evolving",
+    "rhythmStyle": "prime",
+    "envelopeStyle": "swell",
+    "emotion": "curious",
+    "energyState": "calm",
+    "condition": "polished",
+    "stereoStyle": "wide"
+  }
+}

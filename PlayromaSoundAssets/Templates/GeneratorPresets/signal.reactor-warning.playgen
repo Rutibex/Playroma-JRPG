@@ -1,0 +1,25 @@
+{
+  "formatVersion": 1,
+  "id": "signal.reactor-warning",
+  "displayName": "Reactor Warning",
+  "generatorId": "playroma.signal",
+  "rootSeed": 75018,
+  "familySeed": 94154,
+  "variationIndex": 0,
+  "qualityMode": "realtimeHigh",
+  "description": {
+    "kind": "reactorWarning",
+    "urgency": 0.92,
+    "repetition": 0.78,
+    "structure": "escalation",
+    "intensity": 0.82,
+    "duration": 0.58,
+    "pitchContour": "alarm",
+    "rhythmStyle": "even",
+    "envelopeStyle": "gated",
+    "emotion": "desperate",
+    "energyState": "frantic",
+    "condition": "damaged",
+    "stereoStyle": "alternating"
+  }
+}

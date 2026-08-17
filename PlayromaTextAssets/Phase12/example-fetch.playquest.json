@@ -1,0 +1,24 @@
+{
+  "id": "example.phase12.fetch",
+  "version": 1,
+  "name": "Example Fetch Quest",
+  "description": "A compact HTN quest grammar.",
+  "enabled": true,
+  "rootTask": "fetch",
+  "goalPredicates": ["tag(\"quest-complete\")"],
+  "bindings": [
+    {"id":"giver","kind":"Character","candidateContextKey":"storylet.characters","required":true,"distinct":true},
+    {"id":"location","kind":"Location","candidateContextKey":"storylet.locations","required":true,"distinct":true},
+    {"id":"object","kind":"Item","candidateContextKey":"quest.items","required":true,"distinct":true}
+  ],
+  "actions": [
+    {"id":"learn","name":"Learn where the item is","cost":1,"effects":[{"kind":"AddTag","key":"location-known"}],"realizationRecipeId":"phase12.quest.journal-update"},
+    {"id":"travel","name":"Travel to the destination","cost":1,"preconditions":["tag(\"location-known\")"],"effects":[{"kind":"AddTag","key":"at-destination"}],"realizationRecipeId":"phase12.quest.journal-update"},
+    {"id":"obtain","name":"Obtain the requested item","cost":1,"preconditions":["tag(\"at-destination\")"],"effects":[{"kind":"AddTag","key":"has-object"}],"realizationRecipeId":"phase12.quest.journal-update"},
+    {"id":"return","name":"Return to the quest giver","cost":1,"preconditions":["tag(\"has-object\")"],"effects":[{"kind":"AddTag","key":"quest-complete"}],"realizationRecipeId":"phase12.quest.journal-update"}
+  ],
+  "methods": [{"id":"fetch.standard","taskId":"fetch","subtasks":["learn","travel","obtain","return"],"priority":10}],
+  "summaryRecipeId": "phase12.quest.summary",
+  "planner": {"maxPlanSteps":12,"maxSearchNodes":5000,"maxDecompositionDepth":16,"preferLowerCost":true},
+  "tags": ["fetch","example"]
+}

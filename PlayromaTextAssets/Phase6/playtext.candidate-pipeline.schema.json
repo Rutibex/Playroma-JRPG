@@ -1,0 +1,203 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://playroma.local/schemas/playtext.candidate-pipeline.schema.json",
+  "title": "Playroma Hidden Candidate Pipeline",
+  "type": [
+    "object",
+    "null"
+  ],
+  "properties": {
+    "candidateCount": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 512,
+      "default": 1
+    },
+    "filters": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "predicate"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "predicate": {
+            "type": "string",
+            "minLength": 1
+          },
+          "required": {
+            "type": "boolean",
+            "default": true
+          },
+          "description": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "scorers": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "kind"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "predicate",
+              "existingScore",
+              "characterLength",
+              "wordCount",
+              "uniqueWordRatio",
+              "featureCoverage"
+            ]
+          },
+          "weight": {
+            "type": "number"
+          },
+          "predicate": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "target": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "ideal": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "minimum": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "maximum": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "invert": {
+            "type": "boolean",
+            "default": false
+          },
+          "description": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "diversityWeight": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 10,
+      "default": 0
+    },
+    "minimumDiversity": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "default": 0
+    },
+    "rejectGenerationErrors": {
+      "type": "boolean",
+      "default": true
+    },
+    "search": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "mode": {
+          "type": "string",
+          "enum": [
+            "randomPool",
+            "beamSeedSearch",
+            "evolutionarySeedSearch",
+            "qualityDiversity"
+          ],
+          "default": "randomPool"
+        },
+        "populationSize": {
+          "type": "integer",
+          "minimum": 2,
+          "maximum": 128,
+          "default": 24
+        },
+        "iterations": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 24,
+          "default": 4
+        },
+        "eliteCount": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 128,
+          "default": 4
+        },
+        "beamWidth": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 128,
+          "default": 6
+        },
+        "archiveBins": {
+          "type": "integer",
+          "minimum": 2,
+          "maximum": 32,
+          "default": 8
+        },
+        "noveltyWeight": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 5,
+          "default": 0.25
+        },
+        "randomImmigrantRate": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 0.75,
+          "default": 0.15
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

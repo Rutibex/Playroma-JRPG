@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "phase": "4",
+  "name": "Shared database Plugin Tags tab",
+  "implementedOn": "2026-08-06",
+  "authoritativeStorage": "RPG Maker MV note string",
+  "supportedContexts": [
+    {
+      "mvDocumentKind": "Actors",
+      "pluginDocumentKind": "Actor",
+      "surface": "DatabaseNote"
+    },
+    {
+      "mvDocumentKind": "Classes",
+      "pluginDocumentKind": "Class",
+      "surface": "DatabaseNote"
+    },
+    {
+      "mvDocumentKind": "Skills",
+      "pluginDocumentKind": "Skill",
+      "surface": "DatabaseNote"
+    },
+    {
+      "mvDocumentKind": "Items",
+      "pluginDocumentKind": "Item",
+      "surface": "DatabaseNote"
+    },
+    {
+      "mvDocumentKind": "Weapons",
+      "pluginDocumentKind": "Weapon",
+      "surface": "DatabaseNote"
+    },
+    {
+      "mvDocumentKind": "Armors",
+      "pluginDocumentKind": "Armor",
+      "surface": "DatabaseNote"
+    },
+    {
+      "mvDocumentKind": "Enemies",
+      "pluginDocumentKind": "Enemy",
+      "surface": "DatabaseNote"
+    },
+    {
+      "mvDocumentKind": "States",
+      "pluginDocumentKind": "State",
+      "surface": "DatabaseNote"
+    },
+    {
+      "mvDocumentKind": "Tilesets",
+      "pluginDocumentKind": "Tileset",
+      "surface": "TilesetNote"
+    }
+  ],
+  "browserScopes": [
+    "Installed",
+    "All",
+    "Current"
+  ],
+  "advancedFeaturesOptIn": true,
+  "catalogCounts": {
+    "databaseNoteDefinitions": 1420,
+    "tilesetNoteDefinitions": 9
+  },
+  "contextCandidateCounts": {
+    "Actor": 867,
+    "Class": 752,
+    "Skill": 1035,
+    "Item": 1047,
+    "Weapon": 919,
+    "Armor": 884,
+    "Enemy": 932,
+    "State": 939,
+    "Tileset": 9
+  },
+  "requiredCapabilities": [
+    "One shared lossless PluginTextEditingSession per selected record",
+    "Bidirectional Notes and Plugin Tags synchronization",
+    "Search and purpose-based categories",
+    "Installed, All, and Current filters",
+    "Installed-plugin availability and dependency gating",
+    "Generic typed and raw block editor",
+    "Non-mutating add, edit, and remove preview",
+    "Exact generated syntax and complete-result preview",
+    "Record-level diagnostics",
+    "Undoable note commit through DatabaseMutationService",
+    "Apply, discard, or cancel on record switch",
+    "Multi-selection safety",
+    "Deferred external refresh while dirty"
+  ],
+  "preservationGuarantees": [
+    "Unknown syntax",
+    "Malformed syntax",
+    "Manual prose",
+    "Whitespace",
+    "Casing",
+    "Unicode",
+    "Original line-ending preference"
+  ],
+  "acceptanceTestCount": 19,
+  "excludedUntilLaterPhases": [
+    "Complete database-reference and asset pickers",
+    "List and range builders",
+    "Batch tag operations",
+    "Beginner recipes",
+    "Dedicated complex-plugin editors",
+    "Map and event authoring surfaces",
+    "Plugin command and text-code surfaces"
+  ],
+  "licensingBoundary": "No YEP or KELYEP JavaScript source is redistributed."
+}

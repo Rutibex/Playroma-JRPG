@@ -1,0 +1,967 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://playroma.local/schemas/playroma-sprite-document.schema.json",
+  "title": "Playroma Sprite Document",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "id",
+    "name",
+    "canvas",
+    "colorMode",
+    "colorProfile",
+    "layers",
+    "frames",
+    "tags",
+    "slices",
+    "palettes",
+    "tilesets",
+    "pixelContents",
+    "metadata"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 2
+    },
+    "id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "canvas": {
+      "type": "object",
+      "required": [
+        "width",
+        "height",
+        "pixelAspectWidth",
+        "pixelAspectHeight"
+      ],
+      "properties": {
+        "width": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "pixelAspectWidth": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "pixelAspectHeight": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "colorMode": {
+      "enum": [
+        "rgba",
+        "indexed",
+        "grayscale"
+      ]
+    },
+    "colorProfile": {
+      "type": "string",
+      "minLength": 1
+    },
+    "layers": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/layer"
+      }
+    },
+    "frames": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/frame"
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/tag"
+      }
+    },
+    "slices": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/slice"
+      }
+    },
+    "metadata": {
+      "$ref": "#/$defs/documentMetadata"
+    },
+    "palettes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/palette"
+      }
+    },
+    "tilesets": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/tileset"
+      }
+    },
+    "pixelContents": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/pixelContent"
+      }
+    },
+    "colorProfileMetadata": {
+      "$ref": "#/$defs/colorProfileMetadata"
+    },
+    "activePaletteId": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "uuid"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "transparentPaletteIndex": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 255
+    },
+    "tilemapContents": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/tilemapContent"
+      }
+    }
+  },
+  "$defs": {
+    "point": {
+      "type": "object",
+      "required": [
+        "x",
+        "y"
+      ],
+      "properties": {
+        "x": {
+          "type": "integer"
+        },
+        "y": {
+          "type": "integer"
+        }
+      },
+      "additionalProperties": false
+    },
+    "rect": {
+      "type": "object",
+      "required": [
+        "x",
+        "y",
+        "width",
+        "height"
+      ],
+      "properties": {
+        "x": {
+          "type": "integer"
+        },
+        "y": {
+          "type": "integer"
+        },
+        "width": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false
+    },
+    "stringMap": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "cel": {
+      "type": "object",
+      "required": [
+        "id",
+        "frameId",
+        "pixelContentId",
+        "position",
+        "opacity",
+        "zIndex"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "uuid"
+        },
+        "frameId": {
+          "type": "string",
+          "format": "uuid"
+        },
+        "pixelContentId": {
+          "type": "string",
+          "format": "uuid"
+        },
+        "position": {
+          "$ref": "#/$defs/point"
+        },
+        "opacity": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 255
+        },
+        "zIndex": {
+          "type": "integer"
+        }
+      },
+      "additionalProperties": false
+    },
+    "layer": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "kind",
+        "visible",
+        "locked",
+        "continuous",
+        "opacity",
+        "blendMode",
+        "cels"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "uuid"
+        },
+        "parentId": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "uuid"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "kind": {
+          "enum": [
+            "image",
+            "background",
+            "group",
+            "reference",
+            "tilemap"
+          ]
+        },
+        "visible": {
+          "type": "boolean"
+        },
+        "locked": {
+          "type": "boolean"
+        },
+        "continuous": {
+          "type": "boolean"
+        },
+        "opacity": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 255
+        },
+        "blendMode": {
+          "type": "string",
+          "minLength": 1
+        },
+        "cels": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/cel"
+          }
+        },
+        "tilesetId": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "uuid"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "tileEditMode": {
+          "enum": [
+            "pixel",
+            "tile",
+            "manual",
+            "automatic",
+            "stack"
+          ]
+        },
+        "tilemapCels": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/tilemapCel"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "frame": {
+      "type": "object",
+      "required": [
+        "id",
+        "number",
+        "durationMilliseconds"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "uuid"
+        },
+        "number": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "durationMilliseconds": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "tag": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "fromFrame",
+        "toFrame",
+        "direction",
+        "userData"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "uuid"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "fromFrame": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "toFrame": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "direction": {
+          "enum": [
+            "forward",
+            "reverse",
+            "pingPong",
+            "pingPongReverse"
+          ]
+        },
+        "color": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "userData": {
+          "$ref": "#/$defs/stringMap"
+        }
+      },
+      "additionalProperties": false
+    },
+    "slice": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "bounds",
+        "userData"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "uuid"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "bounds": {
+          "$ref": "#/$defs/rect"
+        },
+        "pivot": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/point"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "center": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/rect"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "userData": {
+          "$ref": "#/$defs/stringMap"
+        },
+        "keys": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/sliceKey"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "documentMetadata": {
+      "type": "object",
+      "required": [
+        "userData"
+      ],
+      "properties": {
+        "rpgMakerMvProfileId": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "runtimeRelativePath": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "exportPresetId": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "userData": {
+          "$ref": "#/$defs/stringMap"
+        }
+      },
+      "additionalProperties": false
+    },
+    "colorValue": {
+      "type": "object",
+      "required": [
+        "r",
+        "g",
+        "b",
+        "a"
+      ],
+      "properties": {
+        "r": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 255
+        },
+        "g": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 255
+        },
+        "b": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 255
+        },
+        "a": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 255
+        }
+      },
+      "additionalProperties": false
+    },
+    "paletteEntry": {
+      "type": "object",
+      "required": [
+        "index",
+        "color",
+        "locked"
+      ],
+      "properties": {
+        "index": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 255
+        },
+        "name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "color": {
+          "$ref": "#/$defs/colorValue"
+        },
+        "locked": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false
+    },
+    "palette": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "entries"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "uuid"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "entries": {
+          "type": "array",
+          "maxItems": 256,
+          "items": {
+            "$ref": "#/$defs/paletteEntry"
+          },
+          "minItems": 1
+        },
+        "sourceFormat": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "userData": {
+          "$ref": "#/$defs/stringMap"
+        }
+      },
+      "additionalProperties": false
+    },
+    "tileDefinition": {
+      "type": "object",
+      "required": [
+        "id",
+        "index",
+        "empty"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "uuid"
+        },
+        "index": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "pixelContentId": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "uuid"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "empty": {
+          "type": "boolean"
+        },
+        "name": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "tileset": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "tileWidth",
+        "tileHeight",
+        "tiles"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "uuid"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tileWidth": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "tileHeight": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "tiles": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/tileDefinition"
+          }
+        },
+        "columns": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "rows": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "margin": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "spacing": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "sourceImagePath": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "sourceTileStudioProjectPath": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "externalTilesetId": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "uuid"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "revision": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "autoRules": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/autoTileRule"
+          }
+        },
+        "userData": {
+          "$ref": "#/$defs/stringMap"
+        }
+      },
+      "additionalProperties": false
+    },
+    "pixelContent": {
+      "type": "object",
+      "required": [
+        "id",
+        "width",
+        "height",
+        "encoding",
+        "entryName"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "uuid"
+        },
+        "width": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "encoding": {
+          "const": "rgba32"
+        },
+        "entryName": {
+          "type": "string",
+          "pattern": "^pixels/[0-9a-f]{32}\\.rgba$"
+        }
+      },
+      "additionalProperties": false
+    },
+    "colorProfileMetadata": {
+      "type": "object",
+      "required": [
+        "name",
+        "kind",
+        "gamma",
+        "userData"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "kind": {
+          "type": "string",
+          "minLength": 1
+        },
+        "gamma": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "embeddedProfileEntryName": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "userData": {
+          "$ref": "#/$defs/stringMap"
+        }
+      },
+      "additionalProperties": false
+    },
+    "tilemapCel": {
+      "type": "object",
+      "required": [
+        "id",
+        "frameId",
+        "tilemapContentId",
+        "position",
+        "opacity",
+        "zIndex"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "uuid"
+        },
+        "frameId": {
+          "type": "string",
+          "format": "uuid"
+        },
+        "tilemapContentId": {
+          "type": "string",
+          "format": "uuid"
+        },
+        "position": {
+          "$ref": "#/$defs/point"
+        },
+        "opacity": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 255
+        },
+        "zIndex": {
+          "type": "integer"
+        }
+      },
+      "additionalProperties": false
+    },
+    "tileCell": {
+      "type": "object",
+      "required": [
+        "tileIndex",
+        "transform",
+        "opacity"
+      ],
+      "properties": {
+        "tileIndex": {
+          "type": "integer",
+          "minimum": -1
+        },
+        "transform": {
+          "type": "string",
+          "pattern": "^(none|flipHorizontal|flipVertical|rotate90)(, (flipHorizontal|flipVertical|rotate90))*$"
+        },
+        "opacity": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 255
+        }
+      },
+      "additionalProperties": false
+    },
+    "tilemapContent": {
+      "type": "object",
+      "required": [
+        "id",
+        "columns",
+        "rows",
+        "emptyTileIndex",
+        "cells"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "uuid"
+        },
+        "columns": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "rows": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "emptyTileIndex": {
+          "type": "integer",
+          "minimum": -1
+        },
+        "cells": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/tileCell"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "sliceKey": {
+      "type": "object",
+      "required": [
+        "frameNumber",
+        "bounds"
+      ],
+      "properties": {
+        "frameNumber": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "bounds": {
+          "$ref": "#/$defs/rect"
+        },
+        "pivot": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/point"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "center": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/rect"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "autoTileRule": {
+      "type": "object",
+      "required": [
+        "neighborMask",
+        "tileIndex",
+        "transform"
+      ],
+      "properties": {
+        "neighborMask": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 255
+        },
+        "tileIndex": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "transform": {
+          "type": "string",
+          "pattern": "^(none|flipHorizontal|flipVertical|rotate90)(, (flipHorizontal|flipVertical|rotate90))*$"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <Description>Windows NAudio/WASAPI playback, device selection, buffering, telemetry, recovery, and master recording for Playroma Sound.</Description>
+    <PackageId>Playroma.Sound.NAudio</PackageId>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="NAudio.Wasapi" Version="2.3.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Playroma.Sound.Core\Playroma.Sound.Core.csproj" />
+    <ProjectReference Include="..\Playroma.Sound.Analysis\Playroma.Sound.Analysis.csproj" />
+    <ProjectReference Include="..\Playroma.Sound.Streaming\Playroma.Sound.Streaming.csproj" />
+  </ItemGroup>
+</Project>

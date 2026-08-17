@@ -1,0 +1,34 @@
+{
+  "id": "example.old-soldier-memory",
+  "version": 1,
+  "name": "The Old Soldier Remembers",
+  "description": "A once-only tavern storylet that binds a speaker and reveals a memory.",
+  "enabled": true,
+  "weight": 2.0,
+  "salience": 1.4,
+  "onceOnly": true,
+  "cooldownTurns": 0,
+  "prerequisites": [
+    "tag(\"tavern\") || context.event.mapId > 0"
+  ],
+  "bindings": [
+    {
+      "id": "speaker",
+      "kind": "character",
+      "candidateContextKey": "storylet.characters",
+      "required": true,
+      "distinct": true,
+      "requiredTags": []
+    }
+  ],
+  "effects": [
+    { "kind": "addTag", "key": "old-soldier-memory-heard" },
+    { "kind": "increment", "key": "memoriesHeard", "value": 1 }
+  ],
+  "realization": {
+    "recipeId": "phase10.dialogue.small-talk",
+    "dialogueAct": "Exposition",
+    "emotion": "Solemn"
+  },
+  "tags": ["dialogue", "memory", "lore"]
+}

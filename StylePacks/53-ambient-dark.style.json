@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "id": "dark-ambient",
+  "name": "Dark Ambient",
+  "description": "Low drones, unstable colour, sparse impacts and restrained melodic fragments.",
+  "version": "1.0.0",
+  "family": "ambient",
+  "abstract": false,
+  "extends": "ambient-drifting-light",
+  "tempo": {
+    "minimum": 34,
+    "maximum": 78
+  },
+  "candidateCount": 16,
+  "scales": [
+    "phrygian",
+    "naturalMinor",
+    "chromatic"
+  ],
+  "roles": [
+    {
+      "id": "melody",
+      "name": "Dark Ambient Melody",
+      "role": "lead",
+      "instrumentSelector": {
+        "families": [
+          "reed",
+          "synthEffects",
+          "strings"
+        ],
+        "preferredTags": [
+          "lead",
+          "expressive",
+          "dark",
+          "unstable"
+        ],
+        "avoidTags": [
+          "very-low",
+          "bright"
+        ],
+        "minimumAttack": 0.15,
+        "maximumAttack": 0.95,
+        "minimumBrightness": 0.2,
+        "maximumBrightness": 0.95,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "octaveDoubling",
+          "phraseAlternation",
+          "callAndResponse",
+          "sectionSubstitution"
+        ]
+      }
+    },
+    {
+      "id": "bass",
+      "name": "Dark Ambient Bass",
+      "role": "bass",
+      "instrumentSelector": {
+        "families": [
+          "synthPad",
+          "organ",
+          "strings"
+        ],
+        "preferredTags": [
+          "bass",
+          "warm",
+          "dark",
+          "low"
+        ],
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 0.72,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "octaveDoubling",
+          "registerSplit",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "chords",
+      "name": "Dark Ambient Chords",
+      "role": "chords",
+      "instrumentSelector": {
+        "families": [
+          "synthPad",
+          "synthEffects",
+          "ensemble"
+        ],
+        "preferredTags": [
+          "polyphonic",
+          "harmony",
+          "dark",
+          "sustaining"
+        ],
+        "minimumSustain": 0.15,
+        "maximumLayers": 3,
+        "allowedStrategies": [
+          "singleInstrument",
+          "layeredUnison",
+          "registerSplit",
+          "hocket",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "arpeggio",
+      "name": "Dark Ambient Arpeggio",
+      "role": "arpeggio",
+      "instrumentSelector": {
+        "families": [
+          "soundEffects",
+          "chromaticPercussion"
+        ],
+        "preferredTags": [
+          "short",
+          "clear",
+          "pulse",
+          "sparse",
+          "metallic"
+        ],
+        "minimumAttack": 0.25,
+        "maximumLayers": 2,
+        "allowedStrategies": [
+          "singleInstrument",
+          "octaveDoubling",
+          "hocket",
+          "sectionSubstitution"
+        ],
+        "avoidTags": []
+      }
+    },
+    {
+      "id": "drums",
+      "name": "Dark Ambient Drums",
+      "role": "drums",
+      "instrumentSelector": {
+        "families": [
+          "drums"
+        ],
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument",
+          "sectionSubstitution"
+        ],
+        "preferredTags": [
+          "drums",
+          "impact",
+          "percussive"
+        ],
+        "avoidTags": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "formatVersion": 1,
+  "id": "combat.railgun-armour",
+  "displayName": "Railgun Against Armour",
+  "generatorId": "playroma.combat-sequence",
+  "rootSeed": 73237,
+  "familySeed": 91411,
+  "variationIndex": 0,
+  "qualityMode": "realtimeHigh",
+  "description": {
+    "action": "railgun",
+    "target": "armour",
+    "intensity": 0.9,
+    "size": 0.72,
+    "brightness": 0.82,
+    "mechanicalDetail": 0.78,
+    "environment": "industrialHall",
+    "pitchContour": "rising",
+    "rhythmStyle": "syncopated",
+    "envelopeStyle": "percussive",
+    "emotion": "confident",
+    "energyState": "overcharged",
+    "condition": "polished",
+    "stereoStyle": "wide"
+  }
+}

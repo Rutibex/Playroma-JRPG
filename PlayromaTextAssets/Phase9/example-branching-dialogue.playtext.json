@@ -1,0 +1,82 @@
+{
+  "id": "example.phase9.branching-dialogue",
+  "version": 1,
+  "name": "Example MV Branching Dialogue",
+  "kind": "dialogue",
+  "description": "A prompt plus three choice/response pairs. Phase 9 compiles these semantic fields into Show Text and Show Choices event commands.",
+  "stages": [
+    {
+      "id": "prompt",
+      "kind": "phase1.random-list",
+      "enabled": true,
+      "settings": {
+        "items": [
+          "You wanted to ask me something?",
+          "What do you need, traveler?"
+        ],
+        "field": "prompt",
+        "isPrimary": true
+      }
+    },
+    {
+      "id": "choice1",
+      "kind": "phase1.random-list",
+      "enabled": true,
+      "settings": {
+        "items": ["What happened here?", "Tell me about this place."],
+        "field": "choice1",
+        "isPrimary": false
+      }
+    },
+    {
+      "id": "response1",
+      "kind": "phase1.random-list",
+      "enabled": true,
+      "settings": {
+        "items": ["It started three nights ago.", "This used to be a quiet place."],
+        "field": "response1",
+        "isPrimary": false
+      }
+    },
+    {
+      "id": "choice2",
+      "kind": "phase1.random-list",
+      "enabled": true,
+      "settings": {
+        "items": ["Is there any work?", "Can I help?"],
+        "field": "choice2",
+        "isPrimary": false
+      }
+    },
+    {
+      "id": "response2",
+      "kind": "phase1.random-list",
+      "enabled": true,
+      "settings": {
+        "items": ["Speak to the captain near the gate.", "Check the notice board first."],
+        "field": "response2",
+        "isPrimary": false
+      }
+    },
+    {
+      "id": "choice3",
+      "kind": "phase1.random-list",
+      "enabled": true,
+      "settings": {
+        "items": ["Goodbye.", "That is all."],
+        "field": "choice3",
+        "isPrimary": false
+      }
+    },
+    {
+      "id": "response3",
+      "kind": "phase1.random-list",
+      "enabled": true,
+      "settings": {
+        "items": ["Safe travels.", "Keep your eyes open out there."],
+        "field": "response3",
+        "isPrimary": false
+      }
+    }
+  ]
+}

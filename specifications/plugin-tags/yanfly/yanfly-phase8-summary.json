@@ -1,0 +1,41 @@
+{
+  "phase": 8,
+  "coveredPlugins": 21,
+  "databaseFeatures": 240,
+  "runtimeCatalogFeatures": 2943,
+  "quickSetups": 8,
+  "acceptanceTests": 21,
+  "documentKinds": {
+    "armor": 238,
+    "class": 67,
+    "weapon": 239,
+    "item": 195,
+    "actor": 61,
+    "enemy": 56,
+    "skill": 110,
+    "state": 61
+  },
+  "pluginFeatureCounts": {
+    "YEP_EquipCore": 7,
+    "YEP_ItemCore": 8,
+    "YEP_ItemSynthesis": 12,
+    "YEP_ShopMenuCore": 4,
+    "YEP_WeaponAnimation": 7,
+    "YEP_WeaponUnleash": 29,
+    "YEP_X_ArmorScaling": 20,
+    "YEP_X_AttachAugments": 7,
+    "YEP_X_ChangeBattleEquip": 3,
+    "YEP_X_CondShopPrices": 6,
+    "YEP_X_EquipRequirements": 3,
+    "YEP_X_HideShowShopItems": 10,
+    "YEP_X_ItemCategories": 4,
+    "YEP_X_ItemDisassemble": 15,
+    "YEP_X_ItemDiscard": 2,
+    "YEP_X_ItemDurability": 59,
+    "YEP_X_ItemPictureImg": 3,
+    "YEP_X_ItemRename": 2,
+    "YEP_X_ItemRequirements": 2,
+    "YEP_X_ItemUpgradeSlots": 21,
+    "YEP_X_MoreCurrencies": 16
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "formatVersion": 1,
+  "id": "transformation.corruption",
+  "displayName": "Corruption Spreads",
+  "generatorId": "playroma.transformation",
+  "rootSeed": 75292,
+  "familySeed": 94576,
+  "variationIndex": 0,
+  "qualityMode": "realtimeHigh",
+  "description": {
+    "kind": "corruptionSpreads",
+    "magnitude": 0.82,
+    "mysticalTechnological": 0.35,
+    "roughness": 0.72,
+    "complexity": 0.85,
+    "variationMode": "mutated",
+    "pitchContour": "cascade",
+    "rhythmStyle": "decelerating",
+    "envelopeStyle": "swell",
+    "emotion": "sinister",
+    "energyState": "unstable",
+    "condition": "corrupted",
+    "stereoStyle": "moving"
+  }
+}

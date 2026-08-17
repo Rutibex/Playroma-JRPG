@@ -1,0 +1,26 @@
+{
+  "formatVersion": 1,
+  "id": "environment.alien-planet",
+  "displayName": "Alien Planet Ambience",
+  "generatorId": "playroma.environment",
+  "rootSeed": 74059,
+  "familySeed": 92677,
+  "variationIndex": 0,
+  "qualityMode": "realtimeHigh",
+  "description": {
+    "kind": "alienPlanet",
+    "density": 0.55,
+    "evolution": 0.85,
+    "organicSynthetic": 0.62,
+    "complexity": 0.8,
+    "variationMode": "crossbred",
+    "duration": 0.55,
+    "pitchContour": "evolving",
+    "rhythmStyle": "irregular",
+    "envelopeStyle": "sustained",
+    "emotion": "curious",
+    "energyState": "calm",
+    "condition": "ancient",
+    "stereoStyle": "wide"
+  }
+}

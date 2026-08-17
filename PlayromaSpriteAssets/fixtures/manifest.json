@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "fixtures": [
+    {
+      "path": "documents/empty-document.playromasprite.json",
+      "origin": "Independently authored synthetic JSON",
+      "purpose": "Native document serialization contract",
+      "containsThirdPartyMaterial": false,
+      "sha256": "573DED8C33AFD0D019D452828ACA52270921026DCA4CB6F8AF9DA2C4433EDE05"
+    },
+    {
+      "path": "documents/synthetic-empty.playromasprite",
+      "origin": "Independently generated synthetic ZIP package",
+      "purpose": "Native package entry and manifest compatibility fixture",
+      "containsThirdPartyMaterial": false,
+      "sha256": "BB02573641B665CDE669FB75AD6D46F7E917D26819D81EE3572EF4ED65BEBE06",
+      "packageEntries": [
+        "document.json",
+        "manifest.json",
+        "pixels/00000000000040008000000000000030.rgba"
+      ],
+      "documentId": "00000000-0000-4000-8000-000000000001"
+    },
+    {
+      "path": "../profiles/RpgMakerMvImageProfiles.json",
+      "origin": "Playroma-authored rules transcribed from public format documentation",
+      "purpose": "MV profile contract",
+      "containsThirdPartyMaterial": false,
+      "sha256": "886F95025D01713A496B5F465941B641F9BB94B03D86DBB9EF9BBB1DB84C59FA"
+    },
+    {
+      "path": "images/img/characters/SyntheticCharacters.png",
+      "origin": "Independently generated synthetic PNG; no RTP or Aseprite artwork",
+      "purpose": "Canonical valid fixture for mv-character-standard",
+      "containsThirdPartyMaterial": false,
+      "profileId": "mv-character-standard",
+      "relativeFolder": "img/characters",
+      "fileName": "SyntheticCharacters.png",
+      "width": 576,
+      "height": 384,
+      "sha256": "0B43D6F03A4C4CB41BE608BA3F41D9BE0038A89F1022A18EFCDBF16E7920729C"
+    },
+    {
+      "path": "images/img/characters/$SyntheticHero.png",
+      "origin": "Independently generated synthetic PNG; no RTP or Aseprite artwork",
+      "purpose": "Canonical valid fixture for mv-character-single",
+      "containsThirdPartyMaterial": false,
+      "profileId": "mv-character-single",
+      "relativeFolder": "img/characters",
+      "fileName": "$SyntheticHero.png",
+      "width": 144,
+      "height": 192,
+      "sha256": "333E8BCC5203F90067D545431AD61033B5862128875681FBFA921EAC11886988"
+    },
+    {
+      "path": "images/img/faces/SyntheticFaces.png",
+      "origin": "Independently generated synthetic PNG; no RTP or Aseprite artwork",
+      "purpose": "Canonical valid fixture for mv-face-sheet",
+      "containsThirdPartyMaterial": false,
+      "profileId": "mv-face-sheet",
+      "relativeFolder": "img/faces",
+      "fileName": "SyntheticFaces.png",
+      "width": 576,
+      "height": 288,
+      "sha256": "0F29FA4C0C6CB4A784EFA81DF7780FD876A8BB32F45B0B4337ECA2FC4525F11D"
+    },
+    {
+      "path": "images/img/sv_actors/SyntheticSideViewActor.png",
+      "origin": "Independently generated synthetic PNG; no RTP or Aseprite artwork",
+      "purpose": "Canonical valid fixture for mv-sv-actor",
+      "containsThirdPartyMaterial": false,
+      "profileId": "mv-sv-actor",
+      "relativeFolder": "img/sv_actors",
+      "fileName": "SyntheticSideViewActor.png",
+      "width": 576,
+      "height": 384,
+      "sha256": "CD3F3E306A9CB38BFAAE3A32A51139CBCB8536A1A7D8CCE053E627C775CF567A"
+    },
+    {
+      "path": "images/img/animations/SyntheticAnimation.png",
+      "origin": "Independently generated synthetic PNG; no RTP or Aseprite artwork",
+      "purpose": "Canonical valid fixture for mv-animation-sheet",
+      "containsThirdPartyMaterial": false,
+      "profileId": "mv-animation-sheet",
+      "relativeFolder": "img/animations",
+      "fileName": "SyntheticAnimation.png",
+      "width": 960,
+      "height": 384,
+      "sha256": "BD3E61DEF4E76428FC50CB503BF90133731236D1EB44F563EAD4680E2B998484"
+    },
+    {
+      "path": "images/img/system/IconSet.png",
+      "origin": "Independently generated synthetic PNG; no RTP or Aseprite artwork",
+      "purpose": "Canonical valid fixture for mv-iconset",
+      "containsThirdPartyMaterial": false,
+      "profileId": "mv-iconset",
+      "relativeFolder": "img/system",
+      "fileName": "IconSet.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "8F891124859D998CE623237E01D200256159B1C8D4601FD4C1829826AA1E386C"
+    },
+    {
+      "path": "images/img/enemies/SyntheticEnemy.png",
+      "origin": "Independently generated synthetic PNG; no RTP or Aseprite artwork",
+      "purpose": "Canonical valid fixture for mv-enemy",
+      "containsThirdPartyMaterial": false,
+      "profileId": "mv-enemy",
+      "relativeFolder": "img/enemies",
+      "fileName": "SyntheticEnemy.png",
+      "width": 384,
+      "height": 384,
+      "sha256": "DC58715CC0F840222EF07B70B336731CEE3C08C014D7BAF128EF9498C515BA49"
+    },
+    {
+      "path": "images/img/sv_enemies/SyntheticSideViewEnemy.png",
+      "origin": "Independently generated synthetic PNG; no RTP or Aseprite artwork",
+      "purpose": "Canonical valid fixture for mv-sv-enemy",
+      "containsThirdPartyMaterial": false,
+      "profileId": "mv-sv-enemy",
+      "relativeFolder": "img/sv_enemies",
+      "fileName": "SyntheticSideViewEnemy.png",
+      "width": 384,
+      "height": 384,
+      "sha256": "DC58715CC0F840222EF07B70B336731CEE3C08C014D7BAF128EF9498C515BA49"
+    },
+    {
+      "path": "images/img/pictures/SyntheticPicture.png",
+      "origin": "Independently generated synthetic PNG; no RTP or Aseprite artwork",
+      "purpose": "Canonical valid fixture for mv-picture",
+      "containsThirdPartyMaterial": false,
+      "profileId": "mv-picture",
+      "relativeFolder": "img/pictures",
+      "fileName": "SyntheticPicture.png",
+      "width": 320,
+      "height": 180,
+      "sha256": "8A89E2017D0DCD69E9968B65BD25666D45DA19AB8D0A140B7C33D6026F090005"
+    },
+    {
+      "path": "images/img/parallaxes/!SyntheticParallax.png",
+      "origin": "Independently generated synthetic PNG; no RTP or Aseprite artwork",
+      "purpose": "Canonical valid fixture for mv-parallax",
+      "containsThirdPartyMaterial": false,
+      "profileId": "mv-parallax",
+      "relativeFolder": "img/parallaxes",
+      "fileName": "!SyntheticParallax.png",
+      "width": 384,
+      "height": 384,
+      "sha256": "A38B24CF9ED78671B08DA49831F30B211A75FBA084915FFCCF390889BAD22699"
+    },
+    {
+      "path": "images/img/battlebacks1/SyntheticBattlebackFloor.png",
+      "origin": "Independently generated synthetic PNG; no RTP or Aseprite artwork",
+      "purpose": "Canonical valid fixture for mv-battleback1",
+      "containsThirdPartyMaterial": false,
+      "profileId": "mv-battleback1",
+      "relativeFolder": "img/battlebacks1",
+      "fileName": "SyntheticBattlebackFloor.png",
+      "width": 1000,
+      "height": 740,
+      "sha256": "90B4B2A643A8F136F90365DDC2E6B9C73BF977A0E0751A782B6F1669DC81D470"
+    },
+    {
+      "path": "images/img/battlebacks2/SyntheticBattlebackWall.png",
+      "origin": "Independently generated synthetic PNG; no RTP or Aseprite artwork",
+      "purpose": "Canonical valid fixture for mv-battleback2",
+      "containsThirdPartyMaterial": false,
+      "profileId": "mv-battleback2",
+      "relativeFolder": "img/battlebacks2",
+      "fileName": "SyntheticBattlebackWall.png",
+      "width": 1000,
+      "height": 740,
+      "sha256": "90B4B2A643A8F136F90365DDC2E6B9C73BF977A0E0751A782B6F1669DC81D470"
+    },
+    {
+      "path": "images/img/titles1/SyntheticTitleBackground.png",
+      "origin": "Independently generated synthetic PNG; no RTP or Aseprite artwork",
+      "purpose": "Canonical valid fixture for mv-title1",
+      "containsThirdPartyMaterial": false,
+      "profileId": "mv-title1",
+      "relativeFolder": "img/titles1",
+      "fileName": "SyntheticTitleBackground.png",
+      "width": 816,
+      "height": 624,
+      "sha256": "3E493F96BE0C0758DF6D09D9A8BDB6EB0D7AAB62B86629B3AD75CFB34055510B"
+    },
+    {
+      "path": "images/img/titles2/SyntheticTitleOverlay.png",
+      "origin": "Independently generated synthetic PNG; no RTP or Aseprite artwork",
+      "purpose": "Canonical valid fixture for mv-title2",
+      "containsThirdPartyMaterial": false,
+      "profileId": "mv-title2",
+      "relativeFolder": "img/titles2",
+      "fileName": "SyntheticTitleOverlay.png",
+      "width": 816,
+      "height": 624,
+      "sha256": "3E493F96BE0C0758DF6D09D9A8BDB6EB0D7AAB62B86629B3AD75CFB34055510B"
+    },
+    {
+      "path": "images/img/tilesets/SyntheticTileset.png",
+      "origin": "Independently generated synthetic PNG; no RTP or Aseprite artwork",
+      "purpose": "Canonical valid fixture for mv-tileset",
+      "containsThirdPartyMaterial": false,
+      "profileId": "mv-tileset",
+      "relativeFolder": "img/tilesets",
+      "fileName": "SyntheticTileset.png",
+      "width": 768,
+      "height": 768,
+      "sha256": "D8D4E929433308FB5EA6CD192C314362D71D465C896711C47D0D13B0A0E3E415"
+    }
+  ]
+}

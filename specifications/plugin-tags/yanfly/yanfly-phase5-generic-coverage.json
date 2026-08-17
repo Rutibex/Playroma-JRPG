@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "summary": {
+    "totalFeatures": 2903,
+    "databaseAndTilesetFeatures": 1429,
+    "genericComplete": 1132,
+    "specializedDeferred": 297
+  },
+  "contexts": [
+    {
+      "context": "actor",
+      "candidateFeatures": 867,
+      "genericComplete": 739,
+      "specializedDeferred": 128
+    },
+    {
+      "context": "class",
+      "candidateFeatures": 752,
+      "genericComplete": 638,
+      "specializedDeferred": 114
+    },
+    {
+      "context": "skill",
+      "candidateFeatures": 1035,
+      "genericComplete": 836,
+      "specializedDeferred": 199
+    },
+    {
+      "context": "item",
+      "candidateFeatures": 1047,
+      "genericComplete": 821,
+      "specializedDeferred": 226
+    },
+    {
+      "context": "weapon",
+      "candidateFeatures": 919,
+      "genericComplete": 704,
+      "specializedDeferred": 215
+    },
+    {
+      "context": "armor",
+      "candidateFeatures": 884,
+      "genericComplete": 669,
+      "specializedDeferred": 215
+    },
+    {
+      "context": "enemy",
+      "candidateFeatures": 932,
+      "genericComplete": 767,
+      "specializedDeferred": 165
+    },
+    {
+      "context": "state",
+      "candidateFeatures": 939,
+      "genericComplete": 782,
+      "specializedDeferred": 157
+    },
+    {
+      "context": "tileset",
+      "candidateFeatures": 9,
+      "genericComplete": 9,
+      "specializedDeferred": 0
+    }
+  ],
+  "editorUsage": [
+    {
+      "editorKind": "AssetReference",
+      "argumentCount": 31
+    },
+    {
+      "editorKind": "Choice",
+      "argumentCount": 23
+    },
+    {
+      "editorKind": "Decimal",
+      "argumentCount": 16
+    },
+    {
+      "editorKind": "Formula",
+      "argumentCount": 1
+    },
+    {
+      "editorKind": "Integer",
+      "argumentCount": 898
+    },
+    {
+      "editorKind": "JavaScriptExpression",
+      "argumentCount": 2
+    },
+    {
+      "editorKind": "ParameterSelector",
+      "argumentCount": 39
+    },
+    {
+      "editorKind": "SingleLineText",
+      "argumentCount": 5
+    }
+  ],
+  "deferredSpecializedEditorIds": [
+    "yep.action-sequence",
+    "yep.battle-ai-priority",
+    "yep.enemy-designer",
+    "yep.item-equipment",
+    "yep.passive-state-aura",
+    "yep.skill-designer",
+    "yep.state-lifecycle"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "schema": "playroma-sprite-extension/1",
+  "id": "playroma.sample.sprite-extension",
+  "name": "Sample Sprite Extension Manifest",
+  "version": "1.0.0",
+  "description": "Documentation-only manifest showing the Phase 9 extension contract. No binary is included.",
+  "author": "Playroma",
+  "entryAssembly": "Sample.Sprite.Extension.dll",
+  "entryType": "Playroma.Sample.SpriteExtension",
+  "requestedCapabilities": "readDocument",
+  "commands": ["sample.describe-document"],
+  "formatProviders": [],
+  "metadata": { "documentationOnly": "true" }
+}

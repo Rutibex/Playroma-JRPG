@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "providerId": "YEP-MV",
+  "runtimeFamily": "RPG Maker MV",
+  "promises": [
+    {
+      "id": "notes-source-of-truth",
+      "title": "Notes remain authoritative",
+      "guarantee": "Visual authoring never replaces the note field as the canonical project data."
+    },
+    {
+      "id": "lossless-unknown-data",
+      "title": "Unknown syntax is preserved",
+      "guarantee": "Unsupported tags, comments, whitespace, casing, and handwritten prose must survive unchanged."
+    },
+    {
+      "id": "surface-correctness",
+      "title": "Syntax goes to the correct surface",
+      "guarantee": "Database notes, map notes, event notes, page comments, commands, routes, and text codes are never conflated."
+    },
+    {
+      "id": "installed-version-truth",
+      "title": "Installed source wins",
+      "guarantee": "Generated syntax is validated against the plugin version actually present in the user's project whenever available."
+    },
+    {
+      "id": "no-source-redistribution",
+      "title": "No YEP source redistribution",
+      "guarantee": "Playroma ships independently written metadata, hashes, and short syntax schemas, never YEP JavaScript or copied help files."
+    },
+    {
+      "id": "deterministic-normalization",
+      "title": "Bundle normalization is deterministic",
+      "guarantee": "The same source bundle produces the same canonical plugin selection and metadata apart from the report timestamp."
+    },
+    {
+      "id": "explicit-conflicts",
+      "title": "Conflicts are explicit",
+      "guarantee": "Differing files with the same plugin filename require a recorded resolution and may not be silently collapsed."
+    },
+    {
+      "id": "complete-classification",
+      "title": "Every supplied plugin is classified",
+      "guarantee": "Each unique plugin receives at least one coverage mode, even when its only role is configuration or runtime validation."
+    },
+    {
+      "id": "evidence-backed-dependencies",
+      "title": "Dependencies carry evidence",
+      "guarantee": "Dependency edges record their source location and whether they are hard requirements or feature-specific integrations."
+    },
+    {
+      "id": "provider-neutral-future",
+      "title": "The framework stays provider-neutral",
+      "guarantee": "Yanfly is the first provider; core contracts must not prevent later Olivia, Irina, VisuStella, or custom catalogs."
+    },
+    {
+      "id": "undoable-edits",
+      "title": "All future edits are undoable",
+      "guarantee": "Every generated metadata change must integrate with Playroma's command and undo infrastructure."
+    },
+    {
+      "id": "safe-script-handling",
+      "title": "Lunatic code is not trusted",
+      "guarantee": "JavaScript and formula blocks are never executed in the editor process and are validated only in an isolated sandbox."
+    }
+  ],
+  "phase0ExitConditions": [
+    "The supplied archive is normalized into unique plugin records and source occurrences.",
+    "Versions and SHA-256 fingerprints are recorded without copying plugin source.",
+    "Exact and conflicting duplicates are distinguished.",
+    "Every plugin has authoring-surface signals and at least one coverage mode.",
+    "An initial evidence-backed dependency graph is generated.",
+    "Known conflicting duplicates have explicit canonical resolutions.",
+    "A machine-readable golden inventory and human-readable audit report are checked in.",
+    "Automated tests enforce counts, resolution rules, classification completeness, and licensing boundaries."
+  ],
+  "prohibitedRepositoryPatterns": [
+    "YEP_*.js",
+    "KELYEP_*.js",
+    "copied full @help blocks",
+    "embedded third-party plugin archives"
+  ]
+}

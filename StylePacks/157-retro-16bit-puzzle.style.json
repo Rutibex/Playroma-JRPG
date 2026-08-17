@@ -1,0 +1,413 @@
+{
+  "schemaVersion": 1,
+  "id": "retro-16bit-puzzle",
+  "name": "16-bit — Puzzle Room",
+  "description": "Playful mallets, clean synthetic bass and repeating clockwork cells for puzzles.",
+  "version": "1.0.0",
+  "family": "retroConsole",
+  "abstract": false,
+  "extends": "retro-console-foundation",
+  "tempo": {
+    "minimum": 96,
+    "maximum": 136
+  },
+  "meter": {
+    "beatsPerBar": 4,
+    "beatUnit": 4
+  },
+  "candidateCount": 18,
+  "scales": [
+    "major",
+    "lydian",
+    "majorPentatonic"
+  ],
+  "forms": {
+    "grammarId": "retro-16bit-puzzle-form-v1",
+    "productions": [
+      [
+        "I",
+        "A",
+        "B",
+        "A'",
+        "B",
+        "A"
+      ],
+      [
+        "A",
+        "A'",
+        "B",
+        "C",
+        "A"
+      ]
+    ]
+  },
+  "harmony": {
+    "grammarId": "retro-16bit-puzzle-harmony-v1",
+    "progressions": {
+      "intro": [
+        [
+          0,
+          5,
+          3,
+          4
+        ]
+      ],
+      "verse": [
+        [
+          0,
+          5,
+          3,
+          4
+        ],
+        [
+          0,
+          3,
+          5,
+          4
+        ]
+      ],
+      "chorus": [
+        [
+          0,
+          4,
+          5,
+          3
+        ],
+        [
+          3,
+          4,
+          0,
+          5
+        ]
+      ],
+      "bridge": [
+        [
+          5,
+          3,
+          1,
+          4
+        ],
+        [
+          1,
+          6,
+          3,
+          4
+        ]
+      ],
+      "breakdown": [
+        [
+          5,
+          3,
+          1,
+          4
+        ]
+      ],
+      "solo": [
+        [
+          0,
+          4,
+          5,
+          3
+        ]
+      ],
+      "outro": [
+        [
+          0,
+          5,
+          3,
+          4
+        ]
+      ]
+    }
+  },
+  "roles": [
+    {
+      "id": "melody",
+      "name": "16-bit — Puzzle Room Lead",
+      "role": "lead",
+      "enabled": true,
+      "generalMidiProgram": 12,
+      "isPercussion": false,
+      "rhythmPatternId": "puzzle-tick",
+      "minimumPitch": 60,
+      "maximumPitch": 94,
+      "density": 86,
+      "instrumentSelector": {
+        "families": [
+          "synthLead",
+          "chromaticPercussion",
+          "organ"
+        ],
+        "preferredTags": [
+          "electronic",
+          "lead",
+          "bright",
+          "clear"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 60,
+        "maximumPitch": 94,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument",
+          "octaveDoubling",
+          "phraseAlternation"
+        ]
+      },
+      "midiChannel": 0
+    },
+    {
+      "id": "bass",
+      "name": "16-bit — Puzzle Room Bass",
+      "role": "bass",
+      "enabled": true,
+      "generalMidiProgram": 38,
+      "isPercussion": false,
+      "rhythmPatternId": "chip-bass",
+      "minimumPitch": 26,
+      "maximumPitch": 53,
+      "density": 88,
+      "instrumentSelector": {
+        "families": [
+          "bass",
+          "synthLead",
+          "organ"
+        ],
+        "preferredTags": [
+          "electronic",
+          "bass",
+          "punchy"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 26,
+        "maximumPitch": 53,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument",
+          "octaveDoubling"
+        ]
+      },
+      "midiChannel": 2
+    },
+    {
+      "id": "chords",
+      "name": "16-bit — Puzzle Room Chords",
+      "role": "chords",
+      "enabled": true,
+      "generalMidiProgram": 90,
+      "isPercussion": false,
+      "rhythmPatternId": "quarters",
+      "minimumPitch": 43,
+      "maximumPitch": 80,
+      "density": 62,
+      "instrumentSelector": {
+        "families": [
+          "synthPad",
+          "synthLead",
+          "organ",
+          "chromaticPercussion"
+        ],
+        "preferredTags": [
+          "electronic",
+          "harmony",
+          "clear"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 43,
+        "maximumPitch": 80,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument",
+          "hocket",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 1
+    },
+    {
+      "id": "arpeggio",
+      "name": "16-bit — Puzzle Room Arpeggio",
+      "role": "arpeggio",
+      "enabled": true,
+      "generalMidiProgram": 10,
+      "isPercussion": false,
+      "rhythmPatternId": "chip-arp",
+      "minimumPitch": 48,
+      "maximumPitch": 99,
+      "density": 94,
+      "instrumentSelector": {
+        "families": [
+          "synthLead",
+          "chromaticPercussion",
+          "organ"
+        ],
+        "preferredTags": [
+          "electronic",
+          "pulse",
+          "short-attack"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 48,
+        "maximumPitch": 99,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument",
+          "hocket"
+        ]
+      },
+      "midiChannel": 3
+    },
+    {
+      "id": "counter",
+      "name": "16-bit — Puzzle Room Counter Voice",
+      "role": "counterMelody",
+      "enabled": true,
+      "generalMidiProgram": 8,
+      "isPercussion": false,
+      "rhythmPatternId": "chip-lead",
+      "minimumPitch": 54,
+      "maximumPitch": 91,
+      "density": 64,
+      "instrumentSelector": {
+        "families": [
+          "synthLead",
+          "chromaticPercussion"
+        ],
+        "preferredTags": [
+          "electronic",
+          "counterline",
+          "bright"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 54,
+        "maximumPitch": 91,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument",
+          "callAndResponse",
+          "hocket"
+        ]
+      },
+      "midiChannel": 4
+    },
+    {
+      "id": "texture",
+      "name": "16-bit — Puzzle Room Effects",
+      "role": "texture",
+      "enabled": true,
+      "generalMidiProgram": 98,
+      "isPercussion": false,
+      "rhythmPatternId": "ambient-loop",
+      "minimumPitch": 34,
+      "maximumPitch": 101,
+      "density": 27,
+      "instrumentSelector": {
+        "families": [
+          "synthEffects",
+          "synthPad",
+          "percussive"
+        ],
+        "preferredTags": [
+          "electronic",
+          "effect",
+          "atmospheric"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 34,
+        "maximumPitch": 101,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument",
+          "sectionSubstitution"
+        ]
+      },
+      "midiChannel": 5
+    },
+    {
+      "id": "drums",
+      "name": "16-bit — Puzzle Room Drum Channel",
+      "role": "drums",
+      "enabled": true,
+      "generalMidiProgram": 0,
+      "isPercussion": true,
+      "rhythmPatternId": "puzzle-tick",
+      "minimumPitch": 35,
+      "maximumPitch": 81,
+      "density": 80,
+      "instrumentSelector": {
+        "families": [
+          "drums"
+        ],
+        "preferredTags": [
+          "electronic",
+          "percussive",
+          "short-attack"
+        ],
+        "avoidTags": [],
+        "minimumPitch": 35,
+        "maximumPitch": 81,
+        "minimumAttack": 0.0,
+        "maximumAttack": 1.0,
+        "minimumSustain": 0.0,
+        "maximumSustain": 1.0,
+        "minimumBrightness": 0.0,
+        "maximumBrightness": 1.0,
+        "minimumPercussiveness": 0.0,
+        "maximumPercussiveness": 1.0,
+        "maximumLayers": 1,
+        "allowedStrategies": [
+          "singleInstrument"
+        ]
+      },
+      "midiChannel": 9
+    }
+  ]
+}

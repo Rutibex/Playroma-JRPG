@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Playroma.JRPG.Core</RootNamespace>
+    <AssemblyName>Playroma.JRPG.Core</AssemblyName>
+  </PropertyGroup>
+
+</Project>

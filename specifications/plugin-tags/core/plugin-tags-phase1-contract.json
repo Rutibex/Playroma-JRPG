@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "phase": 1,
+  "name": "Platform-neutral Plugin Tags foundation",
+  "targetFramework": "net10.0",
+  "uiDependencies": [],
+  "providerSpecificDependencies": [],
+  "invariants": [
+    "RenderDocument(Parse(text)) equals text exactly until a deliberate edit occurs.",
+    "Node spans are contiguous and cover the complete source.",
+    "Unknown and malformed syntax is preserved.",
+    "A mutation replaces only the selected recognized source span.",
+    "Features cannot be inserted into an incompatible surface or document kind.",
+    "Complex editor registration is metadata-only and UI-toolkit neutral."
+  ],
+  "authoringSurfaces": [
+    "databaseNote",
+    "mapNote",
+    "tilesetNote",
+    "eventNote",
+    "eventPageComment",
+    "pluginCommand",
+    "moveRouteScript",
+    "actionSequence",
+    "messageTextCode",
+    "switchNameMetadata",
+    "variableNameMetadata",
+    "pluginParameter",
+    "scriptCall"
+  ],
+  "nodeKinds": [
+    "rawText",
+    "blankLine",
+    "recognizedTag",
+    "recognizedBlock",
+    "actionSequenceBlock",
+    "scriptBlock",
+    "unknownTag",
+    "malformedTag"
+  ],
+  "components": {
+    "catalog": [
+      "PluginTagCatalog",
+      "PluginTagCatalogBuilder",
+      "PluginTagProviderRegistry",
+      "PluginTagCatalogSerializer"
+    ],
+    "parsing": [
+      "PluginTextParser",
+      "PluginTextDocument"
+    ],
+    "rendering": [
+      "PluginTextRenderer"
+    ],
+    "editing": [
+      "PluginTextEditingSession"
+    ],
+    "validation": [
+      "PluginTagValidator",
+      "IPluginTagValidator"
+    ],
+    "references": [
+      "PluginTagReferenceExtractor"
+    ],
+    "specializedEditors": [
+      "PluginSpecializedEditorRegistry"
+    ]
+  },
+  "diagnostics": {
+    "PT1001": "Malformed recognized syntax",
+    "PT1101": "Wrong authoring surface",
+    "PT1102": "Wrong document kind",
+    "PT1201": "Duplicate singleton",
+    "PT1202": "Conflict group",
+    "PT1301": "Required argument missing",
+    "PT1302": "Choice invalid",
+    "PT1303": "Boolean/numeric format invalid",
+    "PT1304": "Numeric range invalid",
+    "PT1401": "Required plugin missing",
+    "PT1402": "Required plugin disabled",
+    "PT1403": "Recommended plugin unavailable",
+    "PT1410": "Installed version below verified minimum",
+    "PT1411": "Installed version above verified maximum",
+    "PT1412": "Installed version not explicitly verified",
+    "PT1413": "Source fingerprint not verified"
+  },
+  "acceptanceTests": {
+    "declaredTests": 17,
+    "fuzzIterations": 1000,
+    "requiredCommands": [
+      "dotnet build Playroma.PluginTags.Phase1.slnf",
+      "dotnet run --project tests/Playroma.JRPG.PluginTags.Phase1.Tests"
+    ]
+  }
+}

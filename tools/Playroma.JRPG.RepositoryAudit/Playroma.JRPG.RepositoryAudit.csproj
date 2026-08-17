@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Playroma.JRPG.RepositoryAudit</RootNamespace>
+    <AssemblyName>Playroma.JRPG.RepositoryAudit</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../src/Playroma.JRPG.Core/Playroma.JRPG.Core.csproj" />
+    <ProjectReference Include="../../src/Playroma.JRPG.Testing/Playroma.JRPG.Testing.csproj" />
+  </ItemGroup>
+</Project>

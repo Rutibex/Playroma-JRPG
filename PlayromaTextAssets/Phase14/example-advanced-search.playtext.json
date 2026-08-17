@@ -1,0 +1,44 @@
+{
+  "id": "example.phase14.quality-diverse-relic",
+  "version": 1,
+  "name": "Example Quality-Diverse Relic",
+  "kind": "objectName",
+  "description": "Demonstrates Phase 14 deterministic quality-diversity search.",
+  "stages": [
+    {
+      "id": "compose",
+      "kind": "phase1.adlib",
+      "enabled": true,
+      "settings": {
+        "template": "The {{adjective|title}} {{object|title}} of {{concept|title}}",
+        "slots": {
+          "adjective": ["ashen", "silver", "hollow", "forgotten", "radiant", "veiled"],
+          "object": ["crown", "bell", "key", "mirror", "blade", "lantern"],
+          "concept": ["dawn", "memory", "storms", "silence", "embers", "dreams"]
+        },
+        "field": "name",
+        "isPrimary": true
+      }
+    }
+  ],
+  "candidatePipeline": {
+    "candidateCount": 96,
+    "scorers": [
+      { "id": "length", "kind": "characterLength", "weight": 0.7, "ideal": 30, "minimum": 16, "maximum": 52 },
+      { "id": "variety", "kind": "uniqueWordRatio", "weight": 0.35 }
+    ],
+    "diversityWeight": 0.45,
+    "minimumDiversity": 0.15,
+    "rejectGenerationErrors": true,
+    "search": {
+      "mode": "qualityDiversity",
+      "populationSize": 24,
+      "iterations": 4,
+      "eliteCount": 4,
+      "beamWidth": 6,
+      "archiveBins": 8,
+      "noveltyWeight": 0.35,
+      "randomImmigrantRate": 0.15
+    }
+  }
+}

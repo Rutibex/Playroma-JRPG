@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Playroma.JRPG.Indexing</RootNamespace>
+    <AssemblyName>Playroma.JRPG.Indexing</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Playroma.JRPG.Assets/Playroma.JRPG.Assets.csproj" />
+    <ProjectReference Include="../Playroma.JRPG.Core/Playroma.JRPG.Core.csproj" />
+    <ProjectReference Include="../Playroma.JRPG.Documents.Json/Playroma.JRPG.Documents.Json.csproj" />
+    <ProjectReference Include="../Playroma.JRPG.Documents.Mutable/Playroma.JRPG.Documents.Mutable.csproj" />
+    <ProjectReference Include="../Playroma.JRPG.Editing/Playroma.JRPG.Editing.csproj" />
+    <ProjectReference Include="../Playroma.JRPG.RpgMakerMV/Playroma.JRPG.RpgMakerMV.csproj" />
+    <ProjectReference Include="../Playroma.JRPG.RpgMakerMV.Documents/Playroma.JRPG.RpgMakerMV.Documents.csproj" />
+    <ProjectReference Include="../Playroma.JRPG.Workspaces/Playroma.JRPG.Workspaces.csproj" />
+  </ItemGroup>
+</Project>

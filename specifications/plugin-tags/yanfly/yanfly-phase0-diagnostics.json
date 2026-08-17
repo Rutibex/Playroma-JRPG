@@ -1,0 +1,37 @@
+[
+  {
+    "code": "YEP0001",
+    "severity": "Info",
+    "message": "Ignored collection separator JavaScript file.",
+    "pluginId": null,
+    "relativePath": "[YEP] Full Collection/--------------------.js"
+  },
+  {
+    "code": "YEP0001",
+    "severity": "Info",
+    "message": "Ignored collection separator JavaScript file.",
+    "pluginId": null,
+    "relativePath": "[YEP] Full Collection/Free Plugins/--------------------.js"
+  },
+  {
+    "code": "YEP0005",
+    "severity": "Info",
+    "message": "Resolved known differing duplicate using HighestVersion: [YEP] Full Collection/Free Plugins/YEP_LevelUpGrowthEffects.js.",
+    "pluginId": "YEP_LevelUpGrowthEffects",
+    "relativePath": "[YEP] Full Collection/Free Plugins/YEP_LevelUpGrowthEffects.js"
+  },
+  {
+    "code": "YEP0005",
+    "severity": "Info",
+    "message": "Resolved known differing duplicate using PreferredCategorizedCopy: [YEP] Full Collection/Items & Equips Plugins/YEP_X_ItemUpgradeSlots.js.",
+    "pluginId": "YEP_X_ItemUpgradeSlots",
+    "relativePath": "[YEP] Full Collection/Items & Equips Plugins/YEP_X_ItemUpgradeSlots.js"
+  },
+  {
+    "code": "YEP0007",
+    "severity": "Warning",
+    "message": "Imported alias 'YEP_X_MessageMacros4' is claimed by both YEP_X_MessageMacros4 and YEP_X_MessageMacros5.",
+    "pluginId": "YEP_X_MessageMacros5",
+    "relativePath": null
+  }
+]

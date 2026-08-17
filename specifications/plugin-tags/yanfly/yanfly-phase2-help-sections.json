@@ -1,0 +1,7922 @@
+[
+  {
+    "pluginId": "KELYEP_DragonBones",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 23,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "KELYEP_DragonBones",
+    "heading": "MIT License and Terms of Use",
+    "startLine": 25,
+    "endLine": 63,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "KELYEP_DragonBones",
+    "heading": "Installation Instructions",
+    "startLine": 65,
+    "endLine": 103,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "KELYEP_DragonBones",
+    "heading": "General Usage by TheGreenKel",
+    "startLine": 105,
+    "endLine": 151,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "KELYEP_DragonBones",
+    "heading": "Notetags",
+    "startLine": 153,
+    "endLine": 343,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "KELYEP_DragonBones",
+    "heading": "Changelog",
+    "startLine": 345,
+    "endLine": 384,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_AbsorptionBarrier",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 15,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_AbsorptionBarrier",
+    "heading": "Barrier Points - Explanation",
+    "startLine": 17,
+    "endLine": 44,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_AbsorptionBarrier",
+    "heading": "Barrier Penetration - Explanation",
+    "startLine": 46,
+    "endLine": 65,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_AbsorptionBarrier",
+    "heading": "Unexpiring Barriers vs Timed Barriers - Explanation",
+    "startLine": 67,
+    "endLine": 109,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_AbsorptionBarrier",
+    "heading": "Notetags",
+    "startLine": 111,
+    "endLine": 186,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_AbsorptionBarrier",
+    "heading": "Lunatic Mode - Custom Barrier Points",
+    "startLine": 188,
+    "endLine": 223,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_AbsorptionBarrier",
+    "heading": "Lunatic Mode - Custom Barrier Penetration",
+    "startLine": 225,
+    "endLine": 251,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_AbsorptionBarrier",
+    "heading": "Lunatic Mode - Custom Barrier Points on Battle Start",
+    "startLine": 253,
+    "endLine": 277,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_AbsorptionBarrier",
+    "heading": "Lunatic Mode - Custom Barrier Regeneration",
+    "startLine": 279,
+    "endLine": 304,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_AbsorptionBarrier",
+    "heading": "Lunatic Mode - New JavaScript Functions",
+    "startLine": 306,
+    "endLine": 336,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_AbsorptionBarrier",
+    "heading": "Changelog",
+    "startLine": 338,
+    "endLine": 378,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_AdvancedSwVar",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 10,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_AdvancedSwVar",
+    "heading": "Instructions",
+    "startLine": 12,
+    "endLine": 42,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_AdvancedSwVar",
+    "heading": "Plugin Commands",
+    "startLine": 44,
+    "endLine": 66,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_AdvancedSwVar",
+    "heading": "Examples",
+    "startLine": 68,
+    "endLine": 159,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_AdvancedSwVar",
+    "heading": "Changelog",
+    "startLine": 161,
+    "endLine": 173,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_AdvancedSwVar",
+    "heading": "End of Helpfile",
+    "startLine": 175,
+    "endLine": 178,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_AnimateTilesOption",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 17,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_AnimateTilesOption",
+    "heading": "Options Core Settings - Adding the New Options",
+    "startLine": 19,
+    "endLine": 89,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_AnimateTilesOption",
+    "heading": "Changelog",
+    "startLine": 91,
+    "endLine": 105,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_AutoPassiveStates",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 9,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_AutoPassiveStates",
+    "heading": "Notetags",
+    "startLine": 11,
+    "endLine": 56,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_AutoPassiveStates",
+    "heading": "Lunatic Mode - Conditional Passives",
+    "startLine": 58,
+    "endLine": 82,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_AutoPassiveStates",
+    "heading": "Changelog",
+    "startLine": 84,
+    "endLine": 154,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_AutoSwitches",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 11,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_AutoSwitches",
+    "heading": "Changelog",
+    "startLine": 13,
+    "endLine": 21,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BaseParamControl",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 14,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BaseParamControl",
+    "heading": "Instructions - Base Parameter Explanation",
+    "startLine": 16,
+    "endLine": 99,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BaseParamControl",
+    "heading": "Instructions - Custom Formulas",
+    "startLine": 101,
+    "endLine": 187,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BaseParamControl",
+    "heading": "Notetags",
+    "startLine": 189,
+    "endLine": 224,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BaseParamControl",
+    "heading": "Lunatic Mode - New JavaScript Functions",
+    "startLine": 226,
+    "endLine": 314,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BaseParamControl",
+    "heading": "Changelog",
+    "startLine": 316,
+    "endLine": 333,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BaseTroopEvents",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 10,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BaseTroopEvents",
+    "heading": "Changelog",
+    "startLine": 12,
+    "endLine": 20,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BattleAICore",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 20,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BattleAICore",
+    "heading": "Parameters",
+    "startLine": 22,
+    "endLine": 51,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BattleAICore",
+    "heading": "Enemy AI Level",
+    "startLine": 53,
+    "endLine": 68,
+    "surface": null,
+    "documentKinds": [
+      "enemy"
+    ]
+  },
+  {
+    "pluginId": "YEP_BattleAICore",
+    "heading": "Enemy AI Priority",
+    "startLine": 70,
+    "endLine": 92,
+    "surface": null,
+    "documentKinds": [
+      "enemy"
+    ]
+  },
+  {
+    "pluginId": "YEP_BattleAICore",
+    "heading": "Conditions",
+    "startLine": 94,
+    "endLine": 272,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BattleAICore",
+    "heading": "Multiple Conditions",
+    "startLine": 274,
+    "endLine": 312,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BattleAICore",
+    "heading": "Targeting",
+    "startLine": 314,
+    "endLine": 375,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BattleAICore",
+    "heading": "Special Notes",
+    "startLine": 377,
+    "endLine": 391,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BattleAICore",
+    "heading": "Changelog",
+    "startLine": 393,
+    "endLine": 454,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BattleAniSpeedOpt",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 17,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BattleAniSpeedOpt",
+    "heading": "Compatibility",
+    "startLine": 19,
+    "endLine": 32,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BattleAniSpeedOpt",
+    "heading": "Options Core Settings - Adding the New Options",
+    "startLine": 34,
+    "endLine": 125,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BattleAniSpeedOpt",
+    "heading": "Changelog",
+    "startLine": 127,
+    "endLine": 138,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BattleAniSpeedOpt",
+    "heading": "End of Helpfile",
+    "startLine": 140,
+    "endLine": 197,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BattleBgmControl",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 14,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BattleBgmControl",
+    "heading": "Comment Tags",
+    "startLine": 16,
+    "endLine": 48,
+    "surface": "eventPageComment",
+    "documentKinds": [
+      "eventPage"
+    ]
+  },
+  {
+    "pluginId": "YEP_BattleBgmControl",
+    "heading": "Notetags",
+    "startLine": 50,
+    "endLine": 87,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BattleBgmControl",
+    "heading": "Changelog",
+    "startLine": 89,
+    "endLine": 97,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BattleEngineCore",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 10,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BattleEngineCore",
+    "heading": "Battle Messages",
+    "startLine": 12,
+    "endLine": 34,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BattleEngineCore",
+    "heading": "Battle Windows",
+    "startLine": 36,
+    "endLine": 44,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BattleEngineCore",
+    "heading": "Battle Order",
+    "startLine": 46,
+    "endLine": 61,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BattleEngineCore",
+    "heading": "Multiple Hits",
+    "startLine": 63,
+    "endLine": 71,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BattleEngineCore",
+    "heading": "Popup Revamp",
+    "startLine": 73,
+    "endLine": 82,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BattleEngineCore",
+    "heading": "Common Events",
+    "startLine": 84,
+    "endLine": 93,
+    "surface": null,
+    "documentKinds": [
+      "event",
+      "commonEvent"
+    ]
+  },
+  {
+    "pluginId": "YEP_BattleEngineCore",
+    "heading": "Casting Animations",
+    "startLine": 95,
+    "endLine": 107,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BattleEngineCore",
+    "heading": "Changing Battle Systems",
+    "startLine": 109,
+    "endLine": 121,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BattleEngineCore",
+    "heading": "Sideview Actions",
+    "startLine": 123,
+    "endLine": 153,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BattleEngineCore",
+    "heading": "Custom Sideview Battler Anchor",
+    "startLine": 155,
+    "endLine": 184,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BattleEngineCore",
+    "heading": "Enemy Attack Animation",
+    "startLine": 186,
+    "endLine": 195,
+    "surface": null,
+    "documentKinds": [
+      "enemy"
+    ]
+  },
+  {
+    "pluginId": "YEP_BattleEngineCore",
+    "heading": "Automatic State Removal Conditions",
+    "startLine": 197,
+    "endLine": 231,
+    "surface": null,
+    "documentKinds": [
+      "state"
+    ]
+  },
+  {
+    "pluginId": "YEP_BattleEngineCore",
+    "heading": "Action Sequences",
+    "startLine": 233,
+    "endLine": 242,
+    "surface": "actionSequence",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BattleEngineCore",
+    "heading": "Changelog",
+    "startLine": 244,
+    "endLine": 537,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BattleSelectCursor",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 9,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BattleSelectCursor",
+    "heading": "Instructions - Cursor Filenames",
+    "startLine": 11,
+    "endLine": 28,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BattleSelectCursor",
+    "heading": "Notetags",
+    "startLine": 30,
+    "endLine": 60,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BattleSelectCursor",
+    "heading": "Changelog",
+    "startLine": 62,
+    "endLine": 78,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BattleStatusWindow",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 12,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BattleStatusWindow",
+    "heading": "Changelog",
+    "startLine": 14,
+    "endLine": 55,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BuffsStatesCore",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 22,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BuffsStatesCore",
+    "heading": "Notetags",
+    "startLine": 24,
+    "endLine": 102,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BuffsStatesCore",
+    "heading": "Lunatic Mode - Custom Turn Modifiers",
+    "startLine": 104,
+    "endLine": 144,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BuffsStatesCore",
+    "heading": "Lunatic Mode - Custom Timing Effects",
+    "startLine": 146,
+    "endLine": 268,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BuffsStatesCore",
+    "heading": "Lunatic Mode - Custom Action Effects",
+    "startLine": 270,
+    "endLine": 362,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_BuffsStatesCore",
+    "heading": "Lunatic Mode - State Counters",
+    "startLine": 364,
+    "endLine": 419,
+    "surface": "databaseNote",
+    "documentKinds": [
+      "state"
+    ]
+  },
+  {
+    "pluginId": "YEP_BuffsStatesCore",
+    "heading": "Changelog",
+    "startLine": 421,
+    "endLine": 494,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ButtonCommonEvents",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 11,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ButtonCommonEvents",
+    "heading": "Instructions",
+    "startLine": 13,
+    "endLine": 54,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ButtonCommonEvents",
+    "heading": "Compatibility Issues",
+    "startLine": 56,
+    "endLine": 68,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ButtonCommonEvents",
+    "heading": "Plugin Commands",
+    "startLine": 70,
+    "endLine": 120,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ButtonCommonEvents",
+    "heading": "Changelog",
+    "startLine": 122,
+    "endLine": 134,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_CallEvent",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 9,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_CallEvent",
+    "heading": "Plugin Commands",
+    "startLine": 11,
+    "endLine": 47,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_CallEvent",
+    "heading": "Changelog",
+    "startLine": 49,
+    "endLine": 57,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ClassChangeCore",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 11,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ClassChangeCore",
+    "heading": "Notetags",
+    "startLine": 13,
+    "endLine": 92,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ClassChangeCore",
+    "heading": "Plugin Commands",
+    "startLine": 94,
+    "endLine": 127,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ClassChangeCore",
+    "heading": "Main Menu Manager - Positioning the Class Command",
+    "startLine": 129,
+    "endLine": 149,
+    "surface": null,
+    "documentKinds": [
+      "class"
+    ]
+  },
+  {
+    "pluginId": "YEP_ClassChangeCore",
+    "heading": "Changelog",
+    "startLine": 151,
+    "endLine": 212,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_CommonEventMenu",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 12,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_CommonEventMenu",
+    "heading": "Instructions",
+    "startLine": 14,
+    "endLine": 30,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_CommonEventMenu",
+    "heading": "Comment Tags",
+    "startLine": 32,
+    "endLine": 72,
+    "surface": "eventPageComment",
+    "documentKinds": [
+      "eventPage"
+    ]
+  },
+  {
+    "pluginId": "YEP_CommonEventMenu",
+    "heading": "Lunatic Mode - Enabling/Disabling Common Events",
+    "startLine": 74,
+    "endLine": 92,
+    "surface": "databaseNote",
+    "documentKinds": [
+      "event",
+      "commonEvent"
+    ]
+  },
+  {
+    "pluginId": "YEP_CommonEventMenu",
+    "heading": "Lunatic Mode - Showing/Hiding Common Events",
+    "startLine": 94,
+    "endLine": 112,
+    "surface": "databaseNote",
+    "documentKinds": [
+      "event",
+      "commonEvent"
+    ]
+  },
+  {
+    "pluginId": "YEP_CommonEventMenu",
+    "heading": "Plugin Commands",
+    "startLine": 114,
+    "endLine": 249,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_CommonEventMenu",
+    "heading": "Changelog",
+    "startLine": 251,
+    "endLine": 272,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_CoreEngine",
+    "heading": "Introduction and Instructions",
+    "startLine": 3,
+    "endLine": 13,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_CoreEngine",
+    "heading": "Bug Fixes",
+    "startLine": 15,
+    "endLine": 64,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_CoreEngine",
+    "heading": "Gold",
+    "startLine": 66,
+    "endLine": 86,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_CoreEngine",
+    "heading": "Items",
+    "startLine": 88,
+    "endLine": 98,
+    "surface": null,
+    "documentKinds": [
+      "item"
+    ]
+  },
+  {
+    "pluginId": "YEP_CoreEngine",
+    "heading": "Stats",
+    "startLine": 100,
+    "endLine": 140,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_CoreEngine",
+    "heading": "Script Call Fail Safe",
+    "startLine": 142,
+    "endLine": 152,
+    "surface": "scriptCall",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_CoreEngine",
+    "heading": "Changelog",
+    "startLine": 154,
+    "endLine": 322,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_CreditsPage",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 11,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_CreditsPage",
+    "heading": "Instructions",
+    "startLine": 13,
+    "endLine": 26,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_CreditsPage",
+    "heading": "Plugin Commands",
+    "startLine": 28,
+    "endLine": 39,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_CreditsPage",
+    "heading": "Changelog",
+    "startLine": 41,
+    "endLine": 52,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_DamageCore",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 14,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_DamageCore",
+    "heading": "Notetags",
+    "startLine": 16,
+    "endLine": 41,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_DamageCore",
+    "heading": "Plugin Commands",
+    "startLine": 43,
+    "endLine": 55,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_DamageCore",
+    "heading": "Lunatic Mode - Damage Formula",
+    "startLine": 57,
+    "endLine": 79,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_DamageCore",
+    "heading": "Lunatic Mode - Damage Steps",
+    "startLine": 81,
+    "endLine": 124,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_DamageCore",
+    "heading": "Yanfly Engine Plugins - Battle Engine Extension - Action Sequence Commands",
+    "startLine": 126,
+    "endLine": 257,
+    "surface": "actionSequence",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_DamageCore",
+    "heading": "Changelog",
+    "startLine": 259,
+    "endLine": 305,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_DashToggle",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 10,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_DashToggle",
+    "heading": "Notetags",
+    "startLine": 12,
+    "endLine": 24,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_DashToggle",
+    "heading": "Plugin Commands",
+    "startLine": 26,
+    "endLine": 43,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_DashToggle",
+    "heading": "Changelog",
+    "startLine": 45,
+    "endLine": 59,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_DisableAutoShadowExt",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 12,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_DisableAutoShadowExt",
+    "heading": "Notetags",
+    "startLine": 14,
+    "endLine": 29,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_DisableAutoShadowExt",
+    "heading": "Changelog",
+    "startLine": 31,
+    "endLine": 36,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_DisableAutoShadowExt",
+    "heading": "End of Helpfile",
+    "startLine": 38,
+    "endLine": 49,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_DynamicTitleImages",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 13,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_DynamicTitleImages",
+    "heading": "Instructions",
+    "startLine": 15,
+    "endLine": 38,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_DynamicTitleImages",
+    "heading": "Changelog",
+    "startLine": 40,
+    "endLine": 45,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_DynamicTitleImages",
+    "heading": "End of Helpfile",
+    "startLine": 47,
+    "endLine": 58,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ElementAbsorb",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 10,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ElementAbsorb",
+    "heading": "Notetags",
+    "startLine": 12,
+    "endLine": 22,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ElementCore",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 17,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ElementCore",
+    "heading": "Notetags",
+    "startLine": 19,
+    "endLine": 101,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ElementCore",
+    "heading": "Yanfly Engine Plugins - Battle Engine Extension - Action Sequence Commands",
+    "startLine": 103,
+    "endLine": 159,
+    "surface": "actionSequence",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ElementCore",
+    "heading": "Changelog",
+    "startLine": 161,
+    "endLine": 179,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ElementReflect",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 10,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ElementReflect",
+    "heading": "Notetags",
+    "startLine": 12,
+    "endLine": 19,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EnemyLevels",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 9,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EnemyLevels",
+    "heading": "Default Level Types",
+    "startLine": 11,
+    "endLine": 29,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EnemyLevels",
+    "heading": "Notetags",
+    "startLine": 31,
+    "endLine": 116,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EnemyLevels",
+    "heading": "Lunatic Mode - Custom Starting Level",
+    "startLine": 118,
+    "endLine": 133,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EnemyLevels",
+    "heading": "Lunatic Mode - Custom Parameter Formulas",
+    "startLine": 135,
+    "endLine": 150,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EnemyLevels",
+    "heading": "Lunatic Mode - Custom Change Enemy Level",
+    "startLine": 152,
+    "endLine": 171,
+    "surface": "databaseNote",
+    "documentKinds": [
+      "enemy"
+    ]
+  },
+  {
+    "pluginId": "YEP_EnemyLevels",
+    "heading": "Lunatic Mode - New JavaScript Functions",
+    "startLine": 173,
+    "endLine": 234,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EnemyLevels",
+    "heading": "Plugin Commands",
+    "startLine": 236,
+    "endLine": 269,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EnemyLevels",
+    "heading": "Changelog",
+    "startLine": 271,
+    "endLine": 308,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EnhancedTP",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 12,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EnhancedTP",
+    "heading": "Instructions - TP Mode Parameters",
+    "startLine": 14,
+    "endLine": 121,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EnhancedTP",
+    "heading": "Notetags",
+    "startLine": 123,
+    "endLine": 155,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EnhancedTP",
+    "heading": "Plugin Commands",
+    "startLine": 157,
+    "endLine": 201,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EnhancedTP",
+    "heading": "Lunatic Mode - New JavaScript Functions",
+    "startLine": 203,
+    "endLine": 231,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EnhancedTP",
+    "heading": "Changelog",
+    "startLine": 233,
+    "endLine": 274,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EquipBattleSkills",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 13,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EquipBattleSkills",
+    "heading": "Notetags",
+    "startLine": 15,
+    "endLine": 55,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EquipBattleSkills",
+    "heading": "Plugin Commands",
+    "startLine": 57,
+    "endLine": 73,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EquipBattleSkills",
+    "heading": "Lunatic Mode - New JavaScript Functions",
+    "startLine": 75,
+    "endLine": 117,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EquipBattleSkills",
+    "heading": "Plugin Commands",
+    "startLine": 119,
+    "endLine": 137,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EquipBattleSkills",
+    "heading": "Changelog",
+    "startLine": 139,
+    "endLine": 193,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EquipCore",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 42,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EquipCore",
+    "heading": "Notetags",
+    "startLine": 44,
+    "endLine": 80,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EquipCore",
+    "heading": "Lunatic Mode - Custom Parameters",
+    "startLine": 82,
+    "endLine": 96,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EquipCore",
+    "heading": "Changelog",
+    "startLine": 98,
+    "endLine": 167,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventChasePlayer",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 9,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventChasePlayer",
+    "heading": "How to Use",
+    "startLine": 11,
+    "endLine": 42,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventChasePlayer",
+    "heading": "Changelog",
+    "startLine": 44,
+    "endLine": 82,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventClickTrigger",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 11,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventClickTrigger",
+    "heading": "Notetags and Comment Tags",
+    "startLine": 13,
+    "endLine": 26,
+    "surface": "eventPageComment",
+    "documentKinds": [
+      "eventPage"
+    ]
+  },
+  {
+    "pluginId": "YEP_EventClickTrigger",
+    "heading": "Changelog",
+    "startLine": 28,
+    "endLine": 33,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventClickTrigger",
+    "heading": "End of Helpfile",
+    "startLine": 35,
+    "endLine": 38,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventCopier",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 31,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventCopier",
+    "heading": "Instructions",
+    "startLine": 33,
+    "endLine": 47,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventCopier",
+    "heading": "Notetags",
+    "startLine": 49,
+    "endLine": 84,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventCopier",
+    "heading": "Lunatic Mode - Pre and Post Copy Codes",
+    "startLine": 86,
+    "endLine": 129,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventCopier",
+    "heading": "Changelog",
+    "startLine": 131,
+    "endLine": 140,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventCopier",
+    "heading": "End of Helpfile",
+    "startLine": 142,
+    "endLine": 185,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventEncounterAid",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 11,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventEncounterAid",
+    "heading": "Notetags",
+    "startLine": 13,
+    "endLine": 31,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventEncounterAid",
+    "heading": "Event - Conditional Branch - Script Calls",
+    "startLine": 33,
+    "endLine": 62,
+    "surface": "scriptCall",
+    "documentKinds": [
+      "event"
+    ]
+  },
+  {
+    "pluginId": "YEP_EventEncounterAid",
+    "heading": "Changelog",
+    "startLine": 64,
+    "endLine": 72,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventHitboxResize",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 11,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventHitboxResize",
+    "heading": "Notetags and Comment Tags",
+    "startLine": 13,
+    "endLine": 32,
+    "surface": "eventPageComment",
+    "documentKinds": [
+      "eventPage"
+    ]
+  },
+  {
+    "pluginId": "YEP_EventHitboxResize",
+    "heading": "Changelog",
+    "startLine": 34,
+    "endLine": 39,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventHitboxResize",
+    "heading": "End of Helpfile",
+    "startLine": 41,
+    "endLine": 44,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventMiniLabel",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 8,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventMiniLabel",
+    "heading": "Comment Tags",
+    "startLine": 10,
+    "endLine": 49,
+    "surface": "eventPageComment",
+    "documentKinds": [
+      "eventPage"
+    ]
+  },
+  {
+    "pluginId": "YEP_EventMiniLabel",
+    "heading": "Plugin Commands",
+    "startLine": 51,
+    "endLine": 67,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventMiniLabel",
+    "heading": "Changelog",
+    "startLine": 69,
+    "endLine": 118,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventMorpher",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 28,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventMorpher",
+    "heading": "Instructions",
+    "startLine": 30,
+    "endLine": 42,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventMorpher",
+    "heading": "Script Calls",
+    "startLine": 44,
+    "endLine": 117,
+    "surface": "scriptCall",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventMorpher",
+    "heading": "Changelog",
+    "startLine": 119,
+    "endLine": 124,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventMorpher",
+    "heading": "End of Helpfile",
+    "startLine": 126,
+    "endLine": 150,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventProxActivate",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 15,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventProxActivate",
+    "heading": "Comment Tags",
+    "startLine": 17,
+    "endLine": 79,
+    "surface": "eventPageComment",
+    "documentKinds": [
+      "eventPage"
+    ]
+  },
+  {
+    "pluginId": "YEP_EventProxActivate",
+    "heading": "Changelog",
+    "startLine": 81,
+    "endLine": 89,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventProxActivate",
+    "heading": "End of Helpfile",
+    "startLine": 91,
+    "endLine": 93,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventRegionTrigger",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 17,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventRegionTrigger",
+    "heading": "Comment Tags",
+    "startLine": 19,
+    "endLine": 64,
+    "surface": "eventPageComment",
+    "documentKinds": [
+      "eventPage"
+    ]
+  },
+  {
+    "pluginId": "YEP_EventRegionTrigger",
+    "heading": "Changelog",
+    "startLine": 66,
+    "endLine": 78,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventRegionTrigger",
+    "heading": "End of Helpfile",
+    "startLine": 80,
+    "endLine": 82,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventSpawner",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 25,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventSpawner",
+    "heading": "Instructions",
+    "startLine": 27,
+    "endLine": 59,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventSpawner",
+    "heading": "Script Calls",
+    "startLine": 61,
+    "endLine": 249,
+    "surface": "scriptCall",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventSpawner",
+    "heading": "Changelog",
+    "startLine": 251,
+    "endLine": 259,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventSpawner",
+    "heading": "End of Helpfile",
+    "startLine": 261,
+    "endLine": 294,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventSpriteOffset",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 11,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventSpriteOffset",
+    "heading": "Notetags",
+    "startLine": 13,
+    "endLine": 39,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventSpriteOffset",
+    "heading": "Comment Tags",
+    "startLine": 41,
+    "endLine": 71,
+    "surface": "eventPageComment",
+    "documentKinds": [
+      "eventPage"
+    ]
+  },
+  {
+    "pluginId": "YEP_EventSpriteOffset",
+    "heading": "Custom Movement Route - Script Calls",
+    "startLine": 73,
+    "endLine": 98,
+    "surface": "scriptCall",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventSpriteOffset",
+    "heading": "Changelog",
+    "startLine": 100,
+    "endLine": 105,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventSpriteOffset",
+    "heading": "End of Helpfile",
+    "startLine": 107,
+    "endLine": 109,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventStepAniOpt",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 11,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventStepAniOpt",
+    "heading": "Notetags",
+    "startLine": 13,
+    "endLine": 37,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventStepAniOpt",
+    "heading": "Comment Tags",
+    "startLine": 39,
+    "endLine": 68,
+    "surface": "eventPageComment",
+    "documentKinds": [
+      "eventPage"
+    ]
+  },
+  {
+    "pluginId": "YEP_EventStepAniOpt",
+    "heading": "Changelog",
+    "startLine": 70,
+    "endLine": 75,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventStepAniOpt",
+    "heading": "End of Helpfile",
+    "startLine": 77,
+    "endLine": 79,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventTimerControl",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 19,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventTimerControl",
+    "heading": "Plugin Commands",
+    "startLine": 21,
+    "endLine": 79,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventTimerControl",
+    "heading": "Lunatic Mode - Effect Code",
+    "startLine": 81,
+    "endLine": 124,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventTimerControl",
+    "heading": "Changelog",
+    "startLine": 126,
+    "endLine": 135,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_EventTimerControl",
+    "heading": "End of Helpfile",
+    "startLine": 137,
+    "endLine": 179,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ExternalLinks",
+    "heading": "Introduction                                                     .",
+    "startLine": 3,
+    "endLine": 8,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ExternalLinks",
+    "heading": "Plugin Commands",
+    "startLine": 10,
+    "endLine": 21,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ExternalLinks",
+    "heading": "Changelog",
+    "startLine": 23,
+    "endLine": 31,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ExtraEnemyDrops",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 11,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ExtraEnemyDrops",
+    "heading": "Generic Drop - Notetags",
+    "startLine": 13,
+    "endLine": 58,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ExtraEnemyDrops",
+    "heading": "Conditional Drop - Notetags",
+    "startLine": 60,
+    "endLine": 300,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ExtraEnemyDrops",
+    "heading": "Lunatic Mode - New JavaScript Functions~",
+    "startLine": 302,
+    "endLine": 337,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ExtraEnemyDrops",
+    "heading": "Changelog",
+    "startLine": 339,
+    "endLine": 379,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ExtraParamFormula",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 12,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ExtraParamFormula",
+    "heading": "Instructions - Extra Parameter Explanation",
+    "startLine": 14,
+    "endLine": 104,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ExtraParamFormula",
+    "heading": "Instructions - Custom Formulas",
+    "startLine": 106,
+    "endLine": 118,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ExtraParamFormula",
+    "heading": "Instructions - Understanding Formula Variables",
+    "startLine": 120,
+    "endLine": 154,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ExtraParamFormula",
+    "heading": "Examples - Sample Formulas",
+    "startLine": 156,
+    "endLine": 184,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ExtraParamFormula",
+    "heading": "Notetags",
+    "startLine": 186,
+    "endLine": 218,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ExtraParamFormula",
+    "heading": "Lunatic Mode - New JavaScript Functions",
+    "startLine": 220,
+    "endLine": 289,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ExtraParamFormula",
+    "heading": "Changelog",
+    "startLine": 291,
+    "endLine": 310,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_FloorDamage",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 11,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_FloorDamage",
+    "heading": "Notetags",
+    "startLine": 13,
+    "endLine": 35,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_FloorDamage",
+    "heading": "Lunatic Mode - Custom Floor Damage",
+    "startLine": 37,
+    "endLine": 53,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_FloorDamage",
+    "heading": "Changelog",
+    "startLine": 55,
+    "endLine": 67,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_FootstepSounds",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 14,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_FootstepSounds",
+    "heading": "Instructions",
+    "startLine": 16,
+    "endLine": 46,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_FootstepSounds",
+    "heading": "Notetags",
+    "startLine": 48,
+    "endLine": 99,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_FootstepSounds",
+    "heading": "Plugin Commands",
+    "startLine": 101,
+    "endLine": 114,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ForceAdvantage",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 14,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ForceAdvantage",
+    "heading": "Plugin Commands",
+    "startLine": 16,
+    "endLine": 42,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ForceAdvantage",
+    "heading": "Changelog",
+    "startLine": 44,
+    "endLine": 52,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_FpsSynchOption",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 30,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_FpsSynchOption",
+    "heading": "Options Core Settings - Adding the New Options",
+    "startLine": 32,
+    "endLine": 103,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_FpsSynchOption",
+    "heading": "Changelog",
+    "startLine": 105,
+    "endLine": 120,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_GabWindow",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 16,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_GabWindow",
+    "heading": "Instructions",
+    "startLine": 18,
+    "endLine": 91,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_GabWindow",
+    "heading": "Changelog",
+    "startLine": 93,
+    "endLine": 123,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_GridFreeDoodads",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 12,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_GridFreeDoodads",
+    "heading": "Instructions - Requirements",
+    "startLine": 14,
+    "endLine": 25,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_GridFreeDoodads",
+    "heading": "Instructions - Placing Doodads",
+    "startLine": 27,
+    "endLine": 207,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_GridFreeDoodads",
+    "heading": "Instructions - Making Your Own Doodads",
+    "startLine": 209,
+    "endLine": 244,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_GridFreeDoodads",
+    "heading": "Changelog",
+    "startLine": 246,
+    "endLine": 292,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_HelpFileAccess",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 15,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_HelpFileAccess",
+    "heading": "Main Menu Manager - Positioning the Help Command",
+    "startLine": 17,
+    "endLine": 37,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_HelpFileAccess",
+    "heading": "Plugin Commands",
+    "startLine": 39,
+    "endLine": 55,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_HitAccuracy",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 15,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_HitAccuracy",
+    "heading": "Instructions",
+    "startLine": 17,
+    "endLine": 33,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_HitAccuracy",
+    "heading": "Changelog",
+    "startLine": 35,
+    "endLine": 54,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_HitDamageSounds",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 15,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_HitDamageSounds",
+    "heading": "Instructions",
+    "startLine": 17,
+    "endLine": 33,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_HitDamageSounds",
+    "heading": "Notetags",
+    "startLine": 35,
+    "endLine": 61,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_HitDamageSounds",
+    "heading": "Changelog",
+    "startLine": 63,
+    "endLine": 71,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_IconBalloons",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 10,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_IconBalloons",
+    "heading": "Plugin Commands",
+    "startLine": 12,
+    "endLine": 54,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_IconBalloons",
+    "heading": "Changelog",
+    "startLine": 56,
+    "endLine": 67,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_IconsOnEvents",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 12,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_IconsOnEvents",
+    "heading": "Instructions - Notetags and Comment Tags",
+    "startLine": 14,
+    "endLine": 44,
+    "surface": "eventPageComment",
+    "documentKinds": [
+      "eventPage"
+    ]
+  },
+  {
+    "pluginId": "YEP_IconsOnEvents",
+    "heading": "Instructions - Movement Route - Script",
+    "startLine": 46,
+    "endLine": 75,
+    "surface": "moveRouteScript",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_IconsOnEvents",
+    "heading": "Instructions - Script Calls",
+    "startLine": 77,
+    "endLine": 151,
+    "surface": "scriptCall",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_IconsOnEvents",
+    "heading": "Changelog",
+    "startLine": 153,
+    "endLine": 158,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_IconsOnEvents",
+    "heading": "End of Helpfile",
+    "startLine": 160,
+    "endLine": 173,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ImprovedBattlebacks",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 17,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ImprovedBattlebacks",
+    "heading": "Plugin Commands",
+    "startLine": 19,
+    "endLine": 82,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ImprovedBattlebacks",
+    "heading": "Yanfly Engine Plugins - Battle Engine Extension - Action Sequence Commands",
+    "startLine": 84,
+    "endLine": 190,
+    "surface": "actionSequence",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ImprovedBattlebacks",
+    "heading": "Changelog",
+    "startLine": 192,
+    "endLine": 204,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_InstantCast",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 19,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_InstantCast",
+    "heading": "Notetags",
+    "startLine": 21,
+    "endLine": 67,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_InstantCast",
+    "heading": "Lunatic Mode - Conditional Instants",
+    "startLine": 69,
+    "endLine": 99,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_InstantCast",
+    "heading": "Instant Cast Priority Settings",
+    "startLine": 101,
+    "endLine": 125,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_InstantCast",
+    "heading": "Changelog",
+    "startLine": 127,
+    "endLine": 180,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ItemCore",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 36,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ItemCore",
+    "heading": "Notetags",
+    "startLine": 38,
+    "endLine": 61,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ItemCore",
+    "heading": "Plugin Commands",
+    "startLine": 63,
+    "endLine": 80,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ItemCore",
+    "heading": "Eventing Changes",
+    "startLine": 82,
+    "endLine": 107,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ItemCore",
+    "heading": "Item Name System",
+    "startLine": 109,
+    "endLine": 130,
+    "surface": null,
+    "documentKinds": [
+      "item"
+    ]
+  },
+  {
+    "pluginId": "YEP_ItemCore",
+    "heading": "Lunatic Mode - On Independent Item Creation",
+    "startLine": 132,
+    "endLine": 148,
+    "surface": "databaseNote",
+    "documentKinds": [
+      "item"
+    ]
+  },
+  {
+    "pluginId": "YEP_ItemCore",
+    "heading": "Lunatic Mode - Custom Info Window Display",
+    "startLine": 150,
+    "endLine": 181,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ItemCore",
+    "heading": "Independent Items and Midgame Note Parsing",
+    "startLine": 183,
+    "endLine": 193,
+    "surface": null,
+    "documentKinds": [
+      "item"
+    ]
+  },
+  {
+    "pluginId": "YEP_ItemCore",
+    "heading": "Changelog",
+    "startLine": 195,
+    "endLine": 308,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ItemSynthesis",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 12,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ItemSynthesis",
+    "heading": "Notetags",
+    "startLine": 14,
+    "endLine": 80,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ItemSynthesis",
+    "heading": "Lunatic Mode - Custom Synthesis Effects",
+    "startLine": 82,
+    "endLine": 104,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ItemSynthesis",
+    "heading": "Plugin Commands",
+    "startLine": 106,
+    "endLine": 130,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ItemSynthesis",
+    "heading": "Changelog",
+    "startLine": 132,
+    "endLine": 179,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_JobPoints",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 13,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_JobPoints",
+    "heading": "Victory Aftermath Compatibility",
+    "startLine": 15,
+    "endLine": 26,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_JobPoints",
+    "heading": "Notetags",
+    "startLine": 28,
+    "endLine": 63,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_JobPoints",
+    "heading": "Plugin Commands",
+    "startLine": 65,
+    "endLine": 93,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_JobPoints",
+    "heading": "Changelog",
+    "startLine": 95,
+    "endLine": 138,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_KeyboardConfig",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 19,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_KeyboardConfig",
+    "heading": "Button Common Event - Comment Tags",
+    "startLine": 21,
+    "endLine": 46,
+    "surface": "eventPageComment",
+    "documentKinds": [
+      "eventPage"
+    ]
+  },
+  {
+    "pluginId": "YEP_KeyboardConfig",
+    "heading": "Options Core Settings - Adding the New Options",
+    "startLine": 48,
+    "endLine": 113,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_KeyboardConfig",
+    "heading": "Changelog",
+    "startLine": 115,
+    "endLine": 135,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_KeyNameEntry",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 12,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_KeyNameEntry",
+    "heading": "Changelog",
+    "startLine": 14,
+    "endLine": 19,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_KeyNameEntry",
+    "heading": "End of Helpfile",
+    "startLine": 21,
+    "endLine": 38,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_KeyNumberInput",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 12,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_KeyNumberInput",
+    "heading": "Changelog",
+    "startLine": 14,
+    "endLine": 19,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_KeyNumberInput",
+    "heading": "End of Helpfile",
+    "startLine": 21,
+    "endLine": 24,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_LevelUpGrowthEffects",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 12,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_LevelUpGrowthEffects",
+    "heading": "Notetags",
+    "startLine": 14,
+    "endLine": 47,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_LevelUpGrowthEffects",
+    "heading": "Lunatic Mode",
+    "startLine": 49,
+    "endLine": 104,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_LevelUpGrowthEffects",
+    "heading": "Changelog",
+    "startLine": 106,
+    "endLine": 115,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_LevelUpGrowthEffects",
+    "heading": "End of Helpfile",
+    "startLine": 117,
+    "endLine": 120,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_LifeSteal",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 11,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_LifeSteal",
+    "heading": "Notetags",
+    "startLine": 13,
+    "endLine": 101,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_LifeSteal",
+    "heading": "Lunatic Mode - Custom Life Steal",
+    "startLine": 103,
+    "endLine": 192,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_LifeSteal",
+    "heading": "Changelog",
+    "startLine": 194,
+    "endLine": 212,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_LoadCustomFonts",
+    "heading": "Introduction & Instructions",
+    "startLine": 3,
+    "endLine": 25,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_LoadCustomFonts",
+    "heading": "Changelog",
+    "startLine": 27,
+    "endLine": 35,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_MainMenuManager",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 11,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_MainMenuManager",
+    "heading": "How to Use This Plugin",
+    "startLine": 13,
+    "endLine": 59,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_MainMenuManager",
+    "heading": "Examples",
+    "startLine": 61,
+    "endLine": 141,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_MainMenuManager",
+    "heading": "Changelog",
+    "startLine": 143,
+    "endLine": 158,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_MainMenuVar",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 23,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_MainMenuVar",
+    "heading": "Changelog",
+    "startLine": 25,
+    "endLine": 38,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_MapGoldWindow",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 8,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_MapGoldWindow",
+    "heading": "Plugin Commands",
+    "startLine": 10,
+    "endLine": 34,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_MapGoldWindow",
+    "heading": "Changelog",
+    "startLine": 36,
+    "endLine": 48,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_MapSelectEquip",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 11,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_MapSelectEquip",
+    "heading": "Plugin Commands",
+    "startLine": 13,
+    "endLine": 52,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_MapSelectEquip",
+    "heading": "Changelog",
+    "startLine": 54,
+    "endLine": 62,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_MapSelectSkill",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 10,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_MapSelectSkill",
+    "heading": "Plugin Commands",
+    "startLine": 12,
+    "endLine": 61,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_MapSelectSkill",
+    "heading": "Changelog",
+    "startLine": 63,
+    "endLine": 77,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_MapStatusWindow",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 10,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_MapStatusWindow",
+    "heading": "Notes and Status Window Behaviors",
+    "startLine": 12,
+    "endLine": 30,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_MapStatusWindow",
+    "heading": "Plugin Commands",
+    "startLine": 32,
+    "endLine": 61,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_MapStatusWindow",
+    "heading": "Changelog",
+    "startLine": 63,
+    "endLine": 68,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_MergeCommonEvents",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 14,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_MergeCommonEvents",
+    "heading": "Name Tags",
+    "startLine": 16,
+    "endLine": 87,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_MergeCommonEvents",
+    "heading": "Changelog",
+    "startLine": 89,
+    "endLine": 94,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_MergeCommonEvents",
+    "heading": "End of Helpfile",
+    "startLine": 96,
+    "endLine": 99,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_MessageCore",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 12,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_MessageCore",
+    "heading": "Word Wrapping",
+    "startLine": 14,
+    "endLine": 29,
+    "surface": "messageTextCode",
+    "documentKinds": [
+      "message"
+    ]
+  },
+  {
+    "pluginId": "YEP_MessageCore",
+    "heading": "Text Codes",
+    "startLine": 31,
+    "endLine": 139,
+    "surface": "messageTextCode",
+    "documentKinds": [
+      "message"
+    ]
+  },
+  {
+    "pluginId": "YEP_MessageCore",
+    "heading": "Plugin Commands",
+    "startLine": 141,
+    "endLine": 172,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_MessageCore",
+    "heading": "Changelog",
+    "startLine": 174,
+    "endLine": 259,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_MoveRouteCore",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 11,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_MoveRouteCore",
+    "heading": "Instructions - Simplified Movement Routes",
+    "startLine": 13,
+    "endLine": 270,
+    "surface": "moveRouteScript",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_MoveRouteCore",
+    "heading": "Notetags",
+    "startLine": 272,
+    "endLine": 283,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_MoveRouteCore",
+    "heading": "Lunatic Mode - Script Calls",
+    "startLine": 285,
+    "endLine": 405,
+    "surface": "scriptCall",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_MoveRouteCore",
+    "heading": "Changelog",
+    "startLine": 407,
+    "endLine": 427,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_MultiTypeSkills",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 15,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_MultiTypeSkills",
+    "heading": "Notetags",
+    "startLine": 17,
+    "endLine": 30,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_MultiTypeSkills",
+    "heading": "Changelog",
+    "startLine": 32,
+    "endLine": 40,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_MusicMenu",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 14,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_MusicMenu",
+    "heading": "Instructions",
+    "startLine": 16,
+    "endLine": 55,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_MusicMenu",
+    "heading": "Main Menu Manager - Positioning the Music Menu",
+    "startLine": 57,
+    "endLine": 77,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_MusicMenu",
+    "heading": "Plugin Commands",
+    "startLine": 79,
+    "endLine": 105,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_MusicMenu",
+    "heading": "Changelog",
+    "startLine": 107,
+    "endLine": 115,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_OptimizeScriptCalls",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 17,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_OptimizeScriptCalls",
+    "heading": "Changelog",
+    "startLine": 19,
+    "endLine": 24,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_OptimizeScriptCalls",
+    "heading": "End of Helpfile",
+    "startLine": 26,
+    "endLine": 29,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_OptionsCore",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 31,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_OptionsCore",
+    "heading": "Instructions - Option Categories Plugin Parameters",
+    "startLine": 33,
+    "endLine": 65,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_OptionsCore",
+    "heading": "Instructions - Option List Plugin Parameters",
+    "startLine": 67,
+    "endLine": 234,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_OptionsCore",
+    "heading": "Changelog",
+    "startLine": 236,
+    "endLine": 248,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_OptionsCore",
+    "heading": "End of Helpfile",
+    "startLine": 250,
+    "endLine": 335,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_OverkillBonus",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 20,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_OverkillBonus",
+    "heading": "Notetags",
+    "startLine": 22,
+    "endLine": 55,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_OverkillBonus",
+    "heading": "Extra Enemy Drops Compatibility - Conditional Drop - Overkill",
+    "startLine": 57,
+    "endLine": 82,
+    "surface": null,
+    "documentKinds": [
+      "enemy"
+    ]
+  },
+  {
+    "pluginId": "YEP_OverkillBonus",
+    "heading": "Lunatic Mode - Custom Overkill Settings",
+    "startLine": 84,
+    "endLine": 115,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_OverkillBonus",
+    "heading": "Changelog",
+    "startLine": 117,
+    "endLine": 129,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_PartySystem",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 16,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_PartySystem",
+    "heading": "Plugin Commands",
+    "startLine": 18,
+    "endLine": 53,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_PartySystem",
+    "heading": "Changelog",
+    "startLine": 55,
+    "endLine": 118,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_PatchNotes",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 11,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_PatchNotes",
+    "heading": "Intructions",
+    "startLine": 13,
+    "endLine": 20,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_PatchNotes",
+    "heading": "Main Menu Manager - Positioning the Patch Command",
+    "startLine": 22,
+    "endLine": 42,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_PatchNotes",
+    "heading": "Plugin Commands",
+    "startLine": 44,
+    "endLine": 60,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_PictureCommonEvents",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 11,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_PictureCommonEvents",
+    "heading": "Instructions",
+    "startLine": 13,
+    "endLine": 58,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_PictureCommonEvents",
+    "heading": "Plugin Commands",
+    "startLine": 60,
+    "endLine": 98,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_PictureCommonEvents",
+    "heading": "Changelog",
+    "startLine": 100,
+    "endLine": 130,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_PictureSpritesheets",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 11,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_PictureSpritesheets",
+    "heading": "Instructions",
+    "startLine": 13,
+    "endLine": 45,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_PictureSpritesheets",
+    "heading": "Plugin Commands",
+    "startLine": 47,
+    "endLine": 58,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_PictureSpritesheets",
+    "heading": "Script Calls",
+    "startLine": 60,
+    "endLine": 72,
+    "surface": "scriptCall",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_PictureSpritesheets",
+    "heading": "Changelog",
+    "startLine": 74,
+    "endLine": 79,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_PictureSpritesheets",
+    "heading": "End of Helpfile",
+    "startLine": 81,
+    "endLine": 84,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_PluginCmdSwVar",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 12,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_PluginCmdSwVar",
+    "heading": "Instructions",
+    "startLine": 14,
+    "endLine": 78,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_PluginCmdSwVar",
+    "heading": "Changelog",
+    "startLine": 80,
+    "endLine": 85,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_PluginCmdSwVar",
+    "heading": "End of Helpfile",
+    "startLine": 87,
+    "endLine": 89,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_QuestJournal",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 40,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_QuestJournal",
+    "heading": "Instructions - Setting Up the Quest Category Window",
+    "startLine": 42,
+    "endLine": 112,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_QuestJournal",
+    "heading": "Instructions - Setting Up the Quest List Window",
+    "startLine": 114,
+    "endLine": 207,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_QuestJournal",
+    "heading": "Instructions - Setting Up the Quest Title Window",
+    "startLine": 209,
+    "endLine": 245,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_QuestJournal",
+    "heading": "Instructions - Setting Up the Quest Data Window",
+    "startLine": 247,
+    "endLine": 381,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_QuestJournal",
+    "heading": "Instructions - Setting Up New Quests",
+    "startLine": 383,
+    "endLine": 462,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_QuestJournal",
+    "heading": "Main Menu Manager - Positioning the Quest Journal Command",
+    "startLine": 464,
+    "endLine": 484,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_QuestJournal",
+    "heading": "Script Calls",
+    "startLine": 486,
+    "endLine": 598,
+    "surface": "scriptCall",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_QuestJournal",
+    "heading": "Plugin Commands",
+    "startLine": 600,
+    "endLine": 814,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_QuestJournal",
+    "heading": "Instructions - Lunatic Mode",
+    "startLine": 816,
+    "endLine": 885,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_QuestJournal",
+    "heading": "Changelog",
+    "startLine": 887,
+    "endLine": 899,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_QuestJournal",
+    "heading": "End of Help",
+    "startLine": 901,
+    "endLine": 1674,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_RegionBattlebacks",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 16,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_RegionBattlebacks",
+    "heading": "Notetags",
+    "startLine": 18,
+    "endLine": 42,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_RegionBattlebacks",
+    "heading": "Changelog",
+    "startLine": 44,
+    "endLine": 52,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_RegionEvents",
+    "heading": "Introduction and Instructions",
+    "startLine": 3,
+    "endLine": 15,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_RegionEvents",
+    "heading": "Notetags",
+    "startLine": 17,
+    "endLine": 27,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_RegionEvents",
+    "heading": "Changelog",
+    "startLine": 29,
+    "endLine": 46,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_RegionRestrictions",
+    "heading": "Introduction and Instructions",
+    "startLine": 3,
+    "endLine": 14,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_RegionRestrictions",
+    "heading": "Notetags",
+    "startLine": 16,
+    "endLine": 60,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_RegionRestrictions",
+    "heading": "Changelog",
+    "startLine": 62,
+    "endLine": 81,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_RepelLureEncounters",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 11,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_RepelLureEncounters",
+    "heading": "Instructions",
+    "startLine": 13,
+    "endLine": 45,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_RepelLureEncounters",
+    "heading": "Plugin Commands",
+    "startLine": 47,
+    "endLine": 62,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_RepelLureEncounters",
+    "heading": "Changelog",
+    "startLine": 64,
+    "endLine": 77,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_RowFormation",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 13,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_RowFormation",
+    "heading": "What are Rows?",
+    "startLine": 15,
+    "endLine": 46,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_RowFormation",
+    "heading": "Notetags",
+    "startLine": 48,
+    "endLine": 104,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_RowFormation",
+    "heading": "Lunatic Mode - Conditional Row Modification",
+    "startLine": 106,
+    "endLine": 135,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_RowFormation",
+    "heading": "Lunatic Mode - Conditional Row State",
+    "startLine": 137,
+    "endLine": 158,
+    "surface": "databaseNote",
+    "documentKinds": [
+      "state"
+    ]
+  },
+  {
+    "pluginId": "YEP_RowFormation",
+    "heading": "Lunatic Mode - New JavaScript Functions~",
+    "startLine": 160,
+    "endLine": 213,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_RowFormation",
+    "heading": "Main Menu Manager - Positioning the Row Command",
+    "startLine": 215,
+    "endLine": 235,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_RowFormation",
+    "heading": "Plugin Commands",
+    "startLine": 237,
+    "endLine": 282,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_RowFormation",
+    "heading": "Changelog",
+    "startLine": 284,
+    "endLine": 368,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SaveCore",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 14,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SaveCore",
+    "heading": "Instructions - Data Columns",
+    "startLine": 16,
+    "endLine": 60,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SaveCore",
+    "heading": "Technical - Save Modes",
+    "startLine": 62,
+    "endLine": 73,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SaveCore",
+    "heading": "Technical - Save Files",
+    "startLine": 75,
+    "endLine": 97,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SaveCore",
+    "heading": "Changelog",
+    "startLine": 99,
+    "endLine": 125,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SaveEventLocations",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 9,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SaveEventLocations",
+    "heading": "Notetags",
+    "startLine": 11,
+    "endLine": 29,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SaveEventLocations",
+    "heading": "Plugin Commands",
+    "startLine": 31,
+    "endLine": 37,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SaveEventLocations",
+    "heading": "Changelog",
+    "startLine": 39,
+    "endLine": 65,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ScaleSprites",
+    "heading": "Introduction and Instructions",
+    "startLine": 3,
+    "endLine": 20,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ScaleSprites",
+    "heading": "Changelog",
+    "startLine": 22,
+    "endLine": 30,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ScriptCallPluginCmd",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 11,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ScriptCallPluginCmd",
+    "heading": "Script Call",
+    "startLine": 13,
+    "endLine": 38,
+    "surface": "scriptCall",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ScriptCallPluginCmd",
+    "heading": "Changelog",
+    "startLine": 40,
+    "endLine": 45,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ScriptCallPluginCmd",
+    "heading": "End of Helpfile",
+    "startLine": 47,
+    "endLine": 50,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SectionedGauges",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 25,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SectionedGauges",
+    "heading": "Changelog",
+    "startLine": 27,
+    "endLine": 41,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SegmentedGauges",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 26,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SegmentedGauges",
+    "heading": "Changelog",
+    "startLine": 28,
+    "endLine": 36,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SelfSwVar",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 11,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SelfSwVar",
+    "heading": "Instructions",
+    "startLine": 13,
+    "endLine": 70,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SelfSwVar",
+    "heading": "Plugin Commands",
+    "startLine": 72,
+    "endLine": 94,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SelfSwVar",
+    "heading": "Lunatic Mode - Script Calls",
+    "startLine": 96,
+    "endLine": 124,
+    "surface": "scriptCall",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SelfSwVar",
+    "heading": "Changelog",
+    "startLine": 126,
+    "endLine": 150,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ShopMenuCore",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 18,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ShopMenuCore",
+    "heading": "Instructions",
+    "startLine": 20,
+    "endLine": 40,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ShopMenuCore",
+    "heading": "Notetags",
+    "startLine": 42,
+    "endLine": 61,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_ShopMenuCore",
+    "heading": "Changelog",
+    "startLine": 63,
+    "endLine": 86,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SkillCore",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 15,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SkillCore",
+    "heading": "Notetags",
+    "startLine": 17,
+    "endLine": 59,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SkillCore",
+    "heading": "Gauge Swapping",
+    "startLine": 61,
+    "endLine": 88,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SkillCore",
+    "heading": "Lunatic Mode - Skill Costs",
+    "startLine": 90,
+    "endLine": 120,
+    "surface": "databaseNote",
+    "documentKinds": [
+      "skill"
+    ]
+  },
+  {
+    "pluginId": "YEP_SkillCore",
+    "heading": "Lunatic Mode - Custom Show Requirements",
+    "startLine": 122,
+    "endLine": 139,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SkillCore",
+    "heading": "Lunatic Mode - Custom Requirements and Execution",
+    "startLine": 141,
+    "endLine": 165,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SkillCore",
+    "heading": "Lunatic Mode - Custom Cost Display",
+    "startLine": 167,
+    "endLine": 188,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SkillCore",
+    "heading": "Lunatic Mode - The Skill Phases",
+    "startLine": 190,
+    "endLine": 237,
+    "surface": "databaseNote",
+    "documentKinds": [
+      "skill"
+    ]
+  },
+  {
+    "pluginId": "YEP_SkillCore",
+    "heading": "Changelog",
+    "startLine": 239,
+    "endLine": 296,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SkillLearnSystem",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 14,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SkillLearnSystem",
+    "heading": "Notetags",
+    "startLine": 16,
+    "endLine": 68,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SkillLearnSystem",
+    "heading": "Lunatic Mode - Custom Requirements and Costs",
+    "startLine": 70,
+    "endLine": 111,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SkillLearnSystem",
+    "heading": "Lunatic Mode - Custom JP Costs",
+    "startLine": 113,
+    "endLine": 127,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SkillLearnSystem",
+    "heading": "Plugin Commands",
+    "startLine": 129,
+    "endLine": 143,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SkillLearnSystem",
+    "heading": "Changelog",
+    "startLine": 145,
+    "endLine": 212,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SkillMasteryLevels",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 23,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SkillMasteryLevels",
+    "heading": "Notetags",
+    "startLine": 25,
+    "endLine": 158,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SkillMasteryLevels",
+    "heading": "Script Calls",
+    "startLine": 160,
+    "endLine": 205,
+    "surface": "scriptCall",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SkillMasteryLevels",
+    "heading": "Lunatic Mode - Requires YEP_SkillCore.js",
+    "startLine": 207,
+    "endLine": 276,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SkillMasteryLevels",
+    "heading": "Changelog",
+    "startLine": 278,
+    "endLine": 283,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SkillMasteryLevels",
+    "heading": "End of Helpfile",
+    "startLine": 285,
+    "endLine": 532,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SlipperyTiles",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 9,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SlipperyTiles",
+    "heading": "Notetags",
+    "startLine": 11,
+    "endLine": 20,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SlipperyTiles",
+    "heading": "Changelog",
+    "startLine": 22,
+    "endLine": 43,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SmartJump",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 15,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SmartJump",
+    "heading": "Instructions - Setting Up Smart Jumps",
+    "startLine": 17,
+    "endLine": 27,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SmartJump",
+    "heading": "Instructions - Equal Regions",
+    "startLine": 29,
+    "endLine": 42,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SmartJump",
+    "heading": "Notetags",
+    "startLine": 44,
+    "endLine": 64,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SmartJump",
+    "heading": "Changelog",
+    "startLine": 66,
+    "endLine": 84,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SpecialParamFormula",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 11,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SpecialParamFormula",
+    "heading": "Instructions - Special Parameter Explanation",
+    "startLine": 13,
+    "endLine": 106,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SpecialParamFormula",
+    "heading": "Instructions - Custom Formulas",
+    "startLine": 108,
+    "endLine": 120,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SpecialParamFormula",
+    "heading": "Instructions - Understanding Formula Variables",
+    "startLine": 122,
+    "endLine": 157,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SpecialParamFormula",
+    "heading": "Examples - Sample Formulas",
+    "startLine": 159,
+    "endLine": 187,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SpecialParamFormula",
+    "heading": "Notetags",
+    "startLine": 189,
+    "endLine": 221,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SpecialParamFormula",
+    "heading": "Lunatic Mode - New JavaScript Functions",
+    "startLine": 223,
+    "endLine": 292,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SpecialParamFormula",
+    "heading": "Changelog",
+    "startLine": 294,
+    "endLine": 319,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_StatAllocation",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 31,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_StatAllocation",
+    "heading": "Notetags",
+    "startLine": 33,
+    "endLine": 99,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_StatAllocation",
+    "heading": "Main Menu Manager - Positioning the Allocate Command",
+    "startLine": 101,
+    "endLine": 121,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_StatAllocation",
+    "heading": "Plugin Commands",
+    "startLine": 123,
+    "endLine": 150,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_StatAllocation",
+    "heading": "Lunatic Mode - Script Calls",
+    "startLine": 152,
+    "endLine": 172,
+    "surface": "scriptCall",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_StatAllocation",
+    "heading": "Changelog",
+    "startLine": 174,
+    "endLine": 186,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_StatAllocation",
+    "heading": "End of Helpfile",
+    "startLine": 188,
+    "endLine": 563,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_StatusMenuCore",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 14,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_StatusMenuCore",
+    "heading": "Instructions",
+    "startLine": 16,
+    "endLine": 43,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_StatusMenuCore",
+    "heading": "Adding Icons to Elements and Attributes",
+    "startLine": 45,
+    "endLine": 65,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_StatusMenuCore",
+    "heading": "Changelog",
+    "startLine": 67,
+    "endLine": 86,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_StealSnatch",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 26,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_StealSnatch",
+    "heading": "Notetags",
+    "startLine": 28,
+    "endLine": 173,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_StealSnatch",
+    "heading": "Lunatic Mode - Custom Steal Effects",
+    "startLine": 175,
+    "endLine": 209,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_StealSnatch",
+    "heading": "Changelog",
+    "startLine": 211,
+    "endLine": 254,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_StopMapMovement",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 13,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_StopMapMovement",
+    "heading": "Plugin Commands",
+    "startLine": 15,
+    "endLine": 37,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_StopMapMovement",
+    "heading": "Changelog",
+    "startLine": 39,
+    "endLine": 50,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SwapEnemies",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 10,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SwapEnemies",
+    "heading": "Notetags",
+    "startLine": 12,
+    "endLine": 36,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_SwapEnemies",
+    "heading": "Changelog",
+    "startLine": 38,
+    "endLine": 54,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_TargetCore",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 14,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_TargetCore",
+    "heading": "Notetags",
+    "startLine": 16,
+    "endLine": 115,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_TargetCore",
+    "heading": "Lunatic Mode - Custom Target Help Text",
+    "startLine": 117,
+    "endLine": 131,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_TargetCore",
+    "heading": "Lunatic Mode - Custom Target Eval",
+    "startLine": 133,
+    "endLine": 151,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_TargetCore",
+    "heading": "Changelog",
+    "startLine": 153,
+    "endLine": 176,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_Taunt",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 16,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_Taunt",
+    "heading": "Notetags",
+    "startLine": 18,
+    "endLine": 52,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_Taunt",
+    "heading": "Changelog",
+    "startLine": 54,
+    "endLine": 65,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_TestPlayAssist",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 47,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_TestPlayAssist",
+    "heading": "Changelog",
+    "startLine": 49,
+    "endLine": 54,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_TestPlayAssist",
+    "heading": "End of Helpfile",
+    "startLine": 56,
+    "endLine": 104,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_TouchInputDisabler",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 9,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_TouchInputDisabler",
+    "heading": "Instructions",
+    "startLine": 11,
+    "endLine": 17,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_TouchInputDisabler",
+    "heading": "Changelog",
+    "startLine": 19,
+    "endLine": 24,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_TouchInputDisabler",
+    "heading": "End of Helpfile",
+    "startLine": 26,
+    "endLine": 96,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_UtilityCommonEvents",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 12,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_UtilityCommonEvents",
+    "heading": "Instructions",
+    "startLine": 14,
+    "endLine": 44,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_UtilityCommonEvents",
+    "heading": "Changelog",
+    "startLine": 46,
+    "endLine": 57,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_VictoryAftermath",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 9,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_VictoryAftermath",
+    "heading": "Victory Aftermath",
+    "startLine": 11,
+    "endLine": 25,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_VictoryAftermath",
+    "heading": "Plugin Commands",
+    "startLine": 27,
+    "endLine": 42,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_VictoryAftermath",
+    "heading": "Changelog",
+    "startLine": 44,
+    "endLine": 79,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_WeaponAnimation",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 13,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_WeaponAnimation",
+    "heading": "Notetags",
+    "startLine": 15,
+    "endLine": 83,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_WeaponAnimation",
+    "heading": "Instructions - Custom Weapon Images",
+    "startLine": 85,
+    "endLine": 102,
+    "surface": null,
+    "documentKinds": [
+      "weapon"
+    ]
+  },
+  {
+    "pluginId": "YEP_WeaponAnimation",
+    "heading": "Changelog",
+    "startLine": 104,
+    "endLine": 126,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_WeaponUnleash",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 14,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_WeaponUnleash",
+    "heading": "Notetags",
+    "startLine": 16,
+    "endLine": 131,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_WeaponUnleash",
+    "heading": "Lunatic Mode - Conditional Replace Attack & Guard",
+    "startLine": 133,
+    "endLine": 169,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_WeaponUnleash",
+    "heading": "Lunatic Mode - Conditional Weapon Unleash and Guard Unleash",
+    "startLine": 171,
+    "endLine": 233,
+    "surface": "databaseNote",
+    "documentKinds": [
+      "weapon"
+    ]
+  },
+  {
+    "pluginId": "YEP_WeaponUnleash",
+    "heading": "Changelog",
+    "startLine": 235,
+    "endLine": 259,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_WeatherInBattle",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 17,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_WeatherInBattle",
+    "heading": "Plugin Commands",
+    "startLine": 19,
+    "endLine": 32,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_WeatherInBattle",
+    "heading": "Yanfly Engine Plugins - Battle Engine Extension - Action Sequence Commands",
+    "startLine": 34,
+    "endLine": 53,
+    "surface": "actionSequence",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_WeatherInBattle",
+    "heading": "Changelog",
+    "startLine": 55,
+    "endLine": 61,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ActorAutoBattleAI",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 18,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ActorAutoBattleAI",
+    "heading": "Plugin Parameters",
+    "startLine": 20,
+    "endLine": 47,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ActorAutoBattleAI",
+    "heading": "Notetags",
+    "startLine": 49,
+    "endLine": 95,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ActorAutoBattleAI",
+    "heading": "Conditions",
+    "startLine": 97,
+    "endLine": 103,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ActorAutoBattleAI",
+    "heading": "Changelog",
+    "startLine": 105,
+    "endLine": 113,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ActorAutoBattleAI",
+    "heading": "End of Helpfile",
+    "startLine": 115,
+    "endLine": 148,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ActorPartySwitch",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 14,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ActorPartySwitch",
+    "heading": "Plugin Commands",
+    "startLine": 16,
+    "endLine": 36,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ActorPartySwitch",
+    "heading": "Changelog",
+    "startLine": 38,
+    "endLine": 62,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ActorVariables",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 19,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ActorVariables",
+    "heading": "Notetags",
+    "startLine": 21,
+    "endLine": 32,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ActorVariables",
+    "heading": "Variable Icons and Display",
+    "startLine": 34,
+    "endLine": 48,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ActorVariables",
+    "heading": "Plugin Commands",
+    "startLine": 50,
+    "endLine": 63,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ActorVariables",
+    "heading": "Changelog",
+    "startLine": 65,
+    "endLine": 87,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ActSeqPack1",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 13,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ActSeqPack1",
+    "heading": "Action Sequences - ala Melody",
+    "startLine": 15,
+    "endLine": 83,
+    "surface": "actionSequence",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ActSeqPack1",
+    "heading": "Target Typing",
+    "startLine": 85,
+    "endLine": 120,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ActSeqPack1",
+    "heading": "Action Sequences - Action List",
+    "startLine": 122,
+    "endLine": 677,
+    "surface": "actionSequence",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ActSeqPack1",
+    "heading": "Changelog",
+    "startLine": 679,
+    "endLine": 730,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ActSeqPack2",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 13,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ActSeqPack2",
+    "heading": "Action Sequences - ala Melody",
+    "startLine": 15,
+    "endLine": 83,
+    "surface": "actionSequence",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ActSeqPack2",
+    "heading": "Target Typing",
+    "startLine": 85,
+    "endLine": 120,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ActSeqPack2",
+    "heading": "Action Sequences - Action List",
+    "startLine": 122,
+    "endLine": 431,
+    "surface": "actionSequence",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ActSeqPack2",
+    "heading": "Changelog",
+    "startLine": 433,
+    "endLine": 489,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ActSeqPack3",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 13,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ActSeqPack3",
+    "heading": "Action Sequences - ala Melody",
+    "startLine": 15,
+    "endLine": 83,
+    "surface": "actionSequence",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ActSeqPack3",
+    "heading": "Target Typing",
+    "startLine": 85,
+    "endLine": 120,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ActSeqPack3",
+    "heading": "Action Sequences - Action List",
+    "startLine": 122,
+    "endLine": 291,
+    "surface": "actionSequence",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ActSeqPack3",
+    "heading": "Options Core Settings - Adding the New Options",
+    "startLine": 293,
+    "endLine": 364,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ActSeqPack3",
+    "heading": "Changelog",
+    "startLine": 366,
+    "endLine": 390,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_AftermathLevelUp",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 16,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_AftermathLevelUp",
+    "heading": "Instructions",
+    "startLine": 18,
+    "endLine": 25,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_AftermathLevelUp",
+    "heading": "Plugin Commands",
+    "startLine": 27,
+    "endLine": 42,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_AftermathLevelUp",
+    "heading": "Changelog",
+    "startLine": 44,
+    "endLine": 52,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_AnimatedSVEnemies",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 20,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_AnimatedSVEnemies",
+    "heading": "Notetags",
+    "startLine": 22,
+    "endLine": 257,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_AnimatedSVEnemies",
+    "heading": "Changelog",
+    "startLine": 259,
+    "endLine": 345,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_AreaOfEffect",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 15,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_AreaOfEffect",
+    "heading": "Instructions - Understanding Area of Effect",
+    "startLine": 17,
+    "endLine": 28,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_AreaOfEffect",
+    "heading": "Notetags",
+    "startLine": 30,
+    "endLine": 127,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_AreaOfEffect",
+    "heading": "Changelog",
+    "startLine": 129,
+    "endLine": 143,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ArmorScaling",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 12,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ArmorScaling",
+    "heading": "Armor Scaling",
+    "startLine": 14,
+    "endLine": 79,
+    "surface": null,
+    "documentKinds": [
+      "armor"
+    ]
+  },
+  {
+    "pluginId": "YEP_X_ArmorScaling",
+    "heading": "Armor Reduction and Armor Penetration",
+    "startLine": 81,
+    "endLine": 120,
+    "surface": null,
+    "documentKinds": [
+      "armor"
+    ]
+  },
+  {
+    "pluginId": "YEP_X_ArmorScaling",
+    "heading": "Notetags",
+    "startLine": 122,
+    "endLine": 197,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ArmorScaling",
+    "heading": "Lunatic Mode - Custom Armor Scaling",
+    "startLine": 199,
+    "endLine": 226,
+    "surface": "databaseNote",
+    "documentKinds": [
+      "armor"
+    ]
+  },
+  {
+    "pluginId": "YEP_X_ArmorScaling",
+    "heading": "Yanfly Engine Plugins - Battle Engine Extension - Action Sequence Commands",
+    "startLine": 228,
+    "endLine": 272,
+    "surface": "actionSequence",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ArmorScaling",
+    "heading": "Changelog",
+    "startLine": 274,
+    "endLine": 297,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_AttachAugments",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 15,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_AttachAugments",
+    "heading": "Notetags",
+    "startLine": 17,
+    "endLine": 71,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_AttachAugments",
+    "heading": "Augment Effect List",
+    "startLine": 73,
+    "endLine": 279,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_AttachAugments",
+    "heading": "Lunatic Mode - Attach and Detach Evals",
+    "startLine": 281,
+    "endLine": 309,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_AttachAugments",
+    "heading": "Plugin Commands",
+    "startLine": 311,
+    "endLine": 334,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_AttachAugments",
+    "heading": "Changelog",
+    "startLine": 336,
+    "endLine": 384,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_Autosave",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 14,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_Autosave",
+    "heading": "Instructions",
+    "startLine": 16,
+    "endLine": 64,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_Autosave",
+    "heading": "Plugin Commands",
+    "startLine": 66,
+    "endLine": 88,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_Autosave",
+    "heading": "Options Core Settings - Adding the New Option",
+    "startLine": 90,
+    "endLine": 161,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_Autosave",
+    "heading": "Changelog",
+    "startLine": 163,
+    "endLine": 168,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_Autosave",
+    "heading": "End of Helpfile",
+    "startLine": 170,
+    "endLine": 297,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_BattleStatistics",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 14,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_BattleStatistics",
+    "heading": "Instructions",
+    "startLine": 16,
+    "endLine": 42,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_BattleStatistics",
+    "heading": "Changelog",
+    "startLine": 44,
+    "endLine": 58,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_BattleSysATB",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 25,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_BattleSysATB",
+    "heading": "Plugin Commands",
+    "startLine": 27,
+    "endLine": 39,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_BattleSysATB",
+    "heading": "Notetags",
+    "startLine": 41,
+    "endLine": 115,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_BattleSysATB",
+    "heading": "Lunatic Mode - Conditional ATB Speed and Conditional ATB Charge",
+    "startLine": 117,
+    "endLine": 182,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_BattleSysATB",
+    "heading": "Yanfly Engine Plugins - Battle Engine Extension - Action Sequence Commands",
+    "startLine": 184,
+    "endLine": 238,
+    "surface": "actionSequence",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_BattleSysATB",
+    "heading": "Options Core Settings - Adding the New Options",
+    "startLine": 240,
+    "endLine": 325,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_BattleSysATB",
+    "heading": "Changelog",
+    "startLine": 327,
+    "endLine": 441,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_BattleSysCTB",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 21,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_BattleSysCTB",
+    "heading": "Plugin Commands",
+    "startLine": 23,
+    "endLine": 35,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_BattleSysCTB",
+    "heading": "Notetags",
+    "startLine": 37,
+    "endLine": 121,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_BattleSysCTB",
+    "heading": "Lunatic Mode - Conditional CTB Speed and Conditional CTB Charge",
+    "startLine": 123,
+    "endLine": 191,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_BattleSysCTB",
+    "heading": "Yanfly Engine Plugins - Battle Engine Extension - Action Sequence Commands",
+    "startLine": 193,
+    "endLine": 226,
+    "surface": "actionSequence",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_BattleSysCTB",
+    "heading": "Changelog",
+    "startLine": 228,
+    "endLine": 305,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_BattleSysSTB",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 27,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_BattleSysSTB",
+    "heading": "Plugin Commands",
+    "startLine": 29,
+    "endLine": 41,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_BattleSysSTB",
+    "heading": "Notetags",
+    "startLine": 43,
+    "endLine": 58,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_BattleSysSTB",
+    "heading": "Changelog",
+    "startLine": 60,
+    "endLine": 81,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_CEMSetupPack1",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 13,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_CEMSetupPack1",
+    "heading": "Plugin Commands",
+    "startLine": 15,
+    "endLine": 109,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_CEMSetupPack2",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 15,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_CEMSetupPack2",
+    "heading": "Plugin Commands",
+    "startLine": 17,
+    "endLine": 123,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_CEMSetupPack2",
+    "heading": "Changelog",
+    "startLine": 125,
+    "endLine": 133,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ChangeBattleEquip",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 13,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ChangeBattleEquip",
+    "heading": "Notetags",
+    "startLine": 15,
+    "endLine": 31,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ChangeBattleEquip",
+    "heading": "Changelog",
+    "startLine": 33,
+    "endLine": 52,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ClassBaseParam",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 13,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ClassBaseParam",
+    "heading": "Lunatic Mode - Custom Class Parameters",
+    "startLine": 15,
+    "endLine": 40,
+    "surface": "databaseNote",
+    "documentKinds": [
+      "class"
+    ]
+  },
+  {
+    "pluginId": "YEP_X_ClassBaseParam",
+    "heading": "Lunatic Mode - Detailed Custom Parameter Formulas",
+    "startLine": 42,
+    "endLine": 64,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ClassBaseParam",
+    "heading": "Changelog",
+    "startLine": 66,
+    "endLine": 87,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_CondShopPrices",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 14,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_CondShopPrices",
+    "heading": "Notetags",
+    "startLine": 16,
+    "endLine": 53,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_CondShopPrices",
+    "heading": "Order of Calculation",
+    "startLine": 55,
+    "endLine": 69,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_CondShopPrices",
+    "heading": "Changelog",
+    "startLine": 71,
+    "endLine": 79,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_CondShopPrices",
+    "heading": "End of Helpfile",
+    "startLine": 81,
+    "endLine": 105,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_CoreUpdatesOpt",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 27,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_CoreUpdatesOpt",
+    "heading": "Instructions",
+    "startLine": 29,
+    "endLine": 44,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_CoreUpdatesOpt",
+    "heading": "Desktop Optimization Option",
+    "startLine": 46,
+    "endLine": 64,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_CoreUpdatesOpt",
+    "heading": "RPG Maker MV 1.1.0 Changelog",
+    "startLine": 66,
+    "endLine": 119,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_CoreUpdatesOpt",
+    "heading": "RPG Maker MV 1.2.0 Changelog",
+    "startLine": 121,
+    "endLine": 134,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_CoreUpdatesOpt",
+    "heading": "RPG Maker MV 1.3.0 Changelog",
+    "startLine": 136,
+    "endLine": 241,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_CoreUpdatesOpt",
+    "heading": "RPG Maker MV 1.3.1 Changelog",
+    "startLine": 243,
+    "endLine": 254,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_CoreUpdatesOpt",
+    "heading": "RPG Maker MV 1.3.2 Changelog",
+    "startLine": 256,
+    "endLine": 312,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_CoreUpdatesOpt",
+    "heading": "RPG Maker MV 1.3.3 Changelog",
+    "startLine": 314,
+    "endLine": 318,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_CoreUpdatesOpt",
+    "heading": "RPG Maker MV 1.3.4 Changelog",
+    "startLine": 320,
+    "endLine": 347,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_CoreUpdatesOpt",
+    "heading": "RPG Maker MV 1.4.0 Changelog",
+    "startLine": 349,
+    "endLine": 367,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_CoreUpdatesOpt",
+    "heading": "RPG Maker MV 1.5.0 Changelog",
+    "startLine": 369,
+    "endLine": 522,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_CoreUpdatesOpt",
+    "heading": "RPG Maker MV 1.5.1 Changelog",
+    "startLine": 524,
+    "endLine": 543,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_CoreUpdatesOpt",
+    "heading": "RPG Maker MV 1.5.2 Changelog",
+    "startLine": 545,
+    "endLine": 568,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_CoreUpdatesOpt",
+    "heading": "RPG Maker MV 1.6.1 Changelog",
+    "startLine": 570,
+    "endLine": 579,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_CoreUpdatesOpt",
+    "heading": "End of Helpfile",
+    "startLine": 581,
+    "endLine": 718,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_CounterControl",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 18,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_CounterControl",
+    "heading": "Instructions - How Advanced Counters Work",
+    "startLine": 20,
+    "endLine": 50,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_CounterControl",
+    "heading": "Instructions - Counter Skill Priority List",
+    "startLine": 52,
+    "endLine": 69,
+    "surface": null,
+    "documentKinds": [
+      "skill"
+    ]
+  },
+  {
+    "pluginId": "YEP_X_CounterControl",
+    "heading": "Notetags",
+    "startLine": 71,
+    "endLine": 174,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_CounterControl",
+    "heading": "Notetags - Counter Conditions",
+    "startLine": 176,
+    "endLine": 202,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_CounterControl",
+    "heading": "Counter Condition List",
+    "startLine": 204,
+    "endLine": 494,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_CounterControl",
+    "heading": "Lunatic Mode - Custom Counter Skills",
+    "startLine": 496,
+    "endLine": 518,
+    "surface": "databaseNote",
+    "documentKinds": [
+      "skill"
+    ]
+  },
+  {
+    "pluginId": "YEP_X_CounterControl",
+    "heading": "Lunatic Mode - Custom Counter Total",
+    "startLine": 520,
+    "endLine": 534,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_CounterControl",
+    "heading": "Lunatic Mode - Custom Target Counter Rate",
+    "startLine": 536,
+    "endLine": 550,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_CounterControl",
+    "heading": "Lunatic Mode - Custom Counter Rates",
+    "startLine": 552,
+    "endLine": 567,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_CounterControl",
+    "heading": "Lunatic Mode - Custom Counter Condition",
+    "startLine": 569,
+    "endLine": 593,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_CounterControl",
+    "heading": "Changelog",
+    "startLine": 595,
+    "endLine": 637,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_CriticalControl",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 11,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_CriticalControl",
+    "heading": "Notetags",
+    "startLine": 13,
+    "endLine": 74,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_CriticalControl",
+    "heading": "Lunatic Mode - Critical Formulas",
+    "startLine": 76,
+    "endLine": 110,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_CriticalControl",
+    "heading": "Yanfly Engine Plugins - Battle Engine Extension - Action Sequence Commands",
+    "startLine": 112,
+    "endLine": 161,
+    "surface": "actionSequence",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_CriticalControl",
+    "heading": "Changelog",
+    "startLine": 163,
+    "endLine": 189,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_DifficultySlider",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 23,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_DifficultySlider",
+    "heading": "Notetags",
+    "startLine": 25,
+    "endLine": 35,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_DifficultySlider",
+    "heading": "Plugin Commands",
+    "startLine": 37,
+    "endLine": 52,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_DifficultySlider",
+    "heading": "Additional Info",
+    "startLine": 54,
+    "endLine": 72,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_DifficultySlider",
+    "heading": "Options Core Settings - Adding the New Options",
+    "startLine": 74,
+    "endLine": 161,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_DifficultySlider",
+    "heading": "Changelog",
+    "startLine": 163,
+    "endLine": 182,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_EBSAllowedTypes",
+    "heading": "Introduction and Instructions",
+    "startLine": 3,
+    "endLine": 16,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_EBSAllowedTypes",
+    "heading": "Changelog",
+    "startLine": 18,
+    "endLine": 26,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_EnemyBaseParam",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 14,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_EnemyBaseParam",
+    "heading": "Notetags",
+    "startLine": 16,
+    "endLine": 31,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_EnemyBaseParam",
+    "heading": "Lunatic Mode - Custom Enemy Parameters",
+    "startLine": 33,
+    "endLine": 59,
+    "surface": "databaseNote",
+    "documentKinds": [
+      "enemy"
+    ]
+  },
+  {
+    "pluginId": "YEP_X_EnemyBaseParam",
+    "heading": "Lunatic Mode - Detailed Custom Parameter Formulas",
+    "startLine": 61,
+    "endLine": 83,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_EnemyBaseParam",
+    "heading": "Changelog",
+    "startLine": 85,
+    "endLine": 97,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_EquipCustomize",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 14,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_EquipCustomize",
+    "heading": "Plugin Commands",
+    "startLine": 16,
+    "endLine": 28,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_EquipCustomize",
+    "heading": "Changelog",
+    "startLine": 30,
+    "endLine": 41,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_EquipRequirements",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 13,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_EquipRequirements",
+    "heading": "Notetags",
+    "startLine": 15,
+    "endLine": 73,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_EquipRequirements",
+    "heading": "Lunatic Mode - Custom Equip Requirement Conditions",
+    "startLine": 75,
+    "endLine": 94,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_EquipRequirements",
+    "heading": "Lunatic Mode - Custom Equip Requirement Text",
+    "startLine": 96,
+    "endLine": 113,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_EquipRequirements",
+    "heading": "Changelog",
+    "startLine": 115,
+    "endLine": 149,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_EquipSkillTiers",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 12,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_EquipSkillTiers",
+    "heading": "Notetags",
+    "startLine": 14,
+    "endLine": 30,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_EquipSkillTiers",
+    "heading": "Changelog",
+    "startLine": 32,
+    "endLine": 46,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_EventChaseStealth",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 14,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_EventChaseStealth",
+    "heading": "Instructions - Stealth Regions",
+    "startLine": 16,
+    "endLine": 42,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_EventChaseStealth",
+    "heading": "Instructions - Stealth Mode",
+    "startLine": 44,
+    "endLine": 51,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_EventChaseStealth",
+    "heading": "Plugin Commands",
+    "startLine": 53,
+    "endLine": 92,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_EventChaseStealth",
+    "heading": "Lunatic Mode - New JavaScript Functions",
+    "startLine": 94,
+    "endLine": 117,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_EventChaseStealth",
+    "heading": "Changelog",
+    "startLine": 119,
+    "endLine": 135,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ExtDoodadPack1",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 13,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ExtDoodadPack1",
+    "heading": "Doodad Settings - Tone",
+    "startLine": 15,
+    "endLine": 24,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ExtDoodadPack1",
+    "heading": "Doodad Settings - Party",
+    "startLine": 26,
+    "endLine": 35,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ExtDoodadPack1",
+    "heading": "Doodad Settings - Switches",
+    "startLine": 37,
+    "endLine": 47,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ExtDoodadPack1",
+    "heading": "Changelog",
+    "startLine": 49,
+    "endLine": 57,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ExtDoT",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 18,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ExtDoT",
+    "heading": "Notetags",
+    "startLine": 20,
+    "endLine": 86,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ExtDoT",
+    "heading": "Lunatic Mode - Custom DoT Formula",
+    "startLine": 88,
+    "endLine": 136,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ExtDoT",
+    "heading": "Changelog",
+    "startLine": 138,
+    "endLine": 156,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ExtMesPack1",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 14,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ExtMesPack1",
+    "heading": "Text Codes",
+    "startLine": 16,
+    "endLine": 165,
+    "surface": "messageTextCode",
+    "documentKinds": [
+      "message"
+    ]
+  },
+  {
+    "pluginId": "YEP_X_ExtMesPack1",
+    "heading": "Plugin Commands",
+    "startLine": 167,
+    "endLine": 273,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ExtMesPack1",
+    "heading": "Lunatic Mode - New JavaScript Functions",
+    "startLine": 275,
+    "endLine": 301,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ExtMesPack1",
+    "heading": "Changelog",
+    "startLine": 303,
+    "endLine": 361,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ExtMesPack2",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 20,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ExtMesPack2",
+    "heading": "Text Codes",
+    "startLine": 22,
+    "endLine": 156,
+    "surface": "messageTextCode",
+    "documentKinds": [
+      "message"
+    ]
+  },
+  {
+    "pluginId": "YEP_X_ExtMesPack2",
+    "heading": "Lunatic Mode - Text Code Structure",
+    "startLine": 158,
+    "endLine": 183,
+    "surface": "messageTextCode",
+    "documentKinds": [
+      "message"
+    ]
+  },
+  {
+    "pluginId": "YEP_X_ExtMesPack2",
+    "heading": "Changelog",
+    "startLine": 185,
+    "endLine": 190,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ExtMesPack2",
+    "heading": "End of Helpfile",
+    "startLine": 192,
+    "endLine": 949,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ExtMovePack1",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 14,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ExtMovePack1",
+    "heading": "Instructions - Additional Simplified Movement Routes",
+    "startLine": 16,
+    "endLine": 161,
+    "surface": "moveRouteScript",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ExtMovePack1",
+    "heading": "Changelog",
+    "startLine": 163,
+    "endLine": 171,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_HideShowShopItems",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 15,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_HideShowShopItems",
+    "heading": "Notetags",
+    "startLine": 17,
+    "endLine": 49,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_HideShowShopItems",
+    "heading": "Changelog",
+    "startLine": 51,
+    "endLine": 56,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_HideShowShopItems",
+    "heading": "End of Helpfile",
+    "startLine": 58,
+    "endLine": 68,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_InBattleStatus",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 18,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_InBattleStatus",
+    "heading": "Notetags",
+    "startLine": 20,
+    "endLine": 34,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_InBattleStatus",
+    "heading": "Text Codes",
+    "startLine": 36,
+    "endLine": 48,
+    "surface": "messageTextCode",
+    "documentKinds": [
+      "message"
+    ]
+  },
+  {
+    "pluginId": "YEP_X_InBattleStatus",
+    "heading": "Plugin Commands",
+    "startLine": 50,
+    "endLine": 63,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_InBattleStatus",
+    "heading": "Changelog",
+    "startLine": 65,
+    "endLine": 73,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ItemCategories",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 18,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ItemCategories",
+    "heading": "Instructions",
+    "startLine": 20,
+    "endLine": 68,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ItemCategories",
+    "heading": "Notetags",
+    "startLine": 70,
+    "endLine": 105,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ItemCategories",
+    "heading": "Changelog",
+    "startLine": 107,
+    "endLine": 115,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ItemDisassemble",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 15,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ItemDisassemble",
+    "heading": "Notetags",
+    "startLine": 17,
+    "endLine": 122,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ItemDisassemble",
+    "heading": "Lunatic Mode - Custom Disassembled Effect",
+    "startLine": 124,
+    "endLine": 145,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ItemDisassemble",
+    "heading": "Lunatic Mode - Custom Disassembler Effect",
+    "startLine": 147,
+    "endLine": 167,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ItemDisassemble",
+    "heading": "Plugin Commands",
+    "startLine": 169,
+    "endLine": 183,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ItemDisassemble",
+    "heading": "Changelog",
+    "startLine": 185,
+    "endLine": 210,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ItemDiscard",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 22,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ItemDiscard",
+    "heading": "Notetags",
+    "startLine": 24,
+    "endLine": 40,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ItemDiscard",
+    "heading": "Changelog",
+    "startLine": 42,
+    "endLine": 53,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ItemDurability",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 14,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ItemDurability",
+    "heading": "Notetags",
+    "startLine": 16,
+    "endLine": 163,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ItemDurability",
+    "heading": "Lunatic Mode - Custom Break Effect",
+    "startLine": 165,
+    "endLine": 179,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ItemDurability",
+    "heading": "Lunatic Mode - Custom Repair Effect",
+    "startLine": 181,
+    "endLine": 195,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ItemDurability",
+    "heading": "Lunatic Mode - Custom Weapon/Armor Durability Modifiers",
+    "startLine": 197,
+    "endLine": 248,
+    "surface": "databaseNote",
+    "documentKinds": [
+      "weapon",
+      "armor"
+    ]
+  },
+  {
+    "pluginId": "YEP_X_ItemDurability",
+    "heading": "Plugin Commands",
+    "startLine": 250,
+    "endLine": 265,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ItemDurability",
+    "heading": "Changelog",
+    "startLine": 267,
+    "endLine": 286,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ItemPictureImg",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 15,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ItemPictureImg",
+    "heading": "Notetags",
+    "startLine": 17,
+    "endLine": 43,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ItemPictureImg",
+    "heading": "Changelog",
+    "startLine": 45,
+    "endLine": 53,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ItemRename",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 28,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ItemRename",
+    "heading": "Notetags",
+    "startLine": 30,
+    "endLine": 46,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ItemRename",
+    "heading": "Changelog",
+    "startLine": 48,
+    "endLine": 56,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ItemRequirements",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 15,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ItemRequirements",
+    "heading": "Notetags",
+    "startLine": 17,
+    "endLine": 257,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ItemRequirements",
+    "heading": "Lunatic Mode - Custom Enable Requirements",
+    "startLine": 259,
+    "endLine": 277,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ItemRequirements",
+    "heading": "Changelog",
+    "startLine": 279,
+    "endLine": 291,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ItemUpgradeSlots",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 11,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ItemUpgradeSlots",
+    "heading": "Notetags",
+    "startLine": 13,
+    "endLine": 73,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ItemUpgradeSlots",
+    "heading": "Upgrade Effects List",
+    "startLine": 75,
+    "endLine": 123,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ItemUpgradeSlots",
+    "heading": "Plugin Commands",
+    "startLine": 125,
+    "endLine": 138,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ItemUpgradeSlots",
+    "heading": "Changelog",
+    "startLine": 140,
+    "endLine": 180,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_LimitedSkillUses",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 13,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_LimitedSkillUses",
+    "heading": "Notetags",
+    "startLine": 15,
+    "endLine": 95,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_LimitedSkillUses",
+    "heading": "Lunatic Mode - Altering Target's Limited Uses",
+    "startLine": 97,
+    "endLine": 139,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_LimitedSkillUses",
+    "heading": "Lunatic Mode - Conditional Max Uses",
+    "startLine": 141,
+    "endLine": 186,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_LimitedSkillUses",
+    "heading": "Changelog",
+    "startLine": 188,
+    "endLine": 217,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MapEnemyLevels",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 17,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MapEnemyLevels",
+    "heading": "Notetags",
+    "startLine": 19,
+    "endLine": 47,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MapEnemyLevels",
+    "heading": "Changelog",
+    "startLine": 49,
+    "endLine": 54,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MapEnemyLevels",
+    "heading": "End of Helpfile",
+    "startLine": 56,
+    "endLine": 59,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MapQuestWindow",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 14,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MapQuestWindow",
+    "heading": "Instructions - Setting Up the Active Map Quest Window",
+    "startLine": 16,
+    "endLine": 56,
+    "surface": null,
+    "documentKinds": [
+      "map"
+    ]
+  },
+  {
+    "pluginId": "YEP_X_MapQuestWindow",
+    "heading": "Plugin Commands",
+    "startLine": 58,
+    "endLine": 76,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MapQuestWindow",
+    "heading": "Options Core Settings - Adding the New Options",
+    "startLine": 78,
+    "endLine": 149,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MapQuestWindow",
+    "heading": "Changelog",
+    "startLine": 151,
+    "endLine": 159,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MapQuestWindow",
+    "heading": "End of Helpfile",
+    "startLine": 161,
+    "endLine": 254,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MenuActorEvents",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 13,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MenuActorEvents",
+    "heading": "Notetags",
+    "startLine": 15,
+    "endLine": 27,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MenuActorEvents",
+    "heading": "Main Menu Manager - Positioning the Actor Common Event Command",
+    "startLine": 29,
+    "endLine": 47,
+    "surface": null,
+    "documentKinds": [
+      "actor",
+      "event",
+      "commonEvent"
+    ]
+  },
+  {
+    "pluginId": "YEP_X_MenuActorEvents",
+    "heading": "Changelog",
+    "startLine": 49,
+    "endLine": 54,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MenuActorEvents",
+    "heading": "End of Helpfile",
+    "startLine": 56,
+    "endLine": 59,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MessageBacklog",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 28,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MessageBacklog",
+    "heading": "Disabled Text Codes",
+    "startLine": 30,
+    "endLine": 72,
+    "surface": "messageTextCode",
+    "documentKinds": [
+      "message"
+    ]
+  },
+  {
+    "pluginId": "YEP_X_MessageBacklog",
+    "heading": "Plugin Commands",
+    "startLine": 74,
+    "endLine": 94,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MessageBacklog",
+    "heading": "Changelog",
+    "startLine": 96,
+    "endLine": 104,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MessageBacklog",
+    "heading": "End of Helpfile",
+    "startLine": 106,
+    "endLine": 292,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MessageEvalText",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 15,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MessageEvalText",
+    "heading": "Text Code",
+    "startLine": 17,
+    "endLine": 53,
+    "surface": "messageTextCode",
+    "documentKinds": [
+      "message"
+    ]
+  },
+  {
+    "pluginId": "YEP_X_MessageEvalText",
+    "heading": "Changelog",
+    "startLine": 55,
+    "endLine": 60,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MessageEvalText",
+    "heading": "End of Helpfile",
+    "startLine": 62,
+    "endLine": 64,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MessageMacros1",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 15,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MessageMacros1",
+    "heading": "Instructions - Setting Up Your macros",
+    "startLine": 17,
+    "endLine": 51,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MessageMacros1",
+    "heading": "Instructions - Quick Macros",
+    "startLine": 53,
+    "endLine": 92,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MessageMacros1",
+    "heading": "Changelog",
+    "startLine": 94,
+    "endLine": 102,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MessageMacros2",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 18,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MessageMacros2",
+    "heading": "Instructions",
+    "startLine": 20,
+    "endLine": 24,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MessageMacros2",
+    "heading": "Changelog",
+    "startLine": 26,
+    "endLine": 34,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MessageMacros3",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 18,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MessageMacros3",
+    "heading": "Instructions",
+    "startLine": 20,
+    "endLine": 24,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MessageMacros3",
+    "heading": "Changelog",
+    "startLine": 26,
+    "endLine": 34,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MessageMacros4",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 18,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MessageMacros4",
+    "heading": "Instructions",
+    "startLine": 20,
+    "endLine": 24,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MessageMacros4",
+    "heading": "Changelog",
+    "startLine": 26,
+    "endLine": 34,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MessageMacros5",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 18,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MessageMacros5",
+    "heading": "Instructions",
+    "startLine": 20,
+    "endLine": 24,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MessageMacros5",
+    "heading": "Changelog",
+    "startLine": 26,
+    "endLine": 34,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MessageSpeedOpt",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 15,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MessageSpeedOpt",
+    "heading": "Options Core Settings - Adding the New Options",
+    "startLine": 17,
+    "endLine": 104,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MessageSpeedOpt",
+    "heading": "Changelog",
+    "startLine": 106,
+    "endLine": 111,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MessageSpeedOpt",
+    "heading": "End of Helpfile",
+    "startLine": 113,
+    "endLine": 135,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreCurrencies",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 12,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreCurrencies",
+    "heading": "Instructions - Variables as Currency",
+    "startLine": 14,
+    "endLine": 31,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreCurrencies",
+    "heading": "Instructions - Proxies",
+    "startLine": 33,
+    "endLine": 61,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreCurrencies",
+    "heading": "Notetags",
+    "startLine": 63,
+    "endLine": 149,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreCurrencies",
+    "heading": "Changelog",
+    "startLine": 151,
+    "endLine": 175,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreQuests1",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 31,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreQuests1",
+    "heading": "Changelog",
+    "startLine": 33,
+    "endLine": 38,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreQuests1",
+    "heading": "End of Helpfile",
+    "startLine": 40,
+    "endLine": 6667,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreQuests10",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 31,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreQuests10",
+    "heading": "Changelog",
+    "startLine": 33,
+    "endLine": 38,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreQuests10",
+    "heading": "End of Helpfile",
+    "startLine": 40,
+    "endLine": 7403,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreQuests2",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 31,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreQuests2",
+    "heading": "Changelog",
+    "startLine": 33,
+    "endLine": 38,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreQuests2",
+    "heading": "End of Helpfile",
+    "startLine": 40,
+    "endLine": 7403,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreQuests3",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 31,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreQuests3",
+    "heading": "Changelog",
+    "startLine": 33,
+    "endLine": 38,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreQuests3",
+    "heading": "End of Helpfile",
+    "startLine": 40,
+    "endLine": 7403,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreQuests4",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 31,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreQuests4",
+    "heading": "Changelog",
+    "startLine": 33,
+    "endLine": 38,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreQuests4",
+    "heading": "End of Helpfile",
+    "startLine": 40,
+    "endLine": 7403,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreQuests5",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 31,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreQuests5",
+    "heading": "Changelog",
+    "startLine": 33,
+    "endLine": 38,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreQuests5",
+    "heading": "End of Helpfile",
+    "startLine": 40,
+    "endLine": 7403,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreQuests6",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 31,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreQuests6",
+    "heading": "Changelog",
+    "startLine": 33,
+    "endLine": 38,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreQuests6",
+    "heading": "End of Helpfile",
+    "startLine": 40,
+    "endLine": 7403,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreQuests7",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 31,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreQuests7",
+    "heading": "Changelog",
+    "startLine": 33,
+    "endLine": 38,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreQuests7",
+    "heading": "End of Helpfile",
+    "startLine": 40,
+    "endLine": 7403,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreQuests8",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 31,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreQuests8",
+    "heading": "Changelog",
+    "startLine": 33,
+    "endLine": 38,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreQuests8",
+    "heading": "End of Helpfile",
+    "startLine": 40,
+    "endLine": 7403,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreQuests9",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 31,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreQuests9",
+    "heading": "Changelog",
+    "startLine": 33,
+    "endLine": 38,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreQuests9",
+    "heading": "End of Helpfile",
+    "startLine": 40,
+    "endLine": 7403,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreStatusPages",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 14,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreStatusPages",
+    "heading": "Instructions",
+    "startLine": 16,
+    "endLine": 30,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreStatusPages",
+    "heading": "Notetags",
+    "startLine": 32,
+    "endLine": 81,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreStatusPages",
+    "heading": "Changelog",
+    "startLine": 83,
+    "endLine": 95,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreTPModes1",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 13,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreTPModes1",
+    "heading": "Changelog",
+    "startLine": 15,
+    "endLine": 23,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreTPModes2",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 13,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreTPModes2",
+    "heading": "Changelog",
+    "startLine": 15,
+    "endLine": 23,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreTPModes3",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 13,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreTPModes3",
+    "heading": "Changelog",
+    "startLine": 15,
+    "endLine": 23,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreTPModes4",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 13,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_MoreTPModes4",
+    "heading": "Changelog",
+    "startLine": 15,
+    "endLine": 23,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_NewGamePlus",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 14,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_NewGamePlus",
+    "heading": "Notetags",
+    "startLine": 16,
+    "endLine": 27,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_NewGamePlus",
+    "heading": "Plugin Commands",
+    "startLine": 29,
+    "endLine": 44,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_NewGamePlus",
+    "heading": "Changelog",
+    "startLine": 46,
+    "endLine": 57,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_PartyLimitGauge",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 15,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_PartyLimitGauge",
+    "heading": "Instructions - Limit Gain",
+    "startLine": 17,
+    "endLine": 86,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_PartyLimitGauge",
+    "heading": "Notetags",
+    "startLine": 88,
+    "endLine": 134,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_PartyLimitGauge",
+    "heading": "Lunatic Mode - Custom Party Limit Changes",
+    "startLine": 136,
+    "endLine": 166,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_PartyLimitGauge",
+    "heading": "Lunatic Mode - New JavaScript Functions",
+    "startLine": 168,
+    "endLine": 204,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_PartyLimitGauge",
+    "heading": "Plugin Commands",
+    "startLine": 206,
+    "endLine": 249,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_PartyLimitGauge",
+    "heading": "Changelog",
+    "startLine": 251,
+    "endLine": 298,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_PassiveAuras",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 14,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_PassiveAuras",
+    "heading": "Notetags",
+    "startLine": 16,
+    "endLine": 137,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_PassiveAuras",
+    "heading": "Lunatic Mode - Custom Aura Conditions",
+    "startLine": 139,
+    "endLine": 160,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_PassiveAuras",
+    "heading": "Changelog",
+    "startLine": 162,
+    "endLine": 198,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ProfileStatusPage",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 12,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ProfileStatusPage",
+    "heading": "Notetags",
+    "startLine": 14,
+    "endLine": 41,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ProfileStatusPage",
+    "heading": "Plugin Commands",
+    "startLine": 43,
+    "endLine": 75,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_ProfileStatusPage",
+    "heading": "Changelog",
+    "startLine": 77,
+    "endLine": 91,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_SelectionControl",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 18,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_SelectionControl",
+    "heading": "Notetags - General",
+    "startLine": 20,
+    "endLine": 130,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_SelectionControl",
+    "heading": "Notetags - Select Conditions",
+    "startLine": 132,
+    "endLine": 248,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_SelectionControl",
+    "heading": "Lunatic Mode - Custom Select Condition",
+    "startLine": 250,
+    "endLine": 270,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_SelectionControl",
+    "heading": "Changelog",
+    "startLine": 272,
+    "endLine": 343,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_SkillCooldowns",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 11,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_SkillCooldowns",
+    "heading": "Cooldown Types",
+    "startLine": 13,
+    "endLine": 56,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_SkillCooldowns",
+    "heading": "Notetags",
+    "startLine": 58,
+    "endLine": 203,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_SkillCooldowns",
+    "heading": "Lunatic Mode - Specialized Cooldowns",
+    "startLine": 205,
+    "endLine": 227,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_SkillCooldowns",
+    "heading": "Yanfly Engine Plugins - Battle Engine Extension - Action Sequence Commands",
+    "startLine": 229,
+    "endLine": 274,
+    "surface": "actionSequence",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_SkillCooldowns",
+    "heading": "Changelog",
+    "startLine": 276,
+    "endLine": 327,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_SkillCostItems",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 14,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_SkillCostItems",
+    "heading": "Notetags",
+    "startLine": 16,
+    "endLine": 127,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_SkillCostItems",
+    "heading": "Lunatic Mode - Custom Item Costs",
+    "startLine": 129,
+    "endLine": 152,
+    "surface": "databaseNote",
+    "documentKinds": [
+      "item"
+    ]
+  },
+  {
+    "pluginId": "YEP_X_SkillCostItems",
+    "heading": "Changelog",
+    "startLine": 154,
+    "endLine": 176,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_StateCategories",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 15,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_StateCategories",
+    "heading": "Notetags",
+    "startLine": 17,
+    "endLine": 53,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_StateCategories",
+    "heading": "Lunatic Mode - Custom State Category Removal",
+    "startLine": 55,
+    "endLine": 72,
+    "surface": "databaseNote",
+    "documentKinds": [
+      "state"
+    ]
+  },
+  {
+    "pluginId": "YEP_X_StateCategories",
+    "heading": "Lunatic Mode - New JavaScript Functions",
+    "startLine": 74,
+    "endLine": 102,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_StateCategories",
+    "heading": "Changelog",
+    "startLine": 104,
+    "endLine": 135,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_Subclass",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 14,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_Subclass",
+    "heading": "Notetags",
+    "startLine": 16,
+    "endLine": 75,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_Subclass",
+    "heading": "Plugin Commands",
+    "startLine": 77,
+    "endLine": 99,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_Subclass",
+    "heading": "Changelog",
+    "startLine": 101,
+    "endLine": 145,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_TickBasedRegen",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 39,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_TickBasedRegen",
+    "heading": "Changelog",
+    "startLine": 41,
+    "endLine": 59,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_TurnOrderDisplay",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 17,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_TurnOrderDisplay",
+    "heading": "Notetags",
+    "startLine": 19,
+    "endLine": 55,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_TurnOrderDisplay",
+    "heading": "Plugin Commands",
+    "startLine": 57,
+    "endLine": 70,
+    "surface": "pluginCommand",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_TurnOrderDisplay",
+    "heading": "Changelog",
+    "startLine": 72,
+    "endLine": 90,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_VehicleRestrict",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 14,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_VehicleRestrict",
+    "heading": "Notetags",
+    "startLine": 16,
+    "endLine": 63,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_VehicleRestrict",
+    "heading": "Changelog",
+    "startLine": 65,
+    "endLine": 73,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_VisualATBGauge",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 12,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_VisualATBGauge",
+    "heading": "Notetags",
+    "startLine": 14,
+    "endLine": 29,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_VisualATBGauge",
+    "heading": "Changelog",
+    "startLine": 31,
+    "endLine": 48,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_VisualHpGauge",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 18,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_VisualHpGauge",
+    "heading": "Notetags",
+    "startLine": 20,
+    "endLine": 46,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_VisualHpGauge",
+    "heading": "Changelog",
+    "startLine": 48,
+    "endLine": 85,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_VisualStateFX",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 17,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_VisualStateFX",
+    "heading": "Notetags",
+    "startLine": 19,
+    "endLine": 56,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_VisualStateFX",
+    "heading": "Changelog",
+    "startLine": 58,
+    "endLine": 73,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_WeakEnemyPoses",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 13,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_WeakEnemyPoses",
+    "heading": "Notetags",
+    "startLine": 15,
+    "endLine": 54,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_X_WeakEnemyPoses",
+    "heading": "Lunatic Mode - Custom Enemy Poses",
+    "startLine": 56,
+    "endLine": 104,
+    "surface": "databaseNote",
+    "documentKinds": [
+      "enemy"
+    ]
+  },
+  {
+    "pluginId": "YEP_X_WeakEnemyPoses",
+    "heading": "Changelog",
+    "startLine": 106,
+    "endLine": 121,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_Z_ActionBeginEnd",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 22,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_Z_ActionBeginEnd",
+    "heading": "Notetags",
+    "startLine": 24,
+    "endLine": 167,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_Z_ActionBeginEnd",
+    "heading": "Lunatic Mode - Effect Code",
+    "startLine": 169,
+    "endLine": 239,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_Z_ActionBeginEnd",
+    "heading": "Changelog",
+    "startLine": 241,
+    "endLine": 250,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_Z_ActionBeginEnd",
+    "heading": "End of Helpfile",
+    "startLine": 252,
+    "endLine": 261,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_Z_CriticalSway",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 24,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_Z_CriticalSway",
+    "heading": "Notetags",
+    "startLine": 26,
+    "endLine": 195,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_Z_CriticalSway",
+    "heading": "Lunatic Mode - Effect Code",
+    "startLine": 197,
+    "endLine": 285,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_Z_CriticalSway",
+    "heading": "Changelog",
+    "startLine": 287,
+    "endLine": 296,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_Z_CriticalSway",
+    "heading": "End of Helpfile",
+    "startLine": 298,
+    "endLine": 307,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_Z_PassiveCases",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 21,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_Z_PassiveCases",
+    "heading": "Notetags",
+    "startLine": 23,
+    "endLine": 212,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_Z_PassiveCases",
+    "heading": "Lunatic Mode - Effect Code",
+    "startLine": 214,
+    "endLine": 270,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_Z_PassiveCases",
+    "heading": "Changelog",
+    "startLine": 272,
+    "endLine": 281,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_Z_PassiveCases",
+    "heading": "End of Helpfile",
+    "startLine": 283,
+    "endLine": 291,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_Z_SkillRewards",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 22,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_Z_SkillRewards",
+    "heading": "Notetags",
+    "startLine": 24,
+    "endLine": 229,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_Z_SkillRewards",
+    "heading": "Lunatic Mode - Effect Code",
+    "startLine": 231,
+    "endLine": 311,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_Z_SkillRewards",
+    "heading": "Changelog",
+    "startLine": 313,
+    "endLine": 322,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_Z_SkillRewards",
+    "heading": "End of Helpfile",
+    "startLine": 324,
+    "endLine": 412,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_Z_StateProtection",
+    "heading": "Introduction",
+    "startLine": 3,
+    "endLine": 22,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_Z_StateProtection",
+    "heading": "Notetags",
+    "startLine": 24,
+    "endLine": 179,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_Z_StateProtection",
+    "heading": "Lunatic Mode - Effect Code",
+    "startLine": 181,
+    "endLine": 264,
+    "surface": "databaseNote",
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_Z_StateProtection",
+    "heading": "Changelog",
+    "startLine": 266,
+    "endLine": 275,
+    "surface": null,
+    "documentKinds": []
+  },
+  {
+    "pluginId": "YEP_Z_StateProtection",
+    "heading": "End of Helpfile",
+    "startLine": 277,
+    "endLine": 296,
+    "surface": null,
+    "documentKinds": []
+  }
+]

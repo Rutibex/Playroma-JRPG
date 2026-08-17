@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://playroma.dev/schemas/playroma-sprite-script.schema.json",
+  "title": "Playroma Sprite Declarative Script",
+  "type": "object",
+  "required": ["schema", "name", "steps"],
+  "properties": {
+    "schema": { "const": "playroma-sprite-script/1" },
+    "name": { "type": "string", "minLength": 1 },
+    "description": { "type": ["string", "null"] },
+    "requiredCapabilities": { "type": ["string", "integer"] },
+    "parameters": { "type": "array", "items": { "$ref": "#/$defs/parameter" } },
+    "steps": { "type": "array", "items": { "$ref": "playroma-sprite-pipeline.schema.json#/$defs/step" } }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "parameter": {
+      "type": "object",
+      "required": ["name"],
+      "properties": {
+        "name": { "type": "string", "pattern": "^[A-Za-z0-9_.-]+$" },
+        "description": { "type": ["string", "null"] },
+        "default": { "type": ["string", "null"] },
+        "required": { "type": "boolean" }
+      },
+      "additionalProperties": false
+    }
+  }
+}

@@ -1,0 +1,94 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>true</UseWindowsForms>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <RootNamespace>Playroma.JRPG.Editor.WinForms</RootNamespace>
+    <AssemblyName>Playroma.JRPG.Editor.WinForms</AssemblyName>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Resources/Playroma.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Playroma.JRPG.Application/Playroma.JRPG.Application.csproj" />
+    <ProjectReference Include="../Playroma.JRPG.AnimationEditing/Playroma.JRPG.AnimationEditing.csproj" />
+    <ProjectReference Include="../Playroma.JRPG.Assets/Playroma.JRPG.Assets.csproj" />
+    <ProjectReference Include="../Playroma.JRPG.Assets.Windows/Playroma.JRPG.Assets.Windows.csproj" />
+    <ProjectReference Include="../Playroma.JRPG.Documents.Saving/Playroma.JRPG.Documents.Saving.csproj" />
+    <ProjectReference Include="../Playroma.JRPG.DatabaseEditing/Playroma.JRPG.DatabaseEditing.csproj" />
+    <ProjectReference Include="../Playroma.JRPG.Editing/Playroma.JRPG.Editing.csproj" />
+    <ProjectReference Include="../Playroma.JRPG.Eventing/Playroma.JRPG.Eventing.csproj" />
+    <ProjectReference Include="../Playroma.JRPG.Core/Playroma.JRPG.Core.csproj" />
+    <ProjectReference Include="../Playroma.JRPG.Documents/Playroma.JRPG.Documents.csproj" />
+    <ProjectReference Include="../Playroma.JRPG.Documents.Json/Playroma.JRPG.Documents.Json.csproj" />
+    <ProjectReference Include="../Playroma.JRPG.Documents.Mutable/Playroma.JRPG.Documents.Mutable.csproj" />
+    <ProjectReference Include="../Playroma.JRPG.Editor.Shell/Playroma.JRPG.Editor.Shell.csproj" />
+    <ProjectReference Include="../Playroma.JRPG.Indexing/Playroma.JRPG.Indexing.csproj" />
+    <ProjectReference Include="../Playroma.JRPG.FormulaSandbox/Playroma.JRPG.FormulaSandbox.csproj" />
+    <ProjectReference Include="../Playroma.JRPG.FormulaWorker/Playroma.JRPG.FormulaWorker.csproj" ReferenceOutputAssembly="false" />
+    <ProjectReference Include="../Playroma.JRPG.PluginTags/Playroma.JRPG.PluginTags.csproj" />
+    <ProjectReference Include="../Playroma.JRPG.PluginTags.Yanfly/Playroma.JRPG.PluginTags.Yanfly.csproj" />
+    <ProjectReference Include="../Playroma.JRPG.Mapping/Playroma.JRPG.Mapping.csproj" />
+    <ProjectReference Include="../Playroma.JRPG.Rendering/Playroma.JRPG.Rendering.csproj" />
+    <ProjectReference Include="../Playroma.JRPG.Rendering.Windows/Playroma.JRPG.Rendering.Windows.csproj" />
+    <ProjectReference Include="../Playroma.JRPG.RpgMakerMV/Playroma.JRPG.RpgMakerMV.csproj" />
+    <ProjectReference Include="../Playroma.JRPG.Validation/Playroma.JRPG.Validation.csproj" />
+    <ProjectReference Include="../Playroma.JRPG.Workspaces/Playroma.JRPG.Workspaces.csproj" />
+    <ProjectReference Include="../PlayromaMusic.Core/PlayromaMusic.Core.csproj" />
+    <ProjectReference Include="../PlayromaMusic.Generators/PlayromaMusic.Generators.csproj" />
+    <ProjectReference Include="../PlayromaMusic.Audio/PlayromaMusic.Audio.csproj" />
+    <ProjectReference Include="../PlayromaMusic.Midi/PlayromaMusic.Midi.csproj" />
+    <ProjectReference Include="../Playroma.Sound.Authoring/Playroma.Sound.Authoring.csproj" />
+    <ProjectReference Include="../Playroma.Sound.WinForms/Playroma.Sound.WinForms.csproj" />
+    <ProjectReference Include="../Playroma.Tile.Editor.WinForms/Playroma.Tile.Editor.WinForms.csproj" />
+    <ProjectReference Include="../Playroma.Sprite.Editor.WinForms/Playroma.Sprite.Editor.WinForms.csproj" />
+    <ProjectReference Include="../Playroma.Text.Core/Playroma.Text.Core.csproj" />
+    <ProjectReference Include="../Playroma.Text.Authoring/Playroma.Text.Authoring.csproj" />
+    <ProjectReference Include="../Playroma.Text.Generators/Playroma.Text.Generators.csproj" />
+    <ProjectReference Include="../Playroma.Text.Editor.WinForms/Playroma.Text.Editor.WinForms.csproj" />
+    <ProjectReference Include="../Playroma.Text.RpgMakerMV/Playroma.Text.RpgMakerMV.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="NAudio" Version="2.3.0" />
+    <PackageReference Include="OggVorbisEncoder" Version="1.2.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Resources/Playroma.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Content Include="../../MusicAssets/SoundFonts/default.sf2" Link="SoundFonts/default.sf2" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../MusicAssets/SoundFonts/GENERALUSER_GS_LICENSE.md" Link="docs/GENERALUSER_GS_LICENSE.md" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../StylePacks/**/*.json" Link="StylePacks/%(RecursiveDir)%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../docs/PLAYROMA_MUSIC_INTEGRATION.md" Link="docs/PLAYROMA_MUSIC_INTEGRATION.md" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../docs/PLAYROMA_SOUND_INTEGRATION.md" Link="docs/PLAYROMA_SOUND_INTEGRATION.md" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../docs/PLAYROMA_TILE_INTEGRATION.md" Link="docs/PLAYROMA_TILE_INTEGRATION.md" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../docs/PlayromaTile/**/*" Link="docs/PlayromaTile/%(RecursiveDir)%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../PlayromaTileAssets/Samples/**/*" Link="PlayromaTile/Samples/%(RecursiveDir)%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../docs/PlayromaSound/LICENSE.md" Link="docs/PlayromaSound/LICENSE.md" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../docs/PlayromaSound/THIRD_PARTY_NOTICES.md" Link="docs/PlayromaSound/THIRD_PARTY_NOTICES.md" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../PlayromaSoundAssets/schemas/*.json" Link="PlayromaSound/schemas/%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../PlayromaSoundAssets/Templates/**/*" Link="PlayromaSound/Templates/%(RecursiveDir)%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../docs/ARCHITECTURE.md" Link="docs/ARCHITECTURE.md" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../docs/WINDOW_MODEL.md" Link="docs/WINDOW_MODEL.md" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../docs/EDITOR_LIFECYCLE.md" Link="docs/EDITOR_LIFECYCLE.md" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../docs/SETTINGS_AND_WORKSPACE_RECOVERY.md" Link="docs/SETTINGS_AND_WORKSPACE_RECOVERY.md" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../docs/KEYBOARD_SHORTCUTS.md" Link="docs/KEYBOARD_SHORTCUTS.md" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../docs/ACCESSIBILITY.md" Link="docs/ACCESSIBILITY.md" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+  <Target Name="CopyPhase9BFormulaWorker" AfterTargets="Build">
+    <ItemGroup>
+      <Phase9BFormulaWorkerFiles Include="../Playroma.JRPG.FormulaWorker/bin/$(Configuration)/net10.0/Playroma.JRPG.FormulaWorker*" />
+    </ItemGroup>
+    <Copy SourceFiles="@(Phase9BFormulaWorkerFiles)" DestinationFolder="$(OutDir)" SkipUnchangedFiles="true" Condition="'@(Phase9BFormulaWorkerFiles)' != ''" />
+  </Target>
+  <ItemGroup>
+    <Content Include="../../docs/README.md" Link="docs/README.md" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../docs/GETTING_STARTED.md" Link="docs/GETTING_STARTED.md" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../docs/USER_GUIDE.md" Link="docs/USER_GUIDE.md" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../docs/STUDIOS.md" Link="docs/STUDIOS.md" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../docs/CLI.md" Link="docs/CLI.md" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../docs/BUILDING.md" Link="docs/BUILDING.md" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../docs/COMPATIBILITY_CHARTER.md" Link="docs/COMPATIBILITY_CHARTER.md" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../docs/LEGAL_AND_PROVENANCE.md" Link="docs/LEGAL_AND_PROVENANCE.md" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

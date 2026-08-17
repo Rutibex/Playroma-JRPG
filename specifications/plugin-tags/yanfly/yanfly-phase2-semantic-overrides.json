@@ -1,0 +1,381 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": "0.2.0",
+  "plugins": [
+    {
+      "pluginId": "YEP_BattleAICore",
+      "specializedEditorId": "yep.battle-ai-priority"
+    },
+    {
+      "pluginId": "YEP_X_ActorAutoBattleAI",
+      "specializedEditorId": "yep.battle-ai-priority"
+    },
+    {
+      "pluginId": "YEP_BattleEngineCore",
+      "specializedEditorId": "yep.action-sequence"
+    },
+    {
+      "pluginId": "YEP_X_ActSeqPack1",
+      "specializedEditorId": "yep.action-sequence"
+    },
+    {
+      "pluginId": "YEP_X_ActSeqPack2",
+      "specializedEditorId": "yep.action-sequence"
+    },
+    {
+      "pluginId": "YEP_X_ActSeqPack3",
+      "specializedEditorId": "yep.action-sequence"
+    },
+    {
+      "pluginId": "YEP_SkillCore",
+      "specializedEditorId": "yep.skill-designer",
+      "defaultDocumentKinds": [
+        "skill",
+        "item"
+      ]
+    },
+    {
+      "pluginId": "YEP_BuffsStatesCore",
+      "specializedEditorId": "yep.state-lifecycle"
+    },
+    {
+      "pluginId": "YEP_AutoPassiveStates",
+      "specializedEditorId": "yep.passive-state-aura"
+    },
+    {
+      "pluginId": "YEP_X_PassiveAuras",
+      "specializedEditorId": "yep.passive-state-aura"
+    },
+    {
+      "pluginId": "YEP_ItemCore",
+      "specializedEditorId": "yep.item-equipment"
+    },
+    {
+      "pluginId": "YEP_X_ItemDurability",
+      "specializedEditorId": "yep.item-equipment"
+    },
+    {
+      "pluginId": "YEP_X_AttachAugments",
+      "specializedEditorId": "yep.item-equipment"
+    },
+    {
+      "pluginId": "YEP_X_ItemUpgradeSlots",
+      "specializedEditorId": "yep.item-equipment"
+    },
+    {
+      "pluginId": "YEP_EnemyLevels",
+      "specializedEditorId": "yep.enemy-designer",
+      "defaultDocumentKinds": [
+        "enemy"
+      ]
+    },
+    {
+      "pluginId": "YEP_ExtraEnemyDrops",
+      "specializedEditorId": "yep.enemy-designer",
+      "defaultDocumentKinds": [
+        "enemy"
+      ]
+    },
+    {
+      "pluginId": "YEP_RegionEvents",
+      "specializedEditorId": "yep.region-rules",
+      "defaultDocumentKinds": [
+        "map"
+      ]
+    },
+    {
+      "pluginId": "YEP_RegionRestrictions",
+      "specializedEditorId": "yep.region-rules"
+    },
+    {
+      "pluginId": "YEP_MessageCore",
+      "specializedEditorId": "yep.text-code-composer"
+    },
+    {
+      "pluginId": "YEP_MoveRouteCore",
+      "specializedEditorId": "yep.move-route"
+    }
+  ],
+  "features": [
+    {
+      "pluginId": "YEP_RegionEvents",
+      "syntax": "<Region x Event: y>",
+      "featureId": "region-events.region-common-event",
+      "displayName": "Region Common Event",
+      "summary": "Runs a selected common event when the player enters a selected region on this map.",
+      "surface": "mapNote",
+      "documentKinds": [
+        "map"
+      ],
+      "syntaxKind": "keyValue",
+      "canonicalTemplate": "<Region {regionId} Event: {commonEventId}>",
+      "openingRegularExpression": "^<\\s*Region\\s+(?<regionId>\\d+)\\s+Event\\s*:\\s*(?<commonEventId>\\d+)\\s*>$",
+      "multiplicity": "repeatableByKey",
+      "specializedEditorId": "yep.region-rules",
+      "arguments": [
+        {
+          "name": "regionId",
+          "displayName": "Region",
+          "kind": "regionId",
+          "isRequired": true,
+          "minimum": 1,
+          "maximum": 255,
+          "referenceKind": "region"
+        },
+        {
+          "name": "commonEventId",
+          "displayName": "Common Event",
+          "kind": "commonEventId",
+          "isRequired": true,
+          "minimum": 1,
+          "referenceKind": "commonEvent"
+        }
+      ],
+      "matchPriority": 500
+    },
+    {
+      "pluginId": "YEP_AutoPassiveStates",
+      "syntax": "<Passive State: x>",
+      "featureId": "auto-passive-states.single",
+      "displayName": "Passive State",
+      "summary": "Automatically grants the selected state while this database object is active.",
+      "canonicalTemplate": "<Passive State: {stateId}>",
+      "openingRegularExpression": "^<\\s*Passive\\s+State\\s*:\\s*(?<stateId>\\d+)\\s*>$",
+      "multiplicity": "mergeable",
+      "arguments": [
+        {
+          "name": "stateId",
+          "displayName": "State",
+          "kind": "stateId",
+          "isRequired": true,
+          "minimum": 1,
+          "referenceKind": "state"
+        }
+      ],
+      "matchPriority": 450
+    },
+    {
+      "pluginId": "YEP_AutoPassiveStates",
+      "syntax": "<Passive State: x to y>",
+      "featureId": "auto-passive-states.range",
+      "displayName": "Passive State Range",
+      "canonicalTemplate": "<Passive State: {firstStateId} to {lastStateId}>",
+      "openingRegularExpression": "^<\\s*Passive\\s+State\\s*:\\s*(?<firstStateId>\\d+)\\s+to\\s+(?<lastStateId>\\d+)\\s*>$",
+      "multiplicity": "mergeable",
+      "arguments": [
+        {
+          "name": "firstStateId",
+          "displayName": "First State",
+          "kind": "stateId",
+          "isRequired": true,
+          "referenceKind": "state"
+        },
+        {
+          "name": "lastStateId",
+          "displayName": "Last State",
+          "kind": "stateId",
+          "isRequired": true,
+          "referenceKind": "state"
+        }
+      ],
+      "matchPriority": 470
+    },
+    {
+      "pluginId": "YEP_BattleAICore",
+      "syntax": "<AI Level: x>",
+      "featureId": "battle-ai.ai-level",
+      "displayName": "AI Level",
+      "summary": "Controls how consistently the battler follows its AI priority rules.",
+      "documentKinds": [
+        "enemy",
+        "actor",
+        "class"
+      ],
+      "canonicalTemplate": "<AI Level: {level}>",
+      "openingRegularExpression": "^<\\s*AI\\s+Level\\s*:\\s*(?<level>\\d+)\\s*>$",
+      "arguments": [
+        {
+          "name": "level",
+          "displayName": "AI Level",
+          "kind": "integer",
+          "isRequired": true,
+          "minimum": 0,
+          "maximum": 100
+        }
+      ],
+      "specializedEditorId": "yep.battle-ai-priority",
+      "matchPriority": 450
+    },
+    {
+      "pluginId": "YEP_BattleAICore",
+      "syntax": "<AI Priority>",
+      "featureId": "battle-ai.priority-block",
+      "displayName": "AI Priority Rules",
+      "summary": "Defines an ordered list of conditional skill and target-selection rules.",
+      "documentKinds": [
+        "enemy",
+        "actor",
+        "class"
+      ],
+      "syntaxKind": "orderedBlock",
+      "canonicalTemplate": "<AI Priority>",
+      "closingTemplate": "</AI Priority>",
+      "openingRegularExpression": "^<\\s*AI\\s+Priority\\s*>$",
+      "closingRegularExpression": "^<\\s*/\\s*AI\\s+Priority\\s*>$",
+      "specializedEditorId": "yep.battle-ai-priority",
+      "complexity": "specialized",
+      "matchPriority": 600
+    },
+    {
+      "pluginId": "YEP_SkillCore",
+      "syntax": "<HP Cost: x>",
+      "featureId": "skill-core.hp-cost-flat",
+      "displayName": "HP Cost",
+      "documentKinds": [
+        "skill"
+      ],
+      "canonicalTemplate": "<HP Cost: {amount}>",
+      "openingRegularExpression": "^<\\s*HP\\s+Cost\\s*:\\s*(?<amount>\\d+)\\s*>$",
+      "arguments": [
+        {
+          "name": "amount",
+          "displayName": "HP Cost",
+          "kind": "integer",
+          "isRequired": true,
+          "minimum": 0
+        }
+      ],
+      "specializedEditorId": "yep.skill-designer",
+      "matchPriority": 450
+    },
+    {
+      "pluginId": "YEP_SkillCore",
+      "syntax": "<HP Cost: x%>",
+      "featureId": "skill-core.hp-cost-percent",
+      "displayName": "HP Cost Percentage",
+      "documentKinds": [
+        "skill"
+      ],
+      "canonicalTemplate": "<HP Cost: {percentage}%>",
+      "openingRegularExpression": "^<\\s*HP\\s+Cost\\s*:\\s*(?<percentage>\\d+(?:\\.\\d+)?)%\\s*>$",
+      "arguments": [
+        {
+          "name": "percentage",
+          "displayName": "HP Percentage",
+          "kind": "percentage",
+          "isRequired": true,
+          "minimum": 0,
+          "maximum": 100
+        }
+      ],
+      "specializedEditorId": "yep.skill-designer",
+      "matchPriority": 470
+    },
+    {
+      "pluginId": "YEP_ItemCore",
+      "syntax": "<Random Variance: x>",
+      "featureId": "item-core.random-variance",
+      "displayName": "Random Stat Variance",
+      "documentKinds": [
+        "item",
+        "weapon",
+        "armor"
+      ],
+      "canonicalTemplate": "<Random Variance: {variance}>",
+      "openingRegularExpression": "^<\\s*Random\\s+Variance\\s*:\\s*(?<variance>\\d+)\\s*>$",
+      "arguments": [
+        {
+          "name": "variance",
+          "displayName": "Variance",
+          "kind": "integer",
+          "isRequired": true,
+          "minimum": 0
+        }
+      ],
+      "specializedEditorId": "yep.item-equipment",
+      "matchPriority": 450
+    },
+    {
+      "pluginId": "YEP_X_ItemDurability",
+      "syntax": "<Durability: x>",
+      "featureId": "item-durability.starting-durability",
+      "displayName": "Starting Durability",
+      "documentKinds": [
+        "weapon",
+        "armor"
+      ],
+      "canonicalTemplate": "<Durability: {durability}>",
+      "openingRegularExpression": "^<\\s*Durability\\s*:\\s*(?<durability>\\d+)\\s*>$",
+      "arguments": [
+        {
+          "name": "durability",
+          "displayName": "Durability",
+          "kind": "integer",
+          "isRequired": true,
+          "minimum": 0
+        }
+      ],
+      "specializedEditorId": "yep.item-equipment",
+      "matchPriority": 450
+    },
+    {
+      "pluginId": "YEP_EnemyLevels",
+      "syntax": "<Minimum Level: x>",
+      "featureId": "enemy-levels.minimum",
+      "displayName": "Minimum Enemy Level",
+      "documentKinds": [
+        "enemy"
+      ],
+      "canonicalTemplate": "<Minimum Level: {level}>",
+      "openingRegularExpression": "^<\\s*Minimum\\s+Level\\s*:\\s*(?<level>\\d+)\\s*>$",
+      "arguments": [
+        {
+          "name": "level",
+          "displayName": "Minimum Level",
+          "kind": "integer",
+          "isRequired": true,
+          "minimum": 1
+        }
+      ],
+      "specializedEditorId": "yep.enemy-designer",
+      "matchPriority": 450
+    },
+    {
+      "pluginId": "YEP_ExtraEnemyDrops",
+      "syntax": "<Item x: y%>",
+      "featureId": "extra-enemy-drops.item",
+      "displayName": "Extra Item Drop",
+      "documentKinds": [
+        "enemy"
+      ],
+      "canonicalTemplate": "<Item {itemId}: {chance}%>",
+      "openingRegularExpression": "^<\\s*Item\\s+(?<itemId>\\d+)\\s*:\\s*(?<chance>\\d+(?:\\.\\d+)?)%\\s*>$",
+      "multiplicity": "repeatable",
+      "arguments": [
+        {
+          "name": "itemId",
+          "displayName": "Item",
+          "kind": "itemId",
+          "isRequired": true,
+          "referenceKind": "item"
+        },
+        {
+          "name": "chance",
+          "displayName": "Drop Chance",
+          "kind": "percentage",
+          "isRequired": true,
+          "minimum": 0,
+          "maximum": 100
+        }
+      ],
+      "specializedEditorId": "yep.enemy-designer",
+      "matchPriority": 470
+    },
+    {
+      "pluginId": "YEP_X_MessageBacklog",
+      "discoveryId": "yep-3e487bad70ebee83",
+      "ignore": true,
+      "reason": "Documentation prose in the Plugin Commands help section; not an executable plugin command."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "formatVersion": 1,
+  "id": "melodic.ominous-vision",
+  "displayName": "Ominous Vision",
+  "generatorId": "playroma.melodic-effect",
+  "rootSeed": 27643,
+  "familySeed": 91403,
+  "variationIndex": 0,
+  "qualityMode": "offline",
+  "description": {
+    "kind": "vision",
+    "mood": "sinister",
+    "shape": "arch",
+    "scale": "diminished",
+    "environment": "stoneChamber",
+    "duration": 0.62,
+    "complexity": 0.62,
+    "speed": 0.32,
+    "pitch": 0.38,
+    "pitchRange": 0.72,
+    "harmony": 0.32,
+    "tonalDissonant": 0.55,
+    "acousticSynthetic": 0.42,
+    "brightness": 0.3,
+    "repetition": 0.18,
+    "tail": 0.72,
+    "notes": 6
+  }
+}
